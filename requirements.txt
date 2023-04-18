@@ -1,0 +1,7 @@
+ddt
+pytest
+unittest2
+selenium
+allure-pytest
+webdriver-manager
+allure-python-commons

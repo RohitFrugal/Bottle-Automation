@@ -1,0 +1,2 @@
+ERROR    TestDashboard:TestDashboard.py:42 Assertion failed here while finding element. '' != '32'
++ 32 : Verification of total user tile failed.
