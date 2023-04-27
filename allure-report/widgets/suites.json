@@ -1,1 +1,1 @@
-{"total":2,"items":[{"uid":"580844f0ff48497ec79430772cf12fbd","name":"TestLogin","statistic":{"failed":1,"broken":1,"skipped":0,"passed":8,"unknown":0,"total":10}},{"uid":"586abb16c2fb8086ae53a4219d3bf708","name":"TestDashboard","statistic":{"failed":1,"broken":0,"skipped":0,"passed":6,"unknown":0,"total":7}}]}
+{"total":4,"items":[{"uid":"e9221c15997ec25254ffd5bcee0a90d2","name":"TestOrder","statistic":{"failed":0,"broken":12,"skipped":0,"passed":0,"unknown":0,"total":12}}]}

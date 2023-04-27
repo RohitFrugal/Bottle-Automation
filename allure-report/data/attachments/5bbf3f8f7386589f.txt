@@ -1,4 +1,0 @@
-ERROR    TestLogin:TestLogin.py:76 Assertion failed here while finding element. "2 validation errors detected: Value at '[251 chars]P}]+" != 'Incorrect username or password.'
-- 2 validation errors detected: Value at 'userAlias' failed to satisfy constraint: Member must satisfy regular expression pattern: [\p{L}\p{M}\p{S}\p{N}\p{P}]+; Value at 'userName' failed to satisfy constraint: Member must satisfy regular expression pattern: [\p{L}\p{M}\p{S}\p{N}\p{P}]+
-+ Incorrect username or password.
- : Error message verification failed.
