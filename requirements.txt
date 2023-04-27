@@ -1,7 +1,8 @@
 ddt
 pytest
-unittest2
+openpyxl
 selenium
+unittest2
 allure-pytest
 webdriver-manager
 allure-python-commons

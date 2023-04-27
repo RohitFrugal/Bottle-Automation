@@ -1,0 +1,158 @@
+ERROR    __init__:LoginPage.py:125 Exception occurred while verifying login: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.138)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0095DCE3+50899]
+	(No symbol) [0x008EE111]
+	(No symbol) [0x007F5588]
+	(No symbol) [0x007DD333]
+	(No symbol) [0x0083F4DB]
+	(No symbol) [0x0084DB33]
+	(No symbol) [0x0083B6F6]
+	(No symbol) [0x00817708]
+	(No symbol) [0x0081886D]
+	GetHandleVerifier [0x00BC3EAE+2566302]
+	GetHandleVerifier [0x00BF92B1+2784417]
+	GetHandleVerifier [0x00BF327C+2759788]
+	GetHandleVerifier [0x009F5740+672048]
+	(No symbol) [0x008F8872]
+	(No symbol) [0x008F41C8]
+	(No symbol) [0x008F42AB]
+	(No symbol) [0x008E71B7]
+	BaseThreadInitThunk [0x76B77D49+25]
+	RtlInitializeExceptionChain [0x77A5B74B+107]
+	RtlClearBits [0x77A5B6CF+191]
+
+ERROR    __init__:LoginPage.py:50 Exception occurred while entering user ID: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.138)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0095DCE3+50899]
+	(No symbol) [0x008EE111]
+	(No symbol) [0x007F5588]
+	(No symbol) [0x007DD333]
+	(No symbol) [0x0083F4DB]
+	(No symbol) [0x0084DB33]
+	(No symbol) [0x0083B6F6]
+	(No symbol) [0x00817708]
+	(No symbol) [0x0081886D]
+	GetHandleVerifier [0x00BC3EAE+2566302]
+	GetHandleVerifier [0x00BF92B1+2784417]
+	GetHandleVerifier [0x00BF327C+2759788]
+	GetHandleVerifier [0x009F5740+672048]
+	(No symbol) [0x008F8872]
+	(No symbol) [0x008F41C8]
+	(No symbol) [0x008F42AB]
+	(No symbol) [0x008E71B7]
+	BaseThreadInitThunk [0x76B77D49+25]
+	RtlInitializeExceptionChain [0x77A5B74B+107]
+	RtlClearBits [0x77A5B6CF+191]
+
+ERROR    __init__:LoginPage.py:133 Exception occurred while verifying login: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.138)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0095DCE3+50899]
+	(No symbol) [0x008EE111]
+	(No symbol) [0x007F5588]
+	(No symbol) [0x007DD333]
+	(No symbol) [0x0083F4DB]
+	(No symbol) [0x0084DB33]
+	(No symbol) [0x0083B6F6]
+	(No symbol) [0x00817708]
+	(No symbol) [0x0081886D]
+	GetHandleVerifier [0x00BC3EAE+2566302]
+	GetHandleVerifier [0x00BF92B1+2784417]
+	GetHandleVerifier [0x00BF327C+2759788]
+	GetHandleVerifier [0x009F5740+672048]
+	(No symbol) [0x008F8872]
+	(No symbol) [0x008F41C8]
+	(No symbol) [0x008F42AB]
+	(No symbol) [0x008E71B7]
+	BaseThreadInitThunk [0x76B77D49+25]
+	RtlInitializeExceptionChain [0x77A5B74B+107]
+	RtlClearBits [0x77A5B6CF+191]
+
+ERROR    __init__:LoginPage.py:57 Exception occurred while entering password: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.138)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0095DCE3+50899]
+	(No symbol) [0x008EE111]
+	(No symbol) [0x007F5588]
+	(No symbol) [0x007DD333]
+	(No symbol) [0x0083F4DB]
+	(No symbol) [0x0084DB33]
+	(No symbol) [0x0083B6F6]
+	(No symbol) [0x00817708]
+	(No symbol) [0x0081886D]
+	GetHandleVerifier [0x00BC3EAE+2566302]
+	GetHandleVerifier [0x00BF92B1+2784417]
+	GetHandleVerifier [0x00BF327C+2759788]
+	GetHandleVerifier [0x009F5740+672048]
+	(No symbol) [0x008F8872]
+	(No symbol) [0x008F41C8]
+	(No symbol) [0x008F42AB]
+	(No symbol) [0x008E71B7]
+	BaseThreadInitThunk [0x76B77D49+25]
+	RtlInitializeExceptionChain [0x77A5B74B+107]
+	RtlClearBits [0x77A5B6CF+191]
+
+ERROR    __init__:LoginPage.py:63 Exception occurred while clicking on submit button: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.138)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0095DCE3+50899]
+	(No symbol) [0x008EE111]
+	(No symbol) [0x007F5588]
+	(No symbol) [0x007DD333]
+	(No symbol) [0x0083F4DB]
+	(No symbol) [0x0084DB33]
+	(No symbol) [0x0083B6F6]
+	(No symbol) [0x00817708]
+	(No symbol) [0x0081886D]
+	GetHandleVerifier [0x00BC3EAE+2566302]
+	GetHandleVerifier [0x00BF92B1+2784417]
+	GetHandleVerifier [0x00BF327C+2759788]
+	GetHandleVerifier [0x009F5740+672048]
+	(No symbol) [0x008F8872]
+	(No symbol) [0x008F41C8]
+	(No symbol) [0x008F42AB]
+	(No symbol) [0x008E71B7]
+	BaseThreadInitThunk [0x76B77D49+25]
+	RtlInitializeExceptionChain [0x77A5B74B+107]
+	RtlClearBits [0x77A5B6CF+191]
+
+ERROR    TestOrder:TestOrder.py:144 Failed to close driver. Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=112.0.5615.138)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0095DCE3+50899]
+	(No symbol) [0x008EE111]
+	(No symbol) [0x007F5588]
+	(No symbol) [0x007E70CB]
+	(No symbol) [0x007E778A]
+	(No symbol) [0x007E7728]
+	(No symbol) [0x007DC37A]
+	(No symbol) [0x007DCBD7]
+	(No symbol) [0x00843C48]
+	(No symbol) [0x0083B8C3]
+	(No symbol) [0x00817708]
+	(No symbol) [0x0081886D]
+	GetHandleVerifier [0x00BC3EAE+2566302]
+	GetHandleVerifier [0x00BF92B1+2784417]
+	GetHandleVerifier [0x00BF327C+2759788]
+	GetHandleVerifier [0x009F5740+672048]
+	(No symbol) [0x008F8872]
+	(No symbol) [0x008F41C8]
+	(No symbol) [0x008F42AB]
+	(No symbol) [0x008E71B7]
+	BaseThreadInitThunk [0x76B77D49+25]
+	RtlInitializeExceptionChain [0x77A5B74B+107]
+	RtlClearBits [0x77A5B6CF+191]

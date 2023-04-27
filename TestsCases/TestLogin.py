@@ -4,10 +4,10 @@ import unittest
 from ddt import ddt, data, unpack
 from Utilities.utils import Utils
 from Base.BaseTest import BaseClass
-from Pages.LoginPage import LoginPage
+from Pages.Login.LoginPage import LoginPage
 from selenium.common import WebDriverException
-from executions.LoginMethod import LoginMethod
 from allure_commons.types import AttachmentType
+from executions.LoginExecutions.LoginMethod import LoginMethod
 
 
 @ddt
@@ -27,12 +27,13 @@ class TestLogin(unittest.TestCase, BaseClass):
     # Login Successful
     @allure.story("Login Successfully")
     @allure.severity(allure.severity_level.NORMAL)
-    @data(("frugal@latido.com.np", "Test@123"), ("rohit12@latido.com.np", "Test@123"))
+    # "*" must be used to indicate all the items from the list
+    @data(*Utils.read_xlsx("../TestData/LoginTestData/login.xlsx", "login"))
     @unpack
-    def test_LoginSuccessful(self, username, password):
+    def test_LoginSuccessful(self, username, password, output):
         self.LoginMethod.nativelogin(self.driver, username, password)
         try:
-            self.assertEqual(self.Login.verify_login(), "OVERVIEW", msg="Login verification failed.")
+            self.assertEqual(self.Login.verify_login(), output, msg="Login verification failed.")
 
         # Check if assertion failed
         except AssertionError as e:
@@ -44,12 +45,12 @@ class TestLogin(unittest.TestCase, BaseClass):
     # Login with Incorrect Cred
     @allure.story("Login Unsuccessfully")
     @allure.severity(allure.severity_level.NORMAL)
-    @data(("frugal@latido.com.np", "Test@1as23"), ("rohitw1@latido.com.np", "Tesdt@23"))
+    @data(*Utils.read_xlsx("../TestData/LoginTestData/login.xlsx", "incorrect_cred"))
     @unpack
-    def test_LoginUnsuccessful(self, username, password):
+    def test_LoginUnsuccessful(self, username, password, output):
         self.LoginMethod.nativeloginforWrongCred(self.driver, username, password)
         try:
-            self.assertEqual(self.Login.verify_login_error_message(), "Incorrect username or password.",
+            self.assertEqual(self.Login.verify_login_error_message(), output,
                              msg="Error message verification failed.")
         # Check if assertion failed
         except AssertionError as e:
@@ -61,13 +62,12 @@ class TestLogin(unittest.TestCase, BaseClass):
     # Login with invalid Email
     @allure.story("Login With Invalid Username")
     @allure.severity(allure.severity_level.NORMAL)
-    @data(("frugal@-latido.com.np", "Test@123"), ("rohit12#4@ latido.co.np", "Test@123"))
+    @data(*Utils.read_xlsx("../TestData/LoginTestData/login.xlsx", "invalid_email"))
     @unpack
-    def test_login_unsuccessful_with_invalid_username(self, username, password):
+    def test_login_Unsuccessful_with_invalid_username(self, username, password, output):
         self.LoginMethod.nativelogin(self.driver, username, password)
         try:
-            self.assertEqual(self.Login.verify_login_error_message_for_invalid_email(),
-                             "Incorrect username or password.",
+            self.assertEqual(self.Login.verify_login_error_message_for_invalid_email(), output,
                              msg="Error message verification failed.")
         # Check if assertion failed
         except AssertionError as e:
@@ -79,12 +79,12 @@ class TestLogin(unittest.TestCase, BaseClass):
     # Login with empty user ID fields
     @allure.story("Login With Incorrect Username")
     @allure.severity(allure.severity_level.NORMAL)
-    @data(("", "Test@123"), ("", "Test@123"))
+    @data(*Utils.read_xlsx("../TestData/LoginTestData/login.xlsx", "empty_email"))
     @unpack
-    def test_login_with_empty_userid_fields(self, username, password):
-        self.LoginMethod.nativelogin(self.driver, username, password)
+    def test_login_with_empty_userid_fields(self, username, password, output):
+        self.LoginMethod.nativelogin(self.driver, "", password)
         try:
-            self.assertEqual(self.Login.verify_login_error_message_with_noEmail(), "Please input your Email!",
+            self.assertEqual(self.Login.verify_login_error_message_with_noEmail(), output,
                              msg="Error message verification failed.")
         # Check if assertion failed
         except AssertionError as e:
@@ -96,12 +96,12 @@ class TestLogin(unittest.TestCase, BaseClass):
     # Login with empty Password ID fields
     @allure.story("Login With Incorrect Username")
     @allure.severity(allure.severity_level.NORMAL)
-    @data(("frugal@latido.com.np", ""), ("rohit12@latido.com.np", ""))
+    @data(*Utils.read_xlsx("../TestData/LoginTestData/login.xlsx", "empty_password"))
     @unpack
-    def test_login_with_empty_password_fields(self, username, password):
-        self.LoginMethod.nativelogin(self.driver, username, password)
+    def test_login_with_empty_password_fields(self, username, password, output):
+        self.LoginMethod.nativelogin(self.driver, username, "")
         try:
-            self.assertEqual(self.Login.verify_login_error_message_with_noPassword(), "Please input your password!",
+            self.assertEqual(self.Login.verify_login_error_message_with_noPassword(), output,
                              msg="Error message verification failed.")
         # Check if assertion failed
         except AssertionError as e:
