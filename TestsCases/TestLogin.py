@@ -26,6 +26,7 @@ class TestLogin(unittest.TestCase, BaseClass):
     # Test Cases.
     # Login Successful
     @allure.story("Login Successfully")
+    @allure.title("Login Successfully")
     @allure.severity(allure.severity_level.NORMAL)
     # "*" must be used to indicate all the items from the list
     @data(*Utils.read_xlsx("../TestData/LoginTestData/login.xlsx", "login"))
@@ -37,13 +38,14 @@ class TestLogin(unittest.TestCase, BaseClass):
 
         # Check if assertion failed
         except AssertionError as e:
-            allure.attach(self.driver.get_screenshot_as_png(), name="TestLoginScreen",
+            allure.attach(self.driver.get_screenshot_as_png(), name="test_LoginSuccessful",
                           attachment_type=AttachmentType.PNG)
             self.log.error(f"Assertion failed here while finding element. {str(e)}")
             raise e
 
     # Login with Incorrect Cred
     @allure.story("Login Unsuccessfully")
+    @allure.title("Login Unsuccessfully")
     @allure.severity(allure.severity_level.NORMAL)
     @data(*Utils.read_xlsx("../TestData/LoginTestData/login.xlsx", "incorrect_cred"))
     @unpack
@@ -54,13 +56,13 @@ class TestLogin(unittest.TestCase, BaseClass):
                              msg="Error message verification failed.")
         # Check if assertion failed
         except AssertionError as e:
-            allure.attach(self.driver.get_screenshot_as_png(), name="TestLoginScreen",
+            allure.attach(self.driver.get_screenshot_as_png(), name="test_LoginUnsuccessful",
                           attachment_type=AttachmentType.PNG)
             self.log.error(f"Assertion failed here while finding element. {str(e)}")
             raise e
 
     # Login with invalid Email
-    @allure.story("Login With Invalid Username")
+    @allure.title("Login With Invalid Username")
     @allure.severity(allure.severity_level.NORMAL)
     @data(*Utils.read_xlsx("../TestData/LoginTestData/login.xlsx", "invalid_email"))
     @unpack
@@ -71,13 +73,14 @@ class TestLogin(unittest.TestCase, BaseClass):
                              msg="Error message verification failed.")
         # Check if assertion failed
         except AssertionError as e:
-            allure.attach(self.driver.get_screenshot_as_png(), name="TestLoginScreen",
+            allure.attach(self.driver.get_screenshot_as_png(), name="test_login_Unsuccessful_with_invalid_username",
                           attachment_type=AttachmentType.PNG)
             self.log.error(f"Assertion failed here while finding element. {str(e)}")
             raise e
 
     # Login with empty user ID fields
     @allure.story("Login With Incorrect Username")
+    @allure.title("Login With Incorrect Username")
     @allure.severity(allure.severity_level.NORMAL)
     @data(*Utils.read_xlsx("../TestData/LoginTestData/login.xlsx", "empty_email"))
     @unpack
@@ -88,13 +91,14 @@ class TestLogin(unittest.TestCase, BaseClass):
                              msg="Error message verification failed.")
         # Check if assertion failed
         except AssertionError as e:
-            allure.attach(self.driver.get_screenshot_as_png(), name="TestLoginScreen",
+            allure.attach(self.driver.get_screenshot_as_png(), name="test_login_with_empty_userid_fields",
                           attachment_type=AttachmentType.PNG)
             self.log.error(f"Assertion failed here while finding element. {str(e)}")
             raise e
 
     # Login with empty Password ID fields
     @allure.story("Login With Incorrect Username")
+    @allure.title("Login With Incorrect Username")
     @allure.severity(allure.severity_level.NORMAL)
     @data(*Utils.read_xlsx("../TestData/LoginTestData/login.xlsx", "empty_password"))
     @unpack
@@ -105,7 +109,7 @@ class TestLogin(unittest.TestCase, BaseClass):
                              msg="Error message verification failed.")
         # Check if assertion failed
         except AssertionError as e:
-            allure.attach(self.driver.get_screenshot_as_png(), name="TestLoginScreen",
+            allure.attach(self.driver.get_screenshot_as_png(), name="test_login_with_empty_password_fields",
                           attachment_type=AttachmentType.PNG)
             self.log.error(f"Assertion failed here while finding element. {str(e)}")
             raise e

@@ -23,7 +23,7 @@ class LoginPage:
 
     errorTile = (By.XPATH, "/html/body/div[3]/div/div/div/div/div/span[1]")
     ErrorMsg = (By.XPATH, "//html/body/div[3]/div/div/div/div/div/span[2]")
-    invalid_email_err_msg = (By.XPATH, "/html/body/div[3]/div/div/div/div/div/span[2]")
+    invalid_email_err_msg = (By.XPATH, "//div[@class='ant-form-item-explain-error']")
     NoEmailErrorMsg = (By.XPATH, '//*[@id="basic"]/div[1]/div[1]/div/div[1]/div[2]/div[2]/div[1]/div')
     NoPasswordErrorMsg = (By.XPATH, "//*[@id='basic']/div[1]/div[2]/div/div[1]/div[2]/div[2]/div[1]/div")
 

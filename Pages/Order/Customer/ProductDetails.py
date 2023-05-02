@@ -22,11 +22,7 @@ class ProductDetails(OrderPage):
     PRODUCT_NAME = (By.XPATH, '//*[@id="root"]/section/main/div/div/form/div[2]/div[2]/div[2]/div/div/div/div/div[1]/div[1]/div/div[2]/div/div/div/div/span[1]')
     LEATHER_PROFILE = (By.XPATH, '//*[@id="root"]/section/main/div/div/form/div[2]/div[2]/div[2]/div/div/div/div/div[1]/div[2]/div/div[2]/div/div/div/div/span[1]')
     LEATHER_SIZE = (By.XPATH, '//*[@id="root"]/section/main/div/div/form/div[2]/div[2]/div[2]/div/div/div/div/div[1]/div[3]/div/div[2]/div/div/div/div/span[1]')
-
-    # SEARCH_SELECTOR = (By.XPATH, '//span[@class="ant-select-selection-search"]')
     HARDWARE = (By.XPATH, "//*[@class='ant-select-selection-search']/input[contains(@id, 'rc_select_3') or contains(@id, 'rc_select_13')]")
-
-
     LINING = (By.XPATH, '//*[@class="ant-select-selection-search"]//input[contains(@id, "rc_select_4") or contains(@id, "rc_select_14")]')
     POLYFILL = (By.XPATH, '//*[@id="root"]/section/main/div/div/form/div[2]/div[2]/div[2]/div/div/div/div/div[1]/div[6]/div/div[2]/div/div/div/div')
     RIB = (By.ID, 'rib')

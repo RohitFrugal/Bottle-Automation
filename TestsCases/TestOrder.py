@@ -27,36 +27,8 @@ class TestOrder(unittest.TestCase, BaseClass):
 
     # Test Cases
     # Verify Order List.
-    # @allure.story("Verify Order list")
-    # @allure.severity(allure.severity_level.NORMAL)
-    # @data(*Utils.read_xlsx("../TestData/OrderTestData/forCustomer.xlsx", "login"))
-    # @unpack
-    # def test_order_list(self):
-    #     self.LoginMethod.nativelogin(self.driver, "frugal@latido.com.np", "Test@123")
-    #     try:
-    #         self.assertEqual(self.Order.verify_navigateToOrder(), "ORDER LISTS",
-    #                          msg="Verification of Order list tile failed.")
-    #     # Checking if assertion failed
-    #     except AssertionError as e:
-    #         allure.attach(self.driver.get_screenshot_as_png(), name="TestDashboardScreen",
-    #                       attachment_type=AttachmentType.PNG)
-    #         self.log.error(f"Assertion failed here while finding element. {str(e)}")
-    #         raise e
-    #
-    # @allure.story("Verify Create an Order for Customer ")
-    # @allure.severity(allure.severity_level.NORMAL)
-    # def test_create_order_customer(self):
-    #     self.LoginMethod.nativelogin(self.driver, "frugal@latido.com.np", "Test@123")
-    #     try:
-    #         self.assertEqual(self.Order.verify_createOrder_Customer("9860838858"), "Create Order",
-    #                          msg="Verification of Order list tile failed.")
-    #     except AssertionError as e:
-    #         allure.attach(self.driver.get_screenshot_as_png(), name="TestDashboardScreen",
-    #                       attachment_type=AttachmentType.PNG)
-    #         self.log.error(f"Assertion failed here while finding element. {str(e)}")
-    #         raise e
-
-    # @allure.story("Create a Order for  Customer ")
+    # @allure.title(f"Create a new Order for existing Customer")
+    # @allure.story("Create an Order for existing Customer ")
     # @allure.severity(allure.severity_level.NORMAL)
     # @data(*Utils.read_xlsx("../TestData/OrderTestData/orderTestCase.xlsx", "forCustomer"))
     # @unpack
@@ -64,6 +36,7 @@ class TestOrder(unittest.TestCase, BaseClass):
     #                                leatherSize, hardware, lining, polyfill, size, armhole, height, shoulder, weight,
     #                                length, arms, hips, chest, waist, sleeves, bodytype, remark, date, OTP):
     #     self.LoginMethod.nativelogin(self.driver, username, password)
+    #     test_case_name = f"Create a new Order for existing Customer : {contactNo} "
     #     try:
     #         self.assertEqual(
     #             self.Order.createOrder_Customer(contactNo, gender, productname, leatherProfile, leatherSize, hardware,
@@ -72,54 +45,70 @@ class TestOrder(unittest.TestCase, BaseClass):
     #             "Order Succesfully Created", msg="Verification Failed to Create a new Order.")
     #     # Checking if assertion failed
     #     except AssertionError as e:
-    #         allure.attach(self.driver.get_screenshot_as_png(), name="Creating Order.",
+    #         allure.attach(self.driver.get_screenshot_as_png(), name="Failed_for_customer",
     #                       attachment_type=AttachmentType.PNG)
     #         self.log.error(f"Assertion failed here while finding element. {str(e)}")
     #         raise e
+    #     else:
+    #         allure.attach(self.driver.get_screenshot_as_png(), name=test_case_name,
+    #                       attachment_type=allure.attachment_type.PNG)
 
-    # @allure.story("Create a Order for  Customer ")
+    # @allure.title(f"Create a new Order for new Customer")
+    # @allure.story("Create an Order for new Customer ")
     # @allure.severity(allure.severity_level.NORMAL)
-    # # @data(*Utils.read_xlsx("../TestData/OrderTestData/orderTestCase.xlsx", "forCustomer"))
-    # # @unpack
-    # def test_create_order_customer(self):
-    #     self.LoginMethod.nativelogin(self.driver, "frugal@latido.com.np", "Test@123")
+    # @data(*Utils.read_xlsx("../TestData/OrderTestData/orderTestCase.xlsx", "forNewCustomer"))
+    # @unpack
+    # def test_create_new_user_order(self, username, password, contactNo, name, email, dob, address, gender, productname, leatherProfile,
+    #                                leatherSize, hardware, lining, polyfill, size, armhole, height, shoulder, weight,
+    #                                length, arms, hips, chest, waist, sleeves, bodytype, remark, date, OTP):
+    #     self.LoginMethod.nativelogin(self.driver, username, password)
     #     try:
     #         self.assertEqual(
-    #             self.Order.createOrder_Customer("9860838858", "male", 'Ek (male)', 'Black Sheep', '40', 'Silver', 'Black', 'Yes',
-    #                                             "32", "6", "6.1", "32", "70", "6.1", "23", "42", "42", "32", "16", "Fit",
-    #                                             "Test with Manual Input", "2023-04-26", "0000011"),
+    #             self.Order.create_new_user_order(contactNo, name, email, dob, address, gender, productname, leatherProfile,
+    #                                              leatherSize, hardware, lining, polyfill, size, armhole, height, shoulder,
+    #                                              weight, length, arms, hips, chest, waist, sleeves, bodytype, remark, date, OTP),
     #             "Order Succesfully Created", msg="Verification Failed to Create a new Order.")
     #     # Checking if assertion failed
     #     except AssertionError as e:
-    #         allure.attach(self.driver.get_screenshot_as_png(), name="Creating Order.",
+    #         allure.attach(self.driver.get_screenshot_as_png(), name="Creating new Order for new customer.",
     #                       attachment_type=AttachmentType.PNG)
     #         self.log.error(f"Assertion failed here while finding element. {str(e)}")
     #         raise e
+    #
+    # @allure.title("Create a New Order for store")
+    # @allure.story("Create a New Order for store")
+    # @allure.severity(allure.severity_level.NORMAL)
+    # @data(*Utils.read_xlsx("../TestData/OrderTestData/orderTestCase.xlsx", "forStore"))
+    # @unpack
+    # def test_create_order_store(self, username, password, productname, leatherProfile, leatherSize,	hardware, lining, polyfill,
+    #                             size, bodytype, length,	chest, waist, hips, shoulder, sleeves, arms, weight, front, armhole,
+    #                             remarks, price, discount, OTP):
+    #     # Login with Admin
+    #     self.LoginMethod.nativelogin(self.driver, username, password)
+    #     try:
+    #         self.assertEqual(
+    #             self.Order.createOrder_Store(productname, leatherProfile, leatherSize,	hardware, lining, polyfill,
+    #                                          size, bodytype, length, chest, waist, hips, shoulder, sleeves, arms, weight, front, armhole,
+    #                                          remarks, price, discount, OTP),
+    #             "Order Succesfully Created",
+    #             msg="Verification Failed to Create a new user.")
+    #
+    #     # Checking if assertion failed
+    #     except AssertionError as e:
+    #         allure.attach(self.driver.get_screenshot_as_png(), name="Creating order for Store.",
+    #                       attachment_type=AttachmentType.PNG)
+    #         self.log.error(f"Assertion failed here while finding element. {str(e)}")
+    #         raise e
+    # @allure.title("Checking Order synchronization after creating a new ")
+    # @allure.story("Checking Order synchronization after creating a new ")
+    # @allure.severity(allure.severity_level.NORMAL)
+    # @data(*Utils.read_xlsx("../TestData/OrderTestData/orderTestCase.xlsx", ""))
+    # @unpack
+    # def test_check_order_synchronization(self):
+    #     pass
 
-
-    @allure.story("Create a New Order for store  ")
-    @allure.severity(allure.severity_level.NORMAL)
-    @data(*Utils.read_xlsx("../TestData/OrderTestData/orderTestCase.xlsx", "forStore"))
-    @unpack
-    def test_create_order_store(self, username, password, productname, leatherProfile, leatherSize,	hardware, lining, polyfill,
-                                size, bodytype, length,	chest, waist, hips, shoulder, sleeves, arms, weight, front, armhole,
-                                remarks, price, discount, OTP):
-        self.LoginMethod.nativelogin(self.driver, username, password)
-        try:
-            self.assertEqual(
-                self.Order.createOrder_Store(productname, leatherProfile, leatherSize,	hardware, lining, polyfill,
-                                             size, bodytype, length, chest, waist, hips, shoulder, sleeves, arms, weight, front, armhole,
-                                             remarks, price, discount, OTP),
-                "Order Succesfully Created", msg="Verification Failed to Create a new user.")
-
-        # Checking if assertion failed
-        except AssertionError as e:
-            allure.attach(self.driver.get_screenshot_as_png(), name="Test Create new User.",
-                          attachment_type=AttachmentType.PNG)
-            self.log.error(f"Assertion failed here while finding element. {str(e)}")
-            raise e
-
-    # @allure.story("Create a New Customer ")
+    # *********************************************************************** ONLY FOR Testing the SCRIPT ************************************************************************
+    # @allure.story("Create a New Customer and Customer Order ")
     # @allure.severity(allure.severity_level.NORMAL)
     # def test_create_order_new_customer(self):
     #     self.LoginMethod.nativelogin(self.driver, "frugal@latido.com.np", "Test@123")
@@ -135,6 +124,27 @@ class TestOrder(unittest.TestCase, BaseClass):
     #                       attachment_type=AttachmentType.PNG)
     #         self.log.error(f"Assertion failed here while finding element. {str(e)}")
     #         raise e
+
+    @allure.story("Create an Order for  Customer ")
+    @allure.severity(allure.severity_level.NORMAL)
+    # @data(*Utils.read_xlsx("../TestData/OrderTestData/orderTestCase.xlsx", "forCustomer"))
+    # @unpack
+    def test_create_order_customer(self):
+        self.LoginMethod.nativelogin(self.driver, "frugal@latido.com.np", "Test@123")
+        try:
+            self.assertEqual(
+                self.Order.navigate_to_order_list("9860838858", "male", 'Ek (male)', 'Black Sheep', '40', 'Silver',
+                                                  'Black', 'Yes',"32", "6", "6.1", "32", "70", "6.1", "23", "42", "42", "32", "16",
+                                                  "Fit", "Test with Manual Input", "2023-05-26", "0000011"),
+                "", msg="Verification Failed to Create a new Order.")
+        # Checking if assertion failed
+        except AssertionError as e:
+            allure.attach(self.driver.get_screenshot_as_png(), name="Creating Order.",
+                          attachment_type=AttachmentType.PNG)
+            self.log.error(f"Assertion failed here while finding element. {str(e)}")
+            raise e
+
+    # *********************************************************************** ONLY FOR Testing the SCRIPT ************************************************************************
 
     # Closing Method.
     def tearDown(self):

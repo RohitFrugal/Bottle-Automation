@@ -1,5 +1,4 @@
 import logging
-import time
 
 from Utilities.utils import Utils
 from selenium.webdriver import Keys
@@ -19,49 +18,38 @@ class ProductDetailsForStore(OrderPage):
         self.wait = WebDriverWait(self.driver, 10)
 
     PRODUCT_NAME = (By.XPATH, '//*[@id="root"]/section/main/div/div/form/div[1]/div[1]/div[2]/div/div/div/div/div[1]/div[1]/div/div[2]/div/div/div/div/span[1]')
-    ITEMSNAEM = (By.XPATH, '//*[@class="ant-select-item-option-content"]')
     LEATHER_PROFILE = (By.XPATH, '//*[@id="root"]/section/main/div/div/form/div[1]/div[1]/div[2]/div/div/div/div/div[1]/div[2]/div/div[2]/div/div/div/div/span[1]')
-
     LEATHER_SIZE = (By.XPATH, '//*[@id="root"]/section/main/div/div/form/div[1]/div[1]/div[2]/div/div/div/div/div[1]/div[3]/div/div[2]/div/div/div/div/span[1]')
+    HARDWARE = (By.XPATH, "//*[@class='ant-select-selection-search']/input[contains(@id, 'rc_select_3') or contains(@id, 'rc_select_13')]")
+    LINING = (By.XPATH, '//*[@class="ant-select-selection-search"]//input[contains(@id, "rc_select_4") or contains(@id, "rc_select_14")]')
+    POLYFILL = (By.XPATH, '//*[@id="root"]/section/main/div/div/form/div[1]/div[1]/div[2]/div/div/div/div/div[1]/div[6]/div/div[2]/div/div/div/div')
+    ITEMSNAME = (By.XPATH, '//*[@class="ant-select-item-option-content"]')
 
-    HARDWARE_SELECTOR = (By.XPATH, '//*[@id="root"]/section/main/div/div/form/div[1]/div[1]/div[2]'
-                                   '/div/div/div/div/div[1]/div[4]/div/div[2]/div/div/div/div/div/span[2]')
-    HARDWARE = (By.XPATH, '//*[@id="rc_select_3"]')
-    LINING = (By.XPATH, '//*[@id="rc_select_4"]')
-    POLYFILL = (By.XPATH, '//*[@id="root"]/section/main/div/div/form/div[1]/div[1]/div[2]'
-                          '/div/div/div/div/div[1]/div[6]/div/div[2]/div/div/div/div')
 
     # Fill Product details
     def selectProductName(self, productname):
-        print(f"I'm in SelectProduct for Store")
-        return self.HandleDropdown(self.PRODUCT_NAME, self.ITEMSNAEM, productname)
+        print(f"I'm in Select Product for Store")
+        return self.HandleDropdown(self.PRODUCT_NAME, self.ITEMSNAME, productname)
 
     def selectLeatherProfile(self, leatherProfile):
-        print(f"I'm in selectLeatherProfile for Store")
-        return self.HandleDropdown(self.LEATHER_PROFILE, self.ITEMSNAEM, leatherProfile)
+        print(f"I'm in select Leather Profile for Store")
+        return self.HandleDropdown(self.LEATHER_PROFILE, self.ITEMSNAME, leatherProfile)
 
     def selectLeatherSize(self, leatherSize):
-        print(f"I'm in selectLeatherSize for Store")
-        return self.HandleDropdown(self.LEATHER_SIZE, self.ITEMSNAEM, leatherSize)
+        print(f"I'm in select Leather Size for Store")
+        return self.HandleDropdown(self.LEATHER_SIZE, self.ITEMSNAME, leatherSize)
 
     def selectHardware(self, hardware):
-        print(f"I'm in selectHardware for Store")
-        try:
-            # self.wait.until(EC.visibility_of_element_located(self.HARDWARE_SELECTOR)).click()
-            # time.sleep(4)
-            # self.wait.until(EC.visibility_of_element_located(self.HARDWARE)).send_keys(hardware)
-            # time.sleep(4)
-            # return self.wait.until(EC.visibility_of_element_located(self.HARDWARE)).send_keys(Keys.ENTER)
-            
-            return self.searchDropdown(self.HARDWARE, self.ITEMSNAEM, hardware)
-        except Exception as e:
-            self.log.error(f"{str(e)} \n Error because of this. ")
+        print(f"I'm in select Hardware for Store")
+        self.wait.until(EC.visibility_of_element_located(self.HARDWARE)).send_keys(hardware)
+        return self.wait.until(EC.visibility_of_element_located(self.HARDWARE)).send_keys(Keys.ENTER)
 
 
     def selectLining(self, lining):
-        print(f"I'm in selectLining")
-        return self.searchDropdown(self.LINING, self.ITEMSNAEM, lining)
+        print(f"I'm in select Lining")
+        self.wait.until(EC.visibility_of_element_located(self.LINING)).send_keys(lining)
+        return self.wait.until(EC.visibility_of_element_located(self.LINING)).send_keys(Keys.ENTER)
 
     def selectPolyfill(self, polyfill):
         print(f"I'm in selectPolyfill")
-        return self.HandleDropdown(self.POLYFILL, self.ITEMSNAEM, polyfill)
+        return self.HandleDropdown(self.POLYFILL, self.ITEMSNAME, polyfill)
