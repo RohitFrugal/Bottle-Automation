@@ -30,28 +30,46 @@ class ProductDetails(OrderPage):
 
     # Fill Product details
     def selectProductName(self, productname):
-        self.log.info(f"I'm in Select Product")
-        return self.HandleDropdown(self.PRODUCT_NAME, self.ITEMSNAEM, productname)
+        try:
+            self.log.info(f"I'm in Select Product")
+            return self.HandleDropdown(self.PRODUCT_NAME, self.ITEMSNAEM, productname)
+        except Exception as e:
+            self.log.error(f"Failed in Select Product name {str(e)}")
 
     def selectLeatherProfile(self, leatherProfile):
-        self.log.info(f"I'm in select Leather Profile")
-        return self.HandleDropdown(self.LEATHER_PROFILE, self.ITEMSNAEM, leatherProfile)
+        try:
+            self.log.info(f"I'm in select Leather Profile")
+            return self.HandleDropdown(self.LEATHER_PROFILE, self.ITEMSNAEM, leatherProfile)
+        except Exception as e:
+            self.log.error(f"Failed in Select Leather Profile {str(e)}")
 
     def selectLeatherSize(self, leatherSize):
-        print(f"I'm in select Leather Size")
-        return self.HandleDropdown(self.LEATHER_SIZE, self.ITEMSNAEM, leatherSize)
+        try:
+            self.log.info(f"I'm in select Leather Size")
+            return self.HandleDropdown(self.LEATHER_SIZE, self.ITEMSNAEM, leatherSize)
+        except Exception as e:
+            self.log.error(f"Failed in Select Leather Size {str(e)}")
 
     def selectHardware(self, hardware):
-        self.log.info(f"I'm in select Hardware")
-        self.wait.until(EC.visibility_of_element_located(self.HARDWARE)).send_keys(hardware)
-        return self.wait.until(EC.visibility_of_element_located(self.HARDWARE)).send_keys(Keys.ENTER)
-
+        try:
+            self.log.info(f"I'm in select Hardware")
+            self.wait.until(EC.visibility_of_element_located(self.HARDWARE)).send_keys(hardware)
+            return self.wait.until(EC.visibility_of_element_located(self.HARDWARE)).send_keys(Keys.ENTER)
+        except Exception as e:
+            self.log.error(f"Failed in Select Hardware {str(e)}")
 
     def selectLining(self, lining):
-        self.log.info(f"I'm in select Lining")
-        self.wait.until(EC.visibility_of_element_located(self.LINING)).send_keys(lining)
-        return self.wait.until(EC.visibility_of_element_located(self.LINING)).send_keys(Keys.ENTER)
+        try:
+            self.log.info(f"I'm in select Lining")
+            self.wait.until(EC.visibility_of_element_located(self.LINING)).send_keys(lining)
+            return self.wait.until(EC.visibility_of_element_located(self.LINING)).send_keys(Keys.ENTER)
+        except Exception as e:
+            self.log.error(f"Failed in Select Lining {str(e)}")
+
 
     def selectPolyfill(self, polyfill):
-        self.log.info(f"I'm in select Polyfill")
-        return self.HandleDropdown(self.POLYFILL, self.ITEMSNAEM, polyfill)
+        try:
+            self.log.info(f"I'm in select Polyfill")
+            return self.HandleDropdown(self.POLYFILL, self.ITEMSNAEM, polyfill)
+        except Exception as e:
+            self.log.error(f"Failed in Select Pollyfill {str(e)}")

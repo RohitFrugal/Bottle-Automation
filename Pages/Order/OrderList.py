@@ -29,8 +29,26 @@ class OrderList(BaseClass):
 
     GOTO_ORDER_LIST = (By.XPATH, '//button[@class="ant-btn ant-btn-default cancel-btn btn"]/span')
 
-    CUSTOMER_TAB = (By.XPATH, "//div[@class='ant-tabs-tab'] //div[contains(@id, 'rc-tabs-1-tab-1') or contains(@id, 'rc-tabs-2-tab-1')]")
+    CUSTOMER_TAB = (By.XPATH, "//div[@class='ant-tabs-tab'] //div[contains(@id, 'rc-tabs-0-tab-1') or contains(@id, 'rc-tabs-1-tab-1') or contains(@id, 'rc-tabs-2-tab-1')]")
     STORE_TAB = (By.XPATH, "//div[@class='ant-tabs-tab'] //div[contains(@id, 'rc-tabs-0-tab-2') or contains(@id, 'rc-tabs-1-tab-2') or contains(@id, 'rc-tabs-2-tab-2')]")
+
+    HEADER_TEXT = (By.XPATH, '//h2[contains(text(), "ORDER DETAILS")]')
+
+    USER_INFO = (By.XPATH, '//div[@class="ant-tabs-tab"]/div[contains(@id, "rc-tabs-0-tab-user-info")]')
+    SIZE = (By.XPATH, '//div[@class="ant-tabs-tab"]/div[contains(@id, "rc-tabs-0-tab-sizing")]')
+    PAYMENT = (By.XPATH, '//div[@class="ant-tabs-tab"]/div[contains(@id, "rc-tabs-0-tab-payment")]')
+    REMARKS = (By.XPATH, '//div[@class="ant-tabs-tab"]/div[contains(@id, "rc-tabs-0-tab-remarks")]')
+
+    # Order Card Detail
+    ORDER_ID = (By.XPATH, "//div[@class='ant-row']/div[@class='ant-col']/h3")
+
+    PRODUCT_NAME = (By.XPATH, "//div[@class='ant-card-body']/div[3]/div[1]/h3")
+    LEATHER_PROFILE = (By.XPATH, "//div[@class='ant-card-body']/div[3]/div[2]/h3")
+    HARDWARE = (By.XPATH, "//div[@class='ant-card-body']/div[4]/div[1]/h3")
+    LINING = (By.XPATH, "//div[@class='ant-card-body']/div[4]/div[2]/h3")
+    POLYFILL = (By.XPATH, "//div[@class='ant-card-body']/div[5]/div[1]/h3")
+
+    # Methods
     def click_on_goto_order(self):
         return self.wait.until(EC.visibility_of_element_located(self.GOTO_ORDER_LIST)).click()
 
@@ -45,3 +63,47 @@ class OrderList(BaseClass):
 
     def get_latest_store_orderID(self):
         return self.wait.until(EC.visibility_of_element_located(self.LATEST_STORE_ITEM))
+
+    def header_text_verification(self):
+        return self.wait.until(EC.visibility_of_element_located(self.HEADER_TEXT)).text
+
+    def get_order_id(self):
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.ORDER_ID)).text
+        except Exception as e:
+            self.log.error(f"Failed to locate the Order Id {str(e)}")
+
+    def get_product_name(self):
+        try:
+            productname = self.wait.until(EC.visibility_of_element_located(self.PRODUCT_NAME)).text
+            return productname
+        except Exception as e:
+            self.log.error(f"Failed to locate Product name {str(e)}")
+
+    def get_leather_profile(self):
+        try:
+            leatherProfile = self.wait.until(EC.visibility_of_element_located(self.LEATHER_PROFILE)).text
+            return leatherProfile
+        except Exception as e:
+            self.log.error(f"Failed to locate Leather Profile {str(e)}")
+
+    def get_hardware(self):
+        try:
+            hardware = self.wait.until(EC.visibility_of_element_located(self.HARDWARE)).text
+            return hardware
+        except Exception as e:
+            self.log.error(f"Failed to locate Hardware {str(e)}")
+
+    def get_lining(self):
+        try:
+            lining = self.wait.until(EC.visibility_of_element_located(self.LINING)).text
+            return lining
+        except Exception as e:
+            self.log.error(f"Failed to locate Lining {str(e)}")
+
+    def get_polyfill(self):
+        try:
+            polyfill = self.wait.until(EC.visibility_of_element_located(self.POLYFILL)).text
+            return polyfill
+        except Exception as e:
+            self.log.error(f"Failed to locate polyfill {str(e)}")

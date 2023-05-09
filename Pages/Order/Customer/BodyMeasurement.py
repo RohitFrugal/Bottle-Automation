@@ -6,6 +6,8 @@ from Pages.Order.OrderPage import OrderPage
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import WebDriverException as Exceptions
+
 
 
 class BodyMeasurement(OrderPage):
@@ -38,41 +40,68 @@ class BodyMeasurement(OrderPage):
 
     # Fill Body Measurement
     def selectBasesize(self, size):
-        return self.HandleDropdown(self.BASE_SIZE, self.ITEMSNAEM, size)
-
+        try:
+            return self.HandleDropdown(self.BASE_SIZE, self.ITEMSNAEM, size)
+        except Exceptions:
+            self.log.error(f"Failed to Find the element for Selecting the Base Size")
     def inputArmhole(self, armhole):
-        return self.wait.until(EC.visibility_of_element_located(self.ARMHOLE)).send_keys(armhole)
-
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.ARMHOLE)).send_keys(armhole)
+        except Exceptions:
+            self.log.error(f"Failed to Find the element to input Armhole")
     def inputHeight(self, height):
-        return self.wait.until(EC.visibility_of_element_located(self.HEIGHT)).send_keys(height)
-
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.HEIGHT)).send_keys(height)
+        except Exceptions:
+            self.log.error(f"Failed to Find the element to input Height")
     def inputShoulder(self, shoulder):
-        return self.wait.until(EC.visibility_of_element_located(self.SHOULDER)).send_keys(shoulder)
-
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.SHOULDER)).send_keys(shoulder)
+        except Exceptions:
+            self.log.error(f"Failed to Find the element to input Shoulder")
     def inputWeight(self, weight):
-        return self.wait.until(EC.visibility_of_element_located(self.WEIGHT)).send_keys(weight)
-
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.WEIGHT)).send_keys(weight)
+        except Exceptions:
+            self.log.error(f"Failed to Find the element to input Weight")
     def inputLength(self, length):
-        return self.wait.until(EC.visibility_of_element_located(self.LENGTH)).send_keys(length)
-
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.LENGTH)).send_keys(length)
+        except Exceptions:
+            self.log.error(f"Failed to Find the element to input Length")
     def inputArms(self, arms):
-        return self.wait.until(EC.visibility_of_element_located(self.ARMS)).send_keys(arms)
-
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.ARMS)).send_keys(arms)
+        except Exceptions:
+            self.log.error(f"Failed to Find the element to input Arms")
     def inputHips(self, hips):
-        return self.wait.until(EC.visibility_of_element_located(self.HIPS)).send_keys(hips)
-
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.HIPS)).send_keys(hips)
+        except Exceptions:
+            self.log.error(f"Failed to Find the element to input Hips")
     def inputChest(self, chest):
-        return self.wait.until(EC.visibility_of_element_located(self.CHEST)).send_keys(chest)
-
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.CHEST)).send_keys(chest)
+        except Exceptions:
+            self.log.error(f"Failed to Find the element to input Chest")
     def inputWaist(self, waist):
-        return self.wait.until(EC.visibility_of_element_located(self.WAIST)).send_keys(waist)
-
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.WAIST)).send_keys(waist)
+        except Exceptions:
+            self.log.error(f"Failed to Find the element to input Waist")
     def inputSleeves(self, sleeves):
-        return self.wait.until(EC.visibility_of_element_located(self.SLEEVES)).send_keys(sleeves)
-
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.SLEEVES)).send_keys(sleeves)
+        except Exceptions:
+            self.log.error(f"Failed to Find the element to input Sleeves")
     def selectBodyType(self, bodytype):
-        return self.HandleDropdown(self.BODY_TYPE, self.ITEMSNAEM, bodytype)
-
+        try:
+            return self.HandleDropdown(self.BODY_TYPE, self.ITEMSNAEM, bodytype)
+        except Exceptions:
+            self.log.error(f"Failed to Find the element to select the BodyType")
     # Fill Remarks
     def inputRemark(self, remark):
-        return self.wait.until(EC.visibility_of_element_located(self.REMARKS)).send_keys(remark)
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.REMARKS)).send_keys(remark)
+        except Exceptions:
+            self.log.error(f"Failed to Find the element to input Remarks")

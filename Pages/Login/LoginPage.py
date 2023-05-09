@@ -85,11 +85,7 @@ class LoginPage:
 
     def verify_login_error_message(self):
         try:
-            error_msg_tooltip = self.wait.until(EC.visibility_of_element_located(self.errorTile))
-            hover = ActionChains(self.driver).move_to_element(error_msg_tooltip)
-            hover.perform()
-            error_msg = self.wait.until(EC.visibility_of_element_located(self.ErrorMsg)).text
-            return error_msg
+            return self.wait.until(EC.visibility_of_element_located(self.invalid_email_err_msg)).text
         except Exception as e:
             self.log.error(f"Exception occurred while verifying login: {e}")
 

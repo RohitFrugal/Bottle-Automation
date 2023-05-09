@@ -161,6 +161,6 @@ cython_debug/
 
 
 # Custome Reporst
-report
-Resources
-allure-report
+report/
+Resources/
+allure-report/

@@ -33,9 +33,9 @@ class OrderPage(BaseClass):
 
     # Fill Customer Details.
     FULLNAME = (By.ID, 'userName')
-    GENDER_MAlE = (By.XPATH, '//*[@id="gender"]/label[1]/span[2]/div/img')
-    GENDER_FEMAlE = (By.XPATH, '//*[@id="gender"]/label[2]/span[2]/div/img')
-    GENDER_OTHER = (By.XPATH, '//*[@id="gender"]/label[3]/span[2]/div/img')
+    GENDER_MAlE = (By.XPATH, '//label[@class="ant-radio-button-wrapper ant-radio-button-wrapper-in-form-item"][1]/span[2]/div/img')
+    GENDER_FEMAlE = (By.XPATH, '//label[@class="ant-radio-button-wrapper ant-radio-button-wrapper-in-form-item"][2]/span[2]/div/img')
+    GENDER_OTHER = (By.XPATH, '//label[@class="ant-radio-button-wrapper ant-radio-button-wrapper-in-form-item"][3]/span[2]/div/img')
     EMAIL = (By.ID, 'email')
 
 

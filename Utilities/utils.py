@@ -1,6 +1,8 @@
 import inspect
 import logging
-from openpyxl import Workbook, load_workbook
+
+from openpyxl import load_workbook
+
 
 class Utils:
     def __init__(self):
@@ -35,3 +37,6 @@ class Utils:
             return datalist
         except FileNotFoundError:
             raise Exception(f"File not located: {file_name}")
+
+
+

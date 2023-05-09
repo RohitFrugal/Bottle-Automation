@@ -1,16 +1,24 @@
 import time
 import logging
 
-from Pages.Order.OrderList import OrderList
-from Pages.Order.Store.PaymentsStore import PaymentsStore
 from Utilities.utils import Utils
-from Pages.Order.Customer.Payments import Payments
 from Pages.Order.OrderPage import OrderPage
+from Pages.Order.OrderList import OrderList
+from Pages.Order.SearchItems import SearchItems
+from Pages.Order.Customer.Payments import Payments
+from Pages.Order.Store.PaymentsStore import PaymentsStore
 from Pages.Order.Customer.CreateNewUser import CreateNewUser
 from Pages.Order.Customer.ProductDetails import ProductDetails
 from Pages.Order.Customer.BodyMeasurement import BodyMeasurement
 from Pages.Order.Store.ProductDetails_forStore import ProductDetailsForStore
 from Pages.Order.Store.BodyMeasurement_forStore import BodyMeasurementForStore
+
+
+def compareItems(Actual, Expected):
+    if Actual == Expected:
+        return True
+    else:
+        return False
 
 
 class OrderMethod:
@@ -32,15 +40,21 @@ class OrderMethod:
         self.storePay = PaymentsStore(driver)
 
         self.order_ls = OrderList(driver)
+        self.search = SearchItems(driver)
 
         self.log = Utils.custom_logger(logLevel=logging.INFO)
 
-# ******************************************************************* Helping Methods *******************************************************************
+    # ******************************************************************* Helping Methods *******************************************************************
     # Verifying the header of Order List.
     def verify_navigateToOrder(self):
         self.order.clickOnOrderTab()
         time.sleep(2)
         return self.order.verify_header()
+
+    # Click on Order Tab
+    def navigateToOrderTab(self):
+        self.order.clickOnOrderTab()
+        time.sleep(2)
 
     # Navigate to Order List.
     def navigateToOrder(self):
@@ -70,128 +84,128 @@ class OrderMethod:
     # Fill Product details for Customer
     def fill_CustomerProductDetails(self, productname, leatherProfile, leatherSize, hardware, lining, polyfill):
         self.products.selectProductName(productname)
-        print(f'Selecting : {productname} and it is of "{type(productname)}" type')
+        self.log.info(f'Selecting : {productname} and it is of "{type(productname)}" type')
 
         self.products.selectLeatherProfile(leatherProfile)
-        print(f'Selecting : {leatherProfile}  and it is of "{type(leatherProfile)}" type')
+        self.log.info(f'Selecting : {leatherProfile}  and it is of "{type(leatherProfile)}" type')
 
         leatherSize_str = str(leatherSize)
         self.products.selectLeatherSize(leatherSize_str)
-        print(f'Selecting : {leatherSize} and it is of "{type(leatherSize)}" type')
+        self.log.info(f'Selecting : {leatherSize} and it is of "{type(leatherSize)}" type')
 
         self.products.selectHardware(hardware)
-        print(f'Selecting : {hardware}  and it is of "{type(hardware)}" type')
+        self.log.info(f'Selecting : {hardware}  and it is of "{type(hardware)}" type')
 
         self.products.selectLining(lining)
-        print(f'Selecting : {lining}  and it is of "{type(lining)}" type')
+        self.log.info(f'Selecting : {lining}  and it is of "{type(lining)}" type')
 
         self.products.selectPolyfill(polyfill)
-        print(f'Selecting : {polyfill}  and it is of "{type(polyfill)}" type')
+        self.log.info(f'Selecting : {polyfill}  and it is of "{type(polyfill)}" type')
 
     # Fill Product details for Store
     def fill_StoreProductDetails(self, productname, leatherProfile, leatherSize, hardware, lining, polyfill):
         self.store.selectProductName(productname)
-        print(f'Selecting : {productname} and it is of "{type(productname)}" type')
+        self.log.info(f'Selecting : {productname} and it is of "{type(productname)}" type')
 
         self.store.selectLeatherProfile(leatherProfile)
-        print(f'Selecting : {leatherProfile}  and it is of "{type(leatherProfile)}" type')
+        self.log.info(f'Selecting : {leatherProfile}  and it is of "{type(leatherProfile)}" type')
 
         leatherSize_str = str(leatherSize)
         self.store.selectLeatherSize(leatherSize_str)
-        print(f'Selecting : {leatherSize} and it is of "{type(leatherSize_str)}" type')
+        self.log.info(f'Selecting : {leatherSize} and it is of "{type(leatherSize_str)}" type')
 
         self.store.selectHardware(hardware)
-        print(f'Selecting : {hardware}  and it is of "{type(hardware)}" type')
+        self.log.info(f'Selecting : {hardware}  and it is of "{type(hardware)}" type')
 
         self.store.selectLining(lining)
-        print(f'Selecting : {lining}  and it is of "{type(lining)}" type')
+        self.log.info(f'Selecting : {lining}  and it is of "{type(lining)}" type')
 
         self.store.selectPolyfill(polyfill)
-        print(f'Selecting : {polyfill}  and it is of "{type(polyfill)}" type')
+        self.log.info(f'Selecting : {polyfill}  and it is of "{type(polyfill)}" type')
 
     # Fill Body Measurement for Customer
     def fillBodyMeasurements(self, size, armhole, height, shoulder, weight, length, arms, hips, chest, waist, sleeves,
                              bodytype):
         Size_str = str(size)
         self.bodyMeasurement.selectBasesize(Size_str)
-        print(f'Selecting : {size} and it is of "{type(size)}" type')
+        self.log.info(f'Selecting : {size} and it is of "{type(size)}" type')
 
         self.bodyMeasurement.inputArmhole(armhole)
-        print(f'Selecting : {armhole} and it is of "{type(armhole)}" type')
+        self.log.info(f'Selecting : {armhole} and it is of "{type(armhole)}" type')
 
         self.bodyMeasurement.inputHeight(height)
-        print(f'Selecting : {height} and it is of "{type(height)}" type')
+        self.log.info(f'Selecting : {height} and it is of "{type(height)}" type')
 
         self.bodyMeasurement.inputShoulder(shoulder)
-        print(f'Selecting : {shoulder} and it is of "{type(shoulder)}" type')
+        self.log.info(f'Selecting : {shoulder} and it is of "{type(shoulder)}" type')
 
         self.bodyMeasurement.inputWeight(weight)
-        print(f'Selecting : {weight} and it is of "{type(weight)}" type')
+        self.log.info(f'Selecting : {weight} and it is of "{type(weight)}" type')
 
         self.bodyMeasurement.inputLength(length)
-        print(f'Selecting : {length} and it is of "{type(length)}" type')
+        self.log.info(f'Selecting : {length} and it is of "{type(length)}" type')
 
         self.bodyMeasurement.inputArms(arms)
-        print(f'Selecting : {arms} and it is of "{type(arms)}" type')
+        self.log.info(f'Selecting : {arms} and it is of "{type(arms)}" type')
 
         self.bodyMeasurement.inputHips(hips)
-        print(f'Selecting : {hips} and it is of "{type(hips)}" type')
+        self.log.info(f'Selecting : {hips} and it is of "{type(hips)}" type')
 
         self.bodyMeasurement.inputChest(chest)
-        print(f'Selecting : {chest} and it is of "{type(chest)}" type')
+        self.log.info(f'Selecting : {chest} and it is of "{type(chest)}" type')
 
         self.bodyMeasurement.inputWaist(waist)
-        print(f'Selecting : {waist} and it is of "{type(waist)}" type')
+        self.log.info(f'Selecting : {waist} and it is of "{type(waist)}" type')
 
         self.bodyMeasurement.inputSleeves(sleeves)
-        print(f'Selecting : {sleeves} and it is of "{type(sleeves)}" type')
+        self.log.info(f'Selecting : {sleeves} and it is of "{type(sleeves)}" type')
 
         self.bodyMeasurement.selectBodyType(bodytype)
-        print(f'Selecting : {bodytype} and it is of "{type(bodytype)}" type')
+        self.log.info(f'Selecting : {bodytype} and it is of "{type(bodytype)}" type')
 
     # Fill Body Measurement for Store
     def fillBodyMeasurementsForStore(self, size, bodytype, length, chest, waist, hips, shoulder, sleeves, arms, weight,
                                      front, armhole):
         Size_str = str(size)
         self.storeMeasurement.selectBasesize(Size_str)
-        print(f'Selecting : {Size_str} and it is of "{type(Size_str)}" type')
+        self.log.info(f'Selecting : {Size_str} and it is of "{type(Size_str)}" type')
 
         self.storeMeasurement.selectBodyType(bodytype)
-        print(f'Selecting : {bodytype} and it is of "{type(bodytype)}" type')
+        self.log.info(f'Selecting : {bodytype} and it is of "{type(bodytype)}" type')
 
         self.storeMeasurement.inputLength(length)
-        print(f'Selecting : {length} and it is of "{type(length)}" type')
+        self.log.info(f'Selecting : {length} and it is of "{type(length)}" type')
 
         self.storeMeasurement.inputChest(chest)
-        print(f'Selecting : {chest} and it is of "{type(chest)}" type')
+        self.log.info(f'Selecting : {chest} and it is of "{type(chest)}" type')
 
         self.storeMeasurement.inputWaist(waist)
-        print(f'Selecting : {waist} and it is of "{type(waist)}" type')
+        self.log.info(f'Selecting : {waist} and it is of "{type(waist)}" type')
 
         self.storeMeasurement.inputHips(hips)
-        print(f'Selecting : {hips} and it is of "{type(hips)}" type')
+        self.log.info(f'Selecting : {hips} and it is of "{type(hips)}" type')
 
         self.storeMeasurement.inputShoulder(shoulder)
-        print(f'Selecting : {shoulder} and it is of "{type(shoulder)}" type')
+        self.log.info(f'Selecting : {shoulder} and it is of "{type(shoulder)}" type')
 
         self.storeMeasurement.inputSleeves(sleeves)
-        print(f'Selecting : {sleeves} and it is of "{type(sleeves)}" type')
+        self.log.info(f'Selecting : {sleeves} and it is of "{type(sleeves)}" type')
 
         self.storeMeasurement.inputArms(arms)
-        print(f'Selecting : {arms} and it is of "{type(arms)}" type')
+        self.log.info(f'Selecting : {arms} and it is of "{type(arms)}" type')
 
         self.storeMeasurement.inputWeight(weight)
-        print(f'Selecting : {weight} and it is of "{type(weight)}" type')
+        self.log.info(f'Selecting : {weight} and it is of "{type(weight)}" type')
 
         self.storeMeasurement.inputFront(front)
-        print(f'Selecting : {front} and it is of "{type(front)}" type')
+        self.log.info(f'Selecting : {front} and it is of "{type(front)}" type')
 
         self.storeMeasurement.inputArmhole(armhole)
-        print(f'Selecting : {armhole} and it is of "{type(armhole)}" type')
+        self.log.info(f'Selecting : {armhole} and it is of "{type(armhole)}" type')
 
     # Fill OTP
     def fill_otp(self, OTP):
-        # self.payment.click_on_OTP_Header()
+        self.payment.click_on_OTP_Header()
         self.payment.enterOTP(OTP)
         self.payment.submitOTP()
 
@@ -202,28 +216,58 @@ class OrderMethod:
         self.storePay.submitOTP()
 
     # Comparing the Order Id's
-    def compare_id(self, storeId, customerId):
-        if int(customerId) > int(storeId):
-            print(f"Customer order was created recently : {customerId}")
-            self.order_ls.click_on_customer()
-            return self.order_ls.get_latest_customer_orderID().click()
-        elif int(storeId) > int(customerId):
-            print(f"Store order was created recently : {storeId}")
-            return self.order_ls.get_latest_store_orderID().click()
+    # def compare_id(self, storeId, customerId):
+    #     if int(customerId) > int(storeId):
+    #         self.log.info(f"Customer order was created recently : {customerId}")
+    #         self.order_ls.click_on_customer()
+    #         return self.order_ls.get_latest_customer_orderID().click()
+    #     elif int(storeId) > int(customerId):
+    #         self.log.info(f"Store order was created recently : {storeId}")
+    #         return self.order_ls.get_latest_store_orderID().click()
+
+    # Get Product details from the product card
+    def getDifferences(self, productname, leatherProfile, hardware, lining, polyfill):
+        result = []
+        productname = productname.split()[0]
+        print(f"Product Name : {productname}")
+        actual_productname = self.order_ls.get_product_name()
+        print(f"Actual Product Name : {actual_productname}")
+        time.sleep(10)
+        result.append(compareItems(actual_productname, productname))
 
 
+        print(f"Leather Profile : {leatherProfile}")
+        actual_leatherProfile = self.order_ls.get_leather_profile()
+        print(f"Actual Product Name : {actual_leatherProfile}")
+        result.append(compareItems(actual_leatherProfile, leatherProfile))
 
+        print(f"Hardware : {hardware}")
+        actual_hardware = self.order_ls.get_hardware()
+        print(f"Actual Hardware : {actual_hardware}")
+        result.append(compareItems(actual_hardware, hardware))
 
+        print(f"Lining : {lining}")
+        actual_lining = self.order_ls.get_lining()
+        print(f"Actual Lining : {actual_lining}")
+        result.append(compareItems(actual_lining, lining))
 
+        print(f"Pollyfill : {polyfill}")
+        actual_polyfill = self.order_ls.get_polyfill()
+        print(f"Actual Pollyfill : {actual_polyfill}")
+        result.append(compareItems(actual_polyfill, polyfill))
+        print(result)
 
-# ******************************************************************* Test Executors *******************************************************************
+        if result.__contains__(False):
+            return False
+        else:
+            return True
+
+    # ******************************************************************* Test Executors *******************************************************************
 
     # Creating an Order for an Existing Customer.
     def createOrder_Customer(self, contactNo, gender, productname, leatherProfile, leatherSize, hardware, lining,
-                             polyfill,
-                             size, armhole, height, shoulder, weight, length, arms, hips, chest, waist, sleeves,
-                             bodytype,
-                             remark, date, OTP):
+                             polyfill, size, armhole, height, shoulder, weight, length, arms, hips, chest, waist,
+                             sleeves, bodytype, remark, date, OTP):
         self.navigateToOrder()
         self.order.click_on_forCustomer()
         self.order.enter_contact(contactNo)
@@ -244,7 +288,7 @@ class OrderMethod:
         self.payment.submitOrder()
         time.sleep(2)
         self.fill_otp(OTP)
-        time.sleep(20)
+        time.sleep(5)
         return self.payment.verifyOrderSubmit()
 
     # Creating an Order for Store
@@ -283,19 +327,41 @@ class OrderMethod:
         self.payment.submitOrder()
         time.sleep(2)
         self.fill_otp(OTP)
-        time.sleep(20)
+        time.sleep(5)
         return self.payment.verifyOrderSubmit()
 
-    def navigate_to_order_list(self, contactNo, gender, productname, leatherProfile, leatherSize, hardware, lining,
-                               polyfill, size, armhole, height, shoulder, weight, length, arms, hips, chest, waist,
-                               sleeves, bodytype, remark, date, OTP):
+    def navigate_to_customer_order_list(self, contactNo, gender, productname, leatherProfile, leatherSize, hardware,
+                                        lining, polyfill, size, armhole, height, shoulder, weight, length, arms, hips, chest,
+                                        waist, sleeves, bodytype, remark, date, OTP):
 
         self.createOrder_Customer(contactNo, gender, productname, leatherProfile, leatherSize, hardware,
                                   lining, polyfill, size, armhole, height, shoulder, weight, length, arms, hips,
                                   chest, waist, sleeves, bodytype, remark, date, OTP)
         self.order_ls.click_on_goto_order()
-        latest_customer_id = self.order_ls.get_latest_customer_orderID().text
-        self.order_ls.click_on_store()
-        latest_store_id = self.order_ls.get_latest_store_orderID().text
-        self.compare_id(latest_store_id, latest_customer_id)
+        self.order_ls.get_latest_customer_orderID().click()
+        output_result = self.getDifferences(productname, leatherProfile, hardware, lining, polyfill)
+        print(output_result)
+        return output_result
 
+    def navigate_to_store_order_list(self, productname, leatherProfile, leatherSize, hardware, lining, polyfill,
+                                     size, bodytype, length, chest, waist, hips, shoulder, sleeves, arms, weight, front,
+                                     armhole, remarks, price, discount, OTP):
+
+        self.createOrder_Store(productname, leatherProfile, leatherSize, hardware, lining, polyfill,
+                               size, bodytype, length, chest, waist, hips, shoulder, sleeves, arms, weight, front,
+                               armhole, remarks, price, discount, OTP)
+        self.order_ls.click_on_goto_order()
+        self.order_ls.click_on_store()
+        self.order_ls.get_latest_store_orderID().click()
+        output_result = self.getDifferences(productname, leatherProfile, hardware, lining, polyfill)
+        print(output_result)
+        return output_result
+
+    def searchBar(self, searchItem, productname, leatherProfile, hardware, lining, polyfill):
+        self.navigateToOrderTab()
+        self.search.click_on_search(searchItem)
+        time.sleep(2)
+        self.order_ls.get_latest_customer_orderID().click()
+        output_result = self.getDifferences(productname, leatherProfile, hardware, lining, polyfill)
+        print(output_result)
+        return output_result

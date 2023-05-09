@@ -52,7 +52,7 @@ class BaseClass:
         # Scroll until all elements are fetched
         while True:
             # Fetch all elements present in the container div
-            elements_present = container_div.find_elements_by_xpath(element_xpath)
+            elements_present = container_div.find_elements(element_xpath)
             for element in elements_present:
                 # Add the element to the list of elements
                 elements.append(element)
