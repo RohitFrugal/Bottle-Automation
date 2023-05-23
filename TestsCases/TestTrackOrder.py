@@ -8,8 +8,8 @@ from allure_commons.types import AttachmentType
 
 from Utilities.utils import Utils
 from Base.BaseTest import BaseClass
-from executions.LoginExecutions.LoginMethod import LoginMethod
-from executions.TrackOrder.TrackOrderMethods import TrackOrderMethods
+from executions.LoginExecutions.LoginMethods import LoginMethod
+from executions.TrackOrderExecutions.TrackOrderMethods import TrackOrderMethods
 
 @ddt
 @allure.feature('Track Order')

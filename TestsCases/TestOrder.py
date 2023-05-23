@@ -8,7 +8,7 @@ from allure_commons.types import AttachmentType
 
 from Utilities.utils import Utils
 from Base.BaseTest import BaseClass
-from executions.LoginExecutions.LoginMethod import LoginMethod
+from executions.LoginExecutions.LoginMethods import LoginMethod
 from executions.OrdersExecutions.OrderMethods import OrderMethod
 
 
@@ -27,8 +27,6 @@ class TestOrder(unittest.TestCase, BaseClass):
 
     # Test Cases
     # Verify Order List.
-
-
     @allure.title(f"Create a new Order for existing Customer")
     @allure.story("Create an Order for existing Customer ")
     @allure.severity(allure.severity_level.NORMAL)
@@ -45,6 +43,7 @@ class TestOrder(unittest.TestCase, BaseClass):
                                                 lining, polyfill, size, armhole, height, shoulder, weight, length, arms,
                                                 hips, chest, waist, sleeves, bodytype, remark, date, OTP),
                 "Order Succesfully Created", msg="Verification Failed to Create a new Order.")
+
         # Checking if assertion failed
         except AssertionError as e:
             allure.attach(self.driver.get_screenshot_as_png(), name="Failed_for_customer",

@@ -7,7 +7,7 @@ from Base.BaseTest import BaseClass
 from Pages.Login.LoginPage import LoginPage
 from selenium.common import WebDriverException
 from allure_commons.types import AttachmentType
-from executions.LoginExecutions.LoginMethod import LoginMethod
+from executions.LoginExecutions.LoginMethods import LoginMethod
 
 
 @ddt

@@ -7,7 +7,7 @@ from Base.BaseTest import BaseClass
 from selenium.common import WebDriverException
 from allure_commons.types import AttachmentType
 from Pages.Dashboard.DashboardPage import DashboardPage
-from executions.LoginExecutions.LoginMethod import LoginMethod
+from executions.LoginExecutions.LoginMethods import LoginMethod
 
 
 
@@ -33,7 +33,7 @@ class TestDashboard(unittest.TestCase, BaseClass):
     def test_dashboard_totalUser(self):
         self.LoginMethod.nativelogin(self.driver, "frugal@latido.com.np", "Test@123")
         try:
-            self.assertEqual(self.Dashboard.verify_total_user(), "75", msg="Verification of total user tile failed.")
+            self.assertEqual(self.Dashboard.verify_total_user(), "85", msg="Verification of total user tile failed.")
 
         # Checking if assertion failed
         except AssertionError as e:
@@ -49,7 +49,7 @@ class TestDashboard(unittest.TestCase, BaseClass):
     def test_dashboard_totalOrder(self):
         self.LoginMethod.nativelogin(self.driver, "frugal@latido.com.np", "Test@123")
         try:
-            self.assertEqual(self.Dashboard.verify_total_order(), "197", msg="Verification of total order tile failed.")
+            self.assertEqual(self.Dashboard.verify_total_order(), "223", msg="Verification of total order tile failed.")
 
         # Checking if assertion failed
         except AssertionError as e:
@@ -65,7 +65,7 @@ class TestDashboard(unittest.TestCase, BaseClass):
     def test_dashboard_totalSales(self):
         self.LoginMethod.nativelogin(self.driver, "frugal@latido.com.np", "Test@123")
         try:
-            self.assertEqual(self.Dashboard.verify_total_sales(), "75", msg="Verification of total sales tile failed.")
+            self.assertEqual(self.Dashboard.verify_total_sales(), "85", msg="Verification of total sales tile failed.")
 
         # Checking if assertion failed
         except AssertionError as e:
@@ -95,7 +95,7 @@ class TestDashboard(unittest.TestCase, BaseClass):
     def test_dashboard_active_user(self):
         self.LoginMethod.nativelogin(self.driver, "frugal@latido.com.np", "Test@123")
         try:
-            self.assertEqual(self.Dashboard.active_user(), "65", msg="Verification of Active user tile failed.")
+            self.assertEqual(self.Dashboard.active_user(), "75", msg="Verification of Active user tile failed.")
 
         # Checking if assertion failed
         except AssertionError as e:

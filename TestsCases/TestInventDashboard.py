@@ -8,8 +8,8 @@ from allure_commons.types import AttachmentType
 
 from Utilities.utils import Utils
 from Base.BaseTest import BaseClass
-from executions.LoginExecutions.LoginMethod import LoginMethod
-from executions.InventDashboard.InventDashboardMethods import InventDashboardMethod
+from executions.LoginExecutions.LoginMethods import LoginMethod
+from executions.InventDashboardExecutions.InventDashboardMethods import InventDashboardMethod
 
 
 @ddt

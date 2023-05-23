@@ -16,6 +16,8 @@ class LoginPage:
     # Login.
     userIdField = (By.ID, "basic_email")
     PasswordField = (By.ID, "basic_password")
+
+
     SubmitButton = (By.XPATH, "//*[@id='basic']/div[2]/div/div/div/div/button")
     WelcomeMsg = (By.XPATH, "//*[@id='root']/section/main/div/div/div[1]/h2")
 
