@@ -71,10 +71,21 @@ class InventoryMethods:
         return result
 
 
-    def stockItem(self):
+    def stockItem_for_normal_item(self, ItemName, vendor_name, price, date, quantity, quality, transport_mode, Pay_mode, receiver_name, imgPath):
         self.navigate_to_Inventory()
-        status = self.Inventory.checkItemStatus()
-        if status == "Out of Stock":
-            self.Inventory.click_on_Product_image()
-            self.Inventory.click_on_add_inventory()
-            self.Inventory
+        self.Inventory.selectCategoryItem(ItemName)
+        self.Inventory.click_on_Product_image()
+        self.Inventory.click_on_add_inventory()
+        self.Inventory.select_vendor_name(vendor_name)
+        self.Inventory.enterPrice(price)
+        self.Inventory.enter_date(date)
+        self.Inventory.enterQuantity(quantity)
+        self.Inventory.selectQuality(quality)
+        self.Inventory.selectTransportation_mode(transport_mode)
+        self.Inventory.selectPaymentMethod(Pay_mode)
+        self.Inventory.enter_received_by(receiver_name)
+        self.Inventory.upload_bill(imgPath)
+        self.Inventory.click_next()
+        self.Inventory.final_submit()
+        time.sleep(10)
+        return True

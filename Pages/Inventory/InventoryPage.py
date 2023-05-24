@@ -5,12 +5,11 @@ from selenium import webdriver
 
 from Utilities.utils import Utils
 from Base.BaseTest import BaseClass
-from selenium.webdriver import Keys
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.action_chains import ActionChains
+
 
 
 class InventoryPage(BaseClass):
@@ -31,7 +30,7 @@ class InventoryPage(BaseClass):
 
 
     # Add Category
-    CATEGOTY_IMAGE = (By.XPATH, "//input[@type = 'file']")
+    CATEGORY_IMAGE = (By.XPATH, "//input[@type = 'file']")
     OK_BTN = (By.XPATH, "//button[@class= 'ant-btn ant-btn-primary']/span[contains(text(), 'OK')]")
     CATEGORY_NAME = (By.XPATH, "//input[@id='name']")
     CATEGORY_CODE = (By.XPATH, "//input[@id='code']")
@@ -71,12 +70,19 @@ class InventoryPage(BaseClass):
     ADD_INVENTORY_BUTTON = (By.XPATH, "//button[@type = 'button']")
 
     # Filling the details
-    VENDOR_TBA = (By.XPATH, "//span[@class= 'ant-select-selection-item']")
+    VENDOR_TBA = (By.XPATH, "(//span[@class= 'ant-select-selection-item'])[1]")
     PRICE = (By.XPATH, "//input[@name='price']")
     DATE = (By.XPATH, "//input[@placeholder='Select date']")
     QUANTITY = (By.XPATH, "(//input[@type='number'])[2]")
+    SPECIAL_QUANTITY = (By.XPATH, "(//input[@name='quality'][contains(@value, 'DCM')])")
     QUALITY = (By.XPATH, "(//span[@class='ant-select-selection-item'])[3]")
     TRANSPORTATION_MODE = (By.XPATH, "(//span[@class='ant-select-selection-item'])[4]")
+    PAYMENT_METHOD = (By.XPATH, "(//span[@class= 'ant-select-selection-item'])[5]")
+    RECEIVED_BY = (By.XPATH, "//input[@name='received_by']")
+    BILL = (By.XPATH, "//input[@type='file']")
+    NEXT = (By.XPATH, "//button[@class='ant-btn ant-btn-primary']")
+    FINAL_SUBMIT = (By.XPATH, "(//button[@class='ant-btn ant-btn-primary'])[2]")
+
 
 
 
@@ -109,7 +115,7 @@ class InventoryPage(BaseClass):
 
     def upload_image(self, imagePath):
         time.sleep(3)
-        self.driver.find_element(*self.CATEGOTY_IMAGE).send_keys(imagePath)
+        self.driver.find_element(*self.CATEGORY_IMAGE).send_keys(imagePath)
         return self.wait.until(EC.visibility_of_element_located(self.OK_BTN)).click()
 
     def enter_name(self, name):
@@ -124,7 +130,7 @@ class InventoryPage(BaseClass):
     def select_unit(self, unit):
         self.wait.until(EC.visibility_of_element_located(self.CATEGORY_UNIT)).click()
         SELECT_UNIT = (By.XPATH, f"//div[@class='ant-select-item-option-content'][contains(text(), '{unit}')]")
-        return self.wait.until(EC.visibility_of_element_located(self.SELECT_UNIT)).click()
+        return self.wait.until(EC.visibility_of_element_located(SELECT_UNIT)).click()
 
     def click_submit(self):
         return self.wait.until(EC.visibility_of_element_located(self.SUBMIT)).click()
@@ -196,7 +202,7 @@ class InventoryPage(BaseClass):
     def click_on_add_inventory(self):
         return self.wait.until(EC.visibility_of_element_located(self.ADD_INVENTORY_BUTTON)).click()
 
-    def enter_vendor_name(self, vendor_name):
+    def select_vendor_name(self, vendor_name):
         self.wait.until(EC.visibility_of_element_located(self.VENDOR_TBA)).click()
         VENDOR_NAME = (By.XPATH, f"//div[@class= 'ant-select-item-option-content'][contains(text(), '{vendor_name}')]")
         return self.wait.until(EC.visibility_of_element_located(VENDOR_NAME)).click()
@@ -215,8 +221,26 @@ class InventoryPage(BaseClass):
         select_quality = (By.XPATH, f"//div[@class='ant-select-item-option-content'][contains(text(), '{quality}')]")
         return self.wait.until(EC.visibility_of_element_located(select_quality)).click()
 
-    def selectTransportation_mode(self):
+    def selectTransportation_mode(self, transport_mode):
         self.wait.until(EC.visibility_of_element_located(self.TRANSPORTATION_MODE)).click()
-        return self.wait.until(EC.visibility_of_element_located(self.TRANSPORTATION_MODE)).send_keys(Keys.ENTER)
+        TransportMode = (By.XPATH, f"//div[@class='ant-select-item-option-content'][contains(text(), '{transport_mode}')]")
+        return self.wait.until(EC.visibility_of_element_located(TransportMode)).click()
 
     # -- TODO Make Payment Methods and add Billing sections
+    def selectPaymentMethod(self, Pay_mode):
+        self.wait.until(EC.visibility_of_element_located(self.PAYMENT_METHOD)).click()
+        mode = (By.XPATH, f"(//div[@class= 'ant-select-item-option-content'])[contains(text(), '{Pay_mode}')]")
+        return self.wait.until(EC.visibility_of_element_located(mode)).click()
+
+    def enter_received_by(self, receiver_name):
+        return self.wait.until(EC.visibility_of_element_located(self.RECEIVED_BY)).send_keys(receiver_name)
+
+    def upload_bill(self, imgPath):
+        time.sleep(3)
+        return self.driver.find_element(*self.BILL).send_keys(imgPath)
+
+    def click_next(self):
+        return self.wait.until(EC.visibility_of_element_located(self.NEXT)).click()
+
+    def final_submit(self):
+        return self.wait.until(EC.visibility_of_element_located(self.FINAL_SUBMIT)).click()
