@@ -10,6 +10,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import WebDriverException as Exceptions
+from selenium.common.exceptions import NoSuchElementException, TimeoutException
 
 
 
@@ -67,8 +68,8 @@ class CreateNewUser(OrderPage):
             time.sleep(1)
             self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, "pac-item"))).click()
             time.sleep(1)
-        except Exceptions:
-            self.log.error(f"Failed to input address.")
+        except {TimeoutException, NoSuchElementException, Exceptions} as e:
+            self.log.error(f"Failed to input address. {str(e)}")
 
     def submit_new_user(self):
         try:

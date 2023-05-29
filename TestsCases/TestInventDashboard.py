@@ -31,7 +31,7 @@ class TestInventDashboard(unittest.TestCase, BaseClass):
     def test_get_inventDash_details(self):
         self.LoginMethod.nativelogin(self.driver, "frugal@latido.com.np", "Test@123")
         try:
-            self.assertEqual(self.InventDash.execute_info_gather(), True, msg="Verification Failed to mismatch title.")
+            self.assertEqual(self.InventDash.execute_info_gather(), True, msg="Verification Failed to mismatch data.")
         # Checking if assertion failed
         except AssertionError as e:
             allure.attach(self.driver.get_screenshot_as_png(), name="Failed_for_customer", attachment_type=AttachmentType.PNG)

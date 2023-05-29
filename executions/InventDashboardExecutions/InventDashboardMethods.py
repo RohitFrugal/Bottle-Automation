@@ -19,6 +19,7 @@ class InventDashboardMethod:
 
 
     def compare(self, cardValue, listValue):
+        print(f"Card Value : {cardValue} :: List Value : {listValue} ")
         if cardValue == listValue:
             return True
         else:

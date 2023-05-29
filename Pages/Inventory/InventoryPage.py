@@ -11,7 +11,6 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-
 class InventoryPage(BaseClass):
     wait: WebDriverWait
     driver: webdriver
@@ -28,24 +27,24 @@ class InventoryPage(BaseClass):
     ADD_INVENTORY = (By.XPATH, "(//span[@class='anticon anticon-plus-circle'])[1]")
     TITLE = (By.XPATH, "//h1[@class='ant-typography product-name']")
 
-
     # Add Category
     CATEGORY_IMAGE = (By.XPATH, "//input[@type = 'file']")
     OK_BTN = (By.XPATH, "//button[@class= 'ant-btn ant-btn-primary']/span[contains(text(), 'OK')]")
     CATEGORY_NAME = (By.XPATH, "//input[@id='name']")
     CATEGORY_CODE = (By.XPATH, "//input[@id='code']")
     CATEGORY_DESC = (By.XPATH, "//input[@id='description']")
+    LEATHER_UNIT = (By.XPATH, "(//input[@class='ant-checkbox-input'])")
     CATEGORY_UNIT = (By.XPATH, "//span[@class='ant-select-selection-search']")
     SELECT_UNIT = (By.XPATH, "//div[@class='ant-select-item-option-content']")
     SUBMIT = (By.XPATH, "//button[@class='ant-btn ant-btn-primary']/span")
 
     # ERROR MESSAGES
-    ALREADY_PRESENT = (By.XPATH, "//div[@class='ant-notification-notice-message'][contains(text(), 'Inventory Item Already exists!!!')]")
+    ALREADY_PRESENT = (
+    By.XPATH, "//div[@class='ant-notification-notice-message'][contains(text(), 'Inventory Item Already exists!!!')]")
     REQUIRED_ERR_MSG = (By.XPATH, "//div[@class='ant-form-item-explain-error']")
 
     # SELECT Category
     CATEGORY_TITLE = (By.XPATH, "//div[contains(@class, 'swiper-slide')]/div/div/h4")
-
 
     # ADD ITEMS
     ADD_ITEMS = (By.XPATH, "//button[@class='ant-btn ant-btn-ghost material_item_add_button']")
@@ -62,9 +61,9 @@ class InventoryPage(BaseClass):
     WEIGHT = (By.XPATH, "//input[@id='weight']")
     ITEM_SUBMIT = (By.XPATH, "//button[@type='submit']/span")
 
-
     # Add Stock
     ITEM_STATUS = (By.XPATH, "//div[contains(@class, 'ant-ribbon ant-ribbon-placement-end material_item_badge')]")
+    GET_ITEM_NAME = (By.XPATH, "//h4[@class='ant-typography material_item_name']")
 
     PRODUCT_IMAGE = (By.XPATH, "//img[@class='material_item_image']")
     ADD_INVENTORY_BUTTON = (By.XPATH, "//button[@type = 'button']")
@@ -84,21 +83,24 @@ class InventoryPage(BaseClass):
     FINAL_SUBMIT = (By.XPATH, "(//button[@class='ant-btn ant-btn-primary'])[2]")
 
 
+    # Search Bar
+    SEARCH_BAR = (By.XPATH, "//input[@placeholder='Search Category']")
+    ITEM_LIST = (By.XPATH, "//div[@class='ant-card-body']/h4")
+
 
 
     # Helper Methods
-
     def categorySelector(self, ItemSelector, ItemName):
         all_selected_Item = self.wait.until(EC.presence_of_all_elements_located(ItemSelector))
 
         for item in all_selected_Item:
+            print(f"This is the Item currently Selected : {item.text}")
             if item.text == ItemName:
+                print("Found")
                 item.click()
                 break
             else:
-                print(f"{item.text} not found")
-
-
+                self.log.error(f"{item.text} not found")
 
     # Methods
 
@@ -119,6 +121,8 @@ class InventoryPage(BaseClass):
         return self.wait.until(EC.visibility_of_element_located(self.OK_BTN)).click()
 
     def enter_name(self, name):
+        self.wait.until(EC.visibility_of_element_located(self.CATEGORY_NAME)).click()
+        time.sleep(2)
         return self.wait.until(EC.visibility_of_element_located(self.CATEGORY_NAME)).send_keys(name)
 
     def enter_code(self, code):
@@ -126,6 +130,9 @@ class InventoryPage(BaseClass):
 
     def enter_desc(self, description):
         return self.wait.until(EC.visibility_of_element_located(self.CATEGORY_DESC)).send_keys(description)
+
+    def click_leather(self):
+        return self.driver.find_element(*self.LEATHER_UNIT).click()
 
     def select_unit(self, unit):
         self.wait.until(EC.visibility_of_element_located(self.CATEGORY_UNIT)).click()
@@ -141,7 +148,6 @@ class InventoryPage(BaseClass):
 
     def click_add_Items(self):
         return self.wait.until(EC.visibility_of_element_located(self.ADD_ITEMS)).click()
-
 
     # Fill form
     def input_item_name(self, name):
@@ -189,12 +195,11 @@ class InventoryPage(BaseClass):
         time.sleep(2)
         return self.wait.until(EC.visibility_of_element_located(self.REQUIRED_ERR_MSG)).text
 
-
     # Checking for the Items
     def checkItemStatus(self):
         status = self.wait.until(EC.visibility_of_element_located(self.ITEM_STATUS)).text
-        print(status)
-        return status
+        itemName = self.driver.find_element(*self.GET_ITEM_NAME).text
+        print(f"{itemName} is {status}")
 
     def click_on_Product_image(self):
         return self.wait.until(EC.visibility_of_element_located(self.PRODUCT_IMAGE)).click()
@@ -223,10 +228,10 @@ class InventoryPage(BaseClass):
 
     def selectTransportation_mode(self, transport_mode):
         self.wait.until(EC.visibility_of_element_located(self.TRANSPORTATION_MODE)).click()
-        TransportMode = (By.XPATH, f"//div[@class='ant-select-item-option-content'][contains(text(), '{transport_mode}')]")
+        TransportMode = (
+        By.XPATH, f"//div[@class='ant-select-item-option-content'][contains(text(), '{transport_mode}')]")
         return self.wait.until(EC.visibility_of_element_located(TransportMode)).click()
 
-    # -- TODO Make Payment Methods and add Billing sections
     def selectPaymentMethod(self, Pay_mode):
         self.wait.until(EC.visibility_of_element_located(self.PAYMENT_METHOD)).click()
         mode = (By.XPATH, f"(//div[@class= 'ant-select-item-option-content'])[contains(text(), '{Pay_mode}')]")
@@ -244,3 +249,10 @@ class InventoryPage(BaseClass):
 
     def final_submit(self):
         return self.wait.until(EC.visibility_of_element_located(self.FINAL_SUBMIT)).click()
+
+    # Search Bar
+    def input_search(self, search_input):
+        return self.wait.until(EC.visibility_of_element_located(self.SEARCH_BAR)).send_keys(search_input)
+
+    def select_Searched_item(self, search_input):
+        return self.categorySelector(self.ITEM_LIST, search_input)

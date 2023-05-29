@@ -28,6 +28,8 @@ class TrackOrderPage(BaseClass):
     InputBox = (By.XPATH, "//input[@class='ant-input order-option__button_1 btn track_order-btn']")
     NextButton = (By.XPATH, "//div[@class='ant-row']/button[@class='ant-btn ant-btn-default']")
     Factory_Title = (By.XPATH, "//span [contains(text(), 'Factory')]")
+    checkFactory = (By.XPATH, "//div[@class='ant-col table-content ant-col-sm-6']/div[contains(@class, 'unActive')]")
+
 
     # Methods
     def click_on_TrackOrder(self):
@@ -43,3 +45,5 @@ class TrackOrderPage(BaseClass):
     def getFactoryTitle(self):
         return self.wait.until(EC.visibility_of_element_located(self.Factory_Title)).text
 
+    def getCheckFactory(self):
+        return self.wait.until(EC.visibility_of_element_located(self.checkFactory)).click()

@@ -1,4 +1,5 @@
 import logging
+import time
 
 from selenium import webdriver
 
@@ -38,7 +39,7 @@ class InventoryDashboard(BaseClass):
     ALARMING_STOCK_LIST_SHOW_MORE = (By.XPATH, "(//div[@class='showmore'])[2]/a[@class='ant-typography']")
     ALARMING_STOCK_LIST_ITEMS = (By.XPATH, "(//div[@class='ant-row'])[3]//div[2]/div/div/div[2]/div[@class='innerList']/div")
 
-    CATEGORY_LIST_VIEWMORE = (By.XPATH, "(//h5[@class='ant-typography dashboard-list-more'][contains(text(), 'View Full Report')])[1]")
+    # CATEGORY_LIST_VIEWMORE = (By.XPATH, "(//h5[@class='ant-typography dashboard-list-more'][contains(text(), 'View Full Report')])[1]")
     CATEGORY_LIST_ITEM_NAME = (By.XPATH, "(//div[@class='ant-row dashboard-list-body'])[1]/div[2]/h5/a")
     CATEGORY_LIST_ITEM_QUANTITY = (By.XPATH, "(//div[@class='ant-row dashboard-list-body'])[1]/div[3]/h5")
 
@@ -50,8 +51,9 @@ class InventoryDashboard(BaseClass):
     INVENTORY_ITEM_QUANTITY = (By.XPATH, "//span[@class='material_item_quantity material_item_quantity__color_green']/div/div/span")
 
     # VENDOR_SEARCH_BAR = (By.XPATH, "//span[@class='ant-input-wrapper ant-input-group']/input")
-    VENDOR_NAME = (By.XPATH, "//h5[@class='ant-typography']")
-    VENDOR_NUMBER = (By.XPATH, "//td[@class='ant-table-cell'][3]")
+
+    VENDOR_NAME = (By.XPATH, "(//div[@class='ant-row'])[3]/h2")
+    VENDOR_NUMBER = (By.XPATH, "(//span[@class='ant-descriptions-item-content'])[1]")
 
     # Methods
     def click_on_inventDashboard(self):
@@ -97,10 +99,11 @@ class InventoryDashboard(BaseClass):
         categoryDetails = []
         categoryDetails.append(self.wait.until(EC.visibility_of_element_located(self.CATEGORY_LIST_ITEM_NAME)).text)
         categoryDetails.append(self.wait.until(EC.visibility_of_element_located(self.CATEGORY_LIST_ITEM_QUANTITY)).text)
+        print(f"These are Category Details : {categoryDetails}")
         return categoryDetails
 
     def click_on_Category_viewmore(self):
-        return self.wait.until(EC.visibility_of_element_located(self.CATEGORY_LIST_VIEWMORE)).click()
+        return self.wait.until(EC.visibility_of_element_located(self.CATEGORY_LIST_ITEM_NAME)).click()
 
     def get_vendor_details(self):
         vendorDetails = []
@@ -109,17 +112,18 @@ class InventoryDashboard(BaseClass):
         return vendorDetails
 
     def click_on_Vendor_viewmore(self):
-        return self.wait.until(EC.visibility_of_element_located(self.VENDOR_LIST_VIEWMORE)).click()
+        return self.wait.until(EC.visibility_of_element_located(self.VENDOR_LIST_NAME)).click()
 
     def get_inventory_item_details(self):
         inventory_detail = []
+        time.sleep(2)
         inventory_detail.append(self.wait.until(EC.visibility_of_element_located(self.INVENTORY_ITEM_NAME)).text)
         inventory_detail.append(self.wait.until(EC.visibility_of_element_located(self.INVENTORY_ITEM_QUANTITY)).text)
+        print(f"These are the Inventory details : {inventory_detail}")
         return inventory_detail
 
     def get_vendorTab_details(self):
         vendor_details = []
-
         vendor_details.append(self.wait.until(EC.visibility_of_element_located(self.VENDOR_NAME)).text)
         vendor_details.append(self.wait.until(EC.visibility_of_element_located(self.VENDOR_NUMBER)).text)
         return vendor_details

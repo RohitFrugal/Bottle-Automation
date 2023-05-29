@@ -10,6 +10,8 @@ from Utilities.utils import Utils
 from Base.BaseTest import BaseClass
 from executions.LoginExecutions.LoginMethods import LoginMethod
 from executions.OrdersExecutions.OrderMethods import OrderMethod
+from selenium.common.exceptions import NoSuchElementException, TimeoutException
+
 
 
 @ddt
@@ -27,6 +29,7 @@ class TestOrder(unittest.TestCase, BaseClass):
 
     # Test Cases
     # Verify Order List.
+
     @allure.title(f"Create a new Order for existing Customer")
     @allure.story("Create an Order for existing Customer ")
     @allure.severity(allure.severity_level.NORMAL)
@@ -45,7 +48,7 @@ class TestOrder(unittest.TestCase, BaseClass):
                 "Order Succesfully Created", msg="Verification Failed to Create a new Order.")
 
         # Checking if assertion failed
-        except AssertionError as e:
+        except (NoSuchElementException, AssertionError, TimeoutException) as e:
             allure.attach(self.driver.get_screenshot_as_png(), name="Failed_for_customer",
                           attachment_type=AttachmentType.PNG)
             self.log.error(f"Assertion failed here while finding element. {str(e)}")
@@ -71,7 +74,7 @@ class TestOrder(unittest.TestCase, BaseClass):
                                                  date, OTP),
                 "Order Succesfully Created", msg="Verification Failed to Create a new Order.")
         # Checking if assertion failed
-        except AssertionError as e:
+        except (NoSuchElementException, AssertionError, TimeoutException) as e:
             allure.attach(self.driver.get_screenshot_as_png(), name="Creating new Order for new customer.",
                           attachment_type=AttachmentType.PNG)
             self.log.error(f"Assertion failed here while finding element. {str(e)}")
@@ -96,14 +99,14 @@ class TestOrder(unittest.TestCase, BaseClass):
                 msg="Verification Failed to Create a new user.")
 
         # Checking if assertion failed
-        except AssertionError as e:
+        except (NoSuchElementException, AssertionError, TimeoutException) as e:
             allure.attach(self.driver.get_screenshot_as_png(), name="Creating order for Store.",
                           attachment_type=AttachmentType.PNG)
             self.log.error(f"Assertion failed here while finding element. {str(e)}")
             raise e
 
     @allure.title("Checking Order synchronization after creating a new customer order ")
-    @allure.story("Checking Order synchronization after creating a new ")
+    @allure.story("Checking Order synchronization  ")
     @allure.severity(allure.severity_level.NORMAL)
     @data(*Utils.read_xlsx("../TestData/OrderTestData/orderTestCase.xlsx", "forSync"))
     @unpack
@@ -119,14 +122,14 @@ class TestOrder(unittest.TestCase, BaseClass):
                 msg="Verification Failed to Create a new user.")
 
         # Checking if assertion failed
-        except AssertionError as e:
+        except (NoSuchElementException, AssertionError, TimeoutException) as e:
             allure.attach(self.driver.get_screenshot_as_png(), name="Creating order for Store.",
                           attachment_type=AttachmentType.PNG)
             self.log.error(f"Assertion failed here while finding element. {str(e)}")
             raise e
 
-    @allure.title("Create a New Order for store")
-    @allure.story("Create a New Order for store")
+    @allure.title("Checking Order synchronization after creating a New Order for store")
+    @allure.story("Checking Order synchronization  ")
     @allure.severity(allure.severity_level.NORMAL)
     @data(*Utils.read_xlsx("../TestData/OrderTestData/orderTestCase.xlsx", "forStore"))
     @unpack
@@ -143,7 +146,7 @@ class TestOrder(unittest.TestCase, BaseClass):
                 msg="Verification Failed to Create a new user.")
 
         # Checking if assertion failed
-        except AssertionError as e:
+        except (NoSuchElementException, AssertionError, TimeoutException) as e:
             allure.attach(self.driver.get_screenshot_as_png(), name="Creating order for Store.",
                           attachment_type=AttachmentType.PNG)
             self.log.error(f"Assertion failed here while finding element. {str(e)}")
@@ -159,13 +162,13 @@ class TestOrder(unittest.TestCase, BaseClass):
         self.LoginMethod.nativelogin(self.driver, username, password)
         try:
 
-            # TODO --- Resolve wrong Search Item issue. 
+            # TODO --- Resolve wrong Search Item issue.
             self.assertEqual(
                 self.Order.searchBar(searchValue, productname, leatherProfile, hardware, lining, polyfill), True,
                 msg="Verification Failed to Create a new user.")
 
         # Checking if assertion failed
-        except AssertionError as e:
+        except (NoSuchElementException, AssertionError, TimeoutException) as e:
             allure.attach(self.driver.get_screenshot_as_png(), name="Creating order for Store.",
                           attachment_type=AttachmentType.PNG)
             self.log.error(f"Assertion failed here while finding element. {str(e)}")

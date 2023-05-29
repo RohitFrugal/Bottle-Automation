@@ -30,12 +30,12 @@ class PaymentsStore(OrderPage):
 
 
     # OTP Input field
-    OTPHEADER = (By.XPATH, '/html/body/div[11]/div/div[2]/div/div[2]/div[1]')
-    OTP_INPUT = (By.XPATH, '/html/body/div[11]/div/div[2]/div/div[2]/div[2]/form/input')
-    OTP_SUBMIT = (By.XPATH, '/html/body/div[11]/div/div[2]/div/div[2]/div[3]/button[2]')
+    OTPHEADER = (By.XPATH, "//div[@class='ant-modal-header']")
+    OTP_INPUT = (By.XPATH, "//input[@class='ant-input input-field']")
+    OTP_SUBMIT = (By.XPATH, "//button[@class='ant-btn ant-btn-primary']")
 
     # Verify Submit Order
-    VERIFY_ORDER_TEXT = (By.XPATH, '/html/body/div[12]/div/div[2]/div/div[2]/div/div[2]/h3')
+    VERIFY_ORDER_TEXT = (By.XPATH, "//h3[@class='ant-typography']")
 
 
     # Fill Payments

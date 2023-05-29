@@ -13,14 +13,17 @@ class DashboardPage:
 
     # Locators
     # Top tile
-    Total_User = (By.XPATH, "//*[@id='root']/section/main/div/div/div[2]/div/div[1]/div/div/div/div[1]/h1")
-    Total_Order = (By.XPATH, '//*[@id="root"]/section/main/div/div/div[2]/div/div[2]/div/div/div/div[1]/h1')
-    Total_Sales = (By.XPATH, '//*[@id="root"]/section/main/div/div/div[2]/div/div[3]/div/div/div/div[1]/h1')
-    Total_Pending = (By.XPATH, '//*[@id="root"]/section/main/div/div/div[2]/div/div[4]/div/div/div/div[1]/h1')
+    Total_User = (By.XPATH, "(//h1[@class='ant-typography'])[1]")
+    Total_Order = (By.XPATH, "(//h1[@class='ant-typography'])[2]")
+    Total_Sales = (By.XPATH, "(//h1[@class='ant-typography'])[3]")
+    Total_Pending = (By.XPATH, "(//h1[@class='ant-typography'])[4]")
 
     # Mid-Sections
-    Active_User = (By.XPATH, '//*[@id="root"]/section/main/div/div/div[3]/div/div[2]/div[1]/div/div/div[1]/div[2]/h5')
-    Inactive_User = (By.XPATH, '//*[@id="root"]/section/main/div/div/div[3]/div/div[2]/div[1]/div/div/div[2]/div[2]/h5')
+    Active_User = (By.XPATH, "(//h5[@class='ant-typography'])[1]")
+    Inactive_User = (By.XPATH, "(//h5[@class='ant-typography'])[2]")
+
+    # Verification Methods
+    TOP_RECENT_ORDER = (By.XPATH, "(//a[@class='ant-typography'])[1]")
 
     # Initializing driver and logger.
     def __init__(self, driver):
@@ -33,6 +36,8 @@ class DashboardPage:
         time.sleep(5)
         total_user = self.driver.find_element(*self.Total_User).text
         return total_user
+
+    # TODO --- Get the Real time data for the testing
 
     def verify_total_order(self):
         time.sleep(5)
@@ -49,6 +54,8 @@ class DashboardPage:
         total_pending = self.driver.find_element(*self.Total_Pending).text
         return total_pending
 
+
+
     # Mid-Sections
     def active_user(self):
         time.sleep(5)
@@ -64,3 +71,12 @@ class DashboardPage:
         time.sleep(5)
         SumOfTotalUser = int(self.active_user()) + int(self.inactive_user())
         return str(SumOfTotalUser)
+
+    def recent_top_order(self):
+        time.sleep(5)
+        top_recent_Order = self.driver.find_element(*self.TOP_RECENT_ORDER).text
+        return top_recent_Order.strip("#")
+
+    def total_user(self):
+        time.sleep(2)
+        return str(int(self.active_user()) + int(self.inactive_user()))

@@ -15,12 +15,19 @@ class InventoryMethods:
     def navigate_to_Inventory(self):
         self.Inventory.click_on_inventoryTab()
 
-    def fill_category_form(self, ImagePath, name, code, desc, unit):
+
+    def check_flag(self, leather_flag, unit):
+        if leather_flag == 0:
+            self.Inventory.select_unit(unit)
+        elif leather_flag == 1:
+            self.Inventory.click_leather()
+
+    def fill_category_form(self, ImagePath, name, code, desc, leather_flag, unit):
         self.Inventory.upload_image(ImagePath)
         self.Inventory.enter_name(name)
         self.Inventory.enter_code(code)
         self.Inventory.enter_desc(desc)
-        self.Inventory.select_unit(unit)
+        self.check_flag(leather_flag, unit)
 
     def handle_submission(self):
         try:
@@ -34,18 +41,14 @@ class InventoryMethods:
 
 
 
-
-
-
-
     # Executions Methods
-    def AddInventory_Items(self, ImagePath, name, code, desc, unit):
+    def AddInventory_Items(self, ImagePath, name, code, desc, leather_flag, unit):
         self.navigate_to_Inventory()
         self.Inventory.click_on_add()
-        self.fill_category_form(ImagePath, name, code, desc, unit)
+        self.fill_category_form(ImagePath, name, code, desc, leather_flag, unit)
         self.Inventory.click_submit()
-        time.sleep(50)
-
+        time.sleep(2)
+        return True
 
 
     def selectCarouselItems(self, ItmeName, name, code, sku, tags, color, description, l_quantity, h_quantity, imgPath, brand, weight):
@@ -74,11 +77,15 @@ class InventoryMethods:
     def stockItem_for_normal_item(self, ItemName, vendor_name, price, date, quantity, quality, transport_mode, Pay_mode, receiver_name, imgPath):
         self.navigate_to_Inventory()
         self.Inventory.selectCategoryItem(ItemName)
+        self.Inventory.checkItemStatus()
         self.Inventory.click_on_Product_image()
         self.Inventory.click_on_add_inventory()
+        time.sleep(2)
         self.Inventory.select_vendor_name(vendor_name)
+        time.sleep(2)
         self.Inventory.enterPrice(price)
         self.Inventory.enter_date(date)
+        time.sleep(2)
         self.Inventory.enterQuantity(quantity)
         self.Inventory.selectQuality(quality)
         self.Inventory.selectTransportation_mode(transport_mode)
@@ -89,3 +96,14 @@ class InventoryMethods:
         self.Inventory.final_submit()
         time.sleep(10)
         return True
+
+
+    def search_item(self, itemName):
+        self.navigate_to_Inventory()
+        time.sleep(5)
+        self.Inventory.input_search(itemName)
+        time.sleep(5)
+        result = self.Inventory.select_Searched_item(itemName)
+        print(result)
+
+

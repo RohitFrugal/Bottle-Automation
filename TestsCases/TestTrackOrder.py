@@ -27,11 +27,10 @@ class TestTrackOrder(unittest.TestCase, BaseClass):
     @allure.severity(allure.severity_level.NORMAL)
     @data(*Utils.read_xlsx("../TestData/TrackOrder/TrackOrder.xlsx", "SearchItem"))
     @unpack
-    def test_check_input(self, orderID, currentTitle):
+    def test_check_input(self, orderID, status):
         self.LoginMethod.nativelogin(self.driver, "frugal@latido.com.np", "Test@123")
         try:
-            self.assertEqual(self.TrackOrder.InputOrderID(orderID), currentTitle,
-                             msg="Verification Failed to mismatch title.")
+            self.assertEqual(self.TrackOrder.InputOrderID(orderID), status, msg="Verification Failed to mismatch title.")
         # Checking if assertion failed
         except AssertionError as e:
             allure.attach(self.driver.get_screenshot_as_png(), name="Failed_for_customer",
