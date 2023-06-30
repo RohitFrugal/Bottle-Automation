@@ -13,9 +13,9 @@ class VendorMethod:
         self.driver = driver
         self.Vendor = VendorPage(driver)
         self.Inventory = InventoryMethods(self.driver)
-        self.log = Utils.custom_logger(logLevel=logging.INFO)
+        self.log = Utils.custom_logger(module_name="Vendor_execution", logLevel=logging.DEBUG)
 
-# Helper Method
+    # Helper Method
 
     # Verify Methods
     def verify_landing(self):
@@ -27,7 +27,9 @@ class VendorMethod:
             return False
 
     def validate_create(self):
-        if self.Vendor.get_validation_msg() == "Vendor created successfully":
+        print("I'm in Validation area for creation")
+        print(self.Vendor.get_validation_msg())
+        if self.Vendor.get_validation_msg() == "Vendor Created successfully":
             return True
         elif self.Vendor.get_validation_msg() == "Request failed with status code 409":
             self.log.error("Add Vendor Title missmatch!")
@@ -50,7 +52,6 @@ class VendorMethod:
         if self.Vendor.get_validation_msg() == "Vendor deleted successfully":
             return True
 
-
     # Filling Vendor Details
     def fill_Vendor_details(self, IconPath, vendor_id, vendor_name, vendor_email, vendor_phone, supply_type, location,
                             descriptions):
@@ -62,6 +63,7 @@ class VendorMethod:
         self.Vendor.enterSupplier_type(supply_type)
         self.Vendor.enterLocation(location)
         self.Vendor.enterDescriptions(descriptions)
+
     def fill_contact_person_details(self, contact_name, contact_location, contact_number, contact_email):
         self.Vendor.enterContactPersonName(contact_name)
         self.Vendor.enterContactPersonLocation(contact_location)
@@ -78,22 +80,22 @@ class VendorMethod:
         self.Vendor.enterVendor_email(vendor_email)
         self.Vendor.click_on_submit()
         time.sleep(2)
-        if self.Vendor.get_validation_msg() == "Vendor created successfully":
+        if self.Vendor.get_validation_msg() == "Vendor Updated successfully":
             self.driver.refresh()
             return True
         else:
             return False
 
-
-
     # Execution Methods
     def gettingStarted(self):
         return self.verify_landing()
 
-    def addVendor(self, IconPath, vendor_id, vendor_name, vendor_email, vendor_phone, supply_type, location, descriptions, contact_name, contact_location, contact_number, contact_email):
+    def addVendor(self, IconPath, vendor_id, vendor_name, vendor_email, vendor_phone, supply_type, location,
+                  descriptions, contact_name, contact_location, contact_number, contact_email):
         self.Vendor.clickOnVendor()
         self.Vendor.click_on_Add()
-        self.fill_Vendor_details(IconPath, vendor_id, vendor_name, vendor_email, vendor_phone, supply_type, location, descriptions)
+        self.fill_Vendor_details(IconPath, vendor_id, vendor_name, vendor_email, vendor_phone, supply_type, location,
+                                 descriptions)
         self.fill_contact_person_details(contact_name, contact_location, contact_number, contact_email)
         self.Vendor.click_on_submit()
         time.sleep(2)
@@ -103,11 +105,14 @@ class VendorMethod:
         else:
             return False
 
-    def edit_vendor(self, IconPath, vendor_id, vendor_name, vendor_email, vendor_phone, supply_type, location, descriptions,
-                contact_name, contact_location, contact_number, contact_email, edit_vendor_name, edit_vendor_email, edit_vendor_phone):
+    def edit_vendor(self, IconPath, vendor_id, vendor_name, vendor_email, vendor_phone, supply_type, location,
+                    descriptions,
+                    contact_name, contact_location, contact_number, contact_email, edit_vendor_name, edit_vendor_email,
+                    edit_vendor_phone):
         self.Vendor.clickOnVendor()
         self.Vendor.click_on_Add()
-        self.fill_Vendor_details(IconPath, vendor_id, vendor_name, vendor_email, vendor_phone, supply_type, location, descriptions)
+        self.fill_Vendor_details(IconPath, vendor_id, vendor_name, vendor_email, vendor_phone, supply_type, location,
+                                 descriptions)
         self.fill_contact_person_details(contact_name, contact_location, contact_number, contact_email)
         self.Vendor.click_on_submit()
         time.sleep(2)
@@ -131,17 +136,17 @@ class VendorMethod:
             return False
 
     def delete_vendor(self, IconPath, vendor_id, vendor_name, vendor_email, vendor_phone, supply_type, location,
-                    descriptions, contact_name, contact_location, contact_number, contact_email):
+                      descriptions, contact_name, contact_location, contact_number, contact_email):
         self.Vendor.clickOnVendor()
         self.Vendor.click_on_Add()
-        self.fill_Vendor_details(IconPath, vendor_id, vendor_name, vendor_email, vendor_phone, supply_type, location, descriptions)
+        self.fill_Vendor_details(IconPath, vendor_id, vendor_name, vendor_email, vendor_phone, supply_type, location,
+                                 descriptions)
         self.fill_contact_person_details(contact_name, contact_location, contact_number, contact_email)
         self.Vendor.click_on_submit()
-        time.sleep(2)
         if self.validate_create():
             self.Vendor.clickOnVendor()
             self.Vendor.search(vendor_name)
-            time.sleep(2)
+            time.sleep(5)
             self.Vendor.delete_vendor()
             if self.Vendor.get_validation_msg() == "Vendor deleted successfully":
                 return True
@@ -150,16 +155,15 @@ class VendorMethod:
         else:
             return False
 
-    def add_stock(self, IconPath, vendor_id, vendor_name, vendor_email, vendor_phone, supply_type, location, descriptions,
-                contact_name, contact_location, contact_number, contact_email,
-                ItmeName, price, date, quantity, quality, transport_mode, Pay_mode, receiver_name, imgPath):
+    def add_stock(self, IconPath, vendor_id, vendor_name, vendor_email, vendor_phone, supply_type, location,
+                  descriptions, contact_name, contact_location, contact_number, contact_email, ItmeName, productName, price,
+                  date, quantity, quality, transport_mode, Pay_mode, receiver_name, imgPath):
         self.Vendor.clickOnVendor()
         self.Vendor.click_on_Add()
         self.fill_Vendor_details(IconPath, vendor_id, vendor_name, vendor_email, vendor_phone, supply_type, location, descriptions)
         self.fill_contact_person_details(contact_name, contact_location, contact_number, contact_email)
         self.Vendor.click_on_submit()
-        time.sleep(2)
         if self.validate_create():
-            return self.Inventory.stockItem_for_normal_item(ItmeName, vendor_name, price, date, quantity, quality, transport_mode, Pay_mode, receiver_name, imgPath)
+            return self.Inventory.stockItem_for_normal_item(ItmeName, productName, vendor_name, price, date, quantity, quality, transport_mode, Pay_mode, receiver_name, imgPath)
         else:
             return False
