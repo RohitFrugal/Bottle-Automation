@@ -11,7 +11,6 @@ class InventDashboardMethod:
         self.driver = driver
 
         self.inventDashboard = InventoryDashboard(driver)
-        self.log = Utils.custom_logger(logLevel=logging.INFO)
 
     # Helper Methods
     def navigate_toDashboard(self):
@@ -19,6 +18,7 @@ class InventDashboardMethod:
 
 
     def compare(self, cardValue, listValue):
+        print(f"Card Value : {type(cardValue)} :: List Value : {type(listValue)} ")
         print(f"Card Value : {cardValue} :: List Value : {listValue} ")
         if cardValue == listValue:
             return True
@@ -35,30 +35,48 @@ class InventDashboardMethod:
     # Execution Functions
     def execute_info_gather(self):
         self.navigate_toDashboard()
-
+        print("============================= In-Stock Items list ==============================")
         print(f"In-Stock Items : {self.inventDashboard.fetch_InStock()}")
+
+        print("============================= Alarming Stock list ==============================")
         print(f"Alarming Stock : {self.inventDashboard.fetch_AlarmingStock()}")
+
+        print("============================= Out of Stock list ==============================")
         print(f"Out of Stock : {self.inventDashboard.fetch_OutOfStock()}")
+
+        print("============================= Compare list ==============================")
         print(f"Out of Stock Item List : {self.inventDashboard.fetch_OutOfStock_list()}")
-        print(f"Out of Stock Item List : {self.inventDashboard.fetch_AlarmingStock_list()}")
+
+
+        print(f"Alarming Stock Item List : {self.inventDashboard.fetch_AlarmingStock_list()}")
 
         result = []
+
         alarmingStock = self.inventDashboard.fetch_AlarmingStock()
         alarmingStockList = self.inventDashboard.fetch_AlarmingStock_list()
         result.append(self.compare(alarmingStock, alarmingStockList))
+        print(f"Result for alarming Stock : {result}")
+
         outOfStock = self.inventDashboard.fetch_OutOfStock()
         outOfStockList = self.inventDashboard.fetch_OutOfStock_list()
         result.append(self.compare(outOfStock, outOfStockList))
+        print(f"Result for Out of Stock : {result}")
 
-        # --- TODO Check the number of Element present in the Div
+
         self.inventDashboard.click_on_showMore_OutOfStock()
-        ItemCount = self.inventDashboard.check_outOfStockList()
-        result.append(self.compare(outOfStockList, ItemCount))
+        OutofStock_ItemCount = self.inventDashboard.check_outOfStockList()
+        result.append(self.compare(outOfStockList, OutofStock_ItemCount))
+        print(f"Result for Show More Out Of Stock : {result}")
+
 
         self.inventDashboard.click_on_showMore_AlarmingStock()
-        self.inventDashboard.check_alarmingStock()
-        result.append(self.compare(alarmingStockList, ItemCount))
-        print(f"Items is Result List: {result}")
+        AlarmingStock_ItemCount = self.inventDashboard.check_alarmingStock()
+        result.append(self.compare(alarmingStockList, AlarmingStock_ItemCount))
+        print(f"Result for Show More Alarming Stock : {result}")
+
+
+
+        # print(f"Items is Result List: {result}")
         return self.compare_result(result)
 
     def get_full_inventory_rpt(self):

@@ -10,19 +10,7 @@ class TrackOrderMethods:
     # Initializing driver and logger.
     def __init__(self, driver):
         self.driver = driver
-
         self.Track = TrackOrderPage(driver)
-        self.log = Utils.custom_logger(logLevel=logging.INFO)
-
-
-    def status(self):
-        try:
-            self.Track.getCheckFactory()
-            return True
-        except (NoSuchElementException, TimeoutException) as e:
-            self.log.info(f"This item is still in Pending state :\n {str(e)}")
-            return False
-
 
 
     def InputOrderID(self, orderID):
@@ -31,4 +19,4 @@ class TrackOrderMethods:
         self.Track.clickOnNext()
         time.sleep(5)
         self.Track.getFactoryTitle()
-        return self.status()
+        return self.Track.getCheckFactory()

@@ -18,8 +18,7 @@ from selenium.common.exceptions import NoSuchElementException, TimeoutException
 @allure.feature('Order List')
 @allure.title('Order Section Testing')
 class TestOrder(unittest.TestCase, BaseClass):
-    # Calling Logger.
-    log = Utils.custom_logger(logLevel=logging.WARNING)
+
 
     # SetUp Method.
     def setUp(self):
@@ -31,14 +30,14 @@ class TestOrder(unittest.TestCase, BaseClass):
     # Verify Order List.
 
     @allure.title(f"Create a new Order for existing Customer")
-    @allure.story("Create an Order for existing Customer ")
+    @allure.description("Create an Order for existing Customer ")
     @allure.severity(allure.severity_level.NORMAL)
     @data(*Utils.read_xlsx("../TestData/OrderTestData/orderTestCase.xlsx", "forCustomer"))
     @unpack
     def test_create_order_customer(self, username, password, contactNo, gender, productname, leatherProfile,
                                    leatherSize, hardware, lining, polyfill, size, armhole, height, shoulder, weight,
                                    length, arms, hips, chest, waist, sleeves, bodytype, remark, date, OTP):
-        self.LoginMethod.nativelogin(self.driver, username, password)
+        self.LoginMethod.nativelogin(username, password)
         test_case_name = f"Create a new Order for existing Customer : {contactNo} "
         try:
             self.assertEqual(
@@ -48,7 +47,7 @@ class TestOrder(unittest.TestCase, BaseClass):
                 "Order Succesfully Created", msg="Verification Failed to Create a new Order.")
 
         # Checking if assertion failed
-        except (NoSuchElementException, AssertionError, TimeoutException) as e:
+        except (NoSuchElementException, AssertionError, TimeoutException, AttributeError) as e:
             allure.attach(self.driver.get_screenshot_as_png(), name="Failed_for_customer",
                           attachment_type=AttachmentType.PNG)
             self.log.error(f"Assertion failed here while finding element. {str(e)}")
@@ -58,14 +57,14 @@ class TestOrder(unittest.TestCase, BaseClass):
                           attachment_type=allure.attachment_type.PNG)
 
     @allure.title(f"Create a new Order for new Customer")
-    @allure.story("Create an Order for new Customer ")
+    @allure.description("Create an Order for new Customer ")
     @allure.severity(allure.severity_level.NORMAL)
     @data(*Utils.read_xlsx("../TestData/OrderTestData/orderTestCase.xlsx", "forNewCustomer"))
     @unpack
     def test_create_new_user_order(self, username, password, contactNo, name, email, dob, address, gender, productname,
                                    leatherProfile, leatherSize, hardware, lining, polyfill, size, armhole, height, shoulder, weight,
                                    length, arms, hips, chest, waist, sleeves, bodytype, remark, date, OTP):
-        self.LoginMethod.nativelogin(self.driver, username, password)
+        self.LoginMethod.nativelogin(username, password)
         try:
             self.assertEqual(
                 self.Order.create_new_user_order(contactNo, name, email, dob, address, gender, productname,
@@ -74,14 +73,14 @@ class TestOrder(unittest.TestCase, BaseClass):
                                                  date, OTP),
                 "Order Succesfully Created", msg="Verification Failed to Create a new Order.")
         # Checking if assertion failed
-        except (NoSuchElementException, AssertionError, TimeoutException) as e:
+        except (NoSuchElementException, AssertionError, TimeoutException, AttributeError) as e:
             allure.attach(self.driver.get_screenshot_as_png(), name="Creating new Order for new customer.",
                           attachment_type=AttachmentType.PNG)
             self.log.error(f"Assertion failed here while finding element. {str(e)}")
             raise e
 
     @allure.title("Create a New Order for store")
-    @allure.story("Create a New Order for store")
+    @allure.description("Create a New Order for store")
     @allure.severity(allure.severity_level.NORMAL)
     @data(*Utils.read_xlsx("../TestData/OrderTestData/orderTestCase.xlsx", "forStore"))
     @unpack
@@ -89,7 +88,7 @@ class TestOrder(unittest.TestCase, BaseClass):
                                 polyfill, size, bodytype, length, chest, waist, hips, shoulder, sleeves, arms, weight, front,
                                 armhole, remarks, price, discount, OTP):
         # Login with Admin
-        self.LoginMethod.nativelogin(self.driver, username, password)
+        self.LoginMethod.nativelogin(username, password)
         try:
             self.assertEqual(
                 self.Order.createOrder_Store(productname, leatherProfile, leatherSize, hardware, lining, polyfill,
@@ -99,21 +98,21 @@ class TestOrder(unittest.TestCase, BaseClass):
                 msg="Verification Failed to Create a new user.")
 
         # Checking if assertion failed
-        except (NoSuchElementException, AssertionError, TimeoutException) as e:
+        except (NoSuchElementException, AssertionError, TimeoutException, AttributeError) as e:
             allure.attach(self.driver.get_screenshot_as_png(), name="Creating order for Store.",
                           attachment_type=AttachmentType.PNG)
             self.log.error(f"Assertion failed here while finding element. {str(e)}")
             raise e
 
-    @allure.title("Checking Order synchronization after creating a new customer order ")
-    @allure.story("Checking Order synchronization  ")
+    @allure.title("Checking Order synchronization  ")
+    @allure.description("Checking Order synchronization after creating a new customer order ")
     @allure.severity(allure.severity_level.NORMAL)
     @data(*Utils.read_xlsx("../TestData/OrderTestData/orderTestCase.xlsx", "forSync"))
     @unpack
     def test_check_order_synchronization_for_Customer(self, username, password, contactNo, gender, productname, leatherProfile,
                                    leatherSize, hardware, lining, polyfill, size, armhole, height, shoulder, weight,
                                    length, arms, hips, chest, waist, sleeves, bodytype, remark, date, OTP):
-        self.LoginMethod.nativelogin(self.driver, username, password)
+        self.LoginMethod.nativelogin(username, password)
         try:
             self.assertEqual(
                 self.Order.navigate_to_customer_order_list(contactNo, gender, productname, leatherProfile, leatherSize, hardware,
@@ -122,14 +121,14 @@ class TestOrder(unittest.TestCase, BaseClass):
                 msg="Verification Failed to Create a new user.")
 
         # Checking if assertion failed
-        except (NoSuchElementException, AssertionError, TimeoutException) as e:
+        except (NoSuchElementException, AssertionError, TimeoutException, AttributeError) as e:
             allure.attach(self.driver.get_screenshot_as_png(), name="Creating order for Store.",
                           attachment_type=AttachmentType.PNG)
             self.log.error(f"Assertion failed here while finding element. {str(e)}")
             raise e
 
-    @allure.title("Checking Order synchronization after creating a New Order for store")
-    @allure.story("Checking Order synchronization  ")
+    @allure.title("Checking Order synchronization  ")
+    @allure.description("Checking Order synchronization after creating a New Order for store")
     @allure.severity(allure.severity_level.NORMAL)
     @data(*Utils.read_xlsx("../TestData/OrderTestData/orderTestCase.xlsx", "forStore"))
     @unpack
@@ -137,7 +136,7 @@ class TestOrder(unittest.TestCase, BaseClass):
                                 polyfill, size, bodytype, length, chest, waist, hips, shoulder, sleeves, arms, weight, front,
                                 armhole, remarks, price, discount, OTP):
         # Login with Admin
-        self.LoginMethod.nativelogin(self.driver, username, password)
+        self.LoginMethod.nativelogin(username, password)
         try:
             self.assertEqual(
                 self.Order.navigate_to_store_order_list(productname, leatherProfile, leatherSize, hardware, lining, polyfill,
@@ -146,20 +145,20 @@ class TestOrder(unittest.TestCase, BaseClass):
                 msg="Verification Failed to Create a new user.")
 
         # Checking if assertion failed
-        except (NoSuchElementException, AssertionError, TimeoutException) as e:
+        except (NoSuchElementException, AssertionError, TimeoutException, AttributeError) as e:
             allure.attach(self.driver.get_screenshot_as_png(), name="Creating order for Store.",
                           attachment_type=AttachmentType.PNG)
             self.log.error(f"Assertion failed here while finding element. {str(e)}")
             raise e
 
     @allure.title("Search Functionality")
-    @allure.story("Search and verify item")
+    @allure.description("Search and verify item")
     @allure.severity(allure.severity_level.NORMAL)
     @data(*Utils.read_xlsx("../TestData/OrderTestData/orderTestCase.xlsx", "searchInput"))
     @unpack
     def test_Search_functionality(self, username, password, searchValue, productname, leatherProfile, hardware, lining, polyfill):
         # Login with Admin
-        self.LoginMethod.nativelogin(self.driver, username, password)
+        self.LoginMethod.nativelogin(username, password)
         try:
 
             # TODO --- Resolve wrong Search Item issue.
@@ -168,19 +167,11 @@ class TestOrder(unittest.TestCase, BaseClass):
                 msg="Verification Failed to Create a new user.")
 
         # Checking if assertion failed
-        except (NoSuchElementException, AssertionError, TimeoutException) as e:
+        except (NoSuchElementException, AssertionError, TimeoutException, AttributeError) as e:
             allure.attach(self.driver.get_screenshot_as_png(), name="Creating order for Store.",
                           attachment_type=AttachmentType.PNG)
             self.log.error(f"Assertion failed here while finding element. {str(e)}")
             raise e
-
-
-
-
-
-
-
-
 
 
 

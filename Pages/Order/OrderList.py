@@ -8,6 +8,7 @@ from Base.BaseTest import BaseClass
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import NoSuchElementException, TimeoutException
 
 
 
@@ -18,7 +19,7 @@ class OrderList(BaseClass):
     # Initializing driver and logger.
     def __init__(self, driver):
         super().__init__()
-        self.log = Utils.custom_logger(logLevel=logging.DEBUG)
+        self.log = Utils.custom_logger(module_name="Order_module", logLevel=logging.WARNING)
         self.driver = driver
         self.wait = WebDriverWait(self.driver, 10)
 
@@ -50,22 +51,40 @@ class OrderList(BaseClass):
 
     # Methods
     def click_on_goto_order(self):
-        return self.wait.until(EC.visibility_of_element_located(self.GOTO_ORDER_LIST)).click()
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.GOTO_ORDER_LIST)).click()
+        except (NoSuchElementException, TimeoutException, Exception)as e:
+            self.log.error(f"Couldn't find the Element for Navigation to Order List : \n {str(e)}")
 
     def get_latest_customer_orderID(self):
-        return self.wait.until(EC.visibility_of_element_located(self.LATEST_CUSTOMER_ITEM))
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.LATEST_CUSTOMER_ITEM))
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Couldn't find the Element for Latest Customer ID : \n {str(e)}")
 
     def click_on_store(self):
-        return self.wait.until(EC.visibility_of_element_located(self.STORE_TAB)).click()
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.STORE_TAB)).click()
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Couldn't find the Element for Navigation to Store : \n {str(e)}")
 
     def click_on_customer(self):
-        return self.wait.until(EC.visibility_of_element_located(self.CUSTOMER_TAB)).click()
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.CUSTOMER_TAB)).click()
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Couldn't find the Element for Navigation to Customer  : \n {str(e)}")
 
     def get_latest_store_orderID(self):
-        return self.wait.until(EC.visibility_of_element_located(self.LATEST_STORE_ITEM))
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.LATEST_STORE_ITEM))
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Couldn't find the Element for Latest Store ID : \n {str(e)}")
 
     def header_text_verification(self):
-        return self.wait.until(EC.visibility_of_element_located(self.HEADER_TEXT)).text
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.HEADER_TEXT)).text
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Couldn't find the Element for Header Text : \n {str(e)}")
 
     def get_order_id(self):
         try:

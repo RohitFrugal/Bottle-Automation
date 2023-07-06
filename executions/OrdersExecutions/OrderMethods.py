@@ -42,19 +42,23 @@ class OrderMethod:
         self.order_ls = OrderList(driver)
         self.search = SearchItems(driver)
 
-        self.log = Utils.custom_logger(logLevel=logging.INFO)
+        self.log = Utils.custom_logger(module_name="Order_executions", logLevel=logging.INFO)
 
     # ******************************************************************* Helping Methods *******************************************************************
     # Verifying the header of Order List.
     def verify_navigateToOrder(self):
         self.order.clickOnOrderTab()
         time.sleep(2)
-        return self.order.verify_header()
+        return compareItems(self.order.verify_header(), "ORDER LISTS")
 
     # Click on Order Tab
     def navigateToOrderTab(self):
         self.order.clickOnOrderTab()
         time.sleep(2)
+
+    def navigateToStorePage(self):
+        time.sleep(2)
+        self.order.move_to_store()
 
     # Navigate to Order List.
     def navigateToOrder(self):

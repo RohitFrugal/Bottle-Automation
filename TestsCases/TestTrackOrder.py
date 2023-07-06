@@ -10,12 +10,14 @@ from Utilities.utils import Utils
 from Base.BaseTest import BaseClass
 from executions.LoginExecutions.LoginMethods import LoginMethod
 from executions.TrackOrderExecutions.TrackOrderMethods import TrackOrderMethods
+from selenium.common.exceptions import NoSuchElementException, TimeoutException
+
+
 
 @ddt
 @allure.feature('Track Order')
 @allure.title('Tracking Order Check')
 class TestTrackOrder(unittest.TestCase, BaseClass):
-    log = Utils.custom_logger(logLevel=logging.WARNING)
     # SetUp Method.
     def setUp(self):
         super().initialize_driver()
@@ -24,15 +26,16 @@ class TestTrackOrder(unittest.TestCase, BaseClass):
 
     # Test Case
     @allure.title(f"Checking Input in Track Order")
+    @allure.description(f"Checking Input in Track Order")
     @allure.severity(allure.severity_level.NORMAL)
     @data(*Utils.read_xlsx("../TestData/TrackOrder/TrackOrder.xlsx", "SearchItem"))
     @unpack
     def test_check_input(self, orderID, status):
-        self.LoginMethod.nativelogin(self.driver, "frugal@latido.com.np", "Test@123")
+        self.LoginMethod.nativelogin("frugal@latido.com.np", "Test@123")
         try:
             self.assertEqual(self.TrackOrder.InputOrderID(orderID), status, msg="Verification Failed to mismatch title.")
         # Checking if assertion failed
-        except AssertionError as e:
+        except (NoSuchElementException, AssertionError, TimeoutException) as e:
             allure.attach(self.driver.get_screenshot_as_png(), name="Failed_for_customer",
                           attachment_type=AttachmentType.PNG)
             self.log.error(f"Assertion failed here while finding element. {str(e)}")

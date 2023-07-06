@@ -2,9 +2,9 @@ import time
 
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.support.wait import WebDriverWait
+from webdriver_manager.chrome import ChromeDriverManager
 
 URL = "https://www.suite.uat.latido.com.np/auth"
 
@@ -13,6 +13,7 @@ class BaseClass:
     driver: webdriver
 
     def __init__(self):
+        self.log = None
         self.wait = None
         self.options = None
         self.service = None
@@ -39,6 +40,7 @@ class BaseClass:
             if lastCount == pageLength:
                 match = True
         time.sleep(4)
+
 
 
     def fetch_hidden_elements(self, container_div_xpath, element_xpath):

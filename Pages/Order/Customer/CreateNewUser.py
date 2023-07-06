@@ -19,9 +19,9 @@ class CreateNewUser(OrderPage):
     # Initializing driver and logger.
     def __init__(self, driver):
         super().__init__(driver)
-        self.log = Utils.custom_logger(logLevel=logging.DEBUG)
         self.driver = driver
         self.wait = WebDriverWait(self.driver, 10)
+        self.log = Utils.custom_logger(module_name="Order_module", logLevel=logging.WARNING)
 
     # Locators
     # For new user.
@@ -41,19 +41,19 @@ class CreateNewUser(OrderPage):
     def input_name(self, name):
         try:
             return self.wait.until(EC.visibility_of_element_located(self.InputName)).send_keys(name)
-        except Exceptions:
+        except (NoSuchElementException, TimeoutException, Exception) as e:
             self.log.error(f"Failed to input the name")
 
     def input_email(self, email):
         try:
             return self.wait.until(EC.visibility_of_element_located(self.InputEmail)).send_keys(email)
-        except Exceptions:
+        except (NoSuchElementException, TimeoutException, Exception) as e:
             self.log.error(f"Failed to input email")
 
     def input_dob(self, dob):
         try:
             return self.wait.until(EC.visibility_of_element_located(self.InputDob)).send_keys(dob)
-        except Exceptions:
+        except (NoSuchElementException, TimeoutException, Exception) as e:
             self.log.error(f"Failed to input DOB")
 
     def input_address(self, address):
@@ -68,16 +68,16 @@ class CreateNewUser(OrderPage):
             time.sleep(1)
             self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, "pac-item"))).click()
             time.sleep(1)
-        except {TimeoutException, NoSuchElementException, Exceptions} as e:
+        except (TimeoutException, NoSuchElementException, Exceptions) as e:
             self.log.error(f"Failed to input address. {str(e)}")
 
     def submit_new_user(self):
         try:
             return self.wait.until(EC.element_to_be_clickable(self.SubmitUser)).click()
-        except Exceptions:
-            self.log.error(f"Failed to Find Submit button")
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Failed to Find Submit button : {str(e)}")
     def verify_Create_user(self):
         try:
             return self.wait.until(EC.visibility_of_element_located(self.PageHeader)).text
-        except Exceptions:
-            self.log.error(f"Failed to Find the verification Text")
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Failed to Find the verification Text : {str(e)}")

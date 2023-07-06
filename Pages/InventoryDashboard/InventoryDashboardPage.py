@@ -1,14 +1,15 @@
-import logging
 import time
-
+import logging
 from selenium import webdriver
-
 from Utilities.utils import Utils
 from Base.BaseTest import BaseClass
-
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import NoSuchElementException, TimeoutException
+
+
+
 
 class InventoryDashboard(BaseClass):
 
@@ -18,9 +19,9 @@ class InventoryDashboard(BaseClass):
     # Initializing driver and logger.
     def __init__(self, driver):
         super().__init__()
-        self.log = Utils.custom_logger(logLevel=logging.DEBUG)
         self.driver = driver
         self.wait = WebDriverWait(self.driver, 10)
+        self.log = Utils.custom_logger(module_name="Invent_Dashboard_module", logLevel=logging.DEBUG)
 
     # Locators
 
@@ -57,73 +58,128 @@ class InventoryDashboard(BaseClass):
 
     # Methods
     def click_on_inventDashboard(self):
-        return self.wait.until(EC.visibility_of_element_located(self.INVENT_DASHBOARD_TAB)).click()
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.INVENT_DASHBOARD_TAB)).click()
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Couldn't find the Element for Navigation to Inventory Dashboard : \n {str(e)}")
 
     def getTitle(self):
-        return self.wait.until(EC.visibility_of_element_located(self.TITLE)).text
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.TITLE)).text
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Couldn't find the Element to get Inventory Title : \n {str(e)}")
 
     def fetch_InStock(self):
-        return self.wait.until(EC.visibility_of_element_located(self.IN_STOCK)).text
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.IN_STOCK)).text
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Couldn't find the Element to fetch Inventory In stock Items : \n {str(e)}")
 
     def fetch_AlarmingStock(self):
-        return self.wait.until(EC.visibility_of_element_located(self.ALARMING_STOCK)).text
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.ALARMING_STOCK)).text
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Couldn't find the Element to fetch alarming Stock Items : \n {str(e)}")
 
     def fetch_OutOfStock(self):
-        return self.wait.until(EC.visibility_of_element_located(self.OUT_OF_STOCK)).text
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.OUT_OF_STOCK)).text
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Couldn't find the Element to fetch Out of Stock Items : \n {str(e)}")
 
     def fetch_OutOfStock_list(self):
-        ItemList = self.wait.until(EC.visibility_of_element_located(self.OUT_OF_STOCK_LIST)).text
-        return ItemList.split(": ")[-1]
+        try:
+            ItemList = self.wait.until(EC.visibility_of_element_located(self.OUT_OF_STOCK_LIST)).text
+            return ItemList.split(": ")[-1]
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Couldn't find the Element to fetch out of Stock List : \n {str(e)}")
 
     def fetch_AlarmingStock_list(self):
-        ItemList = self.wait.until(EC.visibility_of_element_located(self.ALARMING_STOCK_LIST)).text
-        return ItemList.split(": ")[-1]
+        try:
+            ItemList = self.wait.until(EC.visibility_of_element_located(self.ALARMING_STOCK_LIST)).text
+            return ItemList.split(": ")[-1]
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Couldn't find the Element to fetch alarming Stock List : \n {str(e)}")
 
     def click_on_showMore_OutOfStock(self):
-        return self.wait.until(EC.visibility_of_element_located(self.OUT_OF_STOCK_LIST_SHOW_MORE)).click()
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.OUT_OF_STOCK_LIST_SHOW_MORE)).click()
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Couldn't find the Element to Click on Show more : \n {str(e)}")
 
     def click_on_showMore_AlarmingStock(self):
-        return self.wait.until(EC.visibility_of_element_located(self.ALARMING_STOCK_LIST_SHOW_MORE)).click()
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.ALARMING_STOCK_LIST_SHOW_MORE)).click()
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Couldn't find the Element to Click on Show more : \n {str(e)}")
 
     def check_outOfStockList(self):
-        list_of_items = self.driver.find_elements(*self.OUT_OF_STOCK_LIST_ITEMS)
-        count = len(list_of_items)
-        print(f"Count of OUT OF STOCK Items  : {count}")
+        try:
+            list_of_items = self.driver.find_elements(*self.OUT_OF_STOCK_LIST_ITEMS)
+            count = len(list_of_items)
+            print(f"Count of OUT OF STOCK Items  : {count}")
+            return str(count)
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Couldn't find the Element to check Out of Stock List  : \n {str(e)}")
 
     def check_alarmingStock(self):
-        list_of_items = self.driver.find_elements(*self.ALARMING_STOCK_LIST_ITEMS)
-        count = len(list_of_items)
-        print(f"Count of ALARMING STOCK Items  : {count}")
+        try:
+            list_of_items = self.driver.find_elements(*self.ALARMING_STOCK_LIST_ITEMS)
+            count = len(list_of_items)
+            print(f"Count of ALARMING STOCK Items  : {count}")
+            return str(count)
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Couldn't find the Element to check Alarming Stock List : \n {str(e)}")
+
+
 
     def get_category_details(self):
-        categoryDetails = []
-        categoryDetails.append(self.wait.until(EC.visibility_of_element_located(self.CATEGORY_LIST_ITEM_NAME)).text)
-        categoryDetails.append(self.wait.until(EC.visibility_of_element_located(self.CATEGORY_LIST_ITEM_QUANTITY)).text)
-        print(f"These are Category Details : {categoryDetails}")
-        return categoryDetails
+        try:
+            categoryDetails = []
+            categoryDetails.append(self.wait.until(EC.visibility_of_element_located(self.CATEGORY_LIST_ITEM_NAME)).text)
+            categoryDetails.append(self.wait.until(EC.visibility_of_element_located(self.CATEGORY_LIST_ITEM_QUANTITY)).text)
+            print(f"These are Category Details : {categoryDetails}")
+            return categoryDetails
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Couldn't find the Element to check Category Details : \n {str(e)}")
 
     def click_on_Category_viewmore(self):
-        return self.wait.until(EC.visibility_of_element_located(self.CATEGORY_LIST_ITEM_NAME)).click()
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.CATEGORY_LIST_ITEM_NAME)).click()
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Couldn't find the Element to click on Category Viewmore : \n {str(e)}")
 
     def get_vendor_details(self):
-        vendorDetails = []
-        vendorDetails.append(self.wait.until(EC.visibility_of_element_located(self.VENDOR_LIST_NAME)).text)
-        vendorDetails.append(self.wait.until(EC.visibility_of_element_located(self.VENDOR_LIST_NUMBER)).text)
-        return vendorDetails
+        try:
+            vendorDetails = []
+            vendorDetails.append(self.wait.until(EC.visibility_of_element_located(self.VENDOR_LIST_NAME)).text)
+            vendorDetails.append(self.wait.until(EC.visibility_of_element_located(self.VENDOR_LIST_NUMBER)).text)
+            return vendorDetails
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Couldn't find the Element to check vendor details : \n {str(e)}")
 
     def click_on_Vendor_viewmore(self):
-        return self.wait.until(EC.visibility_of_element_located(self.VENDOR_LIST_NAME)).click()
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.VENDOR_LIST_NAME)).click()
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Couldn't find the Element to click on Vendor Viewmore : \n {str(e)}")
 
     def get_inventory_item_details(self):
-        inventory_detail = []
-        time.sleep(2)
-        inventory_detail.append(self.wait.until(EC.visibility_of_element_located(self.INVENTORY_ITEM_NAME)).text)
-        inventory_detail.append(self.wait.until(EC.visibility_of_element_located(self.INVENTORY_ITEM_QUANTITY)).text)
-        print(f"These are the Inventory details : {inventory_detail}")
-        return inventory_detail
+        try:
+            inventory_detail = []
+            time.sleep(2)
+            inventory_detail.append(self.wait.until(EC.visibility_of_element_located(self.INVENTORY_ITEM_NAME)).text)
+            inventory_detail.append(self.wait.until(EC.visibility_of_element_located(self.INVENTORY_ITEM_QUANTITY)).text)
+            print(f"These are the Inventory details : {inventory_detail}")
+            return inventory_detail
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Couldn't find the Element to get Inventory item Details: \n {str(e)}")
 
     def get_vendorTab_details(self):
-        vendor_details = []
-        vendor_details.append(self.wait.until(EC.visibility_of_element_located(self.VENDOR_NAME)).text)
-        vendor_details.append(self.wait.until(EC.visibility_of_element_located(self.VENDOR_NUMBER)).text)
-        return vendor_details
+        try:
+            vendor_details = []
+            vendor_details.append(self.wait.until(EC.visibility_of_element_located(self.VENDOR_NAME)).text)
+            vendor_details.append(self.wait.until(EC.visibility_of_element_located(self.VENDOR_NUMBER)).text)
+            return vendor_details
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Couldn't find the Element to get Vendor Tab Details : \n {str(e)}")

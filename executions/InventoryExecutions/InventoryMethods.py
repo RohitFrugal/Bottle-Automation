@@ -1,20 +1,34 @@
 import time
 import logging
+
 from Utilities.utils import Utils
 from Pages.Inventory.InventoryPage import InventoryPage
 from selenium.common.exceptions import NoSuchElementException
+
+
+def compare(Actual_response, Expected_response):
+    print(f"Actual_response : {Actual_response}   --- Expected_response : {Expected_response} ")
+    if Actual_response == Expected_response:
+        return True
+    else:
+        return False
+
 
 class InventoryMethods:
     # Initializing driver and logger.
     def __init__(self, driver):
         self.driver = driver
         self.  Inventory = InventoryPage(driver)
-        self.log = Utils.custom_logger(logLevel=logging.INFO)
+        self.log = Utils.custom_logger(module_name='InventoryExecutions', logLevel=logging.INFO)
+
 
     # Helper Methods
     def navigate_to_Inventory(self):
         self.Inventory.click_on_inventoryTab()
 
+    def verify_navigate_to_Inventory(self):
+        self.Inventory.click_on_inventoryTab()
+        return compare(self.Inventory.check_title(), "INVENTORY")
 
     def check_flag(self, leather_flag, unit):
         if leather_flag == 0:
@@ -53,7 +67,10 @@ class InventoryMethods:
 
     def selectCarouselItems(self, ItmeName, name, code, sku, tags, color, description, l_quantity, h_quantity, imgPath, brand, weight):
         self.navigate_to_Inventory()
-        self.Inventory.selectCategoryItem(ItmeName)
+        time.sleep(5)
+        self.Inventory.input_search(ItmeName)
+        time.sleep(2)
+        self.Inventory.selectCategoryItem()
         self.Inventory.click_add_Items()
         self.Inventory.input_item_name(name)
         self.Inventory.input_code(code)
@@ -74,11 +91,14 @@ class InventoryMethods:
         return result
 
 
-    def stockItem_for_normal_item(self, ItemName, vendor_name, price, date, quantity, quality, transport_mode, Pay_mode, receiver_name, imgPath):
+    def stockItem_for_normal_item(self, ItemName, productName, vendor_name, price, date, quantity, quality, transport_mode, Pay_mode, receiver_name, imgPath):
         self.navigate_to_Inventory()
-        self.Inventory.selectCategoryItem(ItemName)
-        self.Inventory.checkItemStatus()
-        self.Inventory.click_on_Product_image()
+        time.sleep(5)
+        print("In Inventory tab now start searching")
+        self.Inventory.input_search(ItemName)
+        time.sleep(2)
+        self.Inventory.selectCategoryItem()
+        self.Inventory.getProduct_name(productName)
         self.Inventory.click_on_add_inventory()
         time.sleep(2)
         self.Inventory.select_vendor_name(vendor_name)
@@ -103,7 +123,7 @@ class InventoryMethods:
         time.sleep(5)
         self.Inventory.input_search(itemName)
         time.sleep(5)
-        result = self.Inventory.select_Searched_item(itemName)
-        print(result)
+        return self.Inventory.select_Searched_item(itemName)
+
 
 

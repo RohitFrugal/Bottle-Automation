@@ -8,6 +8,8 @@ from Base.BaseTest import BaseClass
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import NoSuchElementException, TimeoutException
+
 
 class TrackOrderPage(BaseClass):
 
@@ -17,9 +19,9 @@ class TrackOrderPage(BaseClass):
     # Initializing driver and logger.
     def __init__(self, driver):
         super().__init__()
-        self.log = Utils.custom_logger(logLevel=logging.DEBUG)
         self.driver = driver
         self.wait = WebDriverWait(self.driver, 10)
+        self.log = Utils.custom_logger(module_name="TrackOrder_module", logLevel=logging.WARNING)
 
 
     # Locator
@@ -33,17 +35,34 @@ class TrackOrderPage(BaseClass):
 
     # Methods
     def click_on_TrackOrder(self):
-        return self.wait.until(EC.visibility_of_element_located(self.TrackOrderTab)).click()
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.TrackOrderTab)).click()
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Couldn't find the Element for Navigation to Track Order  : \n {str(e)}")
 
 
     def sendOrderID(self, orderID):
-        return self.wait.until(EC.visibility_of_element_located(self.InputBox)).send_keys(orderID)
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.InputBox)).send_keys(orderID)
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Couldn't find the Element to Input Order ID : \n {str(e)}")
 
     def clickOnNext(self):
-        return self.wait.until(EC.visibility_of_element_located(self.NextButton)).click()
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.NextButton)).click()
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Couldn't find the Element to Search Order ID : \n {str(e)}")
 
     def getFactoryTitle(self):
-        return self.wait.until(EC.visibility_of_element_located(self.Factory_Title)).text
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.Factory_Title)).text
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Couldn't find the Element to get Factory Title : \n {str(e)}")
 
     def getCheckFactory(self):
-        return self.wait.until(EC.visibility_of_element_located(self.checkFactory)).click()
+        try:
+            self.driver.find_element(*self.checkFactory)
+            return True
+        except NoSuchElementException as e:
+            self.log.error(f"Couldn't find the Element to Check Factory Check: \n {str(e)}")
+            return False

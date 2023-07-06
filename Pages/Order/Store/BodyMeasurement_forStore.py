@@ -6,15 +6,16 @@ from Pages.Order.OrderPage import OrderPage
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import NoSuchElementException, TimeoutException
 
 
 class BodyMeasurementForStore(OrderPage):
     # Initializing driver and logger.
     def __init__(self, driver):
         super().__init__(driver)
-        self.log = Utils.custom_logger(logLevel=logging.DEBUG)
         self.driver = driver
         self.wait = WebDriverWait(self.driver, 10)
+        self.log = Utils.custom_logger(module_name="Order_module", logLevel=logging.WARNING)
 
     # Body Measurement
     ITEMSNAEM = (By.XPATH, '//*[@class="ant-select-item-option-content"]')
@@ -38,41 +39,80 @@ class BodyMeasurementForStore(OrderPage):
 
     # Fill Body Measurement
     def selectBasesize(self, size):
-        return self.HandleDropdown(self.BASE_SIZE, self.ITEMSNAEM, size)
+        try:
+            return self.HandleDropdown(self.BASE_SIZE, self.ITEMSNAEM, size)
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Failed to Find the element for Selecting the Base Size : {str(e)}")
 
     def inputArmhole(self, armhole):
-        return self.wait.until(EC.visibility_of_element_located(self.ARMHOLE)).send_keys(armhole)
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.ARMHOLE)).send_keys(armhole)
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Failed to Find the element to input Armhole : {str(e)}")
 
     def inputFront(self, front):
-        return self.wait.until(EC.visibility_of_element_located(self.FRONT)).send_keys(front)
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.FRONT)).send_keys(front)
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Failed to Find the element to input Front : {str(e)}")
 
     def inputShoulder(self, shoulder):
-        return self.wait.until(EC.visibility_of_element_located(self.SHOULDER)).send_keys(shoulder)
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.SHOULDER)).send_keys(shoulder)
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Failed to Find the element to input Shoulder : {str(e)}")
 
     def inputWeight(self, weight):
-        return self.wait.until(EC.visibility_of_element_located(self.WEIGHT)).send_keys(weight)
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.WEIGHT)).send_keys(weight)
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Failed to Find the element to input Weight : {str(e)}")
 
     def inputLength(self, length):
-        return self.wait.until(EC.visibility_of_element_located(self.LENGTH)).send_keys(length)
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.LENGTH)).send_keys(length)
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Failed to Find the element to input Length : {str(e)}")
 
     def inputArms(self, arms):
-        return self.wait.until(EC.visibility_of_element_located(self.ARMS)).send_keys(arms)
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.ARMS)).send_keys(arms)
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Failed to Find the element to input Arms : {str(e)}")
 
     def inputHips(self, hips):
-        return self.wait.until(EC.visibility_of_element_located(self.HIPS)).send_keys(hips)
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.HIPS)).send_keys(hips)
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Failed to Find the element to input Hips : {str(e)}")
 
     def inputChest(self, chest):
-        return self.wait.until(EC.visibility_of_element_located(self.CHEST)).send_keys(chest)
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.CHEST)).send_keys(chest)
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Failed to Find the element to input Chest : {str(e)}")
 
     def inputWaist(self, waist):
-        return self.wait.until(EC.visibility_of_element_located(self.WAIST)).send_keys(waist)
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.WAIST)).send_keys(waist)
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Failed to Find the element to input Waist : {str(e)}")
 
     def inputSleeves(self, sleeves):
-        return self.wait.until(EC.visibility_of_element_located(self.SLEEVES)).send_keys(sleeves)
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.SLEEVES)).send_keys(sleeves)
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Failed to Find the element to input Sleeves : {str(e)}")
 
     def selectBodyType(self, bodytype):
-        return self.HandleDropdown(self.BODY_TYPE, self.ITEMSNAEM, bodytype)
+        try:
+            return self.HandleDropdown(self.BODY_TYPE, self.ITEMSNAEM, bodytype)
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Failed to Find the element to Select Body Type : {str(e)}")
 
     # Fill Remarks
     def inputRemark(self, remark):
-        return self.wait.until(EC.visibility_of_element_located(self.REMARKS)).send_keys(remark)
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.REMARKS)).send_keys(remark)
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Failed to Find the element to input Remarks : {str(e)}")
