@@ -68,8 +68,8 @@ class ProductManagementPage:
     DUPLICATE_BUTTON = (By.XPATH, "(//button[@class='ant-btn ant-btn-round ant-btn-text'])")
 
     DUPLICATE_SELECTOR = (By.XPATH, "//div[@class='ant-select ant-select-single ant-select-show-arrow']/div/span")
-    ALL_DUPLICATE_SELECTOR = (By.XPATH, "(//div[@class='rc-virtual-list-holder-inner'])[4]/div")
-    ALL_DUPLICATE_VISIBLE_SELECTOR = (By.XPATH, "(//div[@class='rc-virtual-list-holder-inner'])[4]//div[contains(@class,'ant-select-item ant-select-item-option')]")
+    ALL_DUPLICATE_SELECTOR = (By.XPATH, "(//div[@class='rc-virtual-list-holder-inner'])[5]/div")
+    ALL_DUPLICATE_VISIBLE_SELECTOR = (By.XPATH, "(//div[@class='rc-virtual-list-holder-inner'])[5]//div[contains(@class,'ant-select-item ant-select-item-option')]")
     UPDATE = (By.XPATH, "(//button[@class='ant-btn ant-btn-round ant-btn-primary'])[2]")
     DUPLICATE = (By.XPATH, "//button[@class='ant-btn ant-btn-primary']")
 
@@ -282,6 +282,8 @@ class ProductManagementPage:
     def get_Sizes(self, sizes):
         try:
             counter = 0
+            sizes = sizes.split(",")
+            print(f"All the available Size : {type(sizes)}")
             print(f"All the available Size : {sizes}")
             for size in sizes:
                 print(f"Selected size : {size}")
@@ -308,6 +310,7 @@ class ProductManagementPage:
 
     def duplicate_Leather_profile(self, duplicate_leather):
         try:
+            print(f"Duplicate-leather item : {duplicate_leather}")
             self.wait.until(EC.visibility_of_element_located(self.DUPLICATE_BUTTON)).click()
             self.HandleDropdown(self.DUPLICATE_SELECTOR, duplicate_leather, self.ALL_DUPLICATE_SELECTOR, self.ALL_DUPLICATE_VISIBLE_SELECTOR)
         except(TimeoutException, NoSuchElementException, AttributeError, Exception) as e:

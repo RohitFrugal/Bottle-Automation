@@ -279,8 +279,8 @@ class OrderMethod:
         self.order.click_on_customer()
         time.sleep(2)
         self.order.move_next()
-        time.sleep(2)
-        self.order.click_gender(gender)
+        # time.sleep(2)
+        # self.order.click_gender(gender)
         time.sleep(3)
         self.fill_CustomerProductDetails(productname, leatherProfile, leatherSize, hardware, lining, polyfill)
         self.fillBodyMeasurements(size, armhole, height, shoulder, weight, length, arms, hips, chest, waist, sleeves,
@@ -319,7 +319,7 @@ class OrderMethod:
                               leatherSize, hardware, lining, polyfill, size, armhole, height, shoulder, weight,
                               length, arms, hips, chest, waist, sleeves, bodytype, remark, date, OTP):
         self.create_new_user(contactNo, name, email, dob, address)
-        self.order.click_gender(gender)
+        # self.order.click_gender(gender)
         time.sleep(3)
         self.fill_CustomerProductDetails(productname, leatherProfile, leatherSize, hardware, lining, polyfill)
         self.fillBodyMeasurements(size, armhole, height, shoulder, weight, length, arms, hips, chest, waist, sleeves,

@@ -83,7 +83,7 @@ class TestVendors(unittest.TestCase, BaseClass):
     @allure.title(f"Deleting a Vendor ")
     @allure.description(f"Deleting a Vendor")
     @allure.severity(allure.severity_level.NORMAL)
-    @data(*Utils.read_xlsx("../TestData/Vendor/VendorData.xlsx", "deleteVendor"))
+    @data(*Utils.read_xlsx("../TestData/Vendor/VendorDaota.xlsx", "deleteVendor"))
     @unpack
     def test_delete_vendor(self, username, password, IconPath, vendor_id, vendor_name, vendor_email, vendor_phone, supply_type, location,
                          descriptions, contact_name, contact_location, contact_number, contact_email):

@@ -23,13 +23,24 @@ class ProductMethod:
         for size in sizes:
             time.sleep(3)
             self.product.get_Sizes(size)
-            self.product.add_sizes()
+
+    def get_duplicate_leather(self, duplicate_leather):
+        duplicate_leather = duplicate_leather.split(",")
+        print(f"Leather of the list : {type(duplicate_leather)}")
+        for leather in duplicate_leather:
+            time.sleep(3)
+            self.product.duplicate_Leather_profile(leather)
+            self.product.click_duplicate()
+            self.product.click_on_add_leather()
+
+
+    # Test Methods
 
     def verify_navigate_to_productManagement(self):
         self.product.navigate()
         return compareItems(self.product.get_headerText(), "PRODUCT LIST")
 
-    def add_new_product(self, imgPath, name, category, gender, rank, tag, hardware, lining, polyfill_flag, rib_flag, description, sizes):
+    def add_new_product(self, imgPath, name, category, gender, rank, tag, hardware, lining, polyfill_flag, rib_flag, description, sizes, leatherType, sizes_list, duplicate_leather):
         self.product.navigate()
         self.product.clik_on_add()
         self.product.upload_img(imgPath)
@@ -49,25 +60,33 @@ class ProductMethod:
         self.product.click_on_add_leather()
         self.product.click_on_select_leather()
         time.sleep(3)
-        self.product.get_leather_type("TEST ITEM")
-        time.sleep(20)
+        self.product.get_leather_type(leatherType)
+        self.product.get_Sizes(sizes_list)
+        self.product.click_update()
+        time.sleep(5)
+        self.product.duplicate_Leather_profile(duplicate_leather)
+        self.product.click_duplicate()
+        self.product.click_on_add_leather()
+        time.sleep(2)
+        return True
 
+    def edit_product(self, name, leatherType, sizes_list, duplicate_leather_list):
+        print(type(duplicate_leather_list))
+        print(type(sizes_list))
 
-    def edit_product(self):
         self.product.navigate()
-        self.product.search("Test-96")
+        self.product.search(name)
         self.product.click_on_edit()
         self.product.click_on_add_leather_profile()
         self.product.click_on_add_leather()
         self.product.click_on_select_leather()
         time.sleep(3)
-        self.product.get_leather_type("Pine Cone")
-        self.product.get_Sizes(["XXXS", "XXS"])
+        self.product.get_leather_type(leatherType)
+        self.product.get_Sizes(sizes_list)
         self.product.click_update()
         time.sleep(3)
-        self.product.duplicate_Leather_profile("Pink Foil")
-        self.product.click_duplicate()
-        time.sleep(50)
+        self.get_duplicate_leather(duplicate_leather_list)
+
 
 
 
