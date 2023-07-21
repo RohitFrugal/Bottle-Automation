@@ -62,8 +62,10 @@ class InventoryMethods:
         self.fill_category_form(ImagePath, name, code, desc, leather_flag, unit)
         self.Inventory.click_submit()
         time.sleep(2)
-        return True
-
+        if self.Inventory.check_submit().is_displayed:
+            return True
+        else:
+            return False
 
     def selectCarouselItems(self, ItmeName, name, code, sku, tags, color, description, l_quantity, h_quantity, imgPath, brand, weight):
         self.navigate_to_Inventory()

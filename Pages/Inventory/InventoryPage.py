@@ -38,12 +38,12 @@ class InventoryPage(BaseClass):
     CATEGORY_CODE = (By.XPATH, "//input[@id='code']")
     CATEGORY_DESC = (By.XPATH, "//input[@id='description']")
     LEATHER_UNIT = (By.XPATH, "(//input[@class='ant-checkbox-input'])")
-    CATEGORY_UNIT = (By.XPATH, "//span[@class='ant-select-selection-search']")
-    SELECT_UNIT = (By.XPATH, "//div[@class='ant-select-item-option-content']")
+    CATEGORY_UNIT = (By.XPATH, "(//span[@class='ant-select-selection-search'])[2]")
     SUBMIT = (By.XPATH, "//button[@class='ant-btn ant-btn-primary']/span")
+    CONFIRM_MSG = (By.XPATH, "//div[@class='ant-notification-notice-message'][contains(text(), 'Category created successfully')]")
 
     # ERROR MESSAGES
-    ALREADY_PRESENT = (By.XPATH, "//div[@class='ant-notification-notice-message'][contains(text(), 'Inventory Item Already exists!!!')]")
+    ALREADY_PRESENT = (By.XPATH, "//div[@class='ant-notification-notice-message'][contains(text(), 'Inventory category Already exists!!!')]")
     REQUIRED_ERR_MSG = (By.XPATH, "//div[@class='ant-form-item-explain-error']")
 
     # SELECT Category
@@ -211,7 +211,7 @@ class InventoryPage(BaseClass):
         try:
             self.wait.until(EC.visibility_of_element_located(self.CATEGORY_UNIT)).click()
             SELECT_UNIT = (By.XPATH, f"//div[@class='ant-select-item-option-content'][contains(text(), '{unit}')]")
-            return self.wait.until(EC.visibility_of_element_located(SELECT_UNIT)).click()
+            return self.driver.find_element(*SELECT_UNIT).click()
         except (NoSuchElementException, TimeoutException, Exception) as e:
             self.log.error(f"Couldn't find the Element to select the category Unit : \n {str(e)}")
 
@@ -220,6 +220,13 @@ class InventoryPage(BaseClass):
             return self.wait.until(EC.visibility_of_element_located(self.SUBMIT)).click()
         except (NoSuchElementException, TimeoutException, Exception) as e:
             self.log.error(f"Couldn't find the Element to Click submit : \n {str(e)}")
+
+    def check_submit(self):
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.CONFIRM_MSG))
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Couldn't find the Confirm msg element : \n {str(e)}")
+
 
     # Select a new category
     def selectCategoryItem(self):

@@ -50,7 +50,6 @@ class TestOrder(unittest.TestCase, BaseClass):
         except (NoSuchElementException, AssertionError, TimeoutException, AttributeError) as e:
             allure.attach(self.driver.get_screenshot_as_png(), name="Failed_for_customer",
                           attachment_type=AttachmentType.PNG)
-            self.log.error(f"Assertion failed here while finding element. {str(e)}")
             raise e
         else:
             allure.attach(self.driver.get_screenshot_as_png(), name=test_case_name,
@@ -76,7 +75,6 @@ class TestOrder(unittest.TestCase, BaseClass):
         except (NoSuchElementException, AssertionError, TimeoutException, AttributeError) as e:
             allure.attach(self.driver.get_screenshot_as_png(), name="Creating new Order for new customer.",
                           attachment_type=AttachmentType.PNG)
-            self.log.error(f"Assertion failed here while finding element. {str(e)}")
             raise e
 
     @allure.title("Create a New Order for store")
@@ -101,7 +99,6 @@ class TestOrder(unittest.TestCase, BaseClass):
         except (NoSuchElementException, AssertionError, TimeoutException, AttributeError) as e:
             allure.attach(self.driver.get_screenshot_as_png(), name="Creating order for Store.",
                           attachment_type=AttachmentType.PNG)
-            self.log.error(f"Assertion failed here while finding element. {str(e)}")
             raise e
 
     @allure.title("Checking Order synchronization  ")
@@ -124,7 +121,6 @@ class TestOrder(unittest.TestCase, BaseClass):
         except (NoSuchElementException, AssertionError, TimeoutException, AttributeError) as e:
             allure.attach(self.driver.get_screenshot_as_png(), name="Creating order for Store.",
                           attachment_type=AttachmentType.PNG)
-            self.log.error(f"Assertion failed here while finding element. {str(e)}")
             raise e
 
     @allure.title("Checking Order synchronization  ")
@@ -148,7 +144,6 @@ class TestOrder(unittest.TestCase, BaseClass):
         except (NoSuchElementException, AssertionError, TimeoutException, AttributeError) as e:
             allure.attach(self.driver.get_screenshot_as_png(), name="Creating order for Store.",
                           attachment_type=AttachmentType.PNG)
-            self.log.error(f"Assertion failed here while finding element. {str(e)}")
             raise e
 
     @allure.title("Search Functionality")
@@ -170,7 +165,6 @@ class TestOrder(unittest.TestCase, BaseClass):
         except (NoSuchElementException, AssertionError, TimeoutException, AttributeError) as e:
             allure.attach(self.driver.get_screenshot_as_png(), name="Creating order for Store.",
                           attachment_type=AttachmentType.PNG)
-            self.log.error(f"Assertion failed here while finding element. {str(e)}")
             raise e
 
 
@@ -258,5 +252,4 @@ class TestOrder(unittest.TestCase, BaseClass):
         try:
             self.driver.close()
         except WebDriverException as e:
-            self.log.error(f"Failed to close driver. {str(e)}")
             raise e

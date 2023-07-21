@@ -43,33 +43,3 @@ class BaseClass:
 
 
 
-    def fetch_hidden_elements(self, container_div_xpath, element_xpath):
-        """
-        Scrolls through the elements of a container div and returns all elements present in the container div.
-        The container div xpath and the element xpath should be passed as arguments to the function.
-        """
-        container_div = self.driver.find_element(container_div_xpath)
-        elements = []
-
-        # Scroll until all elements are fetched
-        while True:
-            # Fetch all elements present in the container div
-            elements_present = container_div.find_elements(element_xpath)
-            for element in elements_present:
-                # Add the element to the list of elements
-                elements.append(element)
-
-            # Check if all elements are fetched
-            if len(elements) == len(elements_present):
-                break
-
-            # Scroll to the bottom of the container div to load more elements
-            actions = ActionChains(self.driver)
-            actions.move_to_element(container_div)
-            actions.click_and_hold()
-            actions.perform()
-            actions.move_by_offset(0, 100)  # adjust the scroll amount as per your requirement
-            actions.release()
-            actions.perform()
-
-        return elements

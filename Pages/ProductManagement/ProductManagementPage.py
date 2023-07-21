@@ -11,7 +11,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.common.exceptions import NoSuchElementException, TimeoutException, StaleElementReferenceException
 
 
-class ProductManagementPage:
+class ProductManagementPage():
     wait: WebDriverWait
     driver: webdriver
 
@@ -65,19 +65,47 @@ class ProductManagementPage:
     SELECT_LEATHER_CATEGORY = (By.XPATH, "(//span[@class='ant-select-selection-search'])[4]")
 
     # Duplication Leather Profile
-    DUPLICATE_BUTTON = (By.XPATH, "(//button[@class='ant-btn ant-btn-round ant-btn-text'])")
-
-    DUPLICATE_SELECTOR = (By.XPATH, "//div[@class='ant-select ant-select-single ant-select-show-arrow']/div/span")
+    DUPLICATE_BUTTON = (By.XPATH, "(//button[@class='ant-btn ant-btn-round ant-btn-text'])[1]")
+    DUPLICATE_SELECTOR = (By.XPATH, "//div[@class='ant-modal-body']/div/div[@class='ant-select-selector']")
     ALL_DUPLICATE_SELECTOR = (By.XPATH, "(//div[@class='rc-virtual-list-holder-inner'])[5]/div")
     ALL_DUPLICATE_VISIBLE_SELECTOR = (By.XPATH, "(//div[@class='rc-virtual-list-holder-inner'])[5]//div[contains(@class,'ant-select-item ant-select-item-option')]")
+
     UPDATE = (By.XPATH, "(//button[@class='ant-btn ant-btn-round ant-btn-primary'])[2]")
-    DUPLICATE = (By.XPATH, "//button[@class='ant-btn ant-btn-primary']")
+    SUBMIT_DUPLICATE = (By.XPATH, "//button[@class='ant-btn ant-btn-primary']")
 
 
     # Editing Product
     SEARCH_BAR = (By.XPATH, "//input[@placeholder='Search']")
     PRODUCT_DIV = (By.XPATH, "//div[@class='ant-card ant-card-bordered ant-card-hoverable product__item__card']/div[@class='ant-card-body']")
     EDIT_BUTTON = (By.XPATH, "//div[@class='hoverable__action']/div/div[@class='ant-space-item'][2]/span")
+    VIEW_BUTTON = (By.XPATH, "//div[@class='hoverable__action']/div/div[@class='ant-space-item'][1]/span")
+
+
+    # Secondary Image
+    SECONDARY_IMAGE_TAB = (By.XPATH, "//div[@class='ant-tabs-tab']/div[contains(text(), 'Secondary Images')]")
+    UPLOAD_MORE_BTN = (By.XPATH, "(//div[@class='ant-tabs-tabpane ant-tabs-tabpane-active'])/div/div/div[3]/div/div")
+    INPUT_SECONDARY_IMAGES = (By.XPATH, "//div[@class='ant-upload ant-upload-drag common-s3-upload--container  ']/span/input[@type='file']")
+    UPDATE_PRIMARY_BTN = (By.XPATH, "//button[@class='ant-btn ant-btn-primary']")
+
+    # Confirm Image upload -MSG
+    IMAGE_UPDATED_SUCCESSFULLY = (By.XPATH, "//div[@class='ant-message-custom-content ant-message-success']")
+
+
+    # Check
+    GET_NAME = (By.XPATH, "(//h1[@class='ant-typography'])[2]")
+    GET_CATEGORY = (By.XPATH, "(//span[@class='ant-descriptions-item-content'])[1]")
+    GET_TAG = (By.XPATH, "(//span[@class='ant-descriptions-item-content'])[2]")
+    GET_HARDWARE = (By.XPATH, "(//span[@class='ant-descriptions-item-content'])[3]")
+    GET_LINING = (By.XPATH, "(//span[@class='ant-descriptions-item-content'])[4]")
+    GET_POLYFILL = (By.XPATH, "(//span[@class='ant-descriptions-item-content'])[5]")
+    GET_RIB = (By.XPATH, "(//span[@class='ant-descriptions-item-content'])[6]")
+
+
+
+
+    # ************** #
+    # Helper Methods #
+    # ************** #
 
     def HandleDropdown(self, dropDownLocator, value, VISIBLE_ELEMENTS, ALL_ITEM_SELECTOR):
         """
@@ -91,6 +119,8 @@ class ProductManagementPage:
         itme_found = False
 
         # Click on the Dropdown
+        print("finding the Category selector!")
+        time.sleep(3)
         self.driver.find_element(*dropDownLocator).click()
 
         # Getting to all the elements
@@ -139,6 +169,16 @@ class ProductManagementPage:
         except (TimeoutException, NoSuchElementException, Exception) as e:
             self.log.error(f"Unable to fetch the title Text : {str(e)}")
 
+    def clear(self, SELECTOR):
+        try:
+            self.wait.until(EC.visibility_of_element_located(SELECTOR)).send_keys(Keys.CONTROL + 'a')
+            self.wait.until(EC.visibility_of_element_located(SELECTOR)).send_keys(Keys.BACKSPACE)
+        except(TimeoutException, NoSuchElementException, AttributeError, Exception) as e:
+            self.log.error(f"Unable to find  the Selector image locator : {str(e)} ")
+
+    def scroll_up(self):
+        self.driver.execute_script("window.scrollBy(0, -window.innerHeight);")
+
     # ******************* #
     # Product Basic input #
     # ******************* #
@@ -166,7 +206,7 @@ class ProductManagementPage:
         try:
             self.HandleDropdown(self.CATEGORY, category_name, self.VISIBLE_ELEMENTS, self.ALL_ITEM_SELECTOR)
         except (TimeoutException, NoSuchElementException, AttributeError, Exception) as e:
-            self.log.error(f"Unable to locate Category to be found : {str(e)}")
+            self.log.error(f"Unable to locate Category selector : {str(e)}")
 
     def get_gender(self, gender):
         try:
@@ -272,31 +312,52 @@ class ProductManagementPage:
         except (TimeoutException, NoSuchElementException, AttributeError, Exception) as e:
             self.log.error(f"Unable to find All Leather Button : {str(e)}")
 
+    def click_on_select_edit_leather(self):
+        try:
+            EDIT_LEATHER = (By.XPATH, "(//div[@class='ant-collapse-item leather__group__panel'])[2]")
+            self.wait.until(EC.visibility_of_element_located(EDIT_LEATHER)).click()
+        except (TimeoutException, NoSuchElementException, AttributeError, Exception) as e:
+            self.log.error(f"Unable to find All Leather Button : {str(e)}")
+
     def get_leather_type(self, leatherType):
         try:
-            self.HandleDropdown(self.SELECT_LEATHER_CATEGORY, leatherType, self.VISIBLE_ELEMENTS,
-                                self.ALL_ITEM_SELECTOR)
+            self.HandleDropdown(self.SELECT_LEATHER_CATEGORY, leatherType, self.VISIBLE_ELEMENTS,self.ALL_ITEM_SELECTOR)
         except (TimeoutException, NoSuchElementException, AttributeError, Exception) as e:
             self.log.error(f"Unable to find Leather Type selector ")
 
-    def get_Sizes(self, sizes):
+    def get_Sizes(self, sizes, prices):
         try:
-            counter = 0
+            counter = 1
             sizes = sizes.split(",")
+            prices = prices.split(", ")
             print(f"All the available Size : {type(sizes)}")
             print(f"All the available Size : {sizes}")
-            for size in sizes:
-                print(f"Selected size : {size}")
-                SIZE_SELECTOR = (By.XPATH, f"(//span[@class='ant-select-selection-search'])[{5+counter}]")
-                ADD_SIZE = (By.XPATH, f"(//div[@class='ant-space ant-space-horizontal ant-space-align-center'])[{3+counter}]/div[2]")
-                ALL_SIZE_SELECTOR = (By.XPATH, f"(//div[@class='rc-virtual-list-holder-inner'])[{2+counter}]/div")
-                ALL_VISIBLE_SIZE_SELECTOR = (By.XPATH, f"((//div[@class='rc-virtual-list-holder-inner'])[{2+counter}]/div[contains(@class,'ant-select-item ant-select-item-option')])")
 
+            print(f"All the available Size : {type(prices)}")
+            print(f"All the available Size : {prices}")
+
+            for size, price in zip(sizes, prices):
+                print(f"Selected size : {size}")
+
+                SIZE_SELECTOR = (By.XPATH, f"((//div[@class='ant-select-selector'])[{7+counter}])")
+                ALL_SIZE_SELECTOR = (By.XPATH, f"(//div[@class='rc-virtual-list-holder-inner'])[{1+counter}]/div")
+                ALL_VISIBLE_SIZE_SELECTOR = (By.XPATH, f"((//div[@class='rc-virtual-list-holder-inner'])[{1+counter}]/div[contains(@class,'ant-select-item ant-select-item-option')])")
+                ADD_SIZE = (By.XPATH, f"(//div[@class='ant-space ant-space-horizontal ant-space-align-center'])[{2+counter}]/div[2]")
+                PRICE_INPUT = (By.XPATH, f"(//div[@class='ant-input-number-input-wrap'])[{counter}]/input")
+
+                # Selecting Size
                 self.HandleDropdown(SIZE_SELECTOR, size, ALL_VISIBLE_SIZE_SELECTOR, ALL_SIZE_SELECTOR)
+
+                # Clearing Default Price
+                self.clear(PRICE_INPUT)
+
+                # Input New Price
+                self.wait.until(EC.visibility_of_element_located(PRICE_INPUT)).send_keys(price)
+                time.sleep(3)
                 self.wait.until(EC.visibility_of_element_located(ADD_SIZE)).click()
                 counter += 1
 
-            SUBTRACT_BUTTON = (By.XPATH, f"(//div[@class='ant-space ant-space-horizontal ant-space-align-center'])[{3+counter}]/div[1]")
+            SUBTRACT_BUTTON = (By.XPATH, f"(//div[@class='ant-space ant-space-horizontal ant-space-align-center'])[{2+counter}]/div[1]")
             self.wait.until(EC.visibility_of_element_located(SUBTRACT_BUTTON)).click()
 
         except(TimeoutException, NoSuchElementException, AttributeError, Exception) as e:
@@ -311,21 +372,55 @@ class ProductManagementPage:
     def duplicate_Leather_profile(self, duplicate_leather):
         try:
             print(f"Duplicate-leather item : {duplicate_leather}")
-            self.wait.until(EC.visibility_of_element_located(self.DUPLICATE_BUTTON)).click()
+            self.driver.find_element(*self.DUPLICATE_BUTTON).click()
             self.HandleDropdown(self.DUPLICATE_SELECTOR, duplicate_leather, self.ALL_DUPLICATE_SELECTOR, self.ALL_DUPLICATE_VISIBLE_SELECTOR)
         except(TimeoutException, NoSuchElementException, AttributeError, Exception) as e:
             self.log.error(f"Unable to Locate duplicate button : {str(e)}")
 
     def click_duplicate(self):
         try:
-            self.wait.until(EC.visibility_of_element_located(self.DUPLICATE)).click()
+            self.driver.find_element(*self.SUBMIT_DUPLICATE).click()
         except(TimeoutException, NoSuchElementException, AttributeError, Exception) as e:
             self.log.error(f"Unable to find Duplicate Creation Button : {str(e)}")
 
+    # *********************** #
+    # Adding Secondary Images #
+    # *********************** #
+
+    def navigate_to_secondary_img(self):
+        try:
+            self.scroll_up()
+            self.wait.until(EC.visibility_of_element_located(self.SECONDARY_IMAGE_TAB)).click()
+        except(TimeoutException, NoSuchElementException, AttributeError, Exception) as e:
+            self.log.error(f"Unable to find Secondary Image Tab : {str(e)}")
+
+    def click_upload_img(self):
+        try:
+            self.wait.until(EC.visibility_of_element_located(self.UPLOAD_MORE_BTN)).click()
+        except(TimeoutException, NoSuchElementException, AttributeError, Exception) as e:
+            self.log.error(f"Unable to find Upload more Image : {str(e)}")
+
+    def input_secondary_img(self, secondaryImg):
+        try:
+            self.driver.find_element(*self.INPUT_SECONDARY_IMAGES).send_keys(secondaryImg)
+        except(TimeoutException, NoSuchElementException, AttributeError, Exception) as e:
+            self.log.error(f"Unable to find Secondary Image Input box : {str(e)}")
+
+    def submit_secondary_img(self):
+        try:
+            self.wait.until(EC.visibility_of_element_located(self.UPDATE_PRIMARY_BTN)).click()
+        except(TimeoutException, NoSuchElementException, AttributeError, Exception) as e:
+            self.log.error(f"Unable to find Submit Button for Secondary Image : {str(e)}")
+
+    def get_confirm_msg(self):
+        try:
+            return self.wait.until(EC.visibility_of_element_located(self.IMAGE_UPDATED_SUCCESSFULLY)).text
+        except(TimeoutException, NoSuchElementException, AttributeError, Exception) as e:
+            self.log.error(f"Unable to find confirmation message : {str(e)}")
 
 
 
-    # TODO ---Continue This after creating the edit as it will add a lot of items in the list.
+    # TODO --- Continue This after creating the edit as it will add a lot of items in the list.
 
     # *********************** #
     # Editing Leather Profile #
@@ -338,3 +433,65 @@ class ProductManagementPage:
             self.wait.until(EC.visibility_of_element_located(self.EDIT_BUTTON)).click()
         except(TimeoutException, NoSuchElementException, AttributeError, Exception) as e:
             self.log.error(f"Unable to Find edit button for the Product : {str(e)}")
+
+
+
+    # ********************** #
+    # Check Synchronization  #
+    # ********************** #
+
+    def click_on_view(self):
+        try:
+            PRODUCT = self.wait.until(EC.visibility_of_element_located(self.PRODUCT_DIV))
+            self.actionChain.move_to_element(PRODUCT).perform()
+            self.wait.until(EC.visibility_of_element_located(self.VIEW_BUTTON)).click()
+        except(TimeoutException, NoSuchElementException, AttributeError, Exception) as e:
+            self.log.error(f"Unable to Find edit button for the Product : {str(e)}")
+
+    def view_name(self):
+        try:
+            self.wait.until(EC.visibility_of_element_located(self.GET_NAME)).text()
+        except(TimeoutException, NoSuchElementException, AttributeError, Exception) as e:
+            self.log.error(f"Unable to Find Name field : {str(e)}")
+
+    def view_category(self):
+        try:
+            self.wait.until(EC.visibility_of_element_located(self.GET_CATEGORY)).text()
+        except(TimeoutException, NoSuchElementException, AttributeError, Exception) as e:
+            self.log.error(f"Unable to Find category field : {str(e)}")
+
+    def view_tag(self):
+        try:
+            self.wait.until(EC.visibility_of_element_located(self.GET_TAG)).text()
+        except(TimeoutException, NoSuchElementException, AttributeError, Exception) as e:
+            self.log.error(f"Unable to Find Tag field : {str(e)}")
+
+    def view_hardware(self):
+        try:
+            self.wait.until(EC.visibility_of_element_located(self.GET_HARDWARE)).text()
+        except(TimeoutException, NoSuchElementException, AttributeError, Exception) as e:
+            self.log.error(f"Unable to Find Hardware field : {str(e)}")
+
+    def view_lining(self):
+        try:
+            self.wait.until(EC.visibility_of_element_located(self.GET_LINING)).text()
+        except(TimeoutException, NoSuchElementException, AttributeError, Exception) as e:
+            self.log.error(f"Unable to Find Lining field : {str(e)}")
+
+    def view_polyfill(self):
+        try:
+            if self.wait.until(EC.visibility_of_element_located(self.GET_POLYFILL)).text() == "Yes":
+                return "TRUE"
+            else:
+                return "FALSE"
+        except(TimeoutException, NoSuchElementException, AttributeError, Exception) as e:
+            self.log.error(f"Unable to Find Polyfill field : {str(e)}")
+
+    def view_rib(self):
+        try:
+            if self.wait.until(EC.visibility_of_element_located(self.GET_RIB)).text() == "Yes":
+                return "TRUE"
+            else:
+                return "FALSE"
+        except(TimeoutException, NoSuchElementException, AttributeError, Exception) as e:
+            self.log.error(f"Unable to Find rib field : {str(e)}")

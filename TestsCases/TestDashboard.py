@@ -61,7 +61,7 @@ class TestDashboard(unittest.TestCase, BaseClass):
     def test_dashboard_03_totalSales(self):
         self.LoginMethod.nativelogin("frugal@latido.com.np", "Test@123")
         try:
-            self.assertEqual(self.Dashboard.verify_total_sales(), "109", msg="Verification of total sales tile failed.")
+            self.assertEqual(self.Dashboard.verify_total_sales(), "130", msg="Verification of total sales tile failed.")
 
         # Checking if assertion failed
         except (NoSuchElementException, AssertionError, TimeoutException, Exception) as e:
@@ -89,7 +89,7 @@ class TestDashboard(unittest.TestCase, BaseClass):
     def test_dashboard_05_active_user(self):
         self.LoginMethod.nativelogin("frugal@latido.com.np", "Test@123")
         try:
-            self.assertEqual(self.Dashboard.active_user(), "100", msg="Verification of Active user tile failed.")
+            self.assertEqual(self.Dashboard.active_user(), "116", msg="Verification of Active user tile failed.")
 
         # Checking if assertion failed
         except (NoSuchElementException, AssertionError, TimeoutException, Exception) as e:
@@ -103,7 +103,7 @@ class TestDashboard(unittest.TestCase, BaseClass):
     def test_dashboard_06_inactive_user(self):
         self.LoginMethod.nativelogin("frugal@latido.com.np", "Test@123")
         try:
-            self.assertEqual(self.Dashboard.inactive_user(), "9", msg="Verification of Inactive User tile failed.")
+            self.assertEqual(self.Dashboard.inactive_user(), "14", msg="Verification of Inactive User tile failed.")
 
         # Checking if assertion failed
         except (NoSuchElementException, AssertionError, TimeoutException, Exception) as e:

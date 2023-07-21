@@ -1,5 +1,4 @@
 import allure
-import logging
 import unittest
 from ddt import ddt, data, unpack
 from Utilities.utils import Utils
