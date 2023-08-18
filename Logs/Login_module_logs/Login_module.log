@@ -1,184 +1,27 @@
-2023-07-14 09:54:12,399 - ERROR - Login_module - Exception occurred while entering user ID: Message: no such window: target window already closed
+2023-08-04 09:43:27,015 - ERROR - Login_module - Exception occurred while entering user ID: Message: no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=114.0.5735.199)
+  (Session info: chrome=115.0.5790.110)
 Stacktrace:
 Backtrace:
-	GetHandleVerifier [0x0102A813+48355]
-	(No symbol) [0x00FBC4B1]
-	(No symbol) [0x00EC5358]
-	(No symbol) [0x00EAD293]
-	(No symbol) [0x00F0E37B]
-	(No symbol) [0x00F1C473]
-	(No symbol) [0x00F0A536]
-	(No symbol) [0x00EE82DC]
-	(No symbol) [0x00EE93DD]
-	GetHandleVerifier [0x0128AABD+2539405]
-	GetHandleVerifier [0x012CA78F+2800735]
-	GetHandleVerifier [0x012C456C+2775612]
-	GetHandleVerifier [0x010B51E0+616112]
-	(No symbol) [0x00FC5F8C]
-	(No symbol) [0x00FC2328]
-	(No symbol) [0x00FC240B]
-	(No symbol) [0x00FB4FF7]
-	BaseThreadInitThunk [0x76467D59+25]
-	RtlInitializeExceptionChain [0x76F5B79B+107]
-	RtlClearBits [0x76F5B71F+191]
+	GetHandleVerifier [0x00A3A813+48355]
+	(No symbol) [0x009CC4B1]
+	(No symbol) [0x008D5358]
+	(No symbol) [0x008BD293]
+	(No symbol) [0x0091E37B]
+	(No symbol) [0x0092C473]
+	(No symbol) [0x0091A536]
+	(No symbol) [0x008F82DC]
+	(No symbol) [0x008F93DD]
+	GetHandleVerifier [0x00C9AABD+2539405]
+	GetHandleVerifier [0x00CDA78F+2800735]
+	GetHandleVerifier [0x00CD456C+2775612]
+	GetHandleVerifier [0x00AC51E0+616112]
+	(No symbol) [0x009D5F8C]
+	(No symbol) [0x009D2328]
+	(No symbol) [0x009D240B]
+	(No symbol) [0x009C4FF7]
+	BaseThreadInitThunk [0x75E07D59+25]
+	RtlInitializeExceptionChain [0x774BB79B+107]
+	RtlClearBits [0x774BB71F+191]
 
-2023-07-14 11:46:21,031 - ERROR - Login_module - Exception occurred while clicking on submit button: Message: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=114.0.5735.199)
-Stacktrace:
-Backtrace:
-	GetHandleVerifier [0x00C2A813+48355]
-	(No symbol) [0x00BBC4B1]
-	(No symbol) [0x00AC5358]
-	(No symbol) [0x00AAD293]
-	(No symbol) [0x00B0E37B]
-	(No symbol) [0x00B1C473]
-	(No symbol) [0x00B0A536]
-	(No symbol) [0x00AE82DC]
-	(No symbol) [0x00AE93DD]
-	GetHandleVerifier [0x00E8AABD+2539405]
-	GetHandleVerifier [0x00ECA78F+2800735]
-	GetHandleVerifier [0x00EC456C+2775612]
-	GetHandleVerifier [0x00CB51E0+616112]
-	(No symbol) [0x00BC5F8C]
-	(No symbol) [0x00BC2328]
-	(No symbol) [0x00BC240B]
-	(No symbol) [0x00BB4FF7]
-	BaseThreadInitThunk [0x76467D59+25]
-	RtlInitializeExceptionChain [0x76F5B79B+107]
-	RtlClearBits [0x76F5B71F+191]
-
-2023-07-14 12:05:31,424 - ERROR - Login_module - Exception occurred while entering user ID: Message: element not interactable
-  (Session info: chrome=114.0.5735.199)
-Stacktrace:
-Backtrace:
-	GetHandleVerifier [0x00F9A813+48355]
-	(No symbol) [0x00F2C4B1]
-	(No symbol) [0x00E35220]
-	(No symbol) [0x00E5D046]
-	(No symbol) [0x00E5C8B1]
-	(No symbol) [0x00E7A73C]
-	(No symbol) [0x00E59A36]
-	(No symbol) [0x00E7AA94]
-	(No symbol) [0x00E8C922]
-	(No symbol) [0x00E7A536]
-	(No symbol) [0x00E582DC]
-	(No symbol) [0x00E593DD]
-	GetHandleVerifier [0x011FAABD+2539405]
-	GetHandleVerifier [0x0123A78F+2800735]
-	GetHandleVerifier [0x0123456C+2775612]
-	GetHandleVerifier [0x010251E0+616112]
-	(No symbol) [0x00F35F8C]
-	(No symbol) [0x00F32328]
-	(No symbol) [0x00F3240B]
-	(No symbol) [0x00F24FF7]
-	BaseThreadInitThunk [0x76467D59+25]
-	RtlInitializeExceptionChain [0x76F5B79B+107]
-	RtlClearBits [0x76F5B71F+191]
-
-2023-07-14 13:08:47,654 - ERROR - Login_module - Exception occurred while entering user ID: Message: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=114.0.5735.199)
-Stacktrace:
-Backtrace:
-	GetHandleVerifier [0x00F9A813+48355]
-	(No symbol) [0x00F2C4B1]
-	(No symbol) [0x00E35358]
-	(No symbol) [0x00E1D293]
-	(No symbol) [0x00E7E37B]
-	(No symbol) [0x00E8C473]
-	(No symbol) [0x00E7A536]
-	(No symbol) [0x00E582DC]
-	(No symbol) [0x00E593DD]
-	GetHandleVerifier [0x011FAABD+2539405]
-	GetHandleVerifier [0x0123A78F+2800735]
-	GetHandleVerifier [0x0123456C+2775612]
-	GetHandleVerifier [0x010251E0+616112]
-	(No symbol) [0x00F35F8C]
-	(No symbol) [0x00F32328]
-	(No symbol) [0x00F3240B]
-	(No symbol) [0x00F24FF7]
-	BaseThreadInitThunk [0x76467D59+25]
-	RtlInitializeExceptionChain [0x76F5B79B+107]
-	RtlClearBits [0x76F5B71F+191]
-
-2023-07-21 14:13:02,601 - ERROR - Login_module - Exception occurred while entering user ID: Message: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=114.0.5735.199)
-Stacktrace:
-Backtrace:
-	GetHandleVerifier [0x006AA813+48355]
-	(No symbol) [0x0063C4B1]
-	(No symbol) [0x00545358]
-	(No symbol) [0x0052D293]
-	(No symbol) [0x0058E37B]
-	(No symbol) [0x0059C473]
-	(No symbol) [0x0058A536]
-	(No symbol) [0x005682DC]
-	(No symbol) [0x005693DD]
-	GetHandleVerifier [0x0090AABD+2539405]
-	GetHandleVerifier [0x0094A78F+2800735]
-	GetHandleVerifier [0x0094456C+2775612]
-	GetHandleVerifier [0x007351E0+616112]
-	(No symbol) [0x00645F8C]
-	(No symbol) [0x00642328]
-	(No symbol) [0x0064240B]
-	(No symbol) [0x00634FF7]
-	BaseThreadInitThunk [0x77327D59+25]
-	RtlInitializeExceptionChain [0x7768B79B+107]
-	RtlClearBits [0x7768B71F+191]
-
-2023-07-21 14:22:57,062 - ERROR - Login_module - Exception occurred while entering user ID: Message: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=114.0.5735.199)
-Stacktrace:
-Backtrace:
-	GetHandleVerifier [0x006AA813+48355]
-	(No symbol) [0x0063C4B1]
-	(No symbol) [0x00545358]
-	(No symbol) [0x0052D293]
-	(No symbol) [0x0058E37B]
-	(No symbol) [0x0059C473]
-	(No symbol) [0x0058A536]
-	(No symbol) [0x005682DC]
-	(No symbol) [0x005693DD]
-	GetHandleVerifier [0x0090AABD+2539405]
-	GetHandleVerifier [0x0094A78F+2800735]
-	GetHandleVerifier [0x0094456C+2775612]
-	GetHandleVerifier [0x007351E0+616112]
-	(No symbol) [0x00645F8C]
-	(No symbol) [0x00642328]
-	(No symbol) [0x0064240B]
-	(No symbol) [0x00634FF7]
-	BaseThreadInitThunk [0x77327D59+25]
-	RtlInitializeExceptionChain [0x7768B79B+107]
-	RtlClearBits [0x7768B71F+191]
-
-2023-07-21 15:36:01,369 - ERROR - Login_module - Exception occurred while entering user ID: Message: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=114.0.5735.199)
-Stacktrace:
-Backtrace:
-	GetHandleVerifier [0x006AA813+48355]
-	(No symbol) [0x0063C4B1]
-	(No symbol) [0x00545358]
-	(No symbol) [0x0052D293]
-	(No symbol) [0x0058E37B]
-	(No symbol) [0x0059C473]
-	(No symbol) [0x0058A536]
-	(No symbol) [0x005682DC]
-	(No symbol) [0x005693DD]
-	GetHandleVerifier [0x0090AABD+2539405]
-	GetHandleVerifier [0x0094A78F+2800735]
-	GetHandleVerifier [0x0094456C+2775612]
-	GetHandleVerifier [0x007351E0+616112]
-	(No symbol) [0x00645F8C]
-	(No symbol) [0x00642328]
-	(No symbol) [0x0064240B]
-	(No symbol) [0x00634FF7]
-	BaseThreadInitThunk [0x77327D59+25]
-	RtlInitializeExceptionChain [0x7768B79B+107]
-	RtlClearBits [0x7768B71F+191]
-
+2023-08-18 15:07:55,507 - ERROR - Login_module - Exception occurred while entering user ID: 'NoneType' object has no attribute 'is_displayed'

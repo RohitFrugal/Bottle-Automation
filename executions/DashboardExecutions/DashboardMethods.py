@@ -1,7 +1,3 @@
-import logging
-import time
-
-from Utilities.utils import Utils
 from Pages.Dashboard.DashboardPage import DashboardPage
 from executions.OrdersExecutions.OrderMethods import OrderMethod
 
@@ -11,7 +7,6 @@ class DashboardMethod:
         self.driver = driver
         self.Order = OrderMethod(self.driver)
         self.Dashboard = DashboardPage(self.driver)
-        self.log = Utils.custom_logger(module_name="Dashboard_module", logLevel=logging.WARNING)
 
     def verify_total_user(self):
         return self.Dashboard.verify_total_user()

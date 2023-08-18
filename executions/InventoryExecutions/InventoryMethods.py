@@ -67,7 +67,7 @@ class InventoryMethods:
         else:
             return False
 
-    def selectCarouselItems(self, ItmeName, name, code, sku, tags, color, description, l_quantity, h_quantity, imgPath, brand, weight):
+    def selectCarouselItems(self, ItmeName, name, code, sku, tags, color, description, l_quantity, h_quantity, leather_flg, imgPath, leather_ball_imgPath, brand, weight):
         self.navigate_to_Inventory()
         time.sleep(5)
         self.Inventory.input_search(ItmeName)
@@ -84,6 +84,11 @@ class InventoryMethods:
         self.Inventory.input_high_quantity(h_quantity)
         self.Inventory.upload_primary_img(imgPath)
         time.sleep(5)
+        # if it's leather item
+        if leather_flg == 1:
+            self.Inventory.upload_leather_ball_img(leather_ball_imgPath)
+        time.sleep(5)
+
         self.Inventory.input_brand(brand)
         self.Inventory.input_weight(weight)
         self.Inventory.item_submit()

@@ -1,382 +1,358 @@
-2023-07-14 13:08:42,977 - ERROR - Inventory - Couldn't find the Confirm msg element : 
- Message: 
-Stacktrace:
-Backtrace:
-	GetHandleVerifier [0x00F9A813+48355]
-	(No symbol) [0x00F2C4B1]
-	(No symbol) [0x00E35358]
-	(No symbol) [0x00E609A5]
-	(No symbol) [0x00E60B3B]
-	(No symbol) [0x00E8E232]
-	(No symbol) [0x00E7A784]
-	(No symbol) [0x00E8C922]
-	(No symbol) [0x00E7A536]
-	(No symbol) [0x00E582DC]
-	(No symbol) [0x00E593DD]
-	GetHandleVerifier [0x011FAABD+2539405]
-	GetHandleVerifier [0x0123A78F+2800735]
-	GetHandleVerifier [0x0123456C+2775612]
-	GetHandleVerifier [0x010251E0+616112]
-	(No symbol) [0x00F35F8C]
-	(No symbol) [0x00F32328]
-	(No symbol) [0x00F3240B]
-	(No symbol) [0x00F24FF7]
-	BaseThreadInitThunk [0x76467D59+25]
-	RtlInitializeExceptionChain [0x76F5B79B+107]
-	RtlClearBits [0x76F5B71F+191]
-
-2023-07-21 12:06:11,184 - ERROR - Inventory - Couldn't find the Confirm msg element : 
- Message: 
-Stacktrace:
-Backtrace:
-	GetHandleVerifier [0x0031A813+48355]
-	(No symbol) [0x002AC4B1]
-	(No symbol) [0x001B5358]
-	(No symbol) [0x001E09A5]
-	(No symbol) [0x001E0B3B]
-	(No symbol) [0x0020E232]
-	(No symbol) [0x001FA784]
-	(No symbol) [0x0020C922]
-	(No symbol) [0x001FA536]
-	(No symbol) [0x001D82DC]
-	(No symbol) [0x001D93DD]
-	GetHandleVerifier [0x0057AABD+2539405]
-	GetHandleVerifier [0x005BA78F+2800735]
-	GetHandleVerifier [0x005B456C+2775612]
-	GetHandleVerifier [0x003A51E0+616112]
-	(No symbol) [0x002B5F8C]
-	(No symbol) [0x002B2328]
-	(No symbol) [0x002B240B]
-	(No symbol) [0x002A4FF7]
-	BaseThreadInitThunk [0x77327D59+25]
-	RtlInitializeExceptionChain [0x7768B79B+107]
-	RtlClearBits [0x7768B71F+191]
-
-2023-07-21 12:08:20,806 - ERROR - Inventory - Couldn't find the Element to Select the Inventory Category : 
- Message: 
-Stacktrace:
-Backtrace:
-	GetHandleVerifier [0x0031A813+48355]
-	(No symbol) [0x002AC4B1]
-	(No symbol) [0x001B5358]
-	(No symbol) [0x001E09A5]
-	(No symbol) [0x001E0B3B]
-	(No symbol) [0x0020E232]
-	(No symbol) [0x001FA784]
-	(No symbol) [0x0020C922]
-	(No symbol) [0x001FA536]
-	(No symbol) [0x001D82DC]
-	(No symbol) [0x001D93DD]
-	GetHandleVerifier [0x0057AABD+2539405]
-	GetHandleVerifier [0x005BA78F+2800735]
-	GetHandleVerifier [0x005B456C+2775612]
-	GetHandleVerifier [0x003A51E0+616112]
-	(No symbol) [0x002B5F8C]
-	(No symbol) [0x002B2328]
-	(No symbol) [0x002B240B]
-	(No symbol) [0x002A4FF7]
-	BaseThreadInitThunk [0x77327D59+25]
-	RtlInitializeExceptionChain [0x7768B79B+107]
-	RtlClearBits [0x7768B71F+191]
-
-2023-07-21 12:08:30,932 - ERROR - Inventory - Couldn't find the Element to add new Item to the Selected Category : 
- Message: 
-
-2023-07-21 12:08:40,945 - ERROR - Inventory - Couldn't find the Element to input new Item Name to Selected Category : 
- Message: 
-Stacktrace:
-Backtrace:
-	GetHandleVerifier [0x0031A813+48355]
-	(No symbol) [0x002AC4B1]
-	(No symbol) [0x001B5358]
-	(No symbol) [0x001E09A5]
-	(No symbol) [0x001E0B3B]
-	(No symbol) [0x0020E232]
-	(No symbol) [0x001FA784]
-	(No symbol) [0x0020C922]
-	(No symbol) [0x001FA536]
-	(No symbol) [0x001D82DC]
-	(No symbol) [0x001D93DD]
-	GetHandleVerifier [0x0057AABD+2539405]
-	GetHandleVerifier [0x005BA78F+2800735]
-	GetHandleVerifier [0x005B456C+2775612]
-	GetHandleVerifier [0x003A51E0+616112]
-	(No symbol) [0x002B5F8C]
-	(No symbol) [0x002B2328]
-	(No symbol) [0x002B240B]
-	(No symbol) [0x002A4FF7]
-	BaseThreadInitThunk [0x77327D59+25]
-	RtlInitializeExceptionChain [0x7768B79B+107]
-	RtlClearBits [0x7768B71F+191]
-
-2023-07-21 12:08:51,006 - ERROR - Inventory - Couldn't find the Element to input code for Selected Category : 
- Message: 
-Stacktrace:
-Backtrace:
-	GetHandleVerifier [0x0031A813+48355]
-	(No symbol) [0x002AC4B1]
-	(No symbol) [0x001B5358]
-	(No symbol) [0x001E09A5]
-	(No symbol) [0x001E0B3B]
-	(No symbol) [0x0020E232]
-	(No symbol) [0x001FA784]
-	(No symbol) [0x0020C922]
-	(No symbol) [0x001FA536]
-	(No symbol) [0x001D82DC]
-	(No symbol) [0x001D93DD]
-	GetHandleVerifier [0x0057AABD+2539405]
-	GetHandleVerifier [0x005BA78F+2800735]
-	GetHandleVerifier [0x005B456C+2775612]
-	GetHandleVerifier [0x003A51E0+616112]
-	(No symbol) [0x002B5F8C]
-	(No symbol) [0x002B2328]
-	(No symbol) [0x002B240B]
-	(No symbol) [0x002A4FF7]
-	BaseThreadInitThunk [0x77327D59+25]
-	RtlInitializeExceptionChain [0x7768B79B+107]
-	RtlClearBits [0x7768B71F+191]
-
-2023-07-21 12:09:01,067 - ERROR - Inventory - Couldn't find the Element to input SKU for Selected Category : 
- Message: 
-Stacktrace:
-Backtrace:
-	GetHandleVerifier [0x0031A813+48355]
-	(No symbol) [0x002AC4B1]
-	(No symbol) [0x001B5358]
-	(No symbol) [0x001E09A5]
-	(No symbol) [0x001E0B3B]
-	(No symbol) [0x0020E232]
-	(No symbol) [0x001FA784]
-	(No symbol) [0x0020C922]
-	(No symbol) [0x001FA536]
-	(No symbol) [0x001D82DC]
-	(No symbol) [0x001D93DD]
-	GetHandleVerifier [0x0057AABD+2539405]
-	GetHandleVerifier [0x005BA78F+2800735]
-	GetHandleVerifier [0x005B456C+2775612]
-	GetHandleVerifier [0x003A51E0+616112]
-	(No symbol) [0x002B5F8C]
-	(No symbol) [0x002B2328]
-	(No symbol) [0x002B240B]
-	(No symbol) [0x002A4FF7]
-	BaseThreadInitThunk [0x77327D59+25]
-	RtlInitializeExceptionChain [0x7768B79B+107]
-	RtlClearBits [0x7768B71F+191]
-
-2023-07-21 12:09:11,113 - ERROR - Inventory - Couldn't find the Element to input Tags for Selected Category : 
- Message: 
-Stacktrace:
-Backtrace:
-	GetHandleVerifier [0x0031A813+48355]
-	(No symbol) [0x002AC4B1]
-	(No symbol) [0x001B5358]
-	(No symbol) [0x001E09A5]
-	(No symbol) [0x001E0B3B]
-	(No symbol) [0x0020E232]
-	(No symbol) [0x001FA784]
-	(No symbol) [0x0020C922]
-	(No symbol) [0x001FA536]
-	(No symbol) [0x001D82DC]
-	(No symbol) [0x001D93DD]
-	GetHandleVerifier [0x0057AABD+2539405]
-	GetHandleVerifier [0x005BA78F+2800735]
-	GetHandleVerifier [0x005B456C+2775612]
-	GetHandleVerifier [0x003A51E0+616112]
-	(No symbol) [0x002B5F8C]
-	(No symbol) [0x002B2328]
-	(No symbol) [0x002B240B]
-	(No symbol) [0x002A4FF7]
-	BaseThreadInitThunk [0x77327D59+25]
-	RtlInitializeExceptionChain [0x7768B79B+107]
-	RtlClearBits [0x7768B71F+191]
-
-2023-07-21 12:09:21,162 - ERROR - Inventory - Couldn't find the Element to input color for new Item: 
- Message: 
-Stacktrace:
-Backtrace:
-	GetHandleVerifier [0x0031A813+48355]
-	(No symbol) [0x002AC4B1]
-	(No symbol) [0x001B5358]
-	(No symbol) [0x001E09A5]
-	(No symbol) [0x001E0B3B]
-	(No symbol) [0x0020E232]
-	(No symbol) [0x001FA784]
-	(No symbol) [0x0020C922]
-	(No symbol) [0x001FA536]
-	(No symbol) [0x001D82DC]
-	(No symbol) [0x001D93DD]
-	GetHandleVerifier [0x0057AABD+2539405]
-	GetHandleVerifier [0x005BA78F+2800735]
-	GetHandleVerifier [0x005B456C+2775612]
-	GetHandleVerifier [0x003A51E0+616112]
-	(No symbol) [0x002B5F8C]
-	(No symbol) [0x002B2328]
-	(No symbol) [0x002B240B]
-	(No symbol) [0x002A4FF7]
-	BaseThreadInitThunk [0x77327D59+25]
-	RtlInitializeExceptionChain [0x7768B79B+107]
-	RtlClearBits [0x7768B71F+191]
-
-2023-07-21 12:09:31,225 - ERROR - Inventory - Couldn't find the Element to input description for the Selected Category : 
- Message: 
-Stacktrace:
-Backtrace:
-	GetHandleVerifier [0x0031A813+48355]
-	(No symbol) [0x002AC4B1]
-	(No symbol) [0x001B5358]
-	(No symbol) [0x001E09A5]
-	(No symbol) [0x001E0B3B]
-	(No symbol) [0x0020E232]
-	(No symbol) [0x001FA784]
-	(No symbol) [0x0020C922]
-	(No symbol) [0x001FA536]
-	(No symbol) [0x001D82DC]
-	(No symbol) [0x001D93DD]
-	GetHandleVerifier [0x0057AABD+2539405]
-	GetHandleVerifier [0x005BA78F+2800735]
-	GetHandleVerifier [0x005B456C+2775612]
-	GetHandleVerifier [0x003A51E0+616112]
-	(No symbol) [0x002B5F8C]
-	(No symbol) [0x002B2328]
-	(No symbol) [0x002B240B]
-	(No symbol) [0x002A4FF7]
-	BaseThreadInitThunk [0x77327D59+25]
-	RtlInitializeExceptionChain [0x7768B79B+107]
-	RtlClearBits [0x7768B71F+191]
-
-2023-07-21 12:09:41,255 - ERROR - Inventory - Couldn't find the Element to input Least quantity for the Selected Category : 
- Message: 
-Stacktrace:
-Backtrace:
-	GetHandleVerifier [0x0031A813+48355]
-	(No symbol) [0x002AC4B1]
-	(No symbol) [0x001B5358]
-	(No symbol) [0x001E09A5]
-	(No symbol) [0x001E0B3B]
-	(No symbol) [0x0020E232]
-	(No symbol) [0x001FA784]
-	(No symbol) [0x0020C922]
-	(No symbol) [0x001FA536]
-	(No symbol) [0x001D82DC]
-	(No symbol) [0x001D93DD]
-	GetHandleVerifier [0x0057AABD+2539405]
-	GetHandleVerifier [0x005BA78F+2800735]
-	GetHandleVerifier [0x005B456C+2775612]
-	GetHandleVerifier [0x003A51E0+616112]
-	(No symbol) [0x002B5F8C]
-	(No symbol) [0x002B2328]
-	(No symbol) [0x002B240B]
-	(No symbol) [0x002A4FF7]
-	BaseThreadInitThunk [0x77327D59+25]
-	RtlInitializeExceptionChain [0x7768B79B+107]
-	RtlClearBits [0x7768B71F+191]
-
-2023-07-21 12:09:51,764 - ERROR - Inventory - Couldn't find the Element to input High quantity for the Selected Category : 
- Message: 
-Stacktrace:
-Backtrace:
-	GetHandleVerifier [0x0031A813+48355]
-	(No symbol) [0x002AC4B1]
-	(No symbol) [0x001B5358]
-	(No symbol) [0x001E09A5]
-	(No symbol) [0x001E0B3B]
-	(No symbol) [0x0020E232]
-	(No symbol) [0x001FA784]
-	(No symbol) [0x0020C922]
-	(No symbol) [0x001FA536]
-	(No symbol) [0x001D82DC]
-	(No symbol) [0x001D93DD]
-	GetHandleVerifier [0x0057AABD+2539405]
-	GetHandleVerifier [0x005BA78F+2800735]
-	GetHandleVerifier [0x005B456C+2775612]
-	GetHandleVerifier [0x003A51E0+616112]
-	(No symbol) [0x002B5F8C]
-	(No symbol) [0x002B2328]
-	(No symbol) [0x002B240B]
-	(No symbol) [0x002A4FF7]
-	BaseThreadInitThunk [0x77327D59+25]
-	RtlInitializeExceptionChain [0x7768B79B+107]
-	RtlClearBits [0x7768B71F+191]
-
-2023-07-21 12:09:53,783 - ERROR - Inventory - Couldn't find the Element to Upload Primary Image for Selected Category : 
- Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='file']"}
-  (Session info: chrome=114.0.5735.199)
-Stacktrace:
-Backtrace:
-	GetHandleVerifier [0x0031A813+48355]
-	(No symbol) [0x002AC4B1]
-	(No symbol) [0x001B5358]
-	(No symbol) [0x001E09A5]
-	(No symbol) [0x001E0B3B]
-	(No symbol) [0x0020E232]
-	(No symbol) [0x001FA784]
-	(No symbol) [0x0020C922]
-	(No symbol) [0x001FA536]
-	(No symbol) [0x001D82DC]
-	(No symbol) [0x001D93DD]
-	GetHandleVerifier [0x0057AABD+2539405]
-	GetHandleVerifier [0x005BA78F+2800735]
-	GetHandleVerifier [0x005B456C+2775612]
-	GetHandleVerifier [0x003A51E0+616112]
-	(No symbol) [0x002B5F8C]
-	(No symbol) [0x002B2328]
-	(No symbol) [0x002B240B]
-	(No symbol) [0x002A4FF7]
-	BaseThreadInitThunk [0x77327D59+25]
-	RtlInitializeExceptionChain [0x7768B79B+107]
-	RtlClearBits [0x7768B71F+191]
-
-2023-07-21 13:16:53,777 - ERROR - Inventory - Couldn't find the Element to input Payment MethodSS: 
+2023-08-07 11:23:36,826 - ERROR - Inventory - Couldn't find the Element to input Quality: 
  Message: no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=114.0.5735.199)
+  (Session info: chrome=115.0.5790.171)
 Stacktrace:
 Backtrace:
-	GetHandleVerifier [0x006AA813+48355]
-	(No symbol) [0x0063C4B1]
-	(No symbol) [0x00545358]
-	(No symbol) [0x0052D293]
-	(No symbol) [0x0058E37B]
-	(No symbol) [0x0059C473]
-	(No symbol) [0x0058A536]
-	(No symbol) [0x005682DC]
-	(No symbol) [0x005693DD]
-	GetHandleVerifier [0x0090AABD+2539405]
-	GetHandleVerifier [0x0094A78F+2800735]
-	GetHandleVerifier [0x0094456C+2775612]
-	GetHandleVerifier [0x007351E0+616112]
-	(No symbol) [0x00645F8C]
-	(No symbol) [0x00642328]
-	(No symbol) [0x0064240B]
-	(No symbol) [0x00634FF7]
-	BaseThreadInitThunk [0x77327D59+25]
-	RtlInitializeExceptionChain [0x7768B79B+107]
-	RtlClearBits [0x7768B71F+191]
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x75BB7D59+25]
+	RtlInitializeExceptionChain [0x77B6B79B+107]
+	RtlClearBits [0x77B6B71F+191]
 
-2023-07-21 13:16:53,878 - ERROR - Inventory - Couldn't find the Element to Input receiver name : 
+2023-08-07 11:23:36,829 - ERROR - Inventory - Couldn't find the Element to Select Transportation mode: 
  Message: no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=114.0.5735.199)
+  (Session info: chrome=115.0.5790.171)
 Stacktrace:
 Backtrace:
-	GetHandleVerifier [0x006AA813+48355]
-	(No symbol) [0x0063C4B1]
-	(No symbol) [0x00545358]
-	(No symbol) [0x0052D293]
-	(No symbol) [0x0058E37B]
-	(No symbol) [0x0059C473]
-	(No symbol) [0x0058A536]
-	(No symbol) [0x005682DC]
-	(No symbol) [0x005693DD]
-	GetHandleVerifier [0x0090AABD+2539405]
-	GetHandleVerifier [0x0094A78F+2800735]
-	GetHandleVerifier [0x0094456C+2775612]
-	GetHandleVerifier [0x007351E0+616112]
-	(No symbol) [0x00645F8C]
-	(No symbol) [0x00642328]
-	(No symbol) [0x0064240B]
-	(No symbol) [0x00634FF7]
-	BaseThreadInitThunk [0x77327D59+25]
-	RtlInitializeExceptionChain [0x7768B79B+107]
-	RtlClearBits [0x7768B71F+191]
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x75BB7D59+25]
+	RtlInitializeExceptionChain [0x77B6B79B+107]
+	RtlClearBits [0x77B6B71F+191]
+
+2023-08-07 11:23:36,836 - ERROR - Inventory - Couldn't find the Element to input Payment MethodSS: 
+ Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x75BB7D59+25]
+	RtlInitializeExceptionChain [0x77B6B79B+107]
+	RtlClearBits [0x77B6B71F+191]
+
+2023-08-07 11:23:36,841 - ERROR - Inventory - Couldn't find the Element to Input receiver name : 
+ Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x75BB7D59+25]
+	RtlInitializeExceptionChain [0x77B6B79B+107]
+	RtlClearBits [0x77B6B71F+191]
+
+2023-08-07 11:25:09,559 - ERROR - Inventory - Couldn't find the Element to upload Image : 
+ Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x75BB7D59+25]
+	RtlInitializeExceptionChain [0x77B6B79B+107]
+	RtlClearBits [0x77B6B71F+191]
+
+2023-08-07 11:25:09,560 - ERROR - Inventory - Couldn't find the Element to input Category name : 
+ Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x75BB7D59+25]
+	RtlInitializeExceptionChain [0x77B6B79B+107]
+	RtlClearBits [0x77B6B71F+191]
+
+2023-08-07 11:25:09,563 - ERROR - Inventory - Couldn't find the Element to input Category code : 
+ Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x75BB7D59+25]
+	RtlInitializeExceptionChain [0x77B6B79B+107]
+	RtlClearBits [0x77B6B71F+191]
+
+2023-08-07 11:25:09,565 - ERROR - Inventory - Couldn't find the Element to input descriptions: 
+ Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x75BB7D59+25]
+	RtlInitializeExceptionChain [0x77B6B79B+107]
+	RtlClearBits [0x77B6B71F+191]
+
+2023-08-07 11:25:09,568 - ERROR - Inventory - Couldn't find the Element to select leather Unit : 
+ Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x75BB7D59+25]
+	RtlInitializeExceptionChain [0x77B6B79B+107]
+	RtlClearBits [0x77B6B71F+191]
+
+2023-08-07 11:25:09,570 - ERROR - Inventory - Couldn't find the Element to Click submit : 
+ Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x75BB7D59+25]
+	RtlInitializeExceptionChain [0x77B6B79B+107]
+	RtlClearBits [0x77B6B71F+191]
+
+2023-08-07 11:25:44,302 - ERROR - Inventory - Couldn't find the Element to select Vendor: 
+ 'NoneType' object has no attribute 'move_to_element'
+2023-08-18 11:39:41,213 - ERROR - Inventory - Couldn't find the Confirm msg element : 
+ Message: 
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0105A813+48355]
+	(No symbol) [0x00FEC4B1]
+	(No symbol) [0x00EF5358]
+	(No symbol) [0x00F209A5]
+	(No symbol) [0x00F20B3B]
+	(No symbol) [0x00F4E232]
+	(No symbol) [0x00F3A784]
+	(No symbol) [0x00F4C922]
+	(No symbol) [0x00F3A536]
+	(No symbol) [0x00F182DC]
+	(No symbol) [0x00F193DD]
+	GetHandleVerifier [0x012BAABD+2539405]
+	GetHandleVerifier [0x012FA78F+2800735]
+	GetHandleVerifier [0x012F456C+2775612]
+	GetHandleVerifier [0x010E51E0+616112]
+	(No symbol) [0x00FF5F8C]
+	(No symbol) [0x00FF2328]
+	(No symbol) [0x00FF240B]
+	(No symbol) [0x00FE4FF7]
+	BaseThreadInitThunk [0x75167D59+25]
+	RtlInitializeExceptionChain [0x7702B79B+107]
+	RtlClearBits [0x7702B71F+191]
+
+2023-08-18 12:30:46,746 - ERROR - Inventory - Couldn't find the Element to Select Transportation mode: 
+ Message: element click intercepted: Element <div class="ant-select-item-option-content">...</div> is not clickable at point (295, 10). Other element would receive the click: <div class="menu">...</div>
+  (Session info: chrome=115.0.5790.173)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x004BA813+48355]
+	(No symbol) [0x0044C4B1]
+	(No symbol) [0x00355358]
+	(No symbol) [0x00385062]
+	(No symbol) [0x00383B98]
+	(No symbol) [0x0038239B]
+	(No symbol) [0x0038179E]
+	(No symbol) [0x00379F5C]
+	(No symbol) [0x0039A73C]
+	(No symbol) [0x00379A36]
+	(No symbol) [0x0039AA94]
+	(No symbol) [0x003AC922]
+	(No symbol) [0x0039A536]
+	(No symbol) [0x003782DC]
+	(No symbol) [0x003793DD]
+	GetHandleVerifier [0x0071AABD+2539405]
+	GetHandleVerifier [0x0075A78F+2800735]
+	GetHandleVerifier [0x0075456C+2775612]
+	GetHandleVerifier [0x005451E0+616112]
+	(No symbol) [0x00455F8C]
+	(No symbol) [0x00452328]
+	(No symbol) [0x0045240B]
+	(No symbol) [0x00444FF7]
+	BaseThreadInitThunk [0x75167D59+25]
+	RtlInitializeExceptionChain [0x7702B79B+107]
+	RtlClearBits [0x7702B71F+191]
+
+2023-08-18 14:25:48,814 - ERROR - Inventory - Couldn't find the Confirm msg element : 
+ Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.173)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x004BA813+48355]
+	(No symbol) [0x0044C4B1]
+	(No symbol) [0x00355358]
+	(No symbol) [0x0033D293]
+	(No symbol) [0x0039E37B]
+	(No symbol) [0x003AC473]
+	(No symbol) [0x0039A536]
+	(No symbol) [0x003782DC]
+	(No symbol) [0x003793DD]
+	GetHandleVerifier [0x0071AABD+2539405]
+	GetHandleVerifier [0x0075A78F+2800735]
+	GetHandleVerifier [0x0075456C+2775612]
+	GetHandleVerifier [0x005451E0+616112]
+	(No symbol) [0x00455F8C]
+	(No symbol) [0x00452328]
+	(No symbol) [0x0045240B]
+	(No symbol) [0x00444FF7]
+	BaseThreadInitThunk [0x75167D59+25]
+	RtlInitializeExceptionChain [0x7702B79B+107]
+	RtlClearBits [0x7702B71F+191]
 

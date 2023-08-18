@@ -1,0 +1,4471 @@
+2023-08-09 16:07:59,150 - ERROR - Blog_module - Unable to find the Image Blog Button : move_to requires a WebElement
+2023-08-09 16:08:45,239 - ERROR - Blog_module - Unable to find the Image Blog Button : move_to requires a WebElement
+2023-08-09 16:10:02,540 - ERROR - Blog_module - Unable to find the Image Blog Button : move_to requires a WebElement
+2023-08-09 16:11:50,533 - ERROR - Blog_module - Unable to find the Image Blog Button : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@role='menu']/li[2]"}
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006EA813+48355]
+	(No symbol) [0x0067C4B1]
+	(No symbol) [0x00585358]
+	(No symbol) [0x005B09A5]
+	(No symbol) [0x005B0B3B]
+	(No symbol) [0x005DE232]
+	(No symbol) [0x005CA784]
+	(No symbol) [0x005DC922]
+	(No symbol) [0x005CA536]
+	(No symbol) [0x005A82DC]
+	(No symbol) [0x005A93DD]
+	GetHandleVerifier [0x0094AABD+2539405]
+	GetHandleVerifier [0x0098A78F+2800735]
+	GetHandleVerifier [0x0098456C+2775612]
+	GetHandleVerifier [0x007751E0+616112]
+	(No symbol) [0x00685F8C]
+	(No symbol) [0x00682328]
+	(No symbol) [0x0068240B]
+	(No symbol) [0x00674FF7]
+	BaseThreadInitThunk [0x77737D59+25]
+	RtlInitializeExceptionChain [0x7799B79B+107]
+	RtlClearBits [0x7799B71F+191]
+
+2023-08-09 16:12:38,991 - ERROR - Blog_module - Unable to find the Image Blog Button : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@role='menu']/li[2]"}
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006EA813+48355]
+	(No symbol) [0x0067C4B1]
+	(No symbol) [0x00585358]
+	(No symbol) [0x005B09A5]
+	(No symbol) [0x005B0B3B]
+	(No symbol) [0x005DE232]
+	(No symbol) [0x005CA784]
+	(No symbol) [0x005DC922]
+	(No symbol) [0x005CA536]
+	(No symbol) [0x005A82DC]
+	(No symbol) [0x005A93DD]
+	GetHandleVerifier [0x0094AABD+2539405]
+	GetHandleVerifier [0x0098A78F+2800735]
+	GetHandleVerifier [0x0098456C+2775612]
+	GetHandleVerifier [0x007751E0+616112]
+	(No symbol) [0x00685F8C]
+	(No symbol) [0x00682328]
+	(No symbol) [0x0068240B]
+	(No symbol) [0x00674FF7]
+	BaseThreadInitThunk [0x77737D59+25]
+	RtlInitializeExceptionChain [0x7799B79B+107]
+	RtlClearBits [0x7799B71F+191]
+
+2023-08-09 16:13:34,424 - ERROR - Blog_module - Unable to find the Image Blog Button : move_to requires a WebElement
+2023-08-09 16:13:59,934 - ERROR - Blog_module - Unable to find the Image Blog Button : move_to requires a WebElement
+2023-08-09 16:16:20,173 - ERROR - Blog_module - Unable to find the Image Blog Button : move_to requires a WebElement
+2023-08-09 16:17:48,467 - ERROR - Blog_module - Unable to find the Image Blog Button : move_to requires a WebElement
+2023-08-09 16:18:43,567 - ERROR - Blog_module - Unable to find the Image Blog Button : move_to requires a WebElement
+2023-08-09 16:19:10,473 - ERROR - Blog_module - Unable to find the Image Blog Button : move_to requires a WebElement
+2023-08-09 16:19:56,266 - ERROR - Blog_module - Unable to find the Image Blog Button : move_to requires a WebElement
+2023-08-09 16:20:55,988 - ERROR - Blog_module - Unable to find the Image Blog Button : move_to requires a WebElement
+2023-08-09 16:21:25,397 - ERROR - Blog_module - Unable to find the Image Blog Button : move_to requires a WebElement
+2023-08-09 16:22:19,939 - ERROR - Blog_module - Unable to find the Image Blog Button : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='ant-dropdown-menu-title-content'][contains(text(), 'Image')]"}
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006EA813+48355]
+	(No symbol) [0x0067C4B1]
+	(No symbol) [0x00585358]
+	(No symbol) [0x005B09A5]
+	(No symbol) [0x005B0B3B]
+	(No symbol) [0x005DE232]
+	(No symbol) [0x005CA784]
+	(No symbol) [0x005DC922]
+	(No symbol) [0x005CA536]
+	(No symbol) [0x005A82DC]
+	(No symbol) [0x005A93DD]
+	GetHandleVerifier [0x0094AABD+2539405]
+	GetHandleVerifier [0x0098A78F+2800735]
+	GetHandleVerifier [0x0098456C+2775612]
+	GetHandleVerifier [0x007751E0+616112]
+	(No symbol) [0x00685F8C]
+	(No symbol) [0x00682328]
+	(No symbol) [0x0068240B]
+	(No symbol) [0x00674FF7]
+	BaseThreadInitThunk [0x77737D59+25]
+	RtlInitializeExceptionChain [0x7799B79B+107]
+	RtlClearBits [0x7799B71F+191]
+
+2023-08-09 16:23:30,950 - ERROR - Blog_module - Unable to find the Image Blog Button : move_to requires a WebElement
+2023-08-09 16:43:41,560 - ERROR - Blog_module - Unable to find the Image Blog Button : move_to requires a WebElement
+2023-08-09 16:51:22,014 - ERROR - Blog_module - Something went wrong while selecting the Text format : Message: 
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006EA813+48355]
+	(No symbol) [0x0067C4B1]
+	(No symbol) [0x00585358]
+	(No symbol) [0x005B09A5]
+	(No symbol) [0x005B0B3B]
+	(No symbol) [0x005DE232]
+	(No symbol) [0x005CA784]
+	(No symbol) [0x005DC922]
+	(No symbol) [0x005CA536]
+	(No symbol) [0x005A82DC]
+	(No symbol) [0x005A93DD]
+	GetHandleVerifier [0x0094AABD+2539405]
+	GetHandleVerifier [0x0098A78F+2800735]
+	GetHandleVerifier [0x0098456C+2775612]
+	GetHandleVerifier [0x007751E0+616112]
+	(No symbol) [0x00685F8C]
+	(No symbol) [0x00682328]
+	(No symbol) [0x0068240B]
+	(No symbol) [0x00674FF7]
+	BaseThreadInitThunk [0x77737D59+25]
+	RtlInitializeExceptionChain [0x7799B79B+107]
+	RtlClearBits [0x7799B71F+191]
+
+2023-08-09 16:54:34,988 - ERROR - Blog_module - Unable to find the Image Blog Button : move_to requires a WebElement
+2023-08-09 16:55:02,981 - ERROR - Blog_module - Unable to find the Image Blog Button : move_to requires a WebElement
+2023-08-10 16:23:29,171 - ERROR - Blog_module - Unable to find the Image Blog Button : move_to requires a WebElement
+2023-08-10 16:40:16,867 - ERROR - Blog_module - Something went wrong while selecting the Text format : Message: 
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0047A813+48355]
+	(No symbol) [0x0040C4B1]
+	(No symbol) [0x00315358]
+	(No symbol) [0x003409A5]
+	(No symbol) [0x00340B3B]
+	(No symbol) [0x0036E232]
+	(No symbol) [0x0035A784]
+	(No symbol) [0x0036C922]
+	(No symbol) [0x0035A536]
+	(No symbol) [0x003382DC]
+	(No symbol) [0x003393DD]
+	GetHandleVerifier [0x006DAABD+2539405]
+	GetHandleVerifier [0x0071A78F+2800735]
+	GetHandleVerifier [0x0071456C+2775612]
+	GetHandleVerifier [0x005051E0+616112]
+	(No symbol) [0x00415F8C]
+	(No symbol) [0x00412328]
+	(No symbol) [0x0041240B]
+	(No symbol) [0x00404FF7]
+	BaseThreadInitThunk [0x76D07D59+25]
+	RtlInitializeExceptionChain [0x77A8B79B+107]
+	RtlClearBits [0x77A8B71F+191]
+
+2023-08-10 16:41:35,501 - ERROR - Blog_module - Something went wrong while selecting the Text format : Message: 
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0047A813+48355]
+	(No symbol) [0x0040C4B1]
+	(No symbol) [0x00315358]
+	(No symbol) [0x003409A5]
+	(No symbol) [0x00340B3B]
+	(No symbol) [0x0036E232]
+	(No symbol) [0x0035A784]
+	(No symbol) [0x0036C922]
+	(No symbol) [0x0035A536]
+	(No symbol) [0x003382DC]
+	(No symbol) [0x003393DD]
+	GetHandleVerifier [0x006DAABD+2539405]
+	GetHandleVerifier [0x0071A78F+2800735]
+	GetHandleVerifier [0x0071456C+2775612]
+	GetHandleVerifier [0x005051E0+616112]
+	(No symbol) [0x00415F8C]
+	(No symbol) [0x00412328]
+	(No symbol) [0x0041240B]
+	(No symbol) [0x00404FF7]
+	BaseThreadInitThunk [0x76D07D59+25]
+	RtlInitializeExceptionChain [0x77A8B79B+107]
+	RtlClearBits [0x77A8B71F+191]
+
+2023-08-10 16:41:46,015 - ERROR - Blog_module - Unable to find the Text area : Message: 
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0047A813+48355]
+	(No symbol) [0x0040C4B1]
+	(No symbol) [0x00315358]
+	(No symbol) [0x003409A5]
+	(No symbol) [0x00340B3B]
+	(No symbol) [0x0036E232]
+	(No symbol) [0x0035A784]
+	(No symbol) [0x0036C922]
+	(No symbol) [0x0035A536]
+	(No symbol) [0x003382DC]
+	(No symbol) [0x003393DD]
+	GetHandleVerifier [0x006DAABD+2539405]
+	GetHandleVerifier [0x0071A78F+2800735]
+	GetHandleVerifier [0x0071456C+2775612]
+	GetHandleVerifier [0x005051E0+616112]
+	(No symbol) [0x00415F8C]
+	(No symbol) [0x00412328]
+	(No symbol) [0x0041240B]
+	(No symbol) [0x00404FF7]
+	BaseThreadInitThunk [0x76D07D59+25]
+	RtlInitializeExceptionChain [0x77A8B79B+107]
+	RtlClearBits [0x77A8B71F+191]
+
+2023-08-10 16:47:58,294 - ERROR - Blog_module - Unable to find the Text area : 'WebElement' object has no attribute 'send_Keys'
+2023-08-10 16:47:58,705 - ERROR - Blog_module - Unable to find the Text area : 'WebElement' object has no attribute 'send_Keys'
+2023-08-10 16:47:59,102 - ERROR - Blog_module - Unable to find the Text area : 'WebElement' object has no attribute 'send_Keys'
+2023-08-10 16:47:59,346 - ERROR - Blog_module - Unable to find the Text area : 'WebElement' object has no attribute 'send_Keys'
+2023-08-10 16:52:42,810 - ERROR - Blog_module - Something Went Wrong while sending Enter : 'WebElement' object has no attribute 'send_Keys'
+2023-08-10 16:52:43,141 - ERROR - Blog_module - Something Went Wrong while sending Enter : 'WebElement' object has no attribute 'send_Keys'
+2023-08-10 16:52:43,454 - ERROR - Blog_module - Something Went Wrong while sending Enter : 'WebElement' object has no attribute 'send_Keys'
+2023-08-10 16:52:43,748 - ERROR - Blog_module - Something Went Wrong while sending Enter : 'WebElement' object has no attribute 'send_Keys'
+2023-08-10 16:53:36,292 - ERROR - Blog_module - Something Went Wrong while sending Enter : 'WebElement' object has no attribute 'send_Keys'
+2023-08-10 16:53:38,714 - ERROR - Blog_module - Something Went Wrong while sending Enter : 'WebElement' object has no attribute 'send_Keys'
+2023-08-10 16:53:41,065 - ERROR - Blog_module - Something Went Wrong while sending Enter : 'WebElement' object has no attribute 'send_Keys'
+2023-08-10 16:53:43,579 - ERROR - Blog_module - Something Went Wrong while sending Enter : 'WebElement' object has no attribute 'send_Keys'
+2023-08-10 16:54:48,471 - ERROR - Blog_module - Unable to find the Text area : 'NoneType' object has no attribute 'send_keys'
+2023-08-10 16:54:48,505 - ERROR - Blog_module - Something Went Wrong while sending Enter : 'WebElement' object has no attribute 'send_Keys'
+2023-08-10 16:54:50,821 - ERROR - Blog_module - Unable to find the Text area : 'NoneType' object has no attribute 'send_keys'
+2023-08-10 16:54:50,838 - ERROR - Blog_module - Something Went Wrong while sending Enter : 'WebElement' object has no attribute 'send_Keys'
+2023-08-10 16:54:53,150 - ERROR - Blog_module - Unable to find the Text area : 'NoneType' object has no attribute 'send_keys'
+2023-08-10 16:54:53,167 - ERROR - Blog_module - Something Went Wrong while sending Enter : 'WebElement' object has no attribute 'send_Keys'
+2023-08-10 16:54:55,391 - ERROR - Blog_module - Unable to find the Text area : 'NoneType' object has no attribute 'send_keys'
+2023-08-10 16:54:55,407 - ERROR - Blog_module - Something Went Wrong while sending Enter : 'WebElement' object has no attribute 'send_Keys'
+2023-08-10 17:50:43,738 - ERROR - Blog_module - Unable to find the Draft button : Message: 
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x009AA813+48355]
+	(No symbol) [0x0093C4B1]
+	(No symbol) [0x00845358]
+	(No symbol) [0x008709A5]
+	(No symbol) [0x00870B3B]
+	(No symbol) [0x0089E232]
+	(No symbol) [0x0088A784]
+	(No symbol) [0x0089C922]
+	(No symbol) [0x0088A536]
+	(No symbol) [0x008682DC]
+	(No symbol) [0x008693DD]
+	GetHandleVerifier [0x00C0AABD+2539405]
+	GetHandleVerifier [0x00C4A78F+2800735]
+	GetHandleVerifier [0x00C4456C+2775612]
+	GetHandleVerifier [0x00A351E0+616112]
+	(No symbol) [0x00945F8C]
+	(No symbol) [0x00942328]
+	(No symbol) [0x0094240B]
+	(No symbol) [0x00934FF7]
+	BaseThreadInitThunk [0x76D07D59+25]
+	RtlInitializeExceptionChain [0x77A8B79B+107]
+	RtlClearBits [0x77A8B71F+191]
+
+2023-08-10 17:54:04,479 - ERROR - Blog_module - Unable to find the Draft button : Message: 
+
+2023-08-10 18:26:11,515 - ERROR - Blog_module - Unable to find the Draft button : Message: 
+
+2023-08-11 13:34:59,966 - ERROR - Blog_module - Unable to find the Draft button : Message: 
+
+2023-08-11 13:38:34,569 - ERROR - Blog_module - Unable to find to upload image : Message: 
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0089A813+48355]
+	(No symbol) [0x0082C4B1]
+	(No symbol) [0x00735358]
+	(No symbol) [0x007609A5]
+	(No symbol) [0x00760B3B]
+	(No symbol) [0x0078E232]
+	(No symbol) [0x0077A784]
+	(No symbol) [0x0078C922]
+	(No symbol) [0x0077A536]
+	(No symbol) [0x007582DC]
+	(No symbol) [0x007593DD]
+	GetHandleVerifier [0x00AFAABD+2539405]
+	GetHandleVerifier [0x00B3A78F+2800735]
+	GetHandleVerifier [0x00B3456C+2775612]
+	GetHandleVerifier [0x009251E0+616112]
+	(No symbol) [0x00835F8C]
+	(No symbol) [0x00832328]
+	(No symbol) [0x0083240B]
+	(No symbol) [0x00824FF7]
+	BaseThreadInitThunk [0x761D7D59+25]
+	RtlInitializeExceptionChain [0x7706B79B+107]
+	RtlClearBits [0x7706B71F+191]
+
+2023-08-11 13:55:33,278 - ERROR - Blog_module - Unable to find to Short Descriptions : 'WebElement' object has no attribute 'send_Keys'
+2023-08-11 13:55:33,308 - ERROR - Blog_module - Unable to find to Type  : 'WebElement' object has no attribute 'clcik'
+2023-08-11 13:55:33,358 - ERROR - Blog_module - Unable to find to Tags : 'WebElement' object has no attribute 'send_Keys'
+2023-08-14 10:09:11,638 - ERROR - Blog_module - Unable to find to Short Descriptions : 'WebElement' object has no attribute 'send_Keys'
+2023-08-14 10:09:11,667 - ERROR - Blog_module - Unable to find to Type  : 'WebElement' object has no attribute 'clcik'
+2023-08-14 10:09:14,720 - ERROR - Blog_module - Unable to find to Tags : 'WebElement' object has no attribute 'send_Keys'
+2023-08-14 10:59:20,658 - ERROR - Blog_module - Unable to find to Type  : 'WebElement' object has no attribute 'clcik'
+2023-08-14 10:59:20,802 - ERROR - Blog_module - Unable to find to Short Descriptions : 'WebElement' object has no attribute 'send_Keys'
+2023-08-14 10:59:20,843 - ERROR - Blog_module - Unable to find to Tags : 'WebElement' object has no attribute 'send_Keys'
+2023-08-14 11:01:53,855 - ERROR - Blog_module - Unable to find to Short Descriptions : 'WebElement' object has no attribute 'send_Keys'
+2023-08-14 11:01:55,893 - ERROR - Blog_module - Unable to find to Type  : 'WebElement' object has no attribute 'clcik'
+2023-08-14 11:01:57,938 - ERROR - Blog_module - Unable to find to Tags : 'WebElement' object has no attribute 'send_Keys'
+2023-08-14 11:03:19,349 - ERROR - Blog_module - Unable to find to Type  : 'WebElement' object has no attribute 'clcik'
+2023-08-14 11:04:44,597 - ERROR - Blog_module - Unable to find to Type  : 'WebElement' object has no attribute 'clcik'
+2023-08-14 11:58:04,320 - ERROR - Blog_module - Unable to find to Author : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='ant-select-selection-item']"}
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0073A813+48355]
+	(No symbol) [0x006CC4B1]
+	(No symbol) [0x005D5358]
+	(No symbol) [0x006009A5]
+	(No symbol) [0x00600B3B]
+	(No symbol) [0x0062E232]
+	(No symbol) [0x0061A784]
+	(No symbol) [0x0062C922]
+	(No symbol) [0x0061A536]
+	(No symbol) [0x005F82DC]
+	(No symbol) [0x005F93DD]
+	GetHandleVerifier [0x0099AABD+2539405]
+	GetHandleVerifier [0x009DA78F+2800735]
+	GetHandleVerifier [0x009D456C+2775612]
+	GetHandleVerifier [0x007C51E0+616112]
+	(No symbol) [0x006D5F8C]
+	(No symbol) [0x006D2328]
+	(No symbol) [0x006D240B]
+	(No symbol) [0x006C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 11:58:20,005 - ERROR - Blog_module - Unable to find the Order list Button : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0073A813+48355]
+	(No symbol) [0x006CC4B1]
+	(No symbol) [0x005D5358]
+	(No symbol) [0x005BD293]
+	(No symbol) [0x0061E37B]
+	(No symbol) [0x0062C473]
+	(No symbol) [0x0061A536]
+	(No symbol) [0x005F82DC]
+	(No symbol) [0x005F93DD]
+	GetHandleVerifier [0x0099AABD+2539405]
+	GetHandleVerifier [0x009DA78F+2800735]
+	GetHandleVerifier [0x009D456C+2775612]
+	GetHandleVerifier [0x007C51E0+616112]
+	(No symbol) [0x006D5F8C]
+	(No symbol) [0x006D2328]
+	(No symbol) [0x006D240B]
+	(No symbol) [0x006C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 11:58:20,007 - ERROR - Blog_module - Unable to find to upload image : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0073A813+48355]
+	(No symbol) [0x006CC4B1]
+	(No symbol) [0x005D5358]
+	(No symbol) [0x005BD293]
+	(No symbol) [0x0061E37B]
+	(No symbol) [0x0062C473]
+	(No symbol) [0x0061A536]
+	(No symbol) [0x005F82DC]
+	(No symbol) [0x005F93DD]
+	GetHandleVerifier [0x0099AABD+2539405]
+	GetHandleVerifier [0x009DA78F+2800735]
+	GetHandleVerifier [0x009D456C+2775612]
+	GetHandleVerifier [0x007C51E0+616112]
+	(No symbol) [0x006D5F8C]
+	(No symbol) [0x006D2328]
+	(No symbol) [0x006D240B]
+	(No symbol) [0x006C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 11:58:20,008 - ERROR - Blog_module - Unable to find the Draft button : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0073A813+48355]
+	(No symbol) [0x006CC4B1]
+	(No symbol) [0x005D5358]
+	(No symbol) [0x005BD293]
+	(No symbol) [0x0061E37B]
+	(No symbol) [0x0062C473]
+	(No symbol) [0x0061A536]
+	(No symbol) [0x005F82DC]
+	(No symbol) [0x005F93DD]
+	GetHandleVerifier [0x0099AABD+2539405]
+	GetHandleVerifier [0x009DA78F+2800735]
+	GetHandleVerifier [0x009D456C+2775612]
+	GetHandleVerifier [0x007C51E0+616112]
+	(No symbol) [0x006D5F8C]
+	(No symbol) [0x006D2328]
+	(No symbol) [0x006D240B]
+	(No symbol) [0x006C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 11:58:20,010 - ERROR - Blog_module - Unable to find the Draft button : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0073A813+48355]
+	(No symbol) [0x006CC4B1]
+	(No symbol) [0x005D5358]
+	(No symbol) [0x005BD293]
+	(No symbol) [0x0061E37B]
+	(No symbol) [0x0062C473]
+	(No symbol) [0x0061A536]
+	(No symbol) [0x005F82DC]
+	(No symbol) [0x005F93DD]
+	GetHandleVerifier [0x0099AABD+2539405]
+	GetHandleVerifier [0x009DA78F+2800735]
+	GetHandleVerifier [0x009D456C+2775612]
+	GetHandleVerifier [0x007C51E0+616112]
+	(No symbol) [0x006D5F8C]
+	(No symbol) [0x006D2328]
+	(No symbol) [0x006D240B]
+	(No symbol) [0x006C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 11:59:31,123 - ERROR - Blog_module - Unable to find to Author : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='ant-select-selection-item']"}
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0073A813+48355]
+	(No symbol) [0x006CC4B1]
+	(No symbol) [0x005D5358]
+	(No symbol) [0x006009A5]
+	(No symbol) [0x00600B3B]
+	(No symbol) [0x0062E232]
+	(No symbol) [0x0061A784]
+	(No symbol) [0x0062C922]
+	(No symbol) [0x0061A536]
+	(No symbol) [0x005F82DC]
+	(No symbol) [0x005F93DD]
+	GetHandleVerifier [0x0099AABD+2539405]
+	GetHandleVerifier [0x009DA78F+2800735]
+	GetHandleVerifier [0x009D456C+2775612]
+	GetHandleVerifier [0x007C51E0+616112]
+	(No symbol) [0x006D5F8C]
+	(No symbol) [0x006D2328]
+	(No symbol) [0x006D240B]
+	(No symbol) [0x006C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 11:59:46,121 - ERROR - Blog_module - Unable to find the Order list Button : Message: 
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0073A813+48355]
+	(No symbol) [0x006CC4B1]
+	(No symbol) [0x005D5358]
+	(No symbol) [0x006009A5]
+	(No symbol) [0x00600B3B]
+	(No symbol) [0x0062E232]
+	(No symbol) [0x0061A784]
+	(No symbol) [0x0062C922]
+	(No symbol) [0x0061A536]
+	(No symbol) [0x005F82DC]
+	(No symbol) [0x005F93DD]
+	GetHandleVerifier [0x0099AABD+2539405]
+	GetHandleVerifier [0x009DA78F+2800735]
+	GetHandleVerifier [0x009D456C+2775612]
+	GetHandleVerifier [0x007C51E0+616112]
+	(No symbol) [0x006D5F8C]
+	(No symbol) [0x006D2328]
+	(No symbol) [0x006D240B]
+	(No symbol) [0x006C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 11:59:56,520 - ERROR - Blog_module - Unable to find the Draft button : Message: 
+
+2023-08-14 12:01:35,013 - ERROR - Blog_module - Unable to find the Order list Button : Message: 
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0073A813+48355]
+	(No symbol) [0x006CC4B1]
+	(No symbol) [0x005D5358]
+	(No symbol) [0x006009A5]
+	(No symbol) [0x00600B3B]
+	(No symbol) [0x0062E232]
+	(No symbol) [0x0061A784]
+	(No symbol) [0x0062C922]
+	(No symbol) [0x0061A536]
+	(No symbol) [0x005F82DC]
+	(No symbol) [0x005F93DD]
+	GetHandleVerifier [0x0099AABD+2539405]
+	GetHandleVerifier [0x009DA78F+2800735]
+	GetHandleVerifier [0x009D456C+2775612]
+	GetHandleVerifier [0x007C51E0+616112]
+	(No symbol) [0x006D5F8C]
+	(No symbol) [0x006D2328]
+	(No symbol) [0x006D240B]
+	(No symbol) [0x006C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 12:01:35,141 - ERROR - Blog_module - Unable to find to upload image : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='ant-btn ant-btn-primary']"}
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0073A813+48355]
+	(No symbol) [0x006CC4B1]
+	(No symbol) [0x005D5358]
+	(No symbol) [0x006009A5]
+	(No symbol) [0x00600B3B]
+	(No symbol) [0x0062E232]
+	(No symbol) [0x0061A784]
+	(No symbol) [0x0062C922]
+	(No symbol) [0x0061A536]
+	(No symbol) [0x005F82DC]
+	(No symbol) [0x005F93DD]
+	GetHandleVerifier [0x0099AABD+2539405]
+	GetHandleVerifier [0x009DA78F+2800735]
+	GetHandleVerifier [0x009D456C+2775612]
+	GetHandleVerifier [0x007C51E0+616112]
+	(No symbol) [0x006D5F8C]
+	(No symbol) [0x006D2328]
+	(No symbol) [0x006D240B]
+	(No symbol) [0x006C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 12:01:45,365 - ERROR - Blog_module - Unable to find the Draft button : Message: 
+
+2023-08-14 12:01:55,701 - ERROR - Blog_module - Unable to find the Draft button : Message: 
+
+2023-08-14 12:04:35,194 - ERROR - Blog_module - Unable to find to upload image : Message: element click intercepted: Element <button type="button" class="ant-btn ant-btn-primary">...</button> is not clickable at point (852, 558). Other element would receive the click: <div class="ant-modal-footer">...</div>
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0073A813+48355]
+	(No symbol) [0x006CC4B1]
+	(No symbol) [0x005D5358]
+	(No symbol) [0x00605062]
+	(No symbol) [0x00603B98]
+	(No symbol) [0x0060239B]
+	(No symbol) [0x0060179E]
+	(No symbol) [0x005F9F5C]
+	(No symbol) [0x0061A73C]
+	(No symbol) [0x005F9A36]
+	(No symbol) [0x0061AA94]
+	(No symbol) [0x0062C922]
+	(No symbol) [0x0061A536]
+	(No symbol) [0x005F82DC]
+	(No symbol) [0x005F93DD]
+	GetHandleVerifier [0x0099AABD+2539405]
+	GetHandleVerifier [0x009DA78F+2800735]
+	GetHandleVerifier [0x009D456C+2775612]
+	GetHandleVerifier [0x007C51E0+616112]
+	(No symbol) [0x006D5F8C]
+	(No symbol) [0x006D2328]
+	(No symbol) [0x006D240B]
+	(No symbol) [0x006C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 12:04:45,784 - ERROR - Blog_module - Unable to find the Draft button : Message: 
+
+2023-08-14 12:04:55,993 - ERROR - Blog_module - Unable to find the Draft button : Message: 
+
+2023-08-14 12:17:01,492 - ERROR - Blog_module - Unable to find to Author : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='ant-select-selection-item']"}
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0078A813+48355]
+	(No symbol) [0x0071C4B1]
+	(No symbol) [0x00625358]
+	(No symbol) [0x006509A5]
+	(No symbol) [0x00650B3B]
+	(No symbol) [0x0067E232]
+	(No symbol) [0x0066A784]
+	(No symbol) [0x0067C922]
+	(No symbol) [0x0066A536]
+	(No symbol) [0x006482DC]
+	(No symbol) [0x006493DD]
+	GetHandleVerifier [0x009EAABD+2539405]
+	GetHandleVerifier [0x00A2A78F+2800735]
+	GetHandleVerifier [0x00A2456C+2775612]
+	GetHandleVerifier [0x008151E0+616112]
+	(No symbol) [0x00725F8C]
+	(No symbol) [0x00722328]
+	(No symbol) [0x0072240B]
+	(No symbol) [0x00714FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:26:38,831 - ERROR - Blog_module - Unable to find to Author : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='ant-select-selection-item']"}
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x004009A5]
+	(No symbol) [0x00400B3B]
+	(No symbol) [0x0042E232]
+	(No symbol) [0x0041A784]
+	(No symbol) [0x0042C922]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:27:02,752 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:27:02,756 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:27:02,759 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:27:02,764 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:27:02,767 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:27:02,769 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:27:02,773 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:27:02,782 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:27:02,786 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:27:02,790 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:27:02,794 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:27:02,798 - ERROR - Blog_module - Unable to find the Order list Button : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:27:02,802 - ERROR - Blog_module - Unable to find to upload image : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:27:02,817 - ERROR - Blog_module - Unable to find the Draft button : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:27:02,828 - ERROR - Blog_module - Unable to find the Draft button : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,502 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,506 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,510 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,512 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,515 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,517 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,520 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,525 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,531 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,534 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,541 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,544 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,550 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,558 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,562 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,570 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,581 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,587 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,595 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,600 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,606 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,610 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,613 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,616 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,622 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,625 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,629 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,633 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,639 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,642 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,647 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,651 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,656 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,660 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,664 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,668 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,671 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,675 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,678 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,681 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,686 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,691 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,694 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,697 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,700 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,703 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,706 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,708 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,712 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,714 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,717 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,721 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,724 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,726 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,731 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,736 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,740 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,744 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,747 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,751 - ERROR - Blog_module - Unable to find the Order list Button : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,755 - ERROR - Blog_module - Unable to find to upload image : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,759 - ERROR - Blog_module - Unable to find the Draft button : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:32:41,763 - ERROR - Blog_module - Unable to find the Draft button : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x003BD293]
+	(No symbol) [0x0041E37B]
+	(No symbol) [0x0042C473]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 13:41:17,030 - ERROR - Blog_module - Unable to find to Author : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='ant-select-selection-item']"}
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x004009A5]
+	(No symbol) [0x00400B3B]
+	(No symbol) [0x0042E232]
+	(No symbol) [0x0041A784]
+	(No symbol) [0x0042C922]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-14 14:06:06,561 - ERROR - Blog_module - Unable to find to Author : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='ant-select-selection-item']"}
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0053A813+48355]
+	(No symbol) [0x004CC4B1]
+	(No symbol) [0x003D5358]
+	(No symbol) [0x004009A5]
+	(No symbol) [0x00400B3B]
+	(No symbol) [0x0042E232]
+	(No symbol) [0x0041A784]
+	(No symbol) [0x0042C922]
+	(No symbol) [0x0041A536]
+	(No symbol) [0x003F82DC]
+	(No symbol) [0x003F93DD]
+	GetHandleVerifier [0x0079AABD+2539405]
+	GetHandleVerifier [0x007DA78F+2800735]
+	GetHandleVerifier [0x007D456C+2775612]
+	GetHandleVerifier [0x005C51E0+616112]
+	(No symbol) [0x004D5F8C]
+	(No symbol) [0x004D2328]
+	(No symbol) [0x004D240B]
+	(No symbol) [0x004C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+2023-08-16 13:36:46,027 - ERROR - Blog_module - Unable to find to Author : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='ant-select-selection-item']"}
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006FA813+48355]
+	(No symbol) [0x0068C4B1]
+	(No symbol) [0x00595358]
+	(No symbol) [0x005C09A5]
+	(No symbol) [0x005C0B3B]
+	(No symbol) [0x005EE232]
+	(No symbol) [0x005DA784]
+	(No symbol) [0x005EC922]
+	(No symbol) [0x005DA536]
+	(No symbol) [0x005B82DC]
+	(No symbol) [0x005B93DD]
+	GetHandleVerifier [0x0095AABD+2539405]
+	GetHandleVerifier [0x0099A78F+2800735]
+	GetHandleVerifier [0x0099456C+2775612]
+	GetHandleVerifier [0x007851E0+616112]
+	(No symbol) [0x00695F8C]
+	(No symbol) [0x00692328]
+	(No symbol) [0x0069240B]
+	(No symbol) [0x00684FF7]
+	BaseThreadInitThunk [0x75287D59+25]
+	RtlInitializeExceptionChain [0x76F2B79B+107]
+	RtlClearBits [0x76F2B71F+191]
+
+2023-08-16 13:37:02,087 - ERROR - Blog_module - Unable to find the Image Blog Button : Message: 
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006FA813+48355]
+	(No symbol) [0x0068C4B1]
+	(No symbol) [0x00595358]
+	(No symbol) [0x005C09A5]
+	(No symbol) [0x005C0B3B]
+	(No symbol) [0x005EE232]
+	(No symbol) [0x005DA784]
+	(No symbol) [0x005EC922]
+	(No symbol) [0x005DA536]
+	(No symbol) [0x005B82DC]
+	(No symbol) [0x005B93DD]
+	GetHandleVerifier [0x0095AABD+2539405]
+	GetHandleVerifier [0x0099A78F+2800735]
+	GetHandleVerifier [0x0099456C+2775612]
+	GetHandleVerifier [0x007851E0+616112]
+	(No symbol) [0x00695F8C]
+	(No symbol) [0x00692328]
+	(No symbol) [0x0069240B]
+	(No symbol) [0x00684FF7]
+	BaseThreadInitThunk [0x75287D59+25]
+	RtlInitializeExceptionChain [0x76F2B79B+107]
+	RtlClearBits [0x76F2B71F+191]
+
+2023-08-16 13:46:31,956 - ERROR - Blog_module - Unable to find the Image Blog Button : Message: 
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006FA813+48355]
+	(No symbol) [0x0068C4B1]
+	(No symbol) [0x00595358]
+	(No symbol) [0x005C09A5]
+	(No symbol) [0x005C0B3B]
+	(No symbol) [0x005EE232]
+	(No symbol) [0x005DA784]
+	(No symbol) [0x005EC922]
+	(No symbol) [0x005DA536]
+	(No symbol) [0x005B82DC]
+	(No symbol) [0x005B93DD]
+	GetHandleVerifier [0x0095AABD+2539405]
+	GetHandleVerifier [0x0099A78F+2800735]
+	GetHandleVerifier [0x0099456C+2775612]
+	GetHandleVerifier [0x007851E0+616112]
+	(No symbol) [0x00695F8C]
+	(No symbol) [0x00692328]
+	(No symbol) [0x0069240B]
+	(No symbol) [0x00684FF7]
+	BaseThreadInitThunk [0x75287D59+25]
+	RtlInitializeExceptionChain [0x76F2B79B+107]
+	RtlClearBits [0x76F2B71F+191]
+
+2023-08-16 13:46:35,779 - ERROR - Blog_module - Unable to find the Layout selector and Layout : 'NoneType' object has no attribute 'is_displayed'
+2023-08-16 13:48:07,560 - ERROR - Blog_module - Something went wrong while selecting the Text format : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006FA813+48355]
+	(No symbol) [0x0068C4B1]
+	(No symbol) [0x00595358]
+	(No symbol) [0x0057D293]
+	(No symbol) [0x005DE37B]
+	(No symbol) [0x005EC473]
+	(No symbol) [0x005DA536]
+	(No symbol) [0x005B82DC]
+	(No symbol) [0x005B93DD]
+	GetHandleVerifier [0x0095AABD+2539405]
+	GetHandleVerifier [0x0099A78F+2800735]
+	GetHandleVerifier [0x0099456C+2775612]
+	GetHandleVerifier [0x007851E0+616112]
+	(No symbol) [0x00695F8C]
+	(No symbol) [0x00692328]
+	(No symbol) [0x0069240B]
+	(No symbol) [0x00684FF7]
+	BaseThreadInitThunk [0x75287D59+25]
+	RtlInitializeExceptionChain [0x76F2B79B+107]
+	RtlClearBits [0x76F2B71F+191]
+
+2023-08-16 13:48:07,567 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006FA813+48355]
+	(No symbol) [0x0068C4B1]
+	(No symbol) [0x00595358]
+	(No symbol) [0x0057D293]
+	(No symbol) [0x005DE37B]
+	(No symbol) [0x005EC473]
+	(No symbol) [0x005DA536]
+	(No symbol) [0x005B82DC]
+	(No symbol) [0x005B93DD]
+	GetHandleVerifier [0x0095AABD+2539405]
+	GetHandleVerifier [0x0099A78F+2800735]
+	GetHandleVerifier [0x0099456C+2775612]
+	GetHandleVerifier [0x007851E0+616112]
+	(No symbol) [0x00695F8C]
+	(No symbol) [0x00692328]
+	(No symbol) [0x0069240B]
+	(No symbol) [0x00684FF7]
+	BaseThreadInitThunk [0x75287D59+25]
+	RtlInitializeExceptionChain [0x76F2B79B+107]
+	RtlClearBits [0x76F2B71F+191]
+
+2023-08-16 13:48:07,570 - ERROR - Blog_module - Something went wrong while selecting the Text format : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006FA813+48355]
+	(No symbol) [0x0068C4B1]
+	(No symbol) [0x00595358]
+	(No symbol) [0x0057D293]
+	(No symbol) [0x005DE37B]
+	(No symbol) [0x005EC473]
+	(No symbol) [0x005DA536]
+	(No symbol) [0x005B82DC]
+	(No symbol) [0x005B93DD]
+	GetHandleVerifier [0x0095AABD+2539405]
+	GetHandleVerifier [0x0099A78F+2800735]
+	GetHandleVerifier [0x0099456C+2775612]
+	GetHandleVerifier [0x007851E0+616112]
+	(No symbol) [0x00695F8C]
+	(No symbol) [0x00692328]
+	(No symbol) [0x0069240B]
+	(No symbol) [0x00684FF7]
+	BaseThreadInitThunk [0x75287D59+25]
+	RtlInitializeExceptionChain [0x76F2B79B+107]
+	RtlClearBits [0x76F2B71F+191]
+
+2023-08-16 13:48:07,576 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006FA813+48355]
+	(No symbol) [0x0068C4B1]
+	(No symbol) [0x00595358]
+	(No symbol) [0x0057D293]
+	(No symbol) [0x005DE37B]
+	(No symbol) [0x005EC473]
+	(No symbol) [0x005DA536]
+	(No symbol) [0x005B82DC]
+	(No symbol) [0x005B93DD]
+	GetHandleVerifier [0x0095AABD+2539405]
+	GetHandleVerifier [0x0099A78F+2800735]
+	GetHandleVerifier [0x0099456C+2775612]
+	GetHandleVerifier [0x007851E0+616112]
+	(No symbol) [0x00695F8C]
+	(No symbol) [0x00692328]
+	(No symbol) [0x0069240B]
+	(No symbol) [0x00684FF7]
+	BaseThreadInitThunk [0x75287D59+25]
+	RtlInitializeExceptionChain [0x76F2B79B+107]
+	RtlClearBits [0x76F2B71F+191]
+
+2023-08-16 13:48:07,580 - ERROR - Blog_module - Something went wrong while selecting the Text format : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006FA813+48355]
+	(No symbol) [0x0068C4B1]
+	(No symbol) [0x00595358]
+	(No symbol) [0x0057D293]
+	(No symbol) [0x005DE37B]
+	(No symbol) [0x005EC473]
+	(No symbol) [0x005DA536]
+	(No symbol) [0x005B82DC]
+	(No symbol) [0x005B93DD]
+	GetHandleVerifier [0x0095AABD+2539405]
+	GetHandleVerifier [0x0099A78F+2800735]
+	GetHandleVerifier [0x0099456C+2775612]
+	GetHandleVerifier [0x007851E0+616112]
+	(No symbol) [0x00695F8C]
+	(No symbol) [0x00692328]
+	(No symbol) [0x0069240B]
+	(No symbol) [0x00684FF7]
+	BaseThreadInitThunk [0x75287D59+25]
+	RtlInitializeExceptionChain [0x76F2B79B+107]
+	RtlClearBits [0x76F2B71F+191]
+
+2023-08-16 13:48:07,584 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006FA813+48355]
+	(No symbol) [0x0068C4B1]
+	(No symbol) [0x00595358]
+	(No symbol) [0x0057D293]
+	(No symbol) [0x005DE37B]
+	(No symbol) [0x005EC473]
+	(No symbol) [0x005DA536]
+	(No symbol) [0x005B82DC]
+	(No symbol) [0x005B93DD]
+	GetHandleVerifier [0x0095AABD+2539405]
+	GetHandleVerifier [0x0099A78F+2800735]
+	GetHandleVerifier [0x0099456C+2775612]
+	GetHandleVerifier [0x007851E0+616112]
+	(No symbol) [0x00695F8C]
+	(No symbol) [0x00692328]
+	(No symbol) [0x0069240B]
+	(No symbol) [0x00684FF7]
+	BaseThreadInitThunk [0x75287D59+25]
+	RtlInitializeExceptionChain [0x76F2B79B+107]
+	RtlClearBits [0x76F2B71F+191]
+
+2023-08-16 13:48:07,589 - ERROR - Blog_module - Unable to find the Order list Button : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006FA813+48355]
+	(No symbol) [0x0068C4B1]
+	(No symbol) [0x00595358]
+	(No symbol) [0x0057D293]
+	(No symbol) [0x005DE37B]
+	(No symbol) [0x005EC473]
+	(No symbol) [0x005DA536]
+	(No symbol) [0x005B82DC]
+	(No symbol) [0x005B93DD]
+	GetHandleVerifier [0x0095AABD+2539405]
+	GetHandleVerifier [0x0099A78F+2800735]
+	GetHandleVerifier [0x0099456C+2775612]
+	GetHandleVerifier [0x007851E0+616112]
+	(No symbol) [0x00695F8C]
+	(No symbol) [0x00692328]
+	(No symbol) [0x0069240B]
+	(No symbol) [0x00684FF7]
+	BaseThreadInitThunk [0x75287D59+25]
+	RtlInitializeExceptionChain [0x76F2B79B+107]
+	RtlClearBits [0x76F2B71F+191]
+
+2023-08-16 13:48:07,595 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006FA813+48355]
+	(No symbol) [0x0068C4B1]
+	(No symbol) [0x00595358]
+	(No symbol) [0x0057D293]
+	(No symbol) [0x005DE37B]
+	(No symbol) [0x005EC473]
+	(No symbol) [0x005DA536]
+	(No symbol) [0x005B82DC]
+	(No symbol) [0x005B93DD]
+	GetHandleVerifier [0x0095AABD+2539405]
+	GetHandleVerifier [0x0099A78F+2800735]
+	GetHandleVerifier [0x0099456C+2775612]
+	GetHandleVerifier [0x007851E0+616112]
+	(No symbol) [0x00695F8C]
+	(No symbol) [0x00692328]
+	(No symbol) [0x0069240B]
+	(No symbol) [0x00684FF7]
+	BaseThreadInitThunk [0x75287D59+25]
+	RtlInitializeExceptionChain [0x76F2B79B+107]
+	RtlClearBits [0x76F2B71F+191]
+
+2023-08-16 13:48:07,600 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006FA813+48355]
+	(No symbol) [0x0068C4B1]
+	(No symbol) [0x00595358]
+	(No symbol) [0x0057D293]
+	(No symbol) [0x005DE37B]
+	(No symbol) [0x005EC473]
+	(No symbol) [0x005DA536]
+	(No symbol) [0x005B82DC]
+	(No symbol) [0x005B93DD]
+	GetHandleVerifier [0x0095AABD+2539405]
+	GetHandleVerifier [0x0099A78F+2800735]
+	GetHandleVerifier [0x0099456C+2775612]
+	GetHandleVerifier [0x007851E0+616112]
+	(No symbol) [0x00695F8C]
+	(No symbol) [0x00692328]
+	(No symbol) [0x0069240B]
+	(No symbol) [0x00684FF7]
+	BaseThreadInitThunk [0x75287D59+25]
+	RtlInitializeExceptionChain [0x76F2B79B+107]
+	RtlClearBits [0x76F2B71F+191]
+
+2023-08-16 13:48:07,605 - ERROR - Blog_module - Unable to find the Order list Button : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006FA813+48355]
+	(No symbol) [0x0068C4B1]
+	(No symbol) [0x00595358]
+	(No symbol) [0x0057D293]
+	(No symbol) [0x005DE37B]
+	(No symbol) [0x005EC473]
+	(No symbol) [0x005DA536]
+	(No symbol) [0x005B82DC]
+	(No symbol) [0x005B93DD]
+	GetHandleVerifier [0x0095AABD+2539405]
+	GetHandleVerifier [0x0099A78F+2800735]
+	GetHandleVerifier [0x0099456C+2775612]
+	GetHandleVerifier [0x007851E0+616112]
+	(No symbol) [0x00695F8C]
+	(No symbol) [0x00692328]
+	(No symbol) [0x0069240B]
+	(No symbol) [0x00684FF7]
+	BaseThreadInitThunk [0x75287D59+25]
+	RtlInitializeExceptionChain [0x76F2B79B+107]
+	RtlClearBits [0x76F2B71F+191]
+
+2023-08-16 13:48:51,292 - ERROR - Blog_module - Unable to find the Image Blog Button : Message: 
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006FA813+48355]
+	(No symbol) [0x0068C4B1]
+	(No symbol) [0x00595358]
+	(No symbol) [0x005C09A5]
+	(No symbol) [0x005C0B3B]
+	(No symbol) [0x005EE232]
+	(No symbol) [0x005DA784]
+	(No symbol) [0x005EC922]
+	(No symbol) [0x005DA536]
+	(No symbol) [0x005B82DC]
+	(No symbol) [0x005B93DD]
+	GetHandleVerifier [0x0095AABD+2539405]
+	GetHandleVerifier [0x0099A78F+2800735]
+	GetHandleVerifier [0x0099456C+2775612]
+	GetHandleVerifier [0x007851E0+616112]
+	(No symbol) [0x00695F8C]
+	(No symbol) [0x00692328]
+	(No symbol) [0x0069240B]
+	(No symbol) [0x00684FF7]
+	BaseThreadInitThunk [0x75287D59+25]
+	RtlInitializeExceptionChain [0x76F2B79B+107]
+	RtlClearBits [0x76F2B71F+191]
+
+2023-08-16 13:49:00,365 - ERROR - Blog_module - Unable to find the Layout selector and Layout : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006FA813+48355]
+	(No symbol) [0x0068C4B1]
+	(No symbol) [0x00595358]
+	(No symbol) [0x0057D293]
+	(No symbol) [0x005DE37B]
+	(No symbol) [0x005EC473]
+	(No symbol) [0x005DA536]
+	(No symbol) [0x005B82DC]
+	(No symbol) [0x005B93DD]
+	GetHandleVerifier [0x0095AABD+2539405]
+	GetHandleVerifier [0x0099A78F+2800735]
+	GetHandleVerifier [0x0099456C+2775612]
+	GetHandleVerifier [0x007851E0+616112]
+	(No symbol) [0x00695F8C]
+	(No symbol) [0x00692328]
+	(No symbol) [0x0069240B]
+	(No symbol) [0x00684FF7]
+	BaseThreadInitThunk [0x75287D59+25]
+	RtlInitializeExceptionChain [0x76F2B79B+107]
+	RtlClearBits [0x76F2B71F+191]
+
+2023-08-16 13:51:43,132 - ERROR - Blog_module - Unable to find click on Blog Type : Message: element click intercepted: Element <span role="img" aria-label="down" class="anticon anticon-down" style="font-size: 14px; margin-right: 10px;">...</span> is not clickable at point (121, 7). Other element would receive the click: <span class="ant-typography" style="color: rgb(255, 255, 255); margin: 2px;">...</span>
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006FA813+48355]
+	(No symbol) [0x0068C4B1]
+	(No symbol) [0x00595358]
+	(No symbol) [0x005C5062]
+	(No symbol) [0x005C3B98]
+	(No symbol) [0x005C239B]
+	(No symbol) [0x005C179E]
+	(No symbol) [0x005B9F5C]
+	(No symbol) [0x005DA73C]
+	(No symbol) [0x005B9A36]
+	(No symbol) [0x005DAA94]
+	(No symbol) [0x005EC922]
+	(No symbol) [0x005DA536]
+	(No symbol) [0x005B82DC]
+	(No symbol) [0x005B93DD]
+	GetHandleVerifier [0x0095AABD+2539405]
+	GetHandleVerifier [0x0099A78F+2800735]
+	GetHandleVerifier [0x0099456C+2775612]
+	GetHandleVerifier [0x007851E0+616112]
+	(No symbol) [0x00695F8C]
+	(No symbol) [0x00692328]
+	(No symbol) [0x0069240B]
+	(No symbol) [0x00684FF7]
+	BaseThreadInitThunk [0x75287D59+25]
+	RtlInitializeExceptionChain [0x76F2B79B+107]
+	RtlClearBits [0x76F2B71F+191]
+
+2023-08-16 13:51:53,180 - ERROR - Blog_module - Unable to find the Image Blog Button : Message: 
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006FA813+48355]
+	(No symbol) [0x0068C4B1]
+	(No symbol) [0x00595358]
+	(No symbol) [0x005C09A5]
+	(No symbol) [0x005C0B3B]
+	(No symbol) [0x005EE232]
+	(No symbol) [0x005DA784]
+	(No symbol) [0x005EC922]
+	(No symbol) [0x005DA536]
+	(No symbol) [0x005B82DC]
+	(No symbol) [0x005B93DD]
+	GetHandleVerifier [0x0095AABD+2539405]
+	GetHandleVerifier [0x0099A78F+2800735]
+	GetHandleVerifier [0x0099456C+2775612]
+	GetHandleVerifier [0x007851E0+616112]
+	(No symbol) [0x00695F8C]
+	(No symbol) [0x00692328]
+	(No symbol) [0x0069240B]
+	(No symbol) [0x00684FF7]
+	BaseThreadInitThunk [0x75287D59+25]
+	RtlInitializeExceptionChain [0x76F2B79B+107]
+	RtlClearBits [0x76F2B71F+191]
+
+2023-08-16 13:52:03,454 - ERROR - Blog_module - Unable to find the Layout selector and Layout : Message: 
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006FA813+48355]
+	(No symbol) [0x0068C4B1]
+	(No symbol) [0x00595358]
+	(No symbol) [0x005C09A5]
+	(No symbol) [0x005C0B3B]
+	(No symbol) [0x005EE232]
+	(No symbol) [0x005DA784]
+	(No symbol) [0x005EC922]
+	(No symbol) [0x005DA536]
+	(No symbol) [0x005B82DC]
+	(No symbol) [0x005B93DD]
+	GetHandleVerifier [0x0095AABD+2539405]
+	GetHandleVerifier [0x0099A78F+2800735]
+	GetHandleVerifier [0x0099456C+2775612]
+	GetHandleVerifier [0x007851E0+616112]
+	(No symbol) [0x00695F8C]
+	(No symbol) [0x00692328]
+	(No symbol) [0x0069240B]
+	(No symbol) [0x00684FF7]
+	BaseThreadInitThunk [0x75287D59+25]
+	RtlInitializeExceptionChain [0x76F2B79B+107]
+	RtlClearBits [0x76F2B71F+191]
+
+2023-08-16 13:52:35,094 - ERROR - Blog_module - Unable to find click on Blog Type : move_to requires a WebElement
+2023-08-16 13:53:18,189 - ERROR - Blog_module - Unable to find click on Blog Type : move_to requires a WebElement
+2023-08-16 13:55:25,317 - ERROR - Blog_module - Unable to find the Text Blog Button : Message: 
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006FA813+48355]
+	(No symbol) [0x0068C4B1]
+	(No symbol) [0x00595358]
+	(No symbol) [0x005C09A5]
+	(No symbol) [0x005C0B3B]
+	(No symbol) [0x005EE232]
+	(No symbol) [0x005DA784]
+	(No symbol) [0x005EC922]
+	(No symbol) [0x005DA536]
+	(No symbol) [0x005B82DC]
+	(No symbol) [0x005B93DD]
+	GetHandleVerifier [0x0095AABD+2539405]
+	GetHandleVerifier [0x0099A78F+2800735]
+	GetHandleVerifier [0x0099456C+2775612]
+	GetHandleVerifier [0x007851E0+616112]
+	(No symbol) [0x00695F8C]
+	(No symbol) [0x00692328]
+	(No symbol) [0x0069240B]
+	(No symbol) [0x00684FF7]
+	BaseThreadInitThunk [0x75287D59+25]
+	RtlInitializeExceptionChain [0x76F2B79B+107]
+	RtlClearBits [0x76F2B71F+191]
+
+2023-08-16 13:55:30,264 - ERROR - Blog_module - Something went wrong while selecting the Text format : 'NoneType' object has no attribute 'is_displayed'
+2023-08-16 13:55:30,268 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006FA813+48355]
+	(No symbol) [0x0068C4B1]
+	(No symbol) [0x00595358]
+	(No symbol) [0x0057D293]
+	(No symbol) [0x005DE37B]
+	(No symbol) [0x005EC473]
+	(No symbol) [0x005DA536]
+	(No symbol) [0x005B82DC]
+	(No symbol) [0x005B93DD]
+	GetHandleVerifier [0x0095AABD+2539405]
+	GetHandleVerifier [0x0099A78F+2800735]
+	GetHandleVerifier [0x0099456C+2775612]
+	GetHandleVerifier [0x007851E0+616112]
+	(No symbol) [0x00695F8C]
+	(No symbol) [0x00692328]
+	(No symbol) [0x0069240B]
+	(No symbol) [0x00684FF7]
+	BaseThreadInitThunk [0x75287D59+25]
+	RtlInitializeExceptionChain [0x76F2B79B+107]
+	RtlClearBits [0x76F2B71F+191]
+
+2023-08-16 13:55:30,270 - ERROR - Blog_module - Something went wrong while selecting the Text format : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006FA813+48355]
+	(No symbol) [0x0068C4B1]
+	(No symbol) [0x00595358]
+	(No symbol) [0x0057D293]
+	(No symbol) [0x005DE37B]
+	(No symbol) [0x005EC473]
+	(No symbol) [0x005DA536]
+	(No symbol) [0x005B82DC]
+	(No symbol) [0x005B93DD]
+	GetHandleVerifier [0x0095AABD+2539405]
+	GetHandleVerifier [0x0099A78F+2800735]
+	GetHandleVerifier [0x0099456C+2775612]
+	GetHandleVerifier [0x007851E0+616112]
+	(No symbol) [0x00695F8C]
+	(No symbol) [0x00692328]
+	(No symbol) [0x0069240B]
+	(No symbol) [0x00684FF7]
+	BaseThreadInitThunk [0x75287D59+25]
+	RtlInitializeExceptionChain [0x76F2B79B+107]
+	RtlClearBits [0x76F2B71F+191]
+
+2023-08-16 13:55:30,272 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006FA813+48355]
+	(No symbol) [0x0068C4B1]
+	(No symbol) [0x00595358]
+	(No symbol) [0x0057D293]
+	(No symbol) [0x005DE37B]
+	(No symbol) [0x005EC473]
+	(No symbol) [0x005DA536]
+	(No symbol) [0x005B82DC]
+	(No symbol) [0x005B93DD]
+	GetHandleVerifier [0x0095AABD+2539405]
+	GetHandleVerifier [0x0099A78F+2800735]
+	GetHandleVerifier [0x0099456C+2775612]
+	GetHandleVerifier [0x007851E0+616112]
+	(No symbol) [0x00695F8C]
+	(No symbol) [0x00692328]
+	(No symbol) [0x0069240B]
+	(No symbol) [0x00684FF7]
+	BaseThreadInitThunk [0x75287D59+25]
+	RtlInitializeExceptionChain [0x76F2B79B+107]
+	RtlClearBits [0x76F2B71F+191]
+
+2023-08-16 13:55:30,275 - ERROR - Blog_module - Something went wrong while selecting the Text format : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006FA813+48355]
+	(No symbol) [0x0068C4B1]
+	(No symbol) [0x00595358]
+	(No symbol) [0x0057D293]
+	(No symbol) [0x005DE37B]
+	(No symbol) [0x005EC473]
+	(No symbol) [0x005DA536]
+	(No symbol) [0x005B82DC]
+	(No symbol) [0x005B93DD]
+	GetHandleVerifier [0x0095AABD+2539405]
+	GetHandleVerifier [0x0099A78F+2800735]
+	GetHandleVerifier [0x0099456C+2775612]
+	GetHandleVerifier [0x007851E0+616112]
+	(No symbol) [0x00695F8C]
+	(No symbol) [0x00692328]
+	(No symbol) [0x0069240B]
+	(No symbol) [0x00684FF7]
+	BaseThreadInitThunk [0x75287D59+25]
+	RtlInitializeExceptionChain [0x76F2B79B+107]
+	RtlClearBits [0x76F2B71F+191]
+
+2023-08-16 13:55:30,277 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006FA813+48355]
+	(No symbol) [0x0068C4B1]
+	(No symbol) [0x00595358]
+	(No symbol) [0x0057D293]
+	(No symbol) [0x005DE37B]
+	(No symbol) [0x005EC473]
+	(No symbol) [0x005DA536]
+	(No symbol) [0x005B82DC]
+	(No symbol) [0x005B93DD]
+	GetHandleVerifier [0x0095AABD+2539405]
+	GetHandleVerifier [0x0099A78F+2800735]
+	GetHandleVerifier [0x0099456C+2775612]
+	GetHandleVerifier [0x007851E0+616112]
+	(No symbol) [0x00695F8C]
+	(No symbol) [0x00692328]
+	(No symbol) [0x0069240B]
+	(No symbol) [0x00684FF7]
+	BaseThreadInitThunk [0x75287D59+25]
+	RtlInitializeExceptionChain [0x76F2B79B+107]
+	RtlClearBits [0x76F2B71F+191]
+
+2023-08-16 13:55:30,279 - ERROR - Blog_module - Unable to find the Order list Button : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006FA813+48355]
+	(No symbol) [0x0068C4B1]
+	(No symbol) [0x00595358]
+	(No symbol) [0x0057D293]
+	(No symbol) [0x005DE37B]
+	(No symbol) [0x005EC473]
+	(No symbol) [0x005DA536]
+	(No symbol) [0x005B82DC]
+	(No symbol) [0x005B93DD]
+	GetHandleVerifier [0x0095AABD+2539405]
+	GetHandleVerifier [0x0099A78F+2800735]
+	GetHandleVerifier [0x0099456C+2775612]
+	GetHandleVerifier [0x007851E0+616112]
+	(No symbol) [0x00695F8C]
+	(No symbol) [0x00692328]
+	(No symbol) [0x0069240B]
+	(No symbol) [0x00684FF7]
+	BaseThreadInitThunk [0x75287D59+25]
+	RtlInitializeExceptionChain [0x76F2B79B+107]
+	RtlClearBits [0x76F2B71F+191]
+
+2023-08-16 13:55:30,282 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006FA813+48355]
+	(No symbol) [0x0068C4B1]
+	(No symbol) [0x00595358]
+	(No symbol) [0x0057D293]
+	(No symbol) [0x005DE37B]
+	(No symbol) [0x005EC473]
+	(No symbol) [0x005DA536]
+	(No symbol) [0x005B82DC]
+	(No symbol) [0x005B93DD]
+	GetHandleVerifier [0x0095AABD+2539405]
+	GetHandleVerifier [0x0099A78F+2800735]
+	GetHandleVerifier [0x0099456C+2775612]
+	GetHandleVerifier [0x007851E0+616112]
+	(No symbol) [0x00695F8C]
+	(No symbol) [0x00692328]
+	(No symbol) [0x0069240B]
+	(No symbol) [0x00684FF7]
+	BaseThreadInitThunk [0x75287D59+25]
+	RtlInitializeExceptionChain [0x76F2B79B+107]
+	RtlClearBits [0x76F2B71F+191]
+
+2023-08-16 13:55:30,284 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006FA813+48355]
+	(No symbol) [0x0068C4B1]
+	(No symbol) [0x00595358]
+	(No symbol) [0x0057D293]
+	(No symbol) [0x005DE37B]
+	(No symbol) [0x005EC473]
+	(No symbol) [0x005DA536]
+	(No symbol) [0x005B82DC]
+	(No symbol) [0x005B93DD]
+	GetHandleVerifier [0x0095AABD+2539405]
+	GetHandleVerifier [0x0099A78F+2800735]
+	GetHandleVerifier [0x0099456C+2775612]
+	GetHandleVerifier [0x007851E0+616112]
+	(No symbol) [0x00695F8C]
+	(No symbol) [0x00692328]
+	(No symbol) [0x0069240B]
+	(No symbol) [0x00684FF7]
+	BaseThreadInitThunk [0x75287D59+25]
+	RtlInitializeExceptionChain [0x76F2B79B+107]
+	RtlClearBits [0x76F2B71F+191]
+
+2023-08-16 13:55:30,286 - ERROR - Blog_module - Unable to find the Order list Button : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006FA813+48355]
+	(No symbol) [0x0068C4B1]
+	(No symbol) [0x00595358]
+	(No symbol) [0x0057D293]
+	(No symbol) [0x005DE37B]
+	(No symbol) [0x005EC473]
+	(No symbol) [0x005DA536]
+	(No symbol) [0x005B82DC]
+	(No symbol) [0x005B93DD]
+	GetHandleVerifier [0x0095AABD+2539405]
+	GetHandleVerifier [0x0099A78F+2800735]
+	GetHandleVerifier [0x0099456C+2775612]
+	GetHandleVerifier [0x007851E0+616112]
+	(No symbol) [0x00695F8C]
+	(No symbol) [0x00692328]
+	(No symbol) [0x0069240B]
+	(No symbol) [0x00684FF7]
+	BaseThreadInitThunk [0x75287D59+25]
+	RtlInitializeExceptionChain [0x76F2B79B+107]
+	RtlClearBits [0x76F2B71F+191]
+
+2023-08-16 13:58:46,389 - ERROR - Blog_module - Unable to find click on Blog Type : move_to requires a WebElement
+2023-08-16 13:58:56,427 - ERROR - Blog_module - Unable to find the Image Blog Button : Message: 
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006FA813+48355]
+	(No symbol) [0x0068C4B1]
+	(No symbol) [0x00595358]
+	(No symbol) [0x005C09A5]
+	(No symbol) [0x005C0B3B]
+	(No symbol) [0x005EE232]
+	(No symbol) [0x005DA784]
+	(No symbol) [0x005EC922]
+	(No symbol) [0x005DA536]
+	(No symbol) [0x005B82DC]
+	(No symbol) [0x005B93DD]
+	GetHandleVerifier [0x0095AABD+2539405]
+	GetHandleVerifier [0x0099A78F+2800735]
+	GetHandleVerifier [0x0099456C+2775612]
+	GetHandleVerifier [0x007851E0+616112]
+	(No symbol) [0x00695F8C]
+	(No symbol) [0x00692328]
+	(No symbol) [0x0069240B]
+	(No symbol) [0x00684FF7]
+	BaseThreadInitThunk [0x75287D59+25]
+	RtlInitializeExceptionChain [0x76F2B79B+107]
+	RtlClearBits [0x76F2B71F+191]
+
+2023-08-16 13:59:00,095 - ERROR - Blog_module - Unable to find the Layout selector and Layout : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006FA813+48355]
+	(No symbol) [0x0068C4B1]
+	(No symbol) [0x00595358]
+	(No symbol) [0x0057D293]
+	(No symbol) [0x005DE37B]
+	(No symbol) [0x005EC473]
+	(No symbol) [0x005DA536]
+	(No symbol) [0x005B82DC]
+	(No symbol) [0x005B93DD]
+	GetHandleVerifier [0x0095AABD+2539405]
+	GetHandleVerifier [0x0099A78F+2800735]
+	GetHandleVerifier [0x0099456C+2775612]
+	GetHandleVerifier [0x007851E0+616112]
+	(No symbol) [0x00695F8C]
+	(No symbol) [0x00692328]
+	(No symbol) [0x0069240B]
+	(No symbol) [0x00684FF7]
+	BaseThreadInitThunk [0x75287D59+25]
+	RtlInitializeExceptionChain [0x76F2B79B+107]
+	RtlClearBits [0x76F2B71F+191]
+
+2023-08-16 14:00:36,061 - ERROR - Blog_module - Unable to find click on Blog Type : move_to requires a WebElement
+2023-08-16 14:00:46,124 - ERROR - Blog_module - Unable to find the Image Blog Button : Message: 
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006FA813+48355]
+	(No symbol) [0x0068C4B1]
+	(No symbol) [0x00595358]
+	(No symbol) [0x005C09A5]
+	(No symbol) [0x005C0B3B]
+	(No symbol) [0x005EE232]
+	(No symbol) [0x005DA784]
+	(No symbol) [0x005EC922]
+	(No symbol) [0x005DA536]
+	(No symbol) [0x005B82DC]
+	(No symbol) [0x005B93DD]
+	GetHandleVerifier [0x0095AABD+2539405]
+	GetHandleVerifier [0x0099A78F+2800735]
+	GetHandleVerifier [0x0099456C+2775612]
+	GetHandleVerifier [0x007851E0+616112]
+	(No symbol) [0x00695F8C]
+	(No symbol) [0x00692328]
+	(No symbol) [0x0069240B]
+	(No symbol) [0x00684FF7]
+	BaseThreadInitThunk [0x75287D59+25]
+	RtlInitializeExceptionChain [0x76F2B79B+107]
+	RtlClearBits [0x76F2B71F+191]
+
+2023-08-16 14:00:56,294 - ERROR - Blog_module - Unable to find the Layout selector and Layout : Message: 
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006FA813+48355]
+	(No symbol) [0x0068C4B1]
+	(No symbol) [0x00595358]
+	(No symbol) [0x005C09A5]
+	(No symbol) [0x005C0B3B]
+	(No symbol) [0x005EE232]
+	(No symbol) [0x005DA784]
+	(No symbol) [0x005EC922]
+	(No symbol) [0x005DA536]
+	(No symbol) [0x005B82DC]
+	(No symbol) [0x005B93DD]
+	GetHandleVerifier [0x0095AABD+2539405]
+	GetHandleVerifier [0x0099A78F+2800735]
+	GetHandleVerifier [0x0099456C+2775612]
+	GetHandleVerifier [0x007851E0+616112]
+	(No symbol) [0x00695F8C]
+	(No symbol) [0x00692328]
+	(No symbol) [0x0069240B]
+	(No symbol) [0x00684FF7]
+	BaseThreadInitThunk [0x75287D59+25]
+	RtlInitializeExceptionChain [0x76F2B79B+107]
+	RtlClearBits [0x76F2B71F+191]
+
+2023-08-17 11:03:03,810 - ERROR - Blog_module - Unable to find to Author : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='ant-select-selection-item']"}
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00E4A813+48355]
+	(No symbol) [0x00DDC4B1]
+	(No symbol) [0x00CE5358]
+	(No symbol) [0x00D109A5]
+	(No symbol) [0x00D10B3B]
+	(No symbol) [0x00D3E232]
+	(No symbol) [0x00D2A784]
+	(No symbol) [0x00D3C922]
+	(No symbol) [0x00D2A536]
+	(No symbol) [0x00D082DC]
+	(No symbol) [0x00D093DD]
+	GetHandleVerifier [0x010AAABD+2539405]
+	GetHandleVerifier [0x010EA78F+2800735]
+	GetHandleVerifier [0x010E456C+2775612]
+	GetHandleVerifier [0x00ED51E0+616112]
+	(No symbol) [0x00DE5F8C]
+	(No symbol) [0x00DE2328]
+	(No symbol) [0x00DE240B]
+	(No symbol) [0x00DD4FF7]
+	BaseThreadInitThunk [0x769A7D59+25]
+	RtlInitializeExceptionChain [0x7783B79B+107]
+	RtlClearBits [0x7783B71F+191]
+
+2023-08-17 11:21:44,694 - ERROR - Blog_module - Unable to find to Author : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='ant-select-selection-item']"}
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00F8A813+48355]
+	(No symbol) [0x00F1C4B1]
+	(No symbol) [0x00E25358]
+	(No symbol) [0x00E509A5]
+	(No symbol) [0x00E50B3B]
+	(No symbol) [0x00E7E232]
+	(No symbol) [0x00E6A784]
+	(No symbol) [0x00E7C922]
+	(No symbol) [0x00E6A536]
+	(No symbol) [0x00E482DC]
+	(No symbol) [0x00E493DD]
+	GetHandleVerifier [0x011EAABD+2539405]
+	GetHandleVerifier [0x0122A78F+2800735]
+	GetHandleVerifier [0x0122456C+2775612]
+	GetHandleVerifier [0x010151E0+616112]
+	(No symbol) [0x00F25F8C]
+	(No symbol) [0x00F22328]
+	(No symbol) [0x00F2240B]
+	(No symbol) [0x00F14FF7]
+	BaseThreadInitThunk [0x769A7D59+25]
+	RtlInitializeExceptionChain [0x7783B79B+107]
+	RtlClearBits [0x7783B71F+191]
+
+2023-08-17 12:02:30,923 - ERROR - Blog_module - Unable to find to Author : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='ant-select-selection-item']"}
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x003CA813+48355]
+	(No symbol) [0x0035C4B1]
+	(No symbol) [0x00265358]
+	(No symbol) [0x002909A5]
+	(No symbol) [0x00290B3B]
+	(No symbol) [0x002BE232]
+	(No symbol) [0x002AA784]
+	(No symbol) [0x002BC922]
+	(No symbol) [0x002AA536]
+	(No symbol) [0x002882DC]
+	(No symbol) [0x002893DD]
+	GetHandleVerifier [0x0062AABD+2539405]
+	GetHandleVerifier [0x0066A78F+2800735]
+	GetHandleVerifier [0x0066456C+2775612]
+	GetHandleVerifier [0x004551E0+616112]
+	(No symbol) [0x00365F8C]
+	(No symbol) [0x00362328]
+	(No symbol) [0x0036240B]
+	(No symbol) [0x00354FF7]
+	BaseThreadInitThunk [0x769A7D59+25]
+	RtlInitializeExceptionChain [0x7783B79B+107]
+	RtlClearBits [0x7783B71F+191]
+
+2023-08-17 12:02:38,638 - ERROR - Blog_module - Unable to find the Image Upload tab : Message: invalid argument: 'using' must be a string
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x003CA813+48355]
+	(No symbol) [0x0035C4B1]
+	(No symbol) [0x00265358]
+	(No symbol) [0x00290A9F]
+	(No symbol) [0x00290B3B]
+	(No symbol) [0x002BE232]
+	(No symbol) [0x002AA784]
+	(No symbol) [0x002BC922]
+	(No symbol) [0x002AA536]
+	(No symbol) [0x002882DC]
+	(No symbol) [0x002893DD]
+	GetHandleVerifier [0x0062AABD+2539405]
+	GetHandleVerifier [0x0066A78F+2800735]
+	GetHandleVerifier [0x0066456C+2775612]
+	GetHandleVerifier [0x004551E0+616112]
+	(No symbol) [0x00365F8C]
+	(No symbol) [0x00362328]
+	(No symbol) [0x0036240B]
+	(No symbol) [0x00354FF7]
+	BaseThreadInitThunk [0x769A7D59+25]
+	RtlInitializeExceptionChain [0x7783B79B+107]
+	RtlClearBits [0x7783B71F+191]
+
+2023-08-17 12:03:24,488 - ERROR - Blog_module - Unable to find the Image Upload tab : Message: invalid argument: 'using' must be a string
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x003CA813+48355]
+	(No symbol) [0x0035C4B1]
+	(No symbol) [0x00265358]
+	(No symbol) [0x00290A9F]
+	(No symbol) [0x00290B3B]
+	(No symbol) [0x002BE232]
+	(No symbol) [0x002AA784]
+	(No symbol) [0x002BC922]
+	(No symbol) [0x002AA536]
+	(No symbol) [0x002882DC]
+	(No symbol) [0x002893DD]
+	GetHandleVerifier [0x0062AABD+2539405]
+	GetHandleVerifier [0x0066A78F+2800735]
+	GetHandleVerifier [0x0066456C+2775612]
+	GetHandleVerifier [0x004551E0+616112]
+	(No symbol) [0x00365F8C]
+	(No symbol) [0x00362328]
+	(No symbol) [0x0036240B]
+	(No symbol) [0x00354FF7]
+	BaseThreadInitThunk [0x769A7D59+25]
+	RtlInitializeExceptionChain [0x7783B79B+107]
+	RtlClearBits [0x7783B71F+191]
+
+2023-08-17 12:56:56,094 - ERROR - Blog_module - Unable to find to Author : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='ant-select-selection-item']"}
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0056A813+48355]
+	(No symbol) [0x004FC4B1]
+	(No symbol) [0x00405358]
+	(No symbol) [0x004309A5]
+	(No symbol) [0x00430B3B]
+	(No symbol) [0x0045E232]
+	(No symbol) [0x0044A784]
+	(No symbol) [0x0045C922]
+	(No symbol) [0x0044A536]
+	(No symbol) [0x004282DC]
+	(No symbol) [0x004293DD]
+	GetHandleVerifier [0x007CAABD+2539405]
+	GetHandleVerifier [0x0080A78F+2800735]
+	GetHandleVerifier [0x0080456C+2775612]
+	GetHandleVerifier [0x005F51E0+616112]
+	(No symbol) [0x00505F8C]
+	(No symbol) [0x00502328]
+	(No symbol) [0x0050240B]
+	(No symbol) [0x004F4FF7]
+	BaseThreadInitThunk [0x769A7D59+25]
+	RtlInitializeExceptionChain [0x7783B79B+107]
+	RtlClearBits [0x7783B71F+191]
+
+2023-08-17 12:57:05,603 - ERROR - Blog_module - Unable to find the Image Upload tab : 'list' object has no attribute 'split'
+2023-08-17 13:00:55,535 - ERROR - Blog_module - Unable to find the Image Upload tab : 'list' object has no attribute 'split'
+2023-08-17 13:03:33,530 - ERROR - Blog_module - Unable to find the Image Upload tab : 'list' object has no attribute 'split'
+2023-08-17 13:05:27,375 - ERROR - Blog_module - Unable to find the Image Upload tab : 'list' object has no attribute 'split'
+2023-08-17 13:06:31,552 - ERROR - Blog_module - Unable to find the Image Upload tab : 'list' object has no attribute 'split'
+2023-08-17 13:34:25,423 - ERROR - Blog_module - Unable to find to Author : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='ant-select-selection-item']"}
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0100A813+48355]
+	(No symbol) [0x00F9C4B1]
+	(No symbol) [0x00EA5358]
+	(No symbol) [0x00ED09A5]
+	(No symbol) [0x00ED0B3B]
+	(No symbol) [0x00EFE232]
+	(No symbol) [0x00EEA784]
+	(No symbol) [0x00EFC922]
+	(No symbol) [0x00EEA536]
+	(No symbol) [0x00EC82DC]
+	(No symbol) [0x00EC93DD]
+	GetHandleVerifier [0x0126AABD+2539405]
+	GetHandleVerifier [0x012AA78F+2800735]
+	GetHandleVerifier [0x012A456C+2775612]
+	GetHandleVerifier [0x010951E0+616112]
+	(No symbol) [0x00FA5F8C]
+	(No symbol) [0x00FA2328]
+	(No symbol) [0x00FA240B]
+	(No symbol) [0x00F94FF7]
+	BaseThreadInitThunk [0x769A7D59+25]
+	RtlInitializeExceptionChain [0x7783B79B+107]
+	RtlClearBits [0x7783B71F+191]
+
+2023-08-17 15:32:35,603 - ERROR - Blog_module - Unable to find to Author : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='ant-select-selection-item']"}
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0028A813+48355]
+	(No symbol) [0x0021C4B1]
+	(No symbol) [0x00125358]
+	(No symbol) [0x001509A5]
+	(No symbol) [0x00150B3B]
+	(No symbol) [0x0017E232]
+	(No symbol) [0x0016A784]
+	(No symbol) [0x0017C922]
+	(No symbol) [0x0016A536]
+	(No symbol) [0x001482DC]
+	(No symbol) [0x001493DD]
+	GetHandleVerifier [0x004EAABD+2539405]
+	GetHandleVerifier [0x0052A78F+2800735]
+	GetHandleVerifier [0x0052456C+2775612]
+	GetHandleVerifier [0x003151E0+616112]
+	(No symbol) [0x00225F8C]
+	(No symbol) [0x00222328]
+	(No symbol) [0x0022240B]
+	(No symbol) [0x00214FF7]
+	BaseThreadInitThunk [0x769A7D59+25]
+	RtlInitializeExceptionChain [0x7783B79B+107]
+	RtlClearBits [0x7783B71F+191]
+	(No symbol) [0x00000000]
+
+2023-08-17 15:48:24,009 - ERROR - Blog_module - Unable to find to Author : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='ant-select-selection-item']"}
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0028A813+48355]
+	(No symbol) [0x0021C4B1]
+	(No symbol) [0x00125358]
+	(No symbol) [0x001509A5]
+	(No symbol) [0x00150B3B]
+	(No symbol) [0x0017E232]
+	(No symbol) [0x0016A784]
+	(No symbol) [0x0017C922]
+	(No symbol) [0x0016A536]
+	(No symbol) [0x001482DC]
+	(No symbol) [0x001493DD]
+	GetHandleVerifier [0x004EAABD+2539405]
+	GetHandleVerifier [0x0052A78F+2800735]
+	GetHandleVerifier [0x0052456C+2775612]
+	GetHandleVerifier [0x003151E0+616112]
+	(No symbol) [0x00225F8C]
+	(No symbol) [0x00222328]
+	(No symbol) [0x0022240B]
+	(No symbol) [0x00214FF7]
+	BaseThreadInitThunk [0x769A7D59+25]
+	RtlInitializeExceptionChain [0x7783B79B+107]
+	RtlClearBits [0x7783B71F+191]
+	(No symbol) [0x00000000]
+
+2023-08-17 16:17:36,393 - ERROR - Blog_module - Unable to find to Author : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='ant-select-selection-item']"}
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x009CA813+48355]
+	(No symbol) [0x0095C4B1]
+	(No symbol) [0x00865358]
+	(No symbol) [0x008909A5]
+	(No symbol) [0x00890B3B]
+	(No symbol) [0x008BE232]
+	(No symbol) [0x008AA784]
+	(No symbol) [0x008BC922]
+	(No symbol) [0x008AA536]
+	(No symbol) [0x008882DC]
+	(No symbol) [0x008893DD]
+	GetHandleVerifier [0x00C2AABD+2539405]
+	GetHandleVerifier [0x00C6A78F+2800735]
+	GetHandleVerifier [0x00C6456C+2775612]
+	GetHandleVerifier [0x00A551E0+616112]
+	(No symbol) [0x00965F8C]
+	(No symbol) [0x00962328]
+	(No symbol) [0x0096240B]
+	(No symbol) [0x00954FF7]
+	BaseThreadInitThunk [0x769A7D59+25]
+	RtlInitializeExceptionChain [0x7783B79B+107]
+	RtlClearBits [0x7783B71F+191]
+
+2023-08-17 16:24:33,859 - ERROR - Blog_module - Something went wrong while selecting the Text format : Message: 
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x009CA813+48355]
+	(No symbol) [0x0095C4B1]
+	(No symbol) [0x00865358]
+	(No symbol) [0x008909A5]
+	(No symbol) [0x00890B3B]
+	(No symbol) [0x008BE232]
+	(No symbol) [0x008AA784]
+	(No symbol) [0x008BC922]
+	(No symbol) [0x008AA536]
+	(No symbol) [0x008882DC]
+	(No symbol) [0x008893DD]
+	GetHandleVerifier [0x00C2AABD+2539405]
+	GetHandleVerifier [0x00C6A78F+2800735]
+	GetHandleVerifier [0x00C6456C+2775612]
+	GetHandleVerifier [0x00A551E0+616112]
+	(No symbol) [0x00965F8C]
+	(No symbol) [0x00962328]
+	(No symbol) [0x0096240B]
+	(No symbol) [0x00954FF7]
+	BaseThreadInitThunk [0x769A7D59+25]
+	RtlInitializeExceptionChain [0x7783B79B+107]
+	RtlClearBits [0x7783B71F+191]
+
+2023-08-17 16:24:41,860 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x009CA813+48355]
+	(No symbol) [0x0095C4B1]
+	(No symbol) [0x00865358]
+	(No symbol) [0x0084D293]
+	(No symbol) [0x008AE37B]
+	(No symbol) [0x008BC473]
+	(No symbol) [0x008AA536]
+	(No symbol) [0x008882DC]
+	(No symbol) [0x008893DD]
+	GetHandleVerifier [0x00C2AABD+2539405]
+	GetHandleVerifier [0x00C6A78F+2800735]
+	GetHandleVerifier [0x00C6456C+2775612]
+	GetHandleVerifier [0x00A551E0+616112]
+	(No symbol) [0x00965F8C]
+	(No symbol) [0x00962328]
+	(No symbol) [0x0096240B]
+	(No symbol) [0x00954FF7]
+	BaseThreadInitThunk [0x769A7D59+25]
+	RtlInitializeExceptionChain [0x7783B79B+107]
+	RtlClearBits [0x7783B71F+191]
+
+2023-08-17 16:24:41,863 - ERROR - Blog_module - Something went wrong while selecting the Text format : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x009CA813+48355]
+	(No symbol) [0x0095C4B1]
+	(No symbol) [0x00865358]
+	(No symbol) [0x0084D293]
+	(No symbol) [0x008AE37B]
+	(No symbol) [0x008BC473]
+	(No symbol) [0x008AA536]
+	(No symbol) [0x008882DC]
+	(No symbol) [0x008893DD]
+	GetHandleVerifier [0x00C2AABD+2539405]
+	GetHandleVerifier [0x00C6A78F+2800735]
+	GetHandleVerifier [0x00C6456C+2775612]
+	GetHandleVerifier [0x00A551E0+616112]
+	(No symbol) [0x00965F8C]
+	(No symbol) [0x00962328]
+	(No symbol) [0x0096240B]
+	(No symbol) [0x00954FF7]
+	BaseThreadInitThunk [0x769A7D59+25]
+	RtlInitializeExceptionChain [0x7783B79B+107]
+	RtlClearBits [0x7783B71F+191]
+
+2023-08-17 16:24:41,870 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x009CA813+48355]
+	(No symbol) [0x0095C4B1]
+	(No symbol) [0x00865358]
+	(No symbol) [0x0084D293]
+	(No symbol) [0x008AE37B]
+	(No symbol) [0x008BC473]
+	(No symbol) [0x008AA536]
+	(No symbol) [0x008882DC]
+	(No symbol) [0x008893DD]
+	GetHandleVerifier [0x00C2AABD+2539405]
+	GetHandleVerifier [0x00C6A78F+2800735]
+	GetHandleVerifier [0x00C6456C+2775612]
+	GetHandleVerifier [0x00A551E0+616112]
+	(No symbol) [0x00965F8C]
+	(No symbol) [0x00962328]
+	(No symbol) [0x0096240B]
+	(No symbol) [0x00954FF7]
+	BaseThreadInitThunk [0x769A7D59+25]
+	RtlInitializeExceptionChain [0x7783B79B+107]
+	RtlClearBits [0x7783B71F+191]
+
+2023-08-17 16:24:41,876 - ERROR - Blog_module - Something went wrong while selecting the Text format : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x009CA813+48355]
+	(No symbol) [0x0095C4B1]
+	(No symbol) [0x00865358]
+	(No symbol) [0x0084D293]
+	(No symbol) [0x008AE37B]
+	(No symbol) [0x008BC473]
+	(No symbol) [0x008AA536]
+	(No symbol) [0x008882DC]
+	(No symbol) [0x008893DD]
+	GetHandleVerifier [0x00C2AABD+2539405]
+	GetHandleVerifier [0x00C6A78F+2800735]
+	GetHandleVerifier [0x00C6456C+2775612]
+	GetHandleVerifier [0x00A551E0+616112]
+	(No symbol) [0x00965F8C]
+	(No symbol) [0x00962328]
+	(No symbol) [0x0096240B]
+	(No symbol) [0x00954FF7]
+	BaseThreadInitThunk [0x769A7D59+25]
+	RtlInitializeExceptionChain [0x7783B79B+107]
+	RtlClearBits [0x7783B71F+191]
+
+2023-08-17 16:24:41,883 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x009CA813+48355]
+	(No symbol) [0x0095C4B1]
+	(No symbol) [0x00865358]
+	(No symbol) [0x0084D293]
+	(No symbol) [0x008AE37B]
+	(No symbol) [0x008BC473]
+	(No symbol) [0x008AA536]
+	(No symbol) [0x008882DC]
+	(No symbol) [0x008893DD]
+	GetHandleVerifier [0x00C2AABD+2539405]
+	GetHandleVerifier [0x00C6A78F+2800735]
+	GetHandleVerifier [0x00C6456C+2775612]
+	GetHandleVerifier [0x00A551E0+616112]
+	(No symbol) [0x00965F8C]
+	(No symbol) [0x00962328]
+	(No symbol) [0x0096240B]
+	(No symbol) [0x00954FF7]
+	BaseThreadInitThunk [0x769A7D59+25]
+	RtlInitializeExceptionChain [0x7783B79B+107]
+	RtlClearBits [0x7783B71F+191]
+
+2023-08-17 16:24:41,887 - ERROR - Blog_module - Unable to find the Order list Button : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x009CA813+48355]
+	(No symbol) [0x0095C4B1]
+	(No symbol) [0x00865358]
+	(No symbol) [0x0084D293]
+	(No symbol) [0x008AE37B]
+	(No symbol) [0x008BC473]
+	(No symbol) [0x008AA536]
+	(No symbol) [0x008882DC]
+	(No symbol) [0x008893DD]
+	GetHandleVerifier [0x00C2AABD+2539405]
+	GetHandleVerifier [0x00C6A78F+2800735]
+	GetHandleVerifier [0x00C6456C+2775612]
+	GetHandleVerifier [0x00A551E0+616112]
+	(No symbol) [0x00965F8C]
+	(No symbol) [0x00962328]
+	(No symbol) [0x0096240B]
+	(No symbol) [0x00954FF7]
+	BaseThreadInitThunk [0x769A7D59+25]
+	RtlInitializeExceptionChain [0x7783B79B+107]
+	RtlClearBits [0x7783B71F+191]
+
+2023-08-17 16:24:41,889 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x009CA813+48355]
+	(No symbol) [0x0095C4B1]
+	(No symbol) [0x00865358]
+	(No symbol) [0x0084D293]
+	(No symbol) [0x008AE37B]
+	(No symbol) [0x008BC473]
+	(No symbol) [0x008AA536]
+	(No symbol) [0x008882DC]
+	(No symbol) [0x008893DD]
+	GetHandleVerifier [0x00C2AABD+2539405]
+	GetHandleVerifier [0x00C6A78F+2800735]
+	GetHandleVerifier [0x00C6456C+2775612]
+	GetHandleVerifier [0x00A551E0+616112]
+	(No symbol) [0x00965F8C]
+	(No symbol) [0x00962328]
+	(No symbol) [0x0096240B]
+	(No symbol) [0x00954FF7]
+	BaseThreadInitThunk [0x769A7D59+25]
+	RtlInitializeExceptionChain [0x7783B79B+107]
+	RtlClearBits [0x7783B71F+191]
+
+2023-08-17 16:24:41,892 - ERROR - Blog_module - Unable to find the Text area : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x009CA813+48355]
+	(No symbol) [0x0095C4B1]
+	(No symbol) [0x00865358]
+	(No symbol) [0x0084D293]
+	(No symbol) [0x008AE37B]
+	(No symbol) [0x008BC473]
+	(No symbol) [0x008AA536]
+	(No symbol) [0x008882DC]
+	(No symbol) [0x008893DD]
+	GetHandleVerifier [0x00C2AABD+2539405]
+	GetHandleVerifier [0x00C6A78F+2800735]
+	GetHandleVerifier [0x00C6456C+2775612]
+	GetHandleVerifier [0x00A551E0+616112]
+	(No symbol) [0x00965F8C]
+	(No symbol) [0x00962328]
+	(No symbol) [0x0096240B]
+	(No symbol) [0x00954FF7]
+	BaseThreadInitThunk [0x769A7D59+25]
+	RtlInitializeExceptionChain [0x7783B79B+107]
+	RtlClearBits [0x7783B71F+191]
+
+2023-08-17 16:24:41,894 - ERROR - Blog_module - Unable to find the Order list Button : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x009CA813+48355]
+	(No symbol) [0x0095C4B1]
+	(No symbol) [0x00865358]
+	(No symbol) [0x0084D293]
+	(No symbol) [0x008AE37B]
+	(No symbol) [0x008BC473]
+	(No symbol) [0x008AA536]
+	(No symbol) [0x008882DC]
+	(No symbol) [0x008893DD]
+	GetHandleVerifier [0x00C2AABD+2539405]
+	GetHandleVerifier [0x00C6A78F+2800735]
+	GetHandleVerifier [0x00C6456C+2775612]
+	GetHandleVerifier [0x00A551E0+616112]
+	(No symbol) [0x00965F8C]
+	(No symbol) [0x00962328]
+	(No symbol) [0x0096240B]
+	(No symbol) [0x00954FF7]
+	BaseThreadInitThunk [0x769A7D59+25]
+	RtlInitializeExceptionChain [0x7783B79B+107]
+	RtlClearBits [0x7783B71F+191]
+
+2023-08-17 16:36:15,342 - ERROR - Blog_module - Unable to find to Author : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='ant-select-selection-item']"}
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00F9A813+48355]
+	(No symbol) [0x00F2C4B1]
+	(No symbol) [0x00E35358]
+	(No symbol) [0x00E609A5]
+	(No symbol) [0x00E60B3B]
+	(No symbol) [0x00E8E232]
+	(No symbol) [0x00E7A784]
+	(No symbol) [0x00E8C922]
+	(No symbol) [0x00E7A536]
+	(No symbol) [0x00E582DC]
+	(No symbol) [0x00E593DD]
+	GetHandleVerifier [0x011FAABD+2539405]
+	GetHandleVerifier [0x0123A78F+2800735]
+	GetHandleVerifier [0x0123456C+2775612]
+	GetHandleVerifier [0x010251E0+616112]
+	(No symbol) [0x00F35F8C]
+	(No symbol) [0x00F32328]
+	(No symbol) [0x00F3240B]
+	(No symbol) [0x00F24FF7]
+	BaseThreadInitThunk [0x769A7D59+25]
+	RtlInitializeExceptionChain [0x7783B79B+107]
+	RtlClearBits [0x7783B71F+191]
+
+2023-08-17 17:08:03,393 - ERROR - Blog_module - Unable to find to Author : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='ant-select-selection-item']"}
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00D4A813+48355]
+	(No symbol) [0x00CDC4B1]
+	(No symbol) [0x00BE5358]
+	(No symbol) [0x00C109A5]
+	(No symbol) [0x00C10B3B]
+	(No symbol) [0x00C3E232]
+	(No symbol) [0x00C2A784]
+	(No symbol) [0x00C3C922]
+	(No symbol) [0x00C2A536]
+	(No symbol) [0x00C082DC]
+	(No symbol) [0x00C093DD]
+	GetHandleVerifier [0x00FAAABD+2539405]
+	GetHandleVerifier [0x00FEA78F+2800735]
+	GetHandleVerifier [0x00FE456C+2775612]
+	GetHandleVerifier [0x00DD51E0+616112]
+	(No symbol) [0x00CE5F8C]
+	(No symbol) [0x00CE2328]
+	(No symbol) [0x00CE240B]
+	(No symbol) [0x00CD4FF7]
+	BaseThreadInitThunk [0x769A7D59+25]
+	RtlInitializeExceptionChain [0x7783B79B+107]
+	RtlClearBits [0x7783B71F+191]
+
+2023-08-18 15:00:52,019 - ERROR - Blog_module - Unable to find to Author : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='ant-select-selection-item']"}
+  (Session info: chrome=115.0.5790.173)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x004BA813+48355]
+	(No symbol) [0x0044C4B1]
+	(No symbol) [0x00355358]
+	(No symbol) [0x003809A5]
+	(No symbol) [0x00380B3B]
+	(No symbol) [0x003AE232]
+	(No symbol) [0x0039A784]
+	(No symbol) [0x003AC922]
+	(No symbol) [0x0039A536]
+	(No symbol) [0x003782DC]
+	(No symbol) [0x003793DD]
+	GetHandleVerifier [0x0071AABD+2539405]
+	GetHandleVerifier [0x0075A78F+2800735]
+	GetHandleVerifier [0x0075456C+2775612]
+	GetHandleVerifier [0x005451E0+616112]
+	(No symbol) [0x00455F8C]
+	(No symbol) [0x00452328]
+	(No symbol) [0x0045240B]
+	(No symbol) [0x00444FF7]
+	BaseThreadInitThunk [0x75167D59+25]
+	RtlInitializeExceptionChain [0x7702B79B+107]
+	RtlClearBits [0x7702B71F+191]
+
+2023-08-18 15:01:01,082 - ERROR - Blog_module - Unable to find the Image Upload tab : Message: invalid argument: File not found : "
+  (Session info: chrome=115.0.5790.173)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x004BA813+48355]
+	(No symbol) [0x0044C4B1]
+	(No symbol) [0x00355358]
+	(No symbol) [0x0037C07F]
+	(No symbol) [0x0039A73C]
+	(No symbol) [0x00379A36]
+	(No symbol) [0x0039AA94]
+	(No symbol) [0x003AC922]
+	(No symbol) [0x0039A536]
+	(No symbol) [0x003782DC]
+	(No symbol) [0x003793DD]
+	GetHandleVerifier [0x0071AABD+2539405]
+	GetHandleVerifier [0x0075A78F+2800735]
+	GetHandleVerifier [0x0075456C+2775612]
+	GetHandleVerifier [0x005451E0+616112]
+	(No symbol) [0x00455F8C]
+	(No symbol) [0x00452328]
+	(No symbol) [0x0045240B]
+	(No symbol) [0x00444FF7]
+	BaseThreadInitThunk [0x75167D59+25]
+	RtlInitializeExceptionChain [0x7702B79B+107]
+	RtlClearBits [0x7702B71F+191]
+
+2023-08-18 15:01:06,177 - ERROR - Blog_module - Unable to find the Audio Blog Button : Message: element click intercepted: Element <span class="ant-dropdown-menu-title-content">...</span> is not clickable at point (165, 683). Other element would receive the click: <span class="ql-picker-label" tabindex="0" role="button" aria-expanded="false" aria-controls="ql-picker-options-4">...</span>
+  (Session info: chrome=115.0.5790.173)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x004BA813+48355]
+	(No symbol) [0x0044C4B1]
+	(No symbol) [0x00355358]
+	(No symbol) [0x00385062]
+	(No symbol) [0x00383B98]
+	(No symbol) [0x0038239B]
+	(No symbol) [0x0038179E]
+	(No symbol) [0x00379F5C]
+	(No symbol) [0x0039A73C]
+	(No symbol) [0x00379A36]
+	(No symbol) [0x0039AA94]
+	(No symbol) [0x003AC922]
+	(No symbol) [0x0039A536]
+	(No symbol) [0x003782DC]
+	(No symbol) [0x003793DD]
+	GetHandleVerifier [0x0071AABD+2539405]
+	GetHandleVerifier [0x0075A78F+2800735]
+	GetHandleVerifier [0x0075456C+2775612]
+	GetHandleVerifier [0x005451E0+616112]
+	(No symbol) [0x00455F8C]
+	(No symbol) [0x00452328]
+	(No symbol) [0x0045240B]
+	(No symbol) [0x00444FF7]
+	BaseThreadInitThunk [0x75167D59+25]
+	RtlInitializeExceptionChain [0x7702B79B+107]
+	RtlClearBits [0x7702B71F+191]
+
+2023-08-18 15:01:06,213 - ERROR - Blog_module - Unable to find the Upload Audio button : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(), 'Upload Audio Files')]/../../input"}
+  (Session info: chrome=115.0.5790.173)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x004BA813+48355]
+	(No symbol) [0x0044C4B1]
+	(No symbol) [0x00355358]
+	(No symbol) [0x003809A5]
+	(No symbol) [0x00380B3B]
+	(No symbol) [0x003AE232]
+	(No symbol) [0x0039A784]
+	(No symbol) [0x003AC922]
+	(No symbol) [0x0039A536]
+	(No symbol) [0x003782DC]
+	(No symbol) [0x003793DD]
+	GetHandleVerifier [0x0071AABD+2539405]
+	GetHandleVerifier [0x0075A78F+2800735]
+	GetHandleVerifier [0x0075456C+2775612]
+	GetHandleVerifier [0x005451E0+616112]
+	(No symbol) [0x00455F8C]
+	(No symbol) [0x00452328]
+	(No symbol) [0x0045240B]
+	(No symbol) [0x00444FF7]
+	BaseThreadInitThunk [0x75167D59+25]
+	RtlInitializeExceptionChain [0x7702B79B+107]
+	RtlClearBits [0x7702B71F+191]
+
+2023-08-18 15:01:06,231 - ERROR - Blog_module - Unable to find the Caption input box : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@class='ant-input']"}
+  (Session info: chrome=115.0.5790.173)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x004BA813+48355]
+	(No symbol) [0x0044C4B1]
+	(No symbol) [0x00355358]
+	(No symbol) [0x003809A5]
+	(No symbol) [0x00380B3B]
+	(No symbol) [0x003AE232]
+	(No symbol) [0x0039A784]
+	(No symbol) [0x003AC922]
+	(No symbol) [0x0039A536]
+	(No symbol) [0x003782DC]
+	(No symbol) [0x003793DD]
+	GetHandleVerifier [0x0071AABD+2539405]
+	GetHandleVerifier [0x0075A78F+2800735]
+	GetHandleVerifier [0x0075456C+2775612]
+	GetHandleVerifier [0x005451E0+616112]
+	(No symbol) [0x00455F8C]
+	(No symbol) [0x00452328]
+	(No symbol) [0x0045240B]
+	(No symbol) [0x00444FF7]
+	BaseThreadInitThunk [0x75167D59+25]
+	RtlInitializeExceptionChain [0x7702B79B+107]
+	RtlClearBits [0x7702B71F+191]
+
+2023-08-18 15:02:09,134 - ERROR - Blog_module - Unable to find the Image Upload tab : Message: invalid argument: File not found : "
+  (Session info: chrome=115.0.5790.173)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x004BA813+48355]
+	(No symbol) [0x0044C4B1]
+	(No symbol) [0x00355358]
+	(No symbol) [0x0037C07F]
+	(No symbol) [0x0039A73C]
+	(No symbol) [0x00379A36]
+	(No symbol) [0x0039AA94]
+	(No symbol) [0x003AC922]
+	(No symbol) [0x0039A536]
+	(No symbol) [0x003782DC]
+	(No symbol) [0x003793DD]
+	GetHandleVerifier [0x0071AABD+2539405]
+	GetHandleVerifier [0x0075A78F+2800735]
+	GetHandleVerifier [0x0075456C+2775612]
+	GetHandleVerifier [0x005451E0+616112]
+	(No symbol) [0x00455F8C]
+	(No symbol) [0x00452328]
+	(No symbol) [0x0045240B]
+	(No symbol) [0x00444FF7]
+	BaseThreadInitThunk [0x75167D59+25]
+	RtlInitializeExceptionChain [0x7702B79B+107]
+	RtlClearBits [0x7702B71F+191]
+
+2023-08-18 15:03:18,821 - ERROR - Blog_module - Unable to find the Image Upload tab : Message: invalid argument: File not found : "E:\POM_for_Bottle\WebApp\TestData\BlogTestData\SampleImage\sampel_leather_1.jpg"
+  (Session info: chrome=115.0.5790.173)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x004BA813+48355]
+	(No symbol) [0x0044C4B1]
+	(No symbol) [0x00355358]
+	(No symbol) [0x0037C07F]
+	(No symbol) [0x0039A73C]
+	(No symbol) [0x00379A36]
+	(No symbol) [0x0039AA94]
+	(No symbol) [0x003AC922]
+	(No symbol) [0x0039A536]
+	(No symbol) [0x003782DC]
+	(No symbol) [0x003793DD]
+	GetHandleVerifier [0x0071AABD+2539405]
+	GetHandleVerifier [0x0075A78F+2800735]
+	GetHandleVerifier [0x0075456C+2775612]
+	GetHandleVerifier [0x005451E0+616112]
+	(No symbol) [0x00455F8C]
+	(No symbol) [0x00452328]
+	(No symbol) [0x0045240B]
+	(No symbol) [0x00444FF7]
+	BaseThreadInitThunk [0x75167D59+25]
+	RtlInitializeExceptionChain [0x7702B79B+107]
+	RtlClearBits [0x7702B71F+191]
+
+2023-08-18 15:07:31,460 - ERROR - Blog_module - Unable to find the Image Blog Button : Message: 
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x004BA813+48355]
+	(No symbol) [0x0044C4B1]
+	(No symbol) [0x00355358]
+	(No symbol) [0x003809A5]
+	(No symbol) [0x00380B3B]
+	(No symbol) [0x003AE232]
+	(No symbol) [0x0039A784]
+	(No symbol) [0x003AC922]
+	(No symbol) [0x0039A536]
+	(No symbol) [0x003782DC]
+	(No symbol) [0x003793DD]
+	GetHandleVerifier [0x0071AABD+2539405]
+	GetHandleVerifier [0x0075A78F+2800735]
+	GetHandleVerifier [0x0075456C+2775612]
+	GetHandleVerifier [0x005451E0+616112]
+	(No symbol) [0x00455F8C]
+	(No symbol) [0x00452328]
+	(No symbol) [0x0045240B]
+	(No symbol) [0x00444FF7]
+	BaseThreadInitThunk [0x75167D59+25]
+	RtlInitializeExceptionChain [0x7702B79B+107]
+	RtlClearBits [0x7702B71F+191]
+
+2023-08-18 15:07:36,275 - ERROR - Blog_module - Unable to find the Upload Audio button : object of type 'NoneType' has no len()
+2023-08-18 15:22:00,638 - ERROR - Blog_module - Unable to find the Image Upload tab : Message: invalid argument: File not found : E:\POM_for_Bottle\WebApp\TestData\BlogTestData\SampleImage\sampel_leather_4.jpg
+  (Session info: chrome=115.0.5790.173)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x004BA813+48355]
+	(No symbol) [0x0044C4B1]
+	(No symbol) [0x00355358]
+	(No symbol) [0x0037C07F]
+	(No symbol) [0x0039A73C]
+	(No symbol) [0x00379A36]
+	(No symbol) [0x0039AA94]
+	(No symbol) [0x003AC922]
+	(No symbol) [0x0039A536]
+	(No symbol) [0x003782DC]
+	(No symbol) [0x003793DD]
+	GetHandleVerifier [0x0071AABD+2539405]
+	GetHandleVerifier [0x0075A78F+2800735]
+	GetHandleVerifier [0x0075456C+2775612]
+	GetHandleVerifier [0x005451E0+616112]
+	(No symbol) [0x00455F8C]
+	(No symbol) [0x00452328]
+	(No symbol) [0x0045240B]
+	(No symbol) [0x00444FF7]
+	BaseThreadInitThunk [0x75167D59+25]
+	RtlInitializeExceptionChain [0x7702B79B+107]
+	RtlClearBits [0x7702B71F+191]
+
+2023-08-18 15:22:31,283 - ERROR - Blog_module - Unable to find the Image Upload tab : Message: invalid argument: File not found : E:\POM_for_Bottle\WebApp\TestData\BlogTestData\SampleImage\sampel_leather_4.jpg
+  (Session info: chrome=115.0.5790.173)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x004BA813+48355]
+	(No symbol) [0x0044C4B1]
+	(No symbol) [0x00355358]
+	(No symbol) [0x0037C07F]
+	(No symbol) [0x0039A73C]
+	(No symbol) [0x00379A36]
+	(No symbol) [0x0039AA94]
+	(No symbol) [0x003AC922]
+	(No symbol) [0x0039A536]
+	(No symbol) [0x003782DC]
+	(No symbol) [0x003793DD]
+	GetHandleVerifier [0x0071AABD+2539405]
+	GetHandleVerifier [0x0075A78F+2800735]
+	GetHandleVerifier [0x0075456C+2775612]
+	GetHandleVerifier [0x005451E0+616112]
+	(No symbol) [0x00455F8C]
+	(No symbol) [0x00452328]
+	(No symbol) [0x0045240B]
+	(No symbol) [0x00444FF7]
+	BaseThreadInitThunk [0x75167D59+25]
+	RtlInitializeExceptionChain [0x7702B79B+107]
+	RtlClearBits [0x7702B71F+191]
+
+2023-08-18 15:23:03,863 - ERROR - Blog_module - Unable to find the Image Upload tab : Message: invalid argument: File not found : E:\POM_for_Bottle\WebApp\TestData\BlogTestData\SampleImage\sampel_leather_4.jpg
+  (Session info: chrome=115.0.5790.173)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x004BA813+48355]
+	(No symbol) [0x0044C4B1]
+	(No symbol) [0x00355358]
+	(No symbol) [0x0037C07F]
+	(No symbol) [0x0039A73C]
+	(No symbol) [0x00379A36]
+	(No symbol) [0x0039AA94]
+	(No symbol) [0x003AC922]
+	(No symbol) [0x0039A536]
+	(No symbol) [0x003782DC]
+	(No symbol) [0x003793DD]
+	GetHandleVerifier [0x0071AABD+2539405]
+	GetHandleVerifier [0x0075A78F+2800735]
+	GetHandleVerifier [0x0075456C+2775612]
+	GetHandleVerifier [0x005451E0+616112]
+	(No symbol) [0x00455F8C]
+	(No symbol) [0x00452328]
+	(No symbol) [0x0045240B]
+	(No symbol) [0x00444FF7]
+	BaseThreadInitThunk [0x75167D59+25]
+	RtlInitializeExceptionChain [0x7702B79B+107]
+	RtlClearBits [0x7702B71F+191]
+
+2023-08-18 15:24:05,196 - ERROR - Blog_module - Unable to find the Image Upload tab : Message: invalid argument: File not found : E:\POM_for_Bottle\WebApp\TestData\BlogTestData\SampleImage\sampel_leather_4.jpg
+  (Session info: chrome=115.0.5790.173)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x004BA813+48355]
+	(No symbol) [0x0044C4B1]
+	(No symbol) [0x00355358]
+	(No symbol) [0x0037C07F]
+	(No symbol) [0x0039A73C]
+	(No symbol) [0x00379A36]
+	(No symbol) [0x0039AA94]
+	(No symbol) [0x003AC922]
+	(No symbol) [0x0039A536]
+	(No symbol) [0x003782DC]
+	(No symbol) [0x003793DD]
+	GetHandleVerifier [0x0071AABD+2539405]
+	GetHandleVerifier [0x0075A78F+2800735]
+	GetHandleVerifier [0x0075456C+2775612]
+	GetHandleVerifier [0x005451E0+616112]
+	(No symbol) [0x00455F8C]
+	(No symbol) [0x00452328]
+	(No symbol) [0x0045240B]
+	(No symbol) [0x00444FF7]
+	BaseThreadInitThunk [0x75167D59+25]
+	RtlInitializeExceptionChain [0x7702B79B+107]
+	RtlClearBits [0x7702B71F+191]
+

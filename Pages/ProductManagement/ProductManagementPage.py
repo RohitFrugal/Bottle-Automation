@@ -140,6 +140,7 @@ class ProductManagementPage():
                             itme_found = True
                             break
                 except StaleElementReferenceException:
+                    print("This is for StaleElementReferenceException")
                     continue
             if itme_found:
                 break
@@ -147,6 +148,8 @@ class ProductManagementPage():
                 self.actionChain.send_keys(Keys.ARROW_DOWN).perform()
                 elements = self.driver.find_elements(*ALL_ITEM_SELECTOR)
             except NoSuchElementException:
+                print("This is for NoSuchElementException")
+
                 break
         if not itme_found:
             print(f"Item not Found {value}.")
@@ -321,7 +324,7 @@ class ProductManagementPage():
 
     def get_leather_type(self, leatherType):
         try:
-            self.HandleDropdown(self.SELECT_LEATHER_CATEGORY, leatherType, self.VISIBLE_ELEMENTS,self.ALL_ITEM_SELECTOR)
+            self.HandleDropdown(self.SELECT_LEATHER_CATEGORY, leatherType, self.VISIBLE_ELEMENTS,  self.ALL_ITEM_SELECTOR)
         except (TimeoutException, NoSuchElementException, AttributeError, Exception) as e:
             self.log.error(f"Unable to find Leather Type selector ")
 

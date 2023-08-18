@@ -14,13 +14,12 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, TimeoutException, StaleElementReferenceException
 
 
-class InventoryPage(BaseClass):
+class InventoryPage:
     wait: WebDriverWait
     driver: webdriver
 
     # Initializing driver and logger.
     def __init__(self, driver):
-        super().__init__()
         self.driver = driver
         self.wait = WebDriverWait(self.driver, 10)
         self.actionChain = ActionChains(self.driver)
@@ -59,7 +58,8 @@ class InventoryPage(BaseClass):
     DESCRIPTION = (By.XPATH, "//textarea[@name='description']")
     LEAST_QUANTITY = (By.XPATH, "//input[@id='least_quantity']")
     HIGH_QUANTITY = (By.XPATH, "//input[@id='high_quantity']")
-    PRIMARY_IMG = (By.XPATH, "//input[@type='file']")
+    PRIMARY_IMG = (By.XPATH, "(//input[@type='file'])[1]")
+    LEATHER_BALL_IMG = (By.XPATH, "(//input[@type='file'])[2]")
     BRAND = (By.XPATH, "//input[@id='brand']")
     WEIGHT = (By.XPATH, "//input[@id='weight']")
     ITEM_SUBMIT = (By.XPATH, "//button[@type='submit']/span")
@@ -71,7 +71,7 @@ class InventoryPage(BaseClass):
 
 
     PRODUCT_IMAGE = (By.XPATH, "//img[@class='material_item_image']")
-    ADD_INVENTORY_BUTTON = (By.XPATH, "//button[@type = 'button']")
+    ADD_INVENTORY_BUTTON = (By.XPATH, "(//button[@type = 'button'])[2]")
 
     # Filling the details
     VENDOR_TBA = (By.XPATH, "(//span[@class= 'ant-select-selection-item'])[1]")
@@ -298,6 +298,12 @@ class InventoryPage(BaseClass):
         except (NoSuchElementException, TimeoutException, Exception) as e:
             self.log.error(f"Couldn't find the Element to Upload Primary Image for Selected Category : \n {str(e)}")
 
+    def upload_leather_ball_img(self, imgPath):
+        try:
+            time.sleep(2)
+            self.driver.find_element(*self.LEATHER_BALL_IMG).send_keys(imgPath)
+        except (NoSuchElementException, TimeoutException, Exception) as e:
+            self.log.error(f"Couldn't find the Element to Upload Leather Ball Image for Selected Category : \n {str(e)}")
 
     def input_brand(self, brand):
         try:
@@ -348,7 +354,6 @@ class InventoryPage(BaseClass):
             self.wait.until(EC.visibility_of_element_located(PRODUCT_NAME)).click()
         except {NoSuchElementException, TimeoutException, Exception} as e:
             self.log.error(f"Couldn't find the Element to fetch Product name : \n {str(e)}")
-
 
     def click_on_Product_image(self):
         try:
@@ -411,9 +416,9 @@ class InventoryPage(BaseClass):
             self.log.error(f"Couldn't find the Element to input Payment MethodSS: \n {str(e)}")
 
 
-    # **********************************
-    # Done up to here Move Up from here*
-    # **********************************
+    # ********************************** #
+    # Done up to here Move Up from here  #
+    # ********************************** #
 
     def enter_received_by(self, receiver_name):
         try:
