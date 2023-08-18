@@ -1,0 +1,1 @@
+ERROR    Blog_module:BlogPage.py:157 Unable to find click on Blog Type : move_to requires a WebElement

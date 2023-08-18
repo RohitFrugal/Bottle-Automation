@@ -1,0 +1,34 @@
+ERROR    Blog_module:BlogPage.py:239 Unable to find to upload image : Message: element click intercepted: Element <button type="button" class="ant-btn ant-btn-primary">...</button> is not clickable at point (852, 558). Other element would receive the click: <div class="ant-modal-footer">...</div>
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0073A813+48355]
+	(No symbol) [0x006CC4B1]
+	(No symbol) [0x005D5358]
+	(No symbol) [0x00605062]
+	(No symbol) [0x00603B98]
+	(No symbol) [0x0060239B]
+	(No symbol) [0x0060179E]
+	(No symbol) [0x005F9F5C]
+	(No symbol) [0x0061A73C]
+	(No symbol) [0x005F9A36]
+	(No symbol) [0x0061AA94]
+	(No symbol) [0x0062C922]
+	(No symbol) [0x0061A536]
+	(No symbol) [0x005F82DC]
+	(No symbol) [0x005F93DD]
+	GetHandleVerifier [0x0099AABD+2539405]
+	GetHandleVerifier [0x009DA78F+2800735]
+	GetHandleVerifier [0x009D456C+2775612]
+	GetHandleVerifier [0x007C51E0+616112]
+	(No symbol) [0x006D5F8C]
+	(No symbol) [0x006D2328]
+	(No symbol) [0x006D240B]
+	(No symbol) [0x006C4FF7]
+	BaseThreadInitThunk [0x763E7D59+25]
+	RtlInitializeExceptionChain [0x7743B79B+107]
+	RtlClearBits [0x7743B71F+191]
+
+ERROR    Blog_module:BlogPage.py:232 Unable to find the Draft button : Message: 
+
+ERROR    Blog_module:BlogPage.py:282 Unable to find the Draft button : Message:

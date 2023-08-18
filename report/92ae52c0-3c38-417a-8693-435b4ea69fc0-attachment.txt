@@ -1,0 +1,28 @@
+WARNING  selenium.webdriver.common.selenium_manager:selenium_manager.py:107 Error getting version of chromedriver 115. Retrying with chromedriver 114 (attempt 1/5)
+ERROR    Blog_module:BlogPage.py:262 Unable to find to Author : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='ant-select-selection-item']"}
+  (Session info: chrome=115.0.5790.171)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0028A813+48355]
+	(No symbol) [0x0021C4B1]
+	(No symbol) [0x00125358]
+	(No symbol) [0x001509A5]
+	(No symbol) [0x00150B3B]
+	(No symbol) [0x0017E232]
+	(No symbol) [0x0016A784]
+	(No symbol) [0x0017C922]
+	(No symbol) [0x0016A536]
+	(No symbol) [0x001482DC]
+	(No symbol) [0x001493DD]
+	GetHandleVerifier [0x004EAABD+2539405]
+	GetHandleVerifier [0x0052A78F+2800735]
+	GetHandleVerifier [0x0052456C+2775612]
+	GetHandleVerifier [0x003151E0+616112]
+	(No symbol) [0x00225F8C]
+	(No symbol) [0x00222328]
+	(No symbol) [0x0022240B]
+	(No symbol) [0x00214FF7]
+	BaseThreadInitThunk [0x769A7D59+25]
+	RtlInitializeExceptionChain [0x7783B79B+107]
+	RtlClearBits [0x7783B71F+191]
+	(No symbol) [0x00000000]
