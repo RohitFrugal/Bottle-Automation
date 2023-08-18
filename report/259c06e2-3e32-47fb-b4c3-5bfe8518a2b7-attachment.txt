@@ -1,1 +1,0 @@
-ERROR    Blog_module:BlogPage.py:339 Unable to find the Image Upload tab : 'list' object has no attribute 'split'

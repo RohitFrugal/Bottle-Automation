@@ -1,3 +1,0 @@
-ERROR    Blog_module:BlogPage.py:267 Unable to find to Type  : 'WebElement' object has no attribute 'clcik'
-ERROR    Blog_module:BlogPage.py:255 Unable to find to Short Descriptions : 'WebElement' object has no attribute 'send_Keys'
-ERROR    Blog_module:BlogPage.py:275 Unable to find to Tags : 'WebElement' object has no attribute 'send_Keys'
