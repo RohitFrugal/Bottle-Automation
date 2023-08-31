@@ -25,3 +25,184 @@ Backtrace:
 	RtlClearBits [0x774BB71F+191]
 
 2023-08-18 15:07:55,507 - ERROR - Login_module - Exception occurred while entering user ID: 'NoneType' object has no attribute 'is_displayed'
+2023-08-22 13:35:36,830 - ERROR - Login_module - Exception occurred while verifying login: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=116.0.5845.97)
+Stacktrace:
+	GetHandleVerifier [0x003937C3+48947]
+	(No symbol) [0x00328551]
+	(No symbol) [0x0022C92D]
+	(No symbol) [0x002136E5]
+	(No symbol) [0x00278CDB]
+	(No symbol) [0x00287113]
+	(No symbol) [0x00274E86]
+	(No symbol) [0x002516C7]
+	(No symbol) [0x0025284D]
+	GetHandleVerifier [0x005DFDF9+2458985]
+	GetHandleVerifier [0x0062744F+2751423]
+	GetHandleVerifier [0x00621361+2726609]
+	GetHandleVerifier [0x00410680+560624]
+	(No symbol) [0x0033238C]
+	(No symbol) [0x0032E268]
+	(No symbol) [0x0032E392]
+	(No symbol) [0x003210B7]
+	BaseThreadInitThunk [0x75177D59+25]
+	RtlInitializeExceptionChain [0x7747B79B+107]
+	RtlClearBits [0x7747B71F+191]
+
+2023-08-22 14:00:34,274 - ERROR - Login_module - Exception occurred while verifying login: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=115.0.1901.203)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00007FF6192B5422+69586]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF619245662+760226]
+	(No symbol) [0x00007FF618FFB8CC]
+	(No symbol) [0x00007FF618FD294E]
+	(No symbol) [0x00007FF619066D0D]
+	(No symbol) [0x00007FF61907BB78]
+	(No symbol) [0x00007FF619062B83]
+	(No symbol) [0x00007FF61903589E]
+	(No symbol) [0x00007FF619034B6B]
+	(No symbol) [0x00007FF619036024]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF61948D229+1294553]
+	(No symbol) [0x00007FF6190B49F4]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF619193DF1+33073]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF61918C409+1865]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF61948BE01+1289393]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61924DC68+20184]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61924A2F4+5476]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF61924A3EC+5724]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF61923ECA1+733153]
+	BaseThreadInitThunk [0x00007FFA490B26AD+29]
+	RtlUserThreadStart [0x00007FFA4A72AA68+40]
+
+2023-08-23 12:41:26,029 - ERROR - Login_module - Exception occurred while entering user ID: HTTPConnectionPool(host='localhost', port=53518): Max retries exceeded with url: /session/d397af9e67abeec52c709d3f44bee08a/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002CBC56D3790>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2023-08-24 09:55:14,012 - ERROR - Login_module - Exception occurred while entering user ID: HTTPConnectionPool(host='localhost', port=51387): Max retries exceeded with url: /session/af2bd837b6c915805fa732c44cff4d3e/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020C4283B160>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2023-08-24 10:00:27,155 - ERROR - Login_module - Exception occurred while entering user ID: HTTPConnectionPool(host='localhost', port=51869): Max retries exceeded with url: /session/3fe430e030f632a531ffa0326b152067/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E275CA6DA0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2023-08-24 11:48:38,016 - ERROR - Login_module - Exception occurred while entering user ID: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=116.0.5845.97)
+Stacktrace:
+	GetHandleVerifier [0x00EC37C3+48947]
+	(No symbol) [0x00E58551]
+	(No symbol) [0x00D5C92D]
+	(No symbol) [0x00D436E5]
+	(No symbol) [0x00DA8CDB]
+	(No symbol) [0x00DB7113]
+	(No symbol) [0x00DA4E86]
+	(No symbol) [0x00D816C7]
+	(No symbol) [0x00D8284D]
+	GetHandleVerifier [0x0110FDF9+2458985]
+	GetHandleVerifier [0x0115744F+2751423]
+	GetHandleVerifier [0x01151361+2726609]
+	GetHandleVerifier [0x00F40680+560624]
+	(No symbol) [0x00E6238C]
+	(No symbol) [0x00E5E268]
+	(No symbol) [0x00E5E392]
+	(No symbol) [0x00E510B7]
+	BaseThreadInitThunk [0x76347BA9+25]
+	RtlInitializeExceptionChain [0x7703B79B+107]
+	RtlClearBits [0x7703B71F+191]
+
+2023-08-24 11:49:16,600 - ERROR - Login_module - Exception occurred while entering user ID: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=116.0.5845.97)
+Stacktrace:
+	GetHandleVerifier [0x003137C3+48947]
+	(No symbol) [0x002A8551]
+	(No symbol) [0x001AC92D]
+	(No symbol) [0x001936E5]
+	(No symbol) [0x001F8CDB]
+	(No symbol) [0x00207113]
+	(No symbol) [0x001F4E86]
+	(No symbol) [0x001D16C7]
+	(No symbol) [0x001D284D]
+	GetHandleVerifier [0x0055FDF9+2458985]
+	GetHandleVerifier [0x005A744F+2751423]
+	GetHandleVerifier [0x005A1361+2726609]
+	GetHandleVerifier [0x00390680+560624]
+	(No symbol) [0x002B238C]
+	(No symbol) [0x002AE268]
+	(No symbol) [0x002AE392]
+	(No symbol) [0x002A10B7]
+	BaseThreadInitThunk [0x76347BA9+25]
+	RtlInitializeExceptionChain [0x7703B79B+107]
+	RtlClearBits [0x7703B71F+191]
+	(No symbol) [0x00000000]
+
+2023-08-24 11:56:54,423 - ERROR - Login_module - Exception occurred while entering user ID: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=116.0.5845.97)
+Stacktrace:
+	GetHandleVerifier [0x003F37C3+48947]
+	(No symbol) [0x00388551]
+	(No symbol) [0x0028C92D]
+	(No symbol) [0x002736E5]
+	(No symbol) [0x002D8CDB]
+	(No symbol) [0x002E7113]
+	(No symbol) [0x002D4E86]
+	(No symbol) [0x002B16C7]
+	(No symbol) [0x002B284D]
+	GetHandleVerifier [0x0063FDF9+2458985]
+	GetHandleVerifier [0x0068744F+2751423]
+	GetHandleVerifier [0x00681361+2726609]
+	GetHandleVerifier [0x00470680+560624]
+	(No symbol) [0x0039238C]
+	(No symbol) [0x0038E268]
+	(No symbol) [0x0038E392]
+	(No symbol) [0x003810B7]
+	BaseThreadInitThunk [0x76347BA9+25]
+	RtlInitializeExceptionChain [0x7703B79B+107]
+	RtlClearBits [0x7703B71F+191]
+
+2023-08-30 16:22:10,914 - ERROR - Login_module - Exception occurred while entering user ID: Message: 
+Stacktrace:
+	GetHandleVerifier [0x010437C3+48947]
+	(No symbol) [0x00FD8551]
+	(No symbol) [0x00EDC92D]
+	(No symbol) [0x00F09E38]
+	(No symbol) [0x00F09EFB]
+	(No symbol) [0x00F38EF2]
+	(No symbol) [0x00F250D4]
+	(No symbol) [0x00F375DA]
+	(No symbol) [0x00F24E86]
+	(No symbol) [0x00F016C7]
+	(No symbol) [0x00F0284D]
+	GetHandleVerifier [0x0128FDF9+2458985]
+	GetHandleVerifier [0x012D744F+2751423]
+	GetHandleVerifier [0x012D1361+2726609]
+	GetHandleVerifier [0x010C0680+560624]
+	(No symbol) [0x00FE238C]
+	(No symbol) [0x00FDE268]
+	(No symbol) [0x00FDE392]
+	(No symbol) [0x00FD10B7]
+	BaseThreadInitThunk [0x75B57BA9+25]
+	RtlInitializeExceptionChain [0x7741B79B+107]
+	RtlClearBits [0x7741B71F+191]
+
+2023-08-30 16:22:24,422 - ERROR - Login_module - Exception occurred while verifying login: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=116.0.5845.111)
+Stacktrace:
+	GetHandleVerifier [0x010437C3+48947]
+	(No symbol) [0x00FD8551]
+	(No symbol) [0x00EDC92D]
+	(No symbol) [0x00EC36E5]
+	(No symbol) [0x00F28CDB]
+	(No symbol) [0x00F37113]
+	(No symbol) [0x00F24E86]
+	(No symbol) [0x00F016C7]
+	(No symbol) [0x00F0284D]
+	GetHandleVerifier [0x0128FDF9+2458985]
+	GetHandleVerifier [0x012D744F+2751423]
+	GetHandleVerifier [0x012D1361+2726609]
+	GetHandleVerifier [0x010C0680+560624]
+	(No symbol) [0x00FE238C]
+	(No symbol) [0x00FDE268]
+	(No symbol) [0x00FDE392]
+	(No symbol) [0x00FD10B7]
+	BaseThreadInitThunk [0x75B57BA9+25]
+	RtlInitializeExceptionChain [0x7741B79B+107]
+	RtlClearBits [0x7741B71F+191]
+

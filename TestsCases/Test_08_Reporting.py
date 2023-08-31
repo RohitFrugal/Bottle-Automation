@@ -20,7 +20,7 @@ class TestReporting(unittest.TestCase, BaseClass):
     # SetUp Method.
     def setUp(self):
 
-        super().initialize_driver()
+        super().initialize_driver("chrome")
         self.LoginMethod = LoginMethod(self.driver)
         self.Report = ReportMethods(self.driver)
 

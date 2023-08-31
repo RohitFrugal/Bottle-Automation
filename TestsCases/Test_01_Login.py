@@ -1,3 +1,5 @@
+import os
+
 import allure
 import unittest
 from ddt import ddt, data, unpack
@@ -16,7 +18,9 @@ class TestLogin(unittest.TestCase, BaseClass):
 
     # SetUp Method.
     def setUp(self):
-        super().initialize_driver()
+        # browser = self.get_browser_from_command_line()  # Implement the logic to retrieve the browser name
+        # browser = os.environ.get()
+        super().initialize_driver("chrome")
         self.Login = LoginMethod(self.driver)
 
 
@@ -32,7 +36,6 @@ class TestLogin(unittest.TestCase, BaseClass):
         self.Login.nativelogin(username, password)
         try:
             self.assertEqual(self.Login.verify_correct_login(), True, msg="Login verification failed.")
-
         # Check if assertion failed
         except (NoSuchElementException, AssertionError, TimeoutException, Exception) as e:
             allure.attach(self.driver.get_screenshot_as_png(), name="test_LoginSuccessful",

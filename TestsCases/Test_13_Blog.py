@@ -16,7 +16,7 @@ class TestBlog(unittest.TestCase, BaseClass):
 
     # SetUp Method.
     def setUp(self):
-        super().initialize_driver()
+        super().initialize_driver("chrome")
         self.Blog = BlogMethods(self.driver)
         self.LoginMethod = LoginMethod(self.driver)
 
@@ -43,6 +43,24 @@ class TestBlog(unittest.TestCase, BaseClass):
         self.LoginMethod.nativelogin(username, password)
         try:
             self.assertEqual(self.Blog.create_new_blog(shortDescriptions, blog_type, tags, title, style_types, text_contents, list_items, imgPath, imgBlogLayout, imageArrays,  audiClip, caption),
+                             True, msg="Verification Failed to Create a new Blog.")
+        # Checking if assertion failed
+        except (NoSuchElementException, AssertionError, TimeoutException, AttributeError) as e:
+            allure.attach(self.driver.get_screenshot_as_png(), name="Creating new blog.", attachment_type=AttachmentType.PNG)
+            raise e
+
+    # ******************************************* #
+    # Please add the Test data to the Excel Sheet #
+    # ******************************************* #
+
+    @allure.description("Edit a Blog")
+    @allure.severity(allure.severity_level.NORMAL)
+    @data(*Utils.read_xlsx("../TestData/BlogTestData/blogTestCase.xlsx", "new_blog"))
+    @unpack
+    def test_03_edit_blog(self, username, password, shortDescriptions, blog_type, tags, title, style_types, text_contents, list_items, imgPath, imgBlogLayout, imageArrays,  audiClip, caption):
+        self.LoginMethod.nativelogin(username, password)
+        try:
+            self.assertEqual(self.Blog.edit_blog(shortDescriptions, blog_type, tags, title, style_types, text_contents, list_items, imgPath, imgBlogLayout, imageArrays,  audiClip, caption),
                              True, msg="Verification Failed to Create a new Blog.")
         # Checking if assertion failed
         except (NoSuchElementException, AssertionError, TimeoutException, AttributeError) as e:

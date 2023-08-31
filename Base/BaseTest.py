@@ -1,18 +1,28 @@
+import sys
+import threading
 import time
 from selenium import webdriver
 from selenium.webdriver import Keys
 from selenium.webdriver.chrome.service import Service
+from webdriver_manager.firefox import GeckoDriverManager
 from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.core.os_manager import ChromeType
+from webdriver_manager.microsoft import EdgeChromiumDriverManager
+from selenium.webdriver.chrome.service import Service as BraveService
+
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, TimeoutException, StaleElementReferenceException
 
 
-
 URL = "https://www.suite.uat.latido.com.np/auth"
+brave_path = "C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe"
+
+
 class BaseClass:
     driver: webdriver
+    _driver_local = threading.local()  # Separate driver instance for each thread
 
     def __init__(self):
         self.log = None
@@ -23,15 +33,36 @@ class BaseClass:
         self.resources_path = None
         self.chromedriver_path = None
 
-    def initialize_driver(self):
-        # self.service = Service(executable_path=ChromeDriverManager().install())
-        self.service = Service(executable_path="E:\POM_for_Bottle\WebApp\resources\chrome.exe")
-        self.options = webdriver.ChromeOptions()
-        self.driver = webdriver.Chrome(service=self.service, options=self.options)
+    def initialize_driver(self, browser):
+        if browser == 'chrome':
+            self.service = Service(ChromeDriverManager().install())
+            self.options = webdriver.ChromeOptions()
+            self.driver = webdriver.Chrome(service=self.service, options=self.options)
+
+        if browser == 'Edge':
+            self.service = Service(executable_path=EdgeChromiumDriverManager().install())
+            self.options = webdriver.EdgeOptions()
+            self.driver = webdriver.Edge(service=self.service, options=self.options)
+
+        if browser == 'firefox':
+            # self.service = Service(executable_path=GeckoDriverManager().install())
+            self.options = webdriver.FirefoxOptions()
+            self.driver = webdriver.Firefox(executable_path="E:\POM_for_Bottle\WebApp\resources\geckodriver.exe", options=self.options)
+
+
+        # Not working due to Version error
+        if browser == 'Brave':
+            self.service = BraveService(ChromeDriverManager(chrome_type=ChromeType.BRAVE).install())
+            self.options = webdriver.ChromeOptions()
+            self.options.binary_location = brave_path
+            self.driver = webdriver.Chrome(service=self.service, options=self.options)
+
         self.driver.maximize_window()
         self.driver.get(URL)
         self.actionChains = ActionChains(self.driver)
         self.wait = WebDriverWait(self.driver, 10)
+
+
 
     def scroll_up(self):
         self.driver.execute_script("window.scrollBy(0, -window.innerHeight);")

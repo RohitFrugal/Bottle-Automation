@@ -54,6 +54,7 @@ class BlogMethods:
     def create_new_blog(self, shortDescriptions, blog_type, tags, title, style_types, text_contents, list_items, imgPath, imgBlogLayout, imageArrays,  audiClip, caption):
         self.blog.navigate_to_blog()
         self.blog.click_add_new()
+
         # Basic Info -- Author/Descriptions/type/tags
         self.input_basic_blog_info(shortDescriptions, blog_type, tags)
 
@@ -75,12 +76,12 @@ class BlogMethods:
         self.blog.upload_blog_images(imgBlogLayout, imageArrays)
 
         # Audio Blog
-        # time.sleep(3)
-        # self.blog.add_new_block()
-        # self.blog.click_on_type(3)
-        # self.blog.audio_blog()
-        # self.blog.upload_audio(audiClip)
-        # self.blog.input_caption(caption)
+        time.sleep(3)
+        self.blog.add_new_block()
+        self.blog.click_on_type(3)
+        self.blog.audio_blog()
+        self.blog.upload_audio(audiClip)
+        self.blog.input_caption(caption)
 
         time.sleep(5)
 
@@ -90,3 +91,20 @@ class BlogMethods:
         self.blog.click_update()
         time.sleep(5)
         return self.blog.check_blog_created(title)
+
+    def edit_blog(self, shortDescriptions, blog_type, tags, title, style_types, text_contents, list_items, imgPath,
+                  imgBlogLayout, imageArrays, audiClip, caption):
+        self.blog.navigate_to_blog()
+        self.blog.move_to_action_btn()
+        self.blog.click_on_edit_action()
+        self.blog.clear(self.blog.TITLE)
+        self.blog.input_title("This is an Edit")
+
+        # **************************************************************************** #
+        # Need to clear the text field before sending the data for all the three input #
+        # **************************************************************************** #
+
+
+        self.fill_text_area(style_types, text_contents)
+        self.order_items(list_items)
+        self.blog.scroll_down()

@@ -18,7 +18,7 @@ class TestProductManagement(unittest.TestCase, BaseClass):
 
     # SetUp Method.
     def setUp(self):
-        super().initialize_driver()
+        super().initialize_driver("chrome")
         self.Product = ProductMethod(self.driver)
         self.LoginMethod = LoginMethod(self.driver)
 

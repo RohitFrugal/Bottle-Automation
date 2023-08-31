@@ -20,7 +20,7 @@ from selenium.common.exceptions import NoSuchElementException, TimeoutException
 class TestTrackOrder(unittest.TestCase, BaseClass):
     # SetUp Method.
     def setUp(self):
-        super().initialize_driver()
+        super().initialize_driver("chrome")
         self.LoginMethod = LoginMethod(self.driver)
         self.TrackOrder = TrackOrderMethods(self.driver)
 

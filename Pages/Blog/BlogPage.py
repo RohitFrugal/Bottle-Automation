@@ -97,6 +97,26 @@ class BlogPage:
     # Confirmation Msg
     ERROR_MSG = (By.XPATH, "//div[@class='ant-notification-notice-message']")
 
+
+    # Editing the Blog -> New Blogs
+
+    ACTION_MENU = (By.XPATH, "//span[@class='ant-typography ant-dropdown-trigger']")
+
+    # Make this dynamic while selecting the Options { 1 - View : 2 - Edit : 3 - Delete }
+    VIEW_MENU_BTN = (By.XPATH, f"//div[@class='ant-space ant-space-horizontal ant-space-align-center content']/div[1]")
+    EDIT_MENU_BTN = (By.XPATH, f"//div[@class='ant-space ant-space-horizontal ant-space-align-center content']/div[2]")
+    DELETE_MENU_BTN = (By.XPATH, f"//div[@class='ant-space ant-space-horizontal ant-space-align-center content']/div[3]")
+
+
+
+    # Helper Method
+    def clear(self, SELECTOR):
+        try:
+            self.wait.until(EC.visibility_of_element_located(SELECTOR)).send_keys(Keys.CONTROL + 'a')
+            self.wait.until(EC.visibility_of_element_located(SELECTOR)).send_keys(Keys.BACKSPACE)
+        except(TimeoutException, NoSuchElementException, AttributeError, Exception) as e:
+            self.log.error(f"Unable to find  the Selector image locator : {str(e)} ")
+
     # Methods
 
     def navigate_to_blog(self):
@@ -332,21 +352,25 @@ class BlogPage:
                 indexes = [1, 2, 3, 4, 5]
                 for index, image_array in zip(indexes, images_array):
                     IMAGE_PATH = (By.XPATH, f"(//input[@accept='image/png, image/jpeg'])[{index}]")
+                    time.sleep(3)
                     self.driver.find_element(*IMAGE_PATH).send_keys(image_array)
             elif layout_flag == 2:
                 indexes = [1, 2, 3, 4, 5]
                 for index, image_array in zip(indexes, images_array):
                     IMAGE_PATH = (By.XPATH, f"(//input[@accept='image/png, image/jpeg'])[{index}]")
+                    time.sleep(3)
                     self.driver.find_element(*IMAGE_PATH).send_keys(image_array)
             elif layout_flag == 3:
                 indexes = [1, 2, 3, 4, 5, 6]
                 for index, image_array in zip(indexes, images_array):
                     IMAGE_PATH = (By.XPATH, f"(//input[@accept='image/png, image/jpeg'])[{index}]")
+                    time.sleep(3)
                     self.driver.find_element(*IMAGE_PATH).send_keys(image_array)
             elif layout_flag == 4:
                 indexes = [1, 2, 3]
                 for index, image_array in zip(indexes, images_array):
                     IMAGE_PATH = (By.XPATH, f"(//input[@accept='image/png, image/jpeg'])[{index}]")
+                    time.sleep(3)
                     self.driver.find_element(*IMAGE_PATH).send_keys(image_array)
         except(TimeoutException, NoSuchElementException, Exception, AttributeError) as e:
             self.log.error(f"Unable to find the Image Upload tab : {str(e)}")
@@ -372,3 +396,27 @@ class BlogPage:
         except(NoSuchElementException, TimeoutException, AttributeError, Exception) as e:
             self.log.error(f"Unable to find the Created Element : {str(e)}")
 
+
+    # -- Edit -- #
+
+    # ************************************** #
+    # Update me from here for Edit Functions #
+    # ************************************** #
+
+    def move_to_action_btn(self):
+        try:
+            self.wait.until(EC.visibility_of_element_located(self.ACTION_MENU)).click()
+        except (TimeoutException, NoSuchElementException, Exception, AttributeError) as e:
+            self.log.error(f"unable to locate the Action menu : {str(e)}")
+
+    def click_on_view_action(self):
+        try:
+            self.wait.until(EC.visibility_of_element_located(self.VIEW_MENU_BTN)).click()
+        except (TimeoutException, NoSuchElementException, Exception, AttributeError) as e:
+            self.log.error(f"unable to locate the Action menu : {str(e)}")
+
+    def click_on_edit_action(self):
+        try:
+            self.wait.until(EC.visibility_of_element_located(self.EDIT_MENU_BTN)).click()
+        except (TimeoutException, NoSuchElementException, Exception, AttributeError) as e:
+            self.log.error(f"unable to locate the Action menu : {str(e)}")

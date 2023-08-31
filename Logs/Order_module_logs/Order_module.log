@@ -649,3 +649,1166 @@ Backtrace:
 	RtlInitializeExceptionChain [0x7702B79B+107]
 	RtlClearBits [0x7702B71F+191]
 
+2023-08-24 14:43:10,049 - ERROR - Order_module - Failed in Select Product name Message: stale element reference: stale element not found
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F244B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23DC902+737698]
+	(No symbol) [0x00007FF7F21BB86E]
+	(No symbol) [0x00007FF7F21C0300]
+	(No symbol) [0x00007FF7F21C27E9]
+	(No symbol) [0x00007FF7F21C28D0]
+	(No symbol) [0x00007FF7F21FD83E]
+	(No symbol) [0x00007FF7F222382A]
+	(No symbol) [0x00007FF7F21F6F61]
+	(No symbol) [0x00007FF7F21F6E0D]
+	(No symbol) [0x00007FF7F2223B60]
+	(No symbol) [0x00007FF7F21F6F61]
+	(No symbol) [0x00007FF7F223CD41]
+	(No symbol) [0x00007FF7F2223603]
+	(No symbol) [0x00007FF7F21F5DEA]
+	(No symbol) [0x00007FF7F21F50CB]
+	(No symbol) [0x00007FF7F21F6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2618739+1225433]
+	(No symbol) [0x00007FF7F2274804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2330151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2328D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2617314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23D5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 14:43:11,389 - ERROR - Order_module - Failed in Select Leather Profile Message: element click intercepted: Element <span class="ant-select-selection-search">...</span> is not clickable at point (537, 682). Other element would receive the click: <div class="ant-select-item-option-content">...</div>
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F244B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23DC902+737698]
+	(No symbol) [0x00007FF7F21BB86E]
+	(No symbol) [0x00007FF7F220A8CC]
+	(No symbol) [0x00007FF7F2208501]
+	(No symbol) [0x00007FF7F2205CAD]
+	(No symbol) [0x00007FF7F2204944]
+	(No symbol) [0x00007FF7F21F7542]
+	(No symbol) [0x00007FF7F222382A]
+	(No symbol) [0x00007FF7F21F6F61]
+	(No symbol) [0x00007FF7F21F6E0D]
+	(No symbol) [0x00007FF7F2223B60]
+	(No symbol) [0x00007FF7F21F6F61]
+	(No symbol) [0x00007FF7F223CD41]
+	(No symbol) [0x00007FF7F2223603]
+	(No symbol) [0x00007FF7F21F5DEA]
+	(No symbol) [0x00007FF7F21F50CB]
+	(No symbol) [0x00007FF7F21F6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2618739+1225433]
+	(No symbol) [0x00007FF7F2274804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2330151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2328D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2617314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23D5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 14:43:12,592 - ERROR - Order_module - Failed in Select Leather Size Message: element click intercepted: Element <span class="ant-select-selection-search">...</span> is not clickable at point (537, 682). Other element would receive the click: <div class="ant-select-item-option-content">...</div>
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F244B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23DC902+737698]
+	(No symbol) [0x00007FF7F21BB86E]
+	(No symbol) [0x00007FF7F220A8CC]
+	(No symbol) [0x00007FF7F2208501]
+	(No symbol) [0x00007FF7F2205CAD]
+	(No symbol) [0x00007FF7F2204944]
+	(No symbol) [0x00007FF7F21F7542]
+	(No symbol) [0x00007FF7F222382A]
+	(No symbol) [0x00007FF7F21F6F61]
+	(No symbol) [0x00007FF7F21F6E0D]
+	(No symbol) [0x00007FF7F2223B60]
+	(No symbol) [0x00007FF7F21F6F61]
+	(No symbol) [0x00007FF7F223CD41]
+	(No symbol) [0x00007FF7F2223603]
+	(No symbol) [0x00007FF7F21F5DEA]
+	(No symbol) [0x00007FF7F21F50CB]
+	(No symbol) [0x00007FF7F21F6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2618739+1225433]
+	(No symbol) [0x00007FF7F2274804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2330151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2328D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2617314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23D5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 14:43:23,352 - ERROR - Order_module - Failed in Select Pollyfill Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F244B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23DC902+737698]
+	(No symbol) [0x00007FF7F21BB86E]
+	(No symbol) [0x00007FF7F2203216]
+	(No symbol) [0x00007FF7F2203327]
+	(No symbol) [0x00007FF7F223FBF7]
+	(No symbol) [0x00007FF7F222386F]
+	(No symbol) [0x00007FF7F21F6F61]
+	(No symbol) [0x00007FF7F223CD41]
+	(No symbol) [0x00007FF7F2223603]
+	(No symbol) [0x00007FF7F21F5DEA]
+	(No symbol) [0x00007FF7F21F50CB]
+	(No symbol) [0x00007FF7F21F6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2618739+1225433]
+	(No symbol) [0x00007FF7F2274804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2330151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2328D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2617314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23D5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 14:43:41,521 - ERROR - Order_module - Failed to get Header Text Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F244B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23DC902+737698]
+	(No symbol) [0x00007FF7F21BB86E]
+	(No symbol) [0x00007FF7F2203216]
+	(No symbol) [0x00007FF7F2203327]
+	(No symbol) [0x00007FF7F223FBF7]
+	(No symbol) [0x00007FF7F222386F]
+	(No symbol) [0x00007FF7F21F6F61]
+	(No symbol) [0x00007FF7F223CD41]
+	(No symbol) [0x00007FF7F2223603]
+	(No symbol) [0x00007FF7F21F5DEA]
+	(No symbol) [0x00007FF7F21F50CB]
+	(No symbol) [0x00007FF7F21F6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2618739+1225433]
+	(No symbol) [0x00007FF7F2274804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2330151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2328D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2617314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23D5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 14:43:41,552 - ERROR - Order_module - Failed to Enter the OTP Message: no such element: Unable to locate element: {"method":"xpath","selector":"//form/input[@class="ant-input input-field"]"}
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F244B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23DC902+737698]
+	(No symbol) [0x00007FF7F21BB86E]
+	(No symbol) [0x00007FF7F2203216]
+	(No symbol) [0x00007FF7F2203327]
+	(No symbol) [0x00007FF7F223FBF7]
+	(No symbol) [0x00007FF7F222386F]
+	(No symbol) [0x00007FF7F21F6F61]
+	(No symbol) [0x00007FF7F223CD41]
+	(No symbol) [0x00007FF7F2223603]
+	(No symbol) [0x00007FF7F21F5DEA]
+	(No symbol) [0x00007FF7F21F50CB]
+	(No symbol) [0x00007FF7F21F6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2618739+1225433]
+	(No symbol) [0x00007FF7F2274804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2330151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2328D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2617314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23D5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 14:43:55,674 - ERROR - Order_module - Failed to Submit the OTP Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F244B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23DC902+737698]
+	(No symbol) [0x00007FF7F21BB86E]
+	(No symbol) [0x00007FF7F2203216]
+	(No symbol) [0x00007FF7F2203327]
+	(No symbol) [0x00007FF7F223FBF7]
+	(No symbol) [0x00007FF7F222386F]
+	(No symbol) [0x00007FF7F21F6F61]
+	(No symbol) [0x00007FF7F223CD41]
+	(No symbol) [0x00007FF7F2223603]
+	(No symbol) [0x00007FF7F21F5DEA]
+	(No symbol) [0x00007FF7F21F50CB]
+	(No symbol) [0x00007FF7F21F6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2618739+1225433]
+	(No symbol) [0x00007FF7F2274804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2330151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2328D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2617314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23D5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 14:44:10,756 - ERROR - Order_module - Failed to Verify Order Submission Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F244B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23DC902+737698]
+	(No symbol) [0x00007FF7F21BB86E]
+	(No symbol) [0x00007FF7F2203216]
+	(No symbol) [0x00007FF7F2203327]
+	(No symbol) [0x00007FF7F223FBF7]
+	(No symbol) [0x00007FF7F222386F]
+	(No symbol) [0x00007FF7F21F6F61]
+	(No symbol) [0x00007FF7F223CD41]
+	(No symbol) [0x00007FF7F2223603]
+	(No symbol) [0x00007FF7F21F5DEA]
+	(No symbol) [0x00007FF7F21F50CB]
+	(No symbol) [0x00007FF7F21F6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2618739+1225433]
+	(No symbol) [0x00007FF7F2274804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2330151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2328D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2617314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23D5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 14:49:35,729 - ERROR - Order_module - Failed in Select Product name 'NoneType' object has no attribute 'is_displayed'
+2023-08-24 14:49:35,733 - ERROR - Order_module - Failed in Select Leather Profile Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F244B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23DC902+737698]
+	(No symbol) [0x00007FF7F21BB86E]
+	(No symbol) [0x00007FF7F2192BEE]
+	(No symbol) [0x00007FF7F222777D]
+	(No symbol) [0x00007FF7F223C678]
+	(No symbol) [0x00007FF7F2223603]
+	(No symbol) [0x00007FF7F21F5DEA]
+	(No symbol) [0x00007FF7F21F50CB]
+	(No symbol) [0x00007FF7F21F6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2618739+1225433]
+	(No symbol) [0x00007FF7F2274804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2330151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2328D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2617314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23D5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 14:49:35,736 - ERROR - Order_module - Failed in Select Leather Size Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F244B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23DC902+737698]
+	(No symbol) [0x00007FF7F21BB86E]
+	(No symbol) [0x00007FF7F2192BEE]
+	(No symbol) [0x00007FF7F222777D]
+	(No symbol) [0x00007FF7F223C678]
+	(No symbol) [0x00007FF7F2223603]
+	(No symbol) [0x00007FF7F21F5DEA]
+	(No symbol) [0x00007FF7F21F50CB]
+	(No symbol) [0x00007FF7F21F6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2618739+1225433]
+	(No symbol) [0x00007FF7F2274804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2330151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2328D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2617314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23D5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 14:49:35,739 - ERROR - Order_module - Failed in Select Hardware Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F244B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23DC902+737698]
+	(No symbol) [0x00007FF7F21BB86E]
+	(No symbol) [0x00007FF7F2192BEE]
+	(No symbol) [0x00007FF7F222777D]
+	(No symbol) [0x00007FF7F223C678]
+	(No symbol) [0x00007FF7F2223603]
+	(No symbol) [0x00007FF7F21F5DEA]
+	(No symbol) [0x00007FF7F21F50CB]
+	(No symbol) [0x00007FF7F21F6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2618739+1225433]
+	(No symbol) [0x00007FF7F2274804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2330151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2328D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2617314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23D5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 14:49:35,741 - ERROR - Order_module - Failed in Select Lining Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F244B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23DC902+737698]
+	(No symbol) [0x00007FF7F21BB86E]
+	(No symbol) [0x00007FF7F2192BEE]
+	(No symbol) [0x00007FF7F222777D]
+	(No symbol) [0x00007FF7F223C678]
+	(No symbol) [0x00007FF7F2223603]
+	(No symbol) [0x00007FF7F21F5DEA]
+	(No symbol) [0x00007FF7F21F50CB]
+	(No symbol) [0x00007FF7F21F6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2618739+1225433]
+	(No symbol) [0x00007FF7F2274804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2330151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2328D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2617314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23D5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 14:49:35,744 - ERROR - Order_module - Failed in Select Pollyfill Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F244B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23DC902+737698]
+	(No symbol) [0x00007FF7F21BB86E]
+	(No symbol) [0x00007FF7F2192BEE]
+	(No symbol) [0x00007FF7F222777D]
+	(No symbol) [0x00007FF7F223C678]
+	(No symbol) [0x00007FF7F2223603]
+	(No symbol) [0x00007FF7F21F5DEA]
+	(No symbol) [0x00007FF7F21F50CB]
+	(No symbol) [0x00007FF7F21F6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2618739+1225433]
+	(No symbol) [0x00007FF7F2274804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2330151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2328D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2617314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23D5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 14:49:35,748 - ERROR - Order_module - Failed to Find the element for Selecting the Base Size : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F244B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23DC902+737698]
+	(No symbol) [0x00007FF7F21BB86E]
+	(No symbol) [0x00007FF7F2192BEE]
+	(No symbol) [0x00007FF7F222777D]
+	(No symbol) [0x00007FF7F223C678]
+	(No symbol) [0x00007FF7F2223603]
+	(No symbol) [0x00007FF7F21F5DEA]
+	(No symbol) [0x00007FF7F21F50CB]
+	(No symbol) [0x00007FF7F21F6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2618739+1225433]
+	(No symbol) [0x00007FF7F2274804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2330151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2328D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2617314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23D5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 14:49:35,750 - ERROR - Order_module - Failed to Find the element to input Armhole : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F244B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23DC902+737698]
+	(No symbol) [0x00007FF7F21BB86E]
+	(No symbol) [0x00007FF7F2192BEE]
+	(No symbol) [0x00007FF7F222777D]
+	(No symbol) [0x00007FF7F223C678]
+	(No symbol) [0x00007FF7F2223603]
+	(No symbol) [0x00007FF7F21F5DEA]
+	(No symbol) [0x00007FF7F21F50CB]
+	(No symbol) [0x00007FF7F21F6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2618739+1225433]
+	(No symbol) [0x00007FF7F2274804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2330151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2328D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2617314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23D5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 14:49:35,752 - ERROR - Order_module - Failed to Find the element to input Height : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F244B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23DC902+737698]
+	(No symbol) [0x00007FF7F21BB86E]
+	(No symbol) [0x00007FF7F2192BEE]
+	(No symbol) [0x00007FF7F222777D]
+	(No symbol) [0x00007FF7F223C678]
+	(No symbol) [0x00007FF7F2223603]
+	(No symbol) [0x00007FF7F21F5DEA]
+	(No symbol) [0x00007FF7F21F50CB]
+	(No symbol) [0x00007FF7F21F6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2618739+1225433]
+	(No symbol) [0x00007FF7F2274804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2330151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2328D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2617314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23D5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 14:49:35,756 - ERROR - Order_module - Failed to Find the element to input Shoulder : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F244B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23DC902+737698]
+	(No symbol) [0x00007FF7F21BB86E]
+	(No symbol) [0x00007FF7F2192BEE]
+	(No symbol) [0x00007FF7F222777D]
+	(No symbol) [0x00007FF7F223C678]
+	(No symbol) [0x00007FF7F2223603]
+	(No symbol) [0x00007FF7F21F5DEA]
+	(No symbol) [0x00007FF7F21F50CB]
+	(No symbol) [0x00007FF7F21F6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2618739+1225433]
+	(No symbol) [0x00007FF7F2274804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2330151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2328D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2617314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23D5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 14:49:35,762 - ERROR - Order_module - Failed to Find the element to input Weight : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F244B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23DC902+737698]
+	(No symbol) [0x00007FF7F21BB86E]
+	(No symbol) [0x00007FF7F2192BEE]
+	(No symbol) [0x00007FF7F222777D]
+	(No symbol) [0x00007FF7F223C678]
+	(No symbol) [0x00007FF7F2223603]
+	(No symbol) [0x00007FF7F21F5DEA]
+	(No symbol) [0x00007FF7F21F50CB]
+	(No symbol) [0x00007FF7F21F6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2618739+1225433]
+	(No symbol) [0x00007FF7F2274804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2330151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2328D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2617314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23D5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 14:49:35,765 - ERROR - Order_module - Failed to Find the element to input Length : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F244B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23DC902+737698]
+	(No symbol) [0x00007FF7F21BB86E]
+	(No symbol) [0x00007FF7F2192BEE]
+	(No symbol) [0x00007FF7F222777D]
+	(No symbol) [0x00007FF7F223C678]
+	(No symbol) [0x00007FF7F2223603]
+	(No symbol) [0x00007FF7F21F5DEA]
+	(No symbol) [0x00007FF7F21F50CB]
+	(No symbol) [0x00007FF7F21F6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2618739+1225433]
+	(No symbol) [0x00007FF7F2274804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2330151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2328D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2617314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23D5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 14:49:35,771 - ERROR - Order_module - Failed to Find the element to input Arms : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F244B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23DC902+737698]
+	(No symbol) [0x00007FF7F21BB86E]
+	(No symbol) [0x00007FF7F2192BEE]
+	(No symbol) [0x00007FF7F222777D]
+	(No symbol) [0x00007FF7F223C678]
+	(No symbol) [0x00007FF7F2223603]
+	(No symbol) [0x00007FF7F21F5DEA]
+	(No symbol) [0x00007FF7F21F50CB]
+	(No symbol) [0x00007FF7F21F6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2618739+1225433]
+	(No symbol) [0x00007FF7F2274804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2330151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2328D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2617314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23D5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 14:49:35,776 - ERROR - Order_module - Failed to Find the element to input Hips : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F244B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23DC902+737698]
+	(No symbol) [0x00007FF7F21BB86E]
+	(No symbol) [0x00007FF7F2192BEE]
+	(No symbol) [0x00007FF7F222777D]
+	(No symbol) [0x00007FF7F223C678]
+	(No symbol) [0x00007FF7F2223603]
+	(No symbol) [0x00007FF7F21F5DEA]
+	(No symbol) [0x00007FF7F21F50CB]
+	(No symbol) [0x00007FF7F21F6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2618739+1225433]
+	(No symbol) [0x00007FF7F2274804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2330151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2328D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2617314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23D5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 14:49:35,779 - ERROR - Order_module - Failed to Find the element to input Chest : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F244B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23DC902+737698]
+	(No symbol) [0x00007FF7F21BB86E]
+	(No symbol) [0x00007FF7F2192BEE]
+	(No symbol) [0x00007FF7F222777D]
+	(No symbol) [0x00007FF7F223C678]
+	(No symbol) [0x00007FF7F2223603]
+	(No symbol) [0x00007FF7F21F5DEA]
+	(No symbol) [0x00007FF7F21F50CB]
+	(No symbol) [0x00007FF7F21F6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2618739+1225433]
+	(No symbol) [0x00007FF7F2274804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2330151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2328D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2617314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23D5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 14:49:35,781 - ERROR - Order_module - Failed to Find the element to input Waist : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F244B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23DC902+737698]
+	(No symbol) [0x00007FF7F21BB86E]
+	(No symbol) [0x00007FF7F2192BEE]
+	(No symbol) [0x00007FF7F222777D]
+	(No symbol) [0x00007FF7F223C678]
+	(No symbol) [0x00007FF7F2223603]
+	(No symbol) [0x00007FF7F21F5DEA]
+	(No symbol) [0x00007FF7F21F50CB]
+	(No symbol) [0x00007FF7F21F6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2618739+1225433]
+	(No symbol) [0x00007FF7F2274804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2330151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2328D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2617314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23D5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 14:49:35,783 - ERROR - Order_module - Failed to Find the element to input Sleeves : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F244B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23DC902+737698]
+	(No symbol) [0x00007FF7F21BB86E]
+	(No symbol) [0x00007FF7F2192BEE]
+	(No symbol) [0x00007FF7F222777D]
+	(No symbol) [0x00007FF7F223C678]
+	(No symbol) [0x00007FF7F2223603]
+	(No symbol) [0x00007FF7F21F5DEA]
+	(No symbol) [0x00007FF7F21F50CB]
+	(No symbol) [0x00007FF7F21F6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2618739+1225433]
+	(No symbol) [0x00007FF7F2274804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2330151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2328D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2617314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23D5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 14:49:35,789 - ERROR - Order_module - Failed to Find the element to select the BodyType : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F244B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23DC902+737698]
+	(No symbol) [0x00007FF7F21BB86E]
+	(No symbol) [0x00007FF7F2192BEE]
+	(No symbol) [0x00007FF7F222777D]
+	(No symbol) [0x00007FF7F223C678]
+	(No symbol) [0x00007FF7F2223603]
+	(No symbol) [0x00007FF7F21F5DEA]
+	(No symbol) [0x00007FF7F21F50CB]
+	(No symbol) [0x00007FF7F21F6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2618739+1225433]
+	(No symbol) [0x00007FF7F2274804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2330151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2328D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2617314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23D5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 14:49:35,791 - ERROR - Order_module - Failed to Find the element to input Remarks : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F244B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23DC902+737698]
+	(No symbol) [0x00007FF7F21BB86E]
+	(No symbol) [0x00007FF7F2192BEE]
+	(No symbol) [0x00007FF7F222777D]
+	(No symbol) [0x00007FF7F223C678]
+	(No symbol) [0x00007FF7F2223603]
+	(No symbol) [0x00007FF7F21F5DEA]
+	(No symbol) [0x00007FF7F21F50CB]
+	(No symbol) [0x00007FF7F21F6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2618739+1225433]
+	(No symbol) [0x00007FF7F2274804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2330151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2328D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2617314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23D5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 14:49:35,793 - ERROR - Order_module - Failed to input  Delivery date Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F244B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23DC902+737698]
+	(No symbol) [0x00007FF7F21BB86E]
+	(No symbol) [0x00007FF7F2192BEE]
+	(No symbol) [0x00007FF7F222777D]
+	(No symbol) [0x00007FF7F223C678]
+	(No symbol) [0x00007FF7F2223603]
+	(No symbol) [0x00007FF7F21F5DEA]
+	(No symbol) [0x00007FF7F21F50CB]
+	(No symbol) [0x00007FF7F21F6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2618739+1225433]
+	(No symbol) [0x00007FF7F2274804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2330151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F2328D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7F2617314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7F23E19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7F23D5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 14:59:19,166 - ERROR - Order_module - Failed to input the name
+2023-08-24 14:59:29,250 - ERROR - Order_module - Failed to input email
+2023-08-24 14:59:39,318 - ERROR - Order_module - Failed to input DOB
+2023-08-24 14:59:49,405 - ERROR - Order_module - Failed to input address. Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF76032B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7602BC902+737698]
+	(No symbol) [0x00007FF76009B86E]
+	(No symbol) [0x00007FF7600E3216]
+	(No symbol) [0x00007FF7600E3327]
+	(No symbol) [0x00007FF76011FBF7]
+	(No symbol) [0x00007FF76010386F]
+	(No symbol) [0x00007FF7600D6F61]
+	(No symbol) [0x00007FF76011CD41]
+	(No symbol) [0x00007FF760103603]
+	(No symbol) [0x00007FF7600D5DEA]
+	(No symbol) [0x00007FF7600D50CB]
+	(No symbol) [0x00007FF7600D6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7604F8739+1225433]
+	(No symbol) [0x00007FF760154804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF760210151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF760208D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7604F7314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7602B5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 14:59:59,495 - ERROR - Order_module - Failed to Find Submit button : Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF76032B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7602BC902+737698]
+	(No symbol) [0x00007FF76009B86E]
+	(No symbol) [0x00007FF7600E3216]
+	(No symbol) [0x00007FF7600E3327]
+	(No symbol) [0x00007FF76011FBF7]
+	(No symbol) [0x00007FF76010386F]
+	(No symbol) [0x00007FF7600D6F61]
+	(No symbol) [0x00007FF76011CD41]
+	(No symbol) [0x00007FF760103603]
+	(No symbol) [0x00007FF7600D5DEA]
+	(No symbol) [0x00007FF7600D50CB]
+	(No symbol) [0x00007FF7600D6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7604F8739+1225433]
+	(No symbol) [0x00007FF760154804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF760210151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF760208D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7604F7314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7602B5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 15:00:17,592 - ERROR - Order_module - Failed in Select Product name Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF76032B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7602BC902+737698]
+	(No symbol) [0x00007FF76009B86E]
+	(No symbol) [0x00007FF7600E3216]
+	(No symbol) [0x00007FF7600E3327]
+	(No symbol) [0x00007FF76011FBF7]
+	(No symbol) [0x00007FF76010386F]
+	(No symbol) [0x00007FF7600D6F61]
+	(No symbol) [0x00007FF76011CD41]
+	(No symbol) [0x00007FF760103603]
+	(No symbol) [0x00007FF7600D5DEA]
+	(No symbol) [0x00007FF7600D50CB]
+	(No symbol) [0x00007FF7600D6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7604F8739+1225433]
+	(No symbol) [0x00007FF760154804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF760210151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF760208D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7604F7314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7602B5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 15:00:27,667 - ERROR - Order_module - Failed in Select Leather Profile Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF76032B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7602BC902+737698]
+	(No symbol) [0x00007FF76009B86E]
+	(No symbol) [0x00007FF7600E3216]
+	(No symbol) [0x00007FF7600E3327]
+	(No symbol) [0x00007FF76011FBF7]
+	(No symbol) [0x00007FF76010386F]
+	(No symbol) [0x00007FF7600D6F61]
+	(No symbol) [0x00007FF76011CD41]
+	(No symbol) [0x00007FF760103603]
+	(No symbol) [0x00007FF7600D5DEA]
+	(No symbol) [0x00007FF7600D50CB]
+	(No symbol) [0x00007FF7600D6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7604F8739+1225433]
+	(No symbol) [0x00007FF760154804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF760210151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF760208D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7604F7314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7602B5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 15:00:37,757 - ERROR - Order_module - Failed in Select Leather Size Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF76032B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7602BC902+737698]
+	(No symbol) [0x00007FF76009B86E]
+	(No symbol) [0x00007FF7600E3216]
+	(No symbol) [0x00007FF7600E3327]
+	(No symbol) [0x00007FF76011FBF7]
+	(No symbol) [0x00007FF76010386F]
+	(No symbol) [0x00007FF7600D6F61]
+	(No symbol) [0x00007FF76011CD41]
+	(No symbol) [0x00007FF760103603]
+	(No symbol) [0x00007FF7600D5DEA]
+	(No symbol) [0x00007FF7600D50CB]
+	(No symbol) [0x00007FF7600D6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7604F8739+1225433]
+	(No symbol) [0x00007FF760154804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF760210151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF760208D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7604F7314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7602B5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 15:00:47,861 - ERROR - Order_module - Failed in Select Hardware Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF76032B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7602BC902+737698]
+	(No symbol) [0x00007FF76009B86E]
+	(No symbol) [0x00007FF7600E3216]
+	(No symbol) [0x00007FF7600E3327]
+	(No symbol) [0x00007FF76011FBF7]
+	(No symbol) [0x00007FF76010386F]
+	(No symbol) [0x00007FF7600D6F61]
+	(No symbol) [0x00007FF76011CD41]
+	(No symbol) [0x00007FF760103603]
+	(No symbol) [0x00007FF7600D5DEA]
+	(No symbol) [0x00007FF7600D50CB]
+	(No symbol) [0x00007FF7600D6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7604F8739+1225433]
+	(No symbol) [0x00007FF760154804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF760210151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF760208D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7604F7314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7602B5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 15:00:57,902 - ERROR - Order_module - Failed in Select Lining Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF76032B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7602BC902+737698]
+	(No symbol) [0x00007FF76009B86E]
+	(No symbol) [0x00007FF7600E3216]
+	(No symbol) [0x00007FF7600E3327]
+	(No symbol) [0x00007FF76011FBF7]
+	(No symbol) [0x00007FF76010386F]
+	(No symbol) [0x00007FF7600D6F61]
+	(No symbol) [0x00007FF76011CD41]
+	(No symbol) [0x00007FF760103603]
+	(No symbol) [0x00007FF7600D5DEA]
+	(No symbol) [0x00007FF7600D50CB]
+	(No symbol) [0x00007FF7600D6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7604F8739+1225433]
+	(No symbol) [0x00007FF760154804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF760210151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF760208D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7604F7314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7602B5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 15:01:07,988 - ERROR - Order_module - Failed in Select Pollyfill Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF76032B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7602BC902+737698]
+	(No symbol) [0x00007FF76009B86E]
+	(No symbol) [0x00007FF7600E3216]
+	(No symbol) [0x00007FF7600E3327]
+	(No symbol) [0x00007FF76011FBF7]
+	(No symbol) [0x00007FF76010386F]
+	(No symbol) [0x00007FF7600D6F61]
+	(No symbol) [0x00007FF76011CD41]
+	(No symbol) [0x00007FF760103603]
+	(No symbol) [0x00007FF7600D5DEA]
+	(No symbol) [0x00007FF7600D50CB]
+	(No symbol) [0x00007FF7600D6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7604F8739+1225433]
+	(No symbol) [0x00007FF760154804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF760210151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF760208D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7604F7314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7602B5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 15:01:18,075 - ERROR - Order_module - Failed to Find the element for Selecting the Base Size : Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF76032B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7602BC902+737698]
+	(No symbol) [0x00007FF76009B86E]
+	(No symbol) [0x00007FF7600E3216]
+	(No symbol) [0x00007FF7600E3327]
+	(No symbol) [0x00007FF76011FBF7]
+	(No symbol) [0x00007FF76010386F]
+	(No symbol) [0x00007FF7600D6F61]
+	(No symbol) [0x00007FF76011CD41]
+	(No symbol) [0x00007FF760103603]
+	(No symbol) [0x00007FF7600D5DEA]
+	(No symbol) [0x00007FF7600D50CB]
+	(No symbol) [0x00007FF7600D6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7604F8739+1225433]
+	(No symbol) [0x00007FF760154804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF760210151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF760208D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7604F7314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7602B5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 15:01:28,156 - ERROR - Order_module - Failed to Find the element to input Armhole : Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF76032B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7602BC902+737698]
+	(No symbol) [0x00007FF76009B86E]
+	(No symbol) [0x00007FF7600E3216]
+	(No symbol) [0x00007FF7600E3327]
+	(No symbol) [0x00007FF76011FBF7]
+	(No symbol) [0x00007FF76010386F]
+	(No symbol) [0x00007FF7600D6F61]
+	(No symbol) [0x00007FF76011CD41]
+	(No symbol) [0x00007FF760103603]
+	(No symbol) [0x00007FF7600D5DEA]
+	(No symbol) [0x00007FF7600D50CB]
+	(No symbol) [0x00007FF7600D6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7604F8739+1225433]
+	(No symbol) [0x00007FF760154804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF760210151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF760208D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7604F7314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7602B5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 15:01:38,240 - ERROR - Order_module - Failed to Find the element to input Height : Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF76032B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7602BC902+737698]
+	(No symbol) [0x00007FF76009B86E]
+	(No symbol) [0x00007FF7600E3216]
+	(No symbol) [0x00007FF7600E3327]
+	(No symbol) [0x00007FF76011FBF7]
+	(No symbol) [0x00007FF76010386F]
+	(No symbol) [0x00007FF7600D6F61]
+	(No symbol) [0x00007FF76011CD41]
+	(No symbol) [0x00007FF760103603]
+	(No symbol) [0x00007FF7600D5DEA]
+	(No symbol) [0x00007FF7600D50CB]
+	(No symbol) [0x00007FF7600D6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7604F8739+1225433]
+	(No symbol) [0x00007FF760154804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF760210151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF760208D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7604F7314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7602B5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 15:01:48,313 - ERROR - Order_module - Failed to Find the element to input Shoulder : Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF76032B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7602BC902+737698]
+	(No symbol) [0x00007FF76009B86E]
+	(No symbol) [0x00007FF7600E3216]
+	(No symbol) [0x00007FF7600E3327]
+	(No symbol) [0x00007FF76011FBF7]
+	(No symbol) [0x00007FF76010386F]
+	(No symbol) [0x00007FF7600D6F61]
+	(No symbol) [0x00007FF76011CD41]
+	(No symbol) [0x00007FF760103603]
+	(No symbol) [0x00007FF7600D5DEA]
+	(No symbol) [0x00007FF7600D50CB]
+	(No symbol) [0x00007FF7600D6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7604F8739+1225433]
+	(No symbol) [0x00007FF760154804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF760210151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF760208D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7604F7314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7602B5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 15:01:58,390 - ERROR - Order_module - Failed to Find the element to input Weight : Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF76032B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7602BC902+737698]
+	(No symbol) [0x00007FF76009B86E]
+	(No symbol) [0x00007FF7600E3216]
+	(No symbol) [0x00007FF7600E3327]
+	(No symbol) [0x00007FF76011FBF7]
+	(No symbol) [0x00007FF76010386F]
+	(No symbol) [0x00007FF7600D6F61]
+	(No symbol) [0x00007FF76011CD41]
+	(No symbol) [0x00007FF760103603]
+	(No symbol) [0x00007FF7600D5DEA]
+	(No symbol) [0x00007FF7600D50CB]
+	(No symbol) [0x00007FF7600D6574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7604F8739+1225433]
+	(No symbol) [0x00007FF760154804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF760210151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF760208D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7604F7314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7602C19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7602B5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 19:00:56,647 - ERROR - Order_module - Couldn't find the Element for Selecting the Product : 
+ Message: 
+
+2023-08-24 19:00:56,731 - ERROR - Order_module - Couldn't find the Element for Selecting Leather Profile : 
+ Message: Element <span class="ant-select-selection-search"> is not clickable at point (506,385) because another element <path class="ant-empty-img-simple-path"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:331:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:162:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-24 19:01:07,274 - ERROR - Order_module - Couldn't find the Element for Selecting Leather Size : 
+ Message: 
+
+2023-08-24 19:01:17,972 - ERROR - Order_module - Couldn't find the Element for Selecting Polyfill : 
+ Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-24 19:01:39,924 - ERROR - Order_module - Failed to get Header Text Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-24 19:01:39,929 - ERROR - Order_module - Couldn't find the Element for OTP input : 
+ Message: Unable to locate element: //input[@class='ant-input input-field']
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-24 19:01:55,215 - ERROR - Order_module - Couldn't find the Element to Submit OTP: 
+ Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-24 19:02:10,453 - ERROR - Order_module - Couldn't find the Element to Verify Order Submit : 
+ Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-24 19:02:20,723 - ERROR - Order_module - Couldn't find the Element for Navigation to Order List : 
+ Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-24 19:02:31,007 - ERROR - Order_module - Couldn't find the Element for Navigation to Store : 
+ Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-24 19:02:41,268 - ERROR - Order_module - Couldn't find the Element for Latest Store ID : 
+ Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+

@@ -1,0 +1,51 @@
+2023-08-24 19:59:28,853 - ERROR - Member_management_module - Unable to locate Member Management Menu : Message: Element <a id="MemberManagementMenu" class="menu_link active" href="/member-management"> is not clickable at point (954,32) because another element <div class="ant-modal-wrap"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:331:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:162:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-24 19:59:41,145 - ERROR - Member_management_module - Somthing went wrong while deleting the member : Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-24 20:00:23,780 - ERROR - Member_management_module - Unable to locate Member Management Menu : Message: Element <a id="MemberManagementMenu" class="menu_link active" href="/member-management"> is not clickable at point (954,32) because another element <div class="ant-modal-wrap"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:331:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:162:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-24 20:00:36,051 - ERROR - Member_management_module - Somthing went wrong while deleting the member : Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-24 20:02:33,033 - ERROR - Member_management_module - Unable to locate Member Management Menu : Message: Element <a id="MemberManagementMenu" class="menu_link active" href="/member-management"> is not clickable at point (954,32) because another element <div class="ant-modal-wrap"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:331:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:162:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-24 20:02:45,309 - ERROR - Member_management_module - Somthing went wrong while deleting the member : Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+

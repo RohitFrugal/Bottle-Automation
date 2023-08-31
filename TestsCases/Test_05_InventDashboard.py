@@ -18,7 +18,7 @@ class TestInventDashboard(unittest.TestCase, BaseClass):
 
     # SetUp Method.
     def setUp(self):
-        super().initialize_driver()
+        super().initialize_driver("chrome")
         self.InventDash = InventDashboardMethod(self.driver)
         self.LoginMethod = LoginMethod(self.driver)
 

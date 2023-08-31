@@ -20,7 +20,7 @@ class TestLeatherManagement(unittest.TestCase, BaseClass):
         super().__init__(methodName)
 
     def setUp(self):
-        super().initialize_driver()
+        super().initialize_driver("chrome")
         self.Leather = LeatherMethod(self.driver)
         self.LoginMethod = LoginMethod(self.driver)
         self.Inventory = InventoryMethods(self.driver)

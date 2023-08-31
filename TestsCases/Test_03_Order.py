@@ -22,7 +22,7 @@ class TestOrder(unittest.TestCase, BaseClass):
 
     # SetUp Method.
     def setUp(self):
-        super().initialize_driver()
+        super().initialize_driver("chrome")
         self.Order = OrderMethod(self.driver)
         self.LoginMethod = LoginMethod(self.driver)
 

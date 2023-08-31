@@ -605,3 +605,2023 @@ Backtrace:
 2023-08-18 13:23:03,258 - ERROR - Product_management - Unable to Find Lining field : 'str' object is not callable
 2023-08-18 13:23:03,316 - ERROR - Product_management - Unable to Find Polyfill field : 'str' object is not callable
 2023-08-18 13:23:03,373 - ERROR - Product_management - Unable to Find rib field : 'str' object is not callable
+2023-08-24 13:17:32,379 - ERROR - Product_management - Unable to find Secondary Image Input box : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='ant-upload ant-upload-drag common-s3-upload--container  ']/span/input[@type='file']"}
+  (Session info: chrome=116.0.5845.97)
+Stacktrace:
+	GetHandleVerifier [0x002737C3+48947]
+	(No symbol) [0x00208551]
+	(No symbol) [0x0010C92D]
+	(No symbol) [0x00139E38]
+	(No symbol) [0x00139EFB]
+	(No symbol) [0x00168EF2]
+	(No symbol) [0x001550D4]
+	(No symbol) [0x001675DA]
+	(No symbol) [0x00154E86]
+	(No symbol) [0x001316C7]
+	(No symbol) [0x0013284D]
+	GetHandleVerifier [0x004BFDF9+2458985]
+	GetHandleVerifier [0x0050744F+2751423]
+	GetHandleVerifier [0x00501361+2726609]
+	GetHandleVerifier [0x002F0680+560624]
+	(No symbol) [0x0021238C]
+	(No symbol) [0x0020E268]
+	(No symbol) [0x0020E392]
+	(No symbol) [0x002010B7]
+	BaseThreadInitThunk [0x76347BA9+25]
+	RtlInitializeExceptionChain [0x7703B79B+107]
+	RtlClearBits [0x7703B71F+191]
+	(No symbol) [0x00000000]
+
+2023-08-24 13:18:07,973 - ERROR - Product_management - Unable to find Secondary Image Input box : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='ant-upload ant-upload-drag common-s3-upload--container  ']/span/input[@type='file']"}
+  (Session info: chrome=116.0.5845.97)
+Stacktrace:
+	GetHandleVerifier [0x005B37C3+48947]
+	(No symbol) [0x00548551]
+	(No symbol) [0x0044C92D]
+	(No symbol) [0x00479E38]
+	(No symbol) [0x00479EFB]
+	(No symbol) [0x004A8EF2]
+	(No symbol) [0x004950D4]
+	(No symbol) [0x004A75DA]
+	(No symbol) [0x00494E86]
+	(No symbol) [0x004716C7]
+	(No symbol) [0x0047284D]
+	GetHandleVerifier [0x007FFDF9+2458985]
+	GetHandleVerifier [0x0084744F+2751423]
+	GetHandleVerifier [0x00841361+2726609]
+	GetHandleVerifier [0x00630680+560624]
+	(No symbol) [0x0055238C]
+	(No symbol) [0x0054E268]
+	(No symbol) [0x0054E392]
+	(No symbol) [0x005410B7]
+	BaseThreadInitThunk [0x76347BA9+25]
+	RtlInitializeExceptionChain [0x7703B79B+107]
+	RtlClearBits [0x7703B71F+191]
+
+2023-08-24 13:18:44,459 - ERROR - Product_management - Unable to find Secondary Image Input box : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='ant-upload ant-upload-drag common-s3-upload--container  ']/span/input[@type='file']"}
+  (Session info: chrome=116.0.5845.97)
+Stacktrace:
+	GetHandleVerifier [0x00C637C3+48947]
+	(No symbol) [0x00BF8551]
+	(No symbol) [0x00AFC92D]
+	(No symbol) [0x00B29E38]
+	(No symbol) [0x00B29EFB]
+	(No symbol) [0x00B58EF2]
+	(No symbol) [0x00B450D4]
+	(No symbol) [0x00B575DA]
+	(No symbol) [0x00B44E86]
+	(No symbol) [0x00B216C7]
+	(No symbol) [0x00B2284D]
+	GetHandleVerifier [0x00EAFDF9+2458985]
+	GetHandleVerifier [0x00EF744F+2751423]
+	GetHandleVerifier [0x00EF1361+2726609]
+	GetHandleVerifier [0x00CE0680+560624]
+	(No symbol) [0x00C0238C]
+	(No symbol) [0x00BFE268]
+	(No symbol) [0x00BFE392]
+	(No symbol) [0x00BF10B7]
+	BaseThreadInitThunk [0x76347BA9+25]
+	RtlInitializeExceptionChain [0x7703B79B+107]
+	RtlClearBits [0x7703B71F+191]
+
+2023-08-24 13:19:22,182 - ERROR - Product_management - Unable to find Secondary Image Input box : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='ant-upload ant-upload-drag common-s3-upload--container  ']/span/input[@type='file']"}
+  (Session info: chrome=116.0.5845.97)
+Stacktrace:
+	GetHandleVerifier [0x002937C3+48947]
+	(No symbol) [0x00228551]
+	(No symbol) [0x0012C92D]
+	(No symbol) [0x00159E38]
+	(No symbol) [0x00159EFB]
+	(No symbol) [0x00188EF2]
+	(No symbol) [0x001750D4]
+	(No symbol) [0x001875DA]
+	(No symbol) [0x00174E86]
+	(No symbol) [0x001516C7]
+	(No symbol) [0x0015284D]
+	GetHandleVerifier [0x004DFDF9+2458985]
+	GetHandleVerifier [0x0052744F+2751423]
+	GetHandleVerifier [0x00521361+2726609]
+	GetHandleVerifier [0x00310680+560624]
+	(No symbol) [0x0023238C]
+	(No symbol) [0x0022E268]
+	(No symbol) [0x0022E392]
+	(No symbol) [0x002210B7]
+	BaseThreadInitThunk [0x76347BA9+25]
+	RtlInitializeExceptionChain [0x7703B79B+107]
+	RtlClearBits [0x7703B71F+191]
+	(No symbol) [0x00000000]
+
+2023-08-24 13:19:57,207 - ERROR - Product_management - Unable to find Secondary Image Input box : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='ant-upload ant-upload-drag common-s3-upload--container  ']/span/input[@type='file']"}
+  (Session info: chrome=116.0.5845.97)
+Stacktrace:
+	GetHandleVerifier [0x00DF37C3+48947]
+	(No symbol) [0x00D88551]
+	(No symbol) [0x00C8C92D]
+	(No symbol) [0x00CB9E38]
+	(No symbol) [0x00CB9EFB]
+	(No symbol) [0x00CE8EF2]
+	(No symbol) [0x00CD50D4]
+	(No symbol) [0x00CE75DA]
+	(No symbol) [0x00CD4E86]
+	(No symbol) [0x00CB16C7]
+	(No symbol) [0x00CB284D]
+	GetHandleVerifier [0x0103FDF9+2458985]
+	GetHandleVerifier [0x0108744F+2751423]
+	GetHandleVerifier [0x01081361+2726609]
+	GetHandleVerifier [0x00E70680+560624]
+	(No symbol) [0x00D9238C]
+	(No symbol) [0x00D8E268]
+	(No symbol) [0x00D8E392]
+	(No symbol) [0x00D810B7]
+	BaseThreadInitThunk [0x76347BA9+25]
+	RtlInitializeExceptionChain [0x7703B79B+107]
+	RtlClearBits [0x7703B71F+191]
+
+2023-08-24 13:20:30,851 - ERROR - Product_management - Unable to find Secondary Image Input box : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='ant-upload ant-upload-drag common-s3-upload--container  ']/span/input[@type='file']"}
+  (Session info: chrome=116.0.5845.97)
+Stacktrace:
+	GetHandleVerifier [0x00DE37C3+48947]
+	(No symbol) [0x00D78551]
+	(No symbol) [0x00C7C92D]
+	(No symbol) [0x00CA9E38]
+	(No symbol) [0x00CA9EFB]
+	(No symbol) [0x00CD8EF2]
+	(No symbol) [0x00CC50D4]
+	(No symbol) [0x00CD75DA]
+	(No symbol) [0x00CC4E86]
+	(No symbol) [0x00CA16C7]
+	(No symbol) [0x00CA284D]
+	GetHandleVerifier [0x0102FDF9+2458985]
+	GetHandleVerifier [0x0107744F+2751423]
+	GetHandleVerifier [0x01071361+2726609]
+	GetHandleVerifier [0x00E60680+560624]
+	(No symbol) [0x00D8238C]
+	(No symbol) [0x00D7E268]
+	(No symbol) [0x00D7E392]
+	(No symbol) [0x00D710B7]
+	BaseThreadInitThunk [0x76347BA9+25]
+	RtlInitializeExceptionChain [0x7703B79B+107]
+	RtlClearBits [0x7703B71F+191]
+
+2023-08-24 13:21:37,450 - ERROR - Product_management - Unable to find All Leather Button : Message: 
+
+2023-08-24 13:21:47,458 - ERROR - Product_management - Unable to find All Leather Button : Message: 
+Stacktrace:
+	GetHandleVerifier [0x011637C3+48947]
+	(No symbol) [0x010F8551]
+	(No symbol) [0x00FFC92D]
+	(No symbol) [0x01029E38]
+	(No symbol) [0x01029EFB]
+	(No symbol) [0x01058EF2]
+	(No symbol) [0x010450D4]
+	(No symbol) [0x010575DA]
+	(No symbol) [0x01044E86]
+	(No symbol) [0x010216C7]
+	(No symbol) [0x0102284D]
+	GetHandleVerifier [0x013AFDF9+2458985]
+	GetHandleVerifier [0x013F744F+2751423]
+	GetHandleVerifier [0x013F1361+2726609]
+	GetHandleVerifier [0x011E0680+560624]
+	(No symbol) [0x0110238C]
+	(No symbol) [0x010FE268]
+	(No symbol) [0x010FE392]
+	(No symbol) [0x010F10B7]
+	BaseThreadInitThunk [0x76347BA9+25]
+	RtlInitializeExceptionChain [0x7703B79B+107]
+	RtlClearBits [0x7703B71F+191]
+
+2023-08-24 13:21:55,497 - ERROR - Product_management - Unable to find Leather Type selector 
+2023-08-24 13:21:58,541 - ERROR - Product_management - Unable to find the Size selector Message: no such element: Unable to locate element: {"method":"xpath","selector":"((//div[@class='ant-select-selector'])[8])"}
+  (Session info: chrome=116.0.5845.97)
+Stacktrace:
+	GetHandleVerifier [0x011637C3+48947]
+	(No symbol) [0x010F8551]
+	(No symbol) [0x00FFC92D]
+	(No symbol) [0x01029E38]
+	(No symbol) [0x01029EFB]
+	(No symbol) [0x01058EF2]
+	(No symbol) [0x010450D4]
+	(No symbol) [0x010575DA]
+	(No symbol) [0x01044E86]
+	(No symbol) [0x010216C7]
+	(No symbol) [0x0102284D]
+	GetHandleVerifier [0x013AFDF9+2458985]
+	GetHandleVerifier [0x013F744F+2751423]
+	GetHandleVerifier [0x013F1361+2726609]
+	GetHandleVerifier [0x011E0680+560624]
+	(No symbol) [0x0110238C]
+	(No symbol) [0x010FE268]
+	(No symbol) [0x010FE392]
+	(No symbol) [0x010F10B7]
+	BaseThreadInitThunk [0x76347BA9+25]
+	RtlInitializeExceptionChain [0x7703B79B+107]
+	RtlClearBits [0x7703B71F+191]
+
+2023-08-24 13:22:24,465 - ERROR - Product_management - Unable to Locate duplicate button : Message: 
+Stacktrace:
+	GetHandleVerifier [0x011637C3+48947]
+	(No symbol) [0x010F8551]
+	(No symbol) [0x00FFC92D]
+	(No symbol) [0x01029E38]
+	(No symbol) [0x01029EFB]
+	(No symbol) [0x01058EF2]
+	(No symbol) [0x010450D4]
+	(No symbol) [0x010575DA]
+	(No symbol) [0x01044E86]
+	(No symbol) [0x010216C7]
+	(No symbol) [0x0102284D]
+	GetHandleVerifier [0x013AFDF9+2458985]
+	GetHandleVerifier [0x013F744F+2751423]
+	GetHandleVerifier [0x013F1361+2726609]
+	GetHandleVerifier [0x011E0680+560624]
+	(No symbol) [0x0110238C]
+	(No symbol) [0x010FE268]
+	(No symbol) [0x010FE392]
+	(No symbol) [0x010F10B7]
+	BaseThreadInitThunk [0x76347BA9+25]
+	RtlInitializeExceptionChain [0x7703B79B+107]
+	RtlClearBits [0x7703B71F+191]
+
+2023-08-24 13:22:30,657 - ERROR - Product_management - Unable to Locate duplicate button : Message: element click intercepted: Element <button type="button" class="ant-btn ant-btn-round ant-btn-text">...</button> is not clickable at point (1154, 603). Other element would receive the click: <div tabindex="-1" class="ant-modal-wrap">...</div>
+  (Session info: chrome=116.0.5845.97)
+Stacktrace:
+	GetHandleVerifier [0x011637C3+48947]
+	(No symbol) [0x010F8551]
+	(No symbol) [0x00FFC92D]
+	(No symbol) [0x0102E276]
+	(No symbol) [0x0102CF4D]
+	(No symbol) [0x0102B74B]
+	(No symbol) [0x0102ABA5]
+	(No symbol) [0x01023420]
+	(No symbol) [0x0104508C]
+	(No symbol) [0x01022EB6]
+	(No symbol) [0x010453E4]
+	(No symbol) [0x010575DA]
+	(No symbol) [0x01044E86]
+	(No symbol) [0x010216C7]
+	(No symbol) [0x0102284D]
+	GetHandleVerifier [0x013AFDF9+2458985]
+	GetHandleVerifier [0x013F744F+2751423]
+	GetHandleVerifier [0x013F1361+2726609]
+	GetHandleVerifier [0x011E0680+560624]
+	(No symbol) [0x0110238C]
+	(No symbol) [0x010FE268]
+	(No symbol) [0x010FE392]
+	(No symbol) [0x010F10B7]
+	BaseThreadInitThunk [0x76347BA9+25]
+	RtlInitializeExceptionChain [0x7703B79B+107]
+	RtlClearBits [0x7703B71F+191]
+
+2023-08-24 13:22:36,905 - ERROR - Product_management - Unable to locate Nav Item : Message: element click intercepted: Element <a id="ProductManagementMenu" aria-current="page" class="menu_link active" href="/product">...</a> is not clickable at point (1089, 32). Other element would receive the click: <div tabindex="-1" class="ant-modal-wrap">...</div>
+  (Session info: chrome=116.0.5845.97)
+Stacktrace:
+	GetHandleVerifier [0x011637C3+48947]
+	(No symbol) [0x010F8551]
+	(No symbol) [0x00FFC92D]
+	(No symbol) [0x0102E276]
+	(No symbol) [0x0102CF4D]
+	(No symbol) [0x0102B74B]
+	(No symbol) [0x0102ABA5]
+	(No symbol) [0x01023420]
+	(No symbol) [0x0104508C]
+	(No symbol) [0x01022EB6]
+	(No symbol) [0x010453E4]
+	(No symbol) [0x010575DA]
+	(No symbol) [0x01044E86]
+	(No symbol) [0x010216C7]
+	(No symbol) [0x0102284D]
+	GetHandleVerifier [0x013AFDF9+2458985]
+	GetHandleVerifier [0x013F744F+2751423]
+	GetHandleVerifier [0x013F1361+2726609]
+	GetHandleVerifier [0x011E0680+560624]
+	(No symbol) [0x0110238C]
+	(No symbol) [0x010FE268]
+	(No symbol) [0x010FE392]
+	(No symbol) [0x010F10B7]
+	BaseThreadInitThunk [0x76347BA9+25]
+	RtlInitializeExceptionChain [0x7703B79B+107]
+	RtlClearBits [0x7703B71F+191]
+
+2023-08-24 13:22:46,991 - ERROR - Product_management - Unable to find search bar locator : Message: 
+Stacktrace:
+	GetHandleVerifier [0x011637C3+48947]
+	(No symbol) [0x010F8551]
+	(No symbol) [0x00FFC92D]
+	(No symbol) [0x01029E38]
+	(No symbol) [0x01029EFB]
+	(No symbol) [0x01058EF2]
+	(No symbol) [0x010450D4]
+	(No symbol) [0x010575DA]
+	(No symbol) [0x01044E86]
+	(No symbol) [0x010216C7]
+	(No symbol) [0x0102284D]
+	GetHandleVerifier [0x013AFDF9+2458985]
+	GetHandleVerifier [0x013F744F+2751423]
+	GetHandleVerifier [0x013F1361+2726609]
+	GetHandleVerifier [0x011E0680+560624]
+	(No symbol) [0x0110238C]
+	(No symbol) [0x010FE268]
+	(No symbol) [0x010FE392]
+	(No symbol) [0x010F10B7]
+	BaseThreadInitThunk [0x76347BA9+25]
+	RtlInitializeExceptionChain [0x7703B79B+107]
+	RtlClearBits [0x7703B71F+191]
+
+2023-08-24 13:22:57,116 - ERROR - Product_management - Unable to Find edit button for the Product : Message: 
+Stacktrace:
+	GetHandleVerifier [0x011637C3+48947]
+	(No symbol) [0x010F8551]
+	(No symbol) [0x00FFC92D]
+	(No symbol) [0x01029E38]
+	(No symbol) [0x01029EFB]
+	(No symbol) [0x01058EF2]
+	(No symbol) [0x010450D4]
+	(No symbol) [0x010575DA]
+	(No symbol) [0x01044E86]
+	(No symbol) [0x010216C7]
+	(No symbol) [0x0102284D]
+	GetHandleVerifier [0x013AFDF9+2458985]
+	GetHandleVerifier [0x013F744F+2751423]
+	GetHandleVerifier [0x013F1361+2726609]
+	GetHandleVerifier [0x011E0680+560624]
+	(No symbol) [0x0110238C]
+	(No symbol) [0x010FE268]
+	(No symbol) [0x010FE392]
+	(No symbol) [0x010F10B7]
+	BaseThreadInitThunk [0x76347BA9+25]
+	RtlInitializeExceptionChain [0x7703B79B+107]
+	RtlClearBits [0x7703B71F+191]
+
+2023-08-24 13:26:23,286 - ERROR - Product_management - Unable to Find Name field : 'str' object is not callable
+2023-08-24 13:26:23,345 - ERROR - Product_management - Unable to Find category field : 'str' object is not callable
+2023-08-24 13:26:23,396 - ERROR - Product_management - Unable to Find Tag field : 'str' object is not callable
+2023-08-24 13:26:23,450 - ERROR - Product_management - Unable to Find Hardware field : 'str' object is not callable
+2023-08-24 13:26:23,503 - ERROR - Product_management - Unable to Find Lining field : 'str' object is not callable
+2023-08-24 13:26:23,561 - ERROR - Product_management - Unable to Find Polyfill field : 'str' object is not callable
+2023-08-24 13:26:23,620 - ERROR - Product_management - Unable to Find rib field : 'str' object is not callable
+2023-08-24 13:28:31,285 - ERROR - Product_management - Unable to Find Name field : 'str' object is not callable
+2023-08-24 13:28:31,346 - ERROR - Product_management - Unable to Find category field : 'str' object is not callable
+2023-08-24 13:28:31,404 - ERROR - Product_management - Unable to Find Tag field : 'str' object is not callable
+2023-08-24 13:28:31,458 - ERROR - Product_management - Unable to Find Hardware field : 'str' object is not callable
+2023-08-24 13:28:31,511 - ERROR - Product_management - Unable to Find Lining field : 'str' object is not callable
+2023-08-24 13:28:31,568 - ERROR - Product_management - Unable to Find Polyfill field : 'str' object is not callable
+2023-08-24 13:28:31,620 - ERROR - Product_management - Unable to Find rib field : 'str' object is not callable
+2023-08-24 13:30:36,320 - ERROR - Product_management - Unable to Find Name field : 'str' object is not callable
+2023-08-24 13:30:36,384 - ERROR - Product_management - Unable to Find category field : 'str' object is not callable
+2023-08-24 13:30:36,438 - ERROR - Product_management - Unable to Find Tag field : 'str' object is not callable
+2023-08-24 13:30:36,500 - ERROR - Product_management - Unable to Find Hardware field : 'str' object is not callable
+2023-08-24 13:30:36,554 - ERROR - Product_management - Unable to Find Lining field : 'str' object is not callable
+2023-08-24 13:30:36,615 - ERROR - Product_management - Unable to Find Polyfill field : 'str' object is not callable
+2023-08-24 13:30:36,671 - ERROR - Product_management - Unable to Find rib field : 'str' object is not callable
+2023-08-24 13:32:39,292 - ERROR - Product_management - Unable to Find Name field : 'str' object is not callable
+2023-08-24 13:32:39,355 - ERROR - Product_management - Unable to Find category field : 'str' object is not callable
+2023-08-24 13:32:39,403 - ERROR - Product_management - Unable to Find Tag field : 'str' object is not callable
+2023-08-24 13:32:39,468 - ERROR - Product_management - Unable to Find Hardware field : 'str' object is not callable
+2023-08-24 13:32:39,527 - ERROR - Product_management - Unable to Find Lining field : 'str' object is not callable
+2023-08-24 13:32:39,585 - ERROR - Product_management - Unable to Find Polyfill field : 'str' object is not callable
+2023-08-24 13:32:39,649 - ERROR - Product_management - Unable to Find rib field : 'str' object is not callable
+2023-08-24 13:34:42,653 - ERROR - Product_management - Unable to Find Name field : 'str' object is not callable
+2023-08-24 13:34:42,709 - ERROR - Product_management - Unable to Find category field : 'str' object is not callable
+2023-08-24 13:34:42,770 - ERROR - Product_management - Unable to Find Tag field : 'str' object is not callable
+2023-08-24 13:34:42,823 - ERROR - Product_management - Unable to Find Hardware field : 'str' object is not callable
+2023-08-24 13:34:42,885 - ERROR - Product_management - Unable to Find Lining field : 'str' object is not callable
+2023-08-24 13:34:42,951 - ERROR - Product_management - Unable to Find Polyfill field : 'str' object is not callable
+2023-08-24 13:34:43,012 - ERROR - Product_management - Unable to Find rib field : 'str' object is not callable
+2023-08-24 13:36:44,520 - ERROR - Product_management - Unable to Find Name field : 'str' object is not callable
+2023-08-24 13:36:44,582 - ERROR - Product_management - Unable to Find category field : 'str' object is not callable
+2023-08-24 13:36:44,635 - ERROR - Product_management - Unable to Find Tag field : 'str' object is not callable
+2023-08-24 13:36:44,695 - ERROR - Product_management - Unable to Find Hardware field : 'str' object is not callable
+2023-08-24 13:36:44,746 - ERROR - Product_management - Unable to Find Lining field : 'str' object is not callable
+2023-08-24 13:36:44,786 - ERROR - Product_management - Unable to Find Polyfill field : 'str' object is not callable
+2023-08-24 13:36:44,843 - ERROR - Product_management - Unable to Find rib field : 'str' object is not callable
+2023-08-24 16:13:26,072 - ERROR - Product_management - Unable to find All Leather Button : Message: 
+
+2023-08-24 16:13:36,168 - ERROR - Product_management - Unable to find All Leather Button : Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A865B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85EC902+737698]
+	(No symbol) [0x00007FF7A83CB86E]
+	(No symbol) [0x00007FF7A8413216]
+	(No symbol) [0x00007FF7A8413327]
+	(No symbol) [0x00007FF7A844FBF7]
+	(No symbol) [0x00007FF7A843386F]
+	(No symbol) [0x00007FF7A8406F61]
+	(No symbol) [0x00007FF7A844CD41]
+	(No symbol) [0x00007FF7A8433603]
+	(No symbol) [0x00007FF7A8405DEA]
+	(No symbol) [0x00007FF7A84050CB]
+	(No symbol) [0x00007FF7A8406574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8828739+1225433]
+	(No symbol) [0x00007FF7A8484804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8540151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8538D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8827314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85E5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 16:13:44,226 - ERROR - Product_management - Unable to find Leather Type selector 
+2023-08-24 16:13:47,273 - ERROR - Product_management - Unable to find the Size selector Message: no such element: Unable to locate element: {"method":"xpath","selector":"((//div[@class='ant-select-selector'])[8])"}
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A865B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85EC902+737698]
+	(No symbol) [0x00007FF7A83CB86E]
+	(No symbol) [0x00007FF7A8413216]
+	(No symbol) [0x00007FF7A8413327]
+	(No symbol) [0x00007FF7A844FBF7]
+	(No symbol) [0x00007FF7A843386F]
+	(No symbol) [0x00007FF7A8406F61]
+	(No symbol) [0x00007FF7A844CD41]
+	(No symbol) [0x00007FF7A8433603]
+	(No symbol) [0x00007FF7A8405DEA]
+	(No symbol) [0x00007FF7A84050CB]
+	(No symbol) [0x00007FF7A8406574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8828739+1225433]
+	(No symbol) [0x00007FF7A8484804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8540151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8538D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8827314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85E5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 16:13:57,700 - ERROR - Product_management - Unable to find Update Button : Message: 
+
+2023-08-24 16:14:10,851 - ERROR - Product_management - Unable to find confirmation message : Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A865B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85EC902+737698]
+	(No symbol) [0x00007FF7A83CB86E]
+	(No symbol) [0x00007FF7A8413216]
+	(No symbol) [0x00007FF7A8413327]
+	(No symbol) [0x00007FF7A844FBF7]
+	(No symbol) [0x00007FF7A843386F]
+	(No symbol) [0x00007FF7A8406F61]
+	(No symbol) [0x00007FF7A844CD41]
+	(No symbol) [0x00007FF7A8433603]
+	(No symbol) [0x00007FF7A8405DEA]
+	(No symbol) [0x00007FF7A84050CB]
+	(No symbol) [0x00007FF7A8406574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8828739+1225433]
+	(No symbol) [0x00007FF7A8484804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8540151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8538D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8827314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85E5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 16:14:10,868 - ERROR - Product_management - Unable to Locate duplicate button : Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//button[@class='ant-btn ant-btn-round ant-btn-text'])[1]"}
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A865B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85EC902+737698]
+	(No symbol) [0x00007FF7A83CB86E]
+	(No symbol) [0x00007FF7A8413216]
+	(No symbol) [0x00007FF7A8413327]
+	(No symbol) [0x00007FF7A844FBF7]
+	(No symbol) [0x00007FF7A843386F]
+	(No symbol) [0x00007FF7A8406F61]
+	(No symbol) [0x00007FF7A844CD41]
+	(No symbol) [0x00007FF7A8433603]
+	(No symbol) [0x00007FF7A8405DEA]
+	(No symbol) [0x00007FF7A84050CB]
+	(No symbol) [0x00007FF7A8406574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8828739+1225433]
+	(No symbol) [0x00007FF7A8484804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8540151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8538D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8827314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85E5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 16:14:10,886 - ERROR - Product_management - Unable to find Duplicate Creation Button : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='ant-btn ant-btn-primary']"}
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A865B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85EC902+737698]
+	(No symbol) [0x00007FF7A83CB86E]
+	(No symbol) [0x00007FF7A8413216]
+	(No symbol) [0x00007FF7A8413327]
+	(No symbol) [0x00007FF7A844FBF7]
+	(No symbol) [0x00007FF7A843386F]
+	(No symbol) [0x00007FF7A8406F61]
+	(No symbol) [0x00007FF7A844CD41]
+	(No symbol) [0x00007FF7A8433603]
+	(No symbol) [0x00007FF7A8405DEA]
+	(No symbol) [0x00007FF7A84050CB]
+	(No symbol) [0x00007FF7A8406574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8828739+1225433]
+	(No symbol) [0x00007FF7A8484804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8540151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8538D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8827314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85E5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 16:14:15,927 - ERROR - Product_management - Unable to Locate duplicate button : Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//button[@class='ant-btn ant-btn-round ant-btn-text'])[1]"}
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A865B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85EC902+737698]
+	(No symbol) [0x00007FF7A83CB86E]
+	(No symbol) [0x00007FF7A8413216]
+	(No symbol) [0x00007FF7A8413327]
+	(No symbol) [0x00007FF7A844FBF7]
+	(No symbol) [0x00007FF7A843386F]
+	(No symbol) [0x00007FF7A8406F61]
+	(No symbol) [0x00007FF7A844CD41]
+	(No symbol) [0x00007FF7A8433603]
+	(No symbol) [0x00007FF7A8405DEA]
+	(No symbol) [0x00007FF7A84050CB]
+	(No symbol) [0x00007FF7A8406574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8828739+1225433]
+	(No symbol) [0x00007FF7A8484804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8540151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8538D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8827314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85E5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 16:14:15,945 - ERROR - Product_management - Unable to find Duplicate Creation Button : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='ant-btn ant-btn-primary']"}
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A865B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85EC902+737698]
+	(No symbol) [0x00007FF7A83CB86E]
+	(No symbol) [0x00007FF7A8413216]
+	(No symbol) [0x00007FF7A8413327]
+	(No symbol) [0x00007FF7A844FBF7]
+	(No symbol) [0x00007FF7A843386F]
+	(No symbol) [0x00007FF7A8406F61]
+	(No symbol) [0x00007FF7A844CD41]
+	(No symbol) [0x00007FF7A8433603]
+	(No symbol) [0x00007FF7A8405DEA]
+	(No symbol) [0x00007FF7A84050CB]
+	(No symbol) [0x00007FF7A8406574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8828739+1225433]
+	(No symbol) [0x00007FF7A8484804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8540151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8538D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8827314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85E5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 16:20:25,276 - ERROR - Product_management - Unable to find the Size selector Message: 
+
+2023-08-24 16:20:38,756 - ERROR - Product_management - Unable to find confirmation message : Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A865B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85EC902+737698]
+	(No symbol) [0x00007FF7A83CB86E]
+	(No symbol) [0x00007FF7A8413216]
+	(No symbol) [0x00007FF7A8413327]
+	(No symbol) [0x00007FF7A844FBF7]
+	(No symbol) [0x00007FF7A843386F]
+	(No symbol) [0x00007FF7A8406F61]
+	(No symbol) [0x00007FF7A844CD41]
+	(No symbol) [0x00007FF7A8433603]
+	(No symbol) [0x00007FF7A8405DEA]
+	(No symbol) [0x00007FF7A84050CB]
+	(No symbol) [0x00007FF7A8406574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8828739+1225433]
+	(No symbol) [0x00007FF7A8484804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8540151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8538D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8827314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85E5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 16:23:48,993 - ERROR - Product_management - Unable to find Secondary Image Input box : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='ant-upload ant-upload-drag common-s3-upload--container  ']/span/input[@type='file']"}
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A865B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85EC902+737698]
+	(No symbol) [0x00007FF7A83CB86E]
+	(No symbol) [0x00007FF7A8413216]
+	(No symbol) [0x00007FF7A8413327]
+	(No symbol) [0x00007FF7A844FBF7]
+	(No symbol) [0x00007FF7A843386F]
+	(No symbol) [0x00007FF7A8406F61]
+	(No symbol) [0x00007FF7A844CD41]
+	(No symbol) [0x00007FF7A8433603]
+	(No symbol) [0x00007FF7A8405DEA]
+	(No symbol) [0x00007FF7A84050CB]
+	(No symbol) [0x00007FF7A8406574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8828739+1225433]
+	(No symbol) [0x00007FF7A8484804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8540151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8538D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8827314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85E5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 16:24:31,538 - ERROR - Product_management - Unable to find Secondary Image Input box : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='ant-upload ant-upload-drag common-s3-upload--container  ']/span/input[@type='file']"}
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A865B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85EC902+737698]
+	(No symbol) [0x00007FF7A83CB86E]
+	(No symbol) [0x00007FF7A8413216]
+	(No symbol) [0x00007FF7A8413327]
+	(No symbol) [0x00007FF7A844FBF7]
+	(No symbol) [0x00007FF7A843386F]
+	(No symbol) [0x00007FF7A8406F61]
+	(No symbol) [0x00007FF7A844CD41]
+	(No symbol) [0x00007FF7A8433603]
+	(No symbol) [0x00007FF7A8405DEA]
+	(No symbol) [0x00007FF7A84050CB]
+	(No symbol) [0x00007FF7A8406574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8828739+1225433]
+	(No symbol) [0x00007FF7A8484804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8540151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8538D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8827314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85E5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 16:25:13,782 - ERROR - Product_management - Unable to find Secondary Image Input box : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='ant-upload ant-upload-drag common-s3-upload--container  ']/span/input[@type='file']"}
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A865B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85EC902+737698]
+	(No symbol) [0x00007FF7A83CB86E]
+	(No symbol) [0x00007FF7A8413216]
+	(No symbol) [0x00007FF7A8413327]
+	(No symbol) [0x00007FF7A844FBF7]
+	(No symbol) [0x00007FF7A843386F]
+	(No symbol) [0x00007FF7A8406F61]
+	(No symbol) [0x00007FF7A844CD41]
+	(No symbol) [0x00007FF7A8433603]
+	(No symbol) [0x00007FF7A8405DEA]
+	(No symbol) [0x00007FF7A84050CB]
+	(No symbol) [0x00007FF7A8406574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8828739+1225433]
+	(No symbol) [0x00007FF7A8484804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8540151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8538D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8827314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85E5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 16:25:50,942 - ERROR - Product_management - Unable to find Secondary Image Input box : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='ant-upload ant-upload-drag common-s3-upload--container  ']/span/input[@type='file']"}
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A865B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85EC902+737698]
+	(No symbol) [0x00007FF7A83CB86E]
+	(No symbol) [0x00007FF7A8413216]
+	(No symbol) [0x00007FF7A8413327]
+	(No symbol) [0x00007FF7A844FBF7]
+	(No symbol) [0x00007FF7A843386F]
+	(No symbol) [0x00007FF7A8406F61]
+	(No symbol) [0x00007FF7A844CD41]
+	(No symbol) [0x00007FF7A8433603]
+	(No symbol) [0x00007FF7A8405DEA]
+	(No symbol) [0x00007FF7A84050CB]
+	(No symbol) [0x00007FF7A8406574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8828739+1225433]
+	(No symbol) [0x00007FF7A8484804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8540151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8538D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8827314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85E5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 16:26:28,720 - ERROR - Product_management - Unable to find Secondary Image Input box : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='ant-upload ant-upload-drag common-s3-upload--container  ']/span/input[@type='file']"}
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A865B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85EC902+737698]
+	(No symbol) [0x00007FF7A83CB86E]
+	(No symbol) [0x00007FF7A8413216]
+	(No symbol) [0x00007FF7A8413327]
+	(No symbol) [0x00007FF7A844FBF7]
+	(No symbol) [0x00007FF7A843386F]
+	(No symbol) [0x00007FF7A8406F61]
+	(No symbol) [0x00007FF7A844CD41]
+	(No symbol) [0x00007FF7A8433603]
+	(No symbol) [0x00007FF7A8405DEA]
+	(No symbol) [0x00007FF7A84050CB]
+	(No symbol) [0x00007FF7A8406574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8828739+1225433]
+	(No symbol) [0x00007FF7A8484804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8540151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8538D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8827314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85E5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 16:27:07,464 - ERROR - Product_management - Unable to find Secondary Image Input box : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='ant-upload ant-upload-drag common-s3-upload--container  ']/span/input[@type='file']"}
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A865B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85EC902+737698]
+	(No symbol) [0x00007FF7A83CB86E]
+	(No symbol) [0x00007FF7A8413216]
+	(No symbol) [0x00007FF7A8413327]
+	(No symbol) [0x00007FF7A844FBF7]
+	(No symbol) [0x00007FF7A843386F]
+	(No symbol) [0x00007FF7A8406F61]
+	(No symbol) [0x00007FF7A844CD41]
+	(No symbol) [0x00007FF7A8433603]
+	(No symbol) [0x00007FF7A8405DEA]
+	(No symbol) [0x00007FF7A84050CB]
+	(No symbol) [0x00007FF7A8406574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8828739+1225433]
+	(No symbol) [0x00007FF7A8484804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8540151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8538D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8827314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85E5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 16:28:33,139 - ERROR - Product_management - Unable to locate Rank element : Message: 
+
+2023-08-24 16:28:53,318 - ERROR - Product_management - Unable to find the Size selector Message: element not interactable
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A865B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85EC902+737698]
+	(No symbol) [0x00007FF7A83CB6A0]
+	(No symbol) [0x00007FF7A8414572]
+	(No symbol) [0x00007FF7A8407542]
+	(No symbol) [0x00007FF7A843382A]
+	(No symbol) [0x00007FF7A8406F61]
+	(No symbol) [0x00007FF7A8406E0D]
+	(No symbol) [0x00007FF7A8433B60]
+	(No symbol) [0x00007FF7A8406F61]
+	(No symbol) [0x00007FF7A844CD41]
+	(No symbol) [0x00007FF7A8433603]
+	(No symbol) [0x00007FF7A8405DEA]
+	(No symbol) [0x00007FF7A84050CB]
+	(No symbol) [0x00007FF7A8406574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8828739+1225433]
+	(No symbol) [0x00007FF7A8484804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8540151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8538D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8827314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85E5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 16:29:16,009 - ERROR - Product_management - Unable to Locate duplicate button : Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A865B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85EC902+737698]
+	(No symbol) [0x00007FF7A83CB86E]
+	(No symbol) [0x00007FF7A8413216]
+	(No symbol) [0x00007FF7A8413327]
+	(No symbol) [0x00007FF7A844FBF7]
+	(No symbol) [0x00007FF7A843386F]
+	(No symbol) [0x00007FF7A8406F61]
+	(No symbol) [0x00007FF7A844CD41]
+	(No symbol) [0x00007FF7A8433603]
+	(No symbol) [0x00007FF7A8405DEA]
+	(No symbol) [0x00007FF7A84050CB]
+	(No symbol) [0x00007FF7A8406574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8828739+1225433]
+	(No symbol) [0x00007FF7A8484804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8540151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8538D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8827314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85E5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 16:29:16,066 - ERROR - Product_management - Unable to find Duplicate Creation Button : Message: element not interactable
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A865B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85EC902+737698]
+	(No symbol) [0x00007FF7A83CB6A0]
+	(No symbol) [0x00007FF7A8414572]
+	(No symbol) [0x00007FF7A8407542]
+	(No symbol) [0x00007FF7A843382A]
+	(No symbol) [0x00007FF7A8406F61]
+	(No symbol) [0x00007FF7A8406E0D]
+	(No symbol) [0x00007FF7A8433B60]
+	(No symbol) [0x00007FF7A8406F61]
+	(No symbol) [0x00007FF7A844CD41]
+	(No symbol) [0x00007FF7A8433603]
+	(No symbol) [0x00007FF7A8405DEA]
+	(No symbol) [0x00007FF7A84050CB]
+	(No symbol) [0x00007FF7A8406574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8828739+1225433]
+	(No symbol) [0x00007FF7A8484804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8540151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8538D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8827314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85E5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 16:29:24,274 - ERROR - Product_management - Unable to Locate duplicate button : Message: element not interactable
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A865B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85EC902+737698]
+	(No symbol) [0x00007FF7A83CB6A0]
+	(No symbol) [0x00007FF7A8414572]
+	(No symbol) [0x00007FF7A8407542]
+	(No symbol) [0x00007FF7A843382A]
+	(No symbol) [0x00007FF7A8406F61]
+	(No symbol) [0x00007FF7A8406E0D]
+	(No symbol) [0x00007FF7A8433B60]
+	(No symbol) [0x00007FF7A8406F61]
+	(No symbol) [0x00007FF7A844CD41]
+	(No symbol) [0x00007FF7A8433603]
+	(No symbol) [0x00007FF7A8405DEA]
+	(No symbol) [0x00007FF7A84050CB]
+	(No symbol) [0x00007FF7A8406574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8828739+1225433]
+	(No symbol) [0x00007FF7A8484804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8540151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8538D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8827314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85E5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 16:29:24,302 - ERROR - Product_management - Unable to find Duplicate Creation Button : Message: element not interactable
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A865B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85EC902+737698]
+	(No symbol) [0x00007FF7A83CB6A0]
+	(No symbol) [0x00007FF7A8414572]
+	(No symbol) [0x00007FF7A8407542]
+	(No symbol) [0x00007FF7A843382A]
+	(No symbol) [0x00007FF7A8406F61]
+	(No symbol) [0x00007FF7A8406E0D]
+	(No symbol) [0x00007FF7A8433B60]
+	(No symbol) [0x00007FF7A8406F61]
+	(No symbol) [0x00007FF7A844CD41]
+	(No symbol) [0x00007FF7A8433603]
+	(No symbol) [0x00007FF7A8405DEA]
+	(No symbol) [0x00007FF7A84050CB]
+	(No symbol) [0x00007FF7A8406574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8828739+1225433]
+	(No symbol) [0x00007FF7A8484804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8540151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8538D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8827314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85E5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 16:29:30,780 - ERROR - Product_management - Unable to Find edit button for the Product : Message: stale element reference: stale element not found
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A865B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85EC902+737698]
+	(No symbol) [0x00007FF7A83CB86E]
+	(No symbol) [0x00007FF7A83D0300]
+	(No symbol) [0x00007FF7A83D27E9]
+	(No symbol) [0x00007FF7A83D28D0]
+	(No symbol) [0x00007FF7A8413FFA]
+	(No symbol) [0x00007FF7A84154F6]
+	(No symbol) [0x00007FF7A8414469]
+	(No symbol) [0x00007FF7A8407542]
+	(No symbol) [0x00007FF7A843382A]
+	(No symbol) [0x00007FF7A8406F61]
+	(No symbol) [0x00007FF7A8406E0D]
+	(No symbol) [0x00007FF7A8433B60]
+	(No symbol) [0x00007FF7A8406F61]
+	(No symbol) [0x00007FF7A844CD41]
+	(No symbol) [0x00007FF7A8433603]
+	(No symbol) [0x00007FF7A8405DEA]
+	(No symbol) [0x00007FF7A84050CB]
+	(No symbol) [0x00007FF7A8406574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8828739+1225433]
+	(No symbol) [0x00007FF7A8484804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8540151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8538D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8827314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85E5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 16:29:37,575 - ERROR - Product_management - Unable to Find Name field : 'str' object is not callable
+2023-08-24 16:29:37,633 - ERROR - Product_management - Unable to Find category field : 'str' object is not callable
+2023-08-24 16:29:37,687 - ERROR - Product_management - Unable to Find Tag field : 'str' object is not callable
+2023-08-24 16:29:37,745 - ERROR - Product_management - Unable to Find Hardware field : 'str' object is not callable
+2023-08-24 16:29:37,815 - ERROR - Product_management - Unable to Find Lining field : 'str' object is not callable
+2023-08-24 16:29:37,869 - ERROR - Product_management - Unable to Find Polyfill field : 'str' object is not callable
+2023-08-24 16:29:37,924 - ERROR - Product_management - Unable to Find rib field : 'str' object is not callable
+2023-08-24 16:31:59,356 - ERROR - Product_management - Unable to Find Name field : 'str' object is not callable
+2023-08-24 16:31:59,410 - ERROR - Product_management - Unable to Find category field : 'str' object is not callable
+2023-08-24 16:31:59,467 - ERROR - Product_management - Unable to Find Tag field : 'str' object is not callable
+2023-08-24 16:31:59,521 - ERROR - Product_management - Unable to Find Hardware field : 'str' object is not callable
+2023-08-24 16:31:59,573 - ERROR - Product_management - Unable to Find Lining field : 'str' object is not callable
+2023-08-24 16:31:59,628 - ERROR - Product_management - Unable to Find Polyfill field : 'str' object is not callable
+2023-08-24 16:31:59,683 - ERROR - Product_management - Unable to Find rib field : 'str' object is not callable
+2023-08-24 16:34:06,697 - ERROR - Product_management - Unable to Find Name field : 'str' object is not callable
+2023-08-24 16:34:06,756 - ERROR - Product_management - Unable to Find category field : 'str' object is not callable
+2023-08-24 16:34:06,810 - ERROR - Product_management - Unable to Find Tag field : 'str' object is not callable
+2023-08-24 16:34:06,862 - ERROR - Product_management - Unable to Find Hardware field : 'str' object is not callable
+2023-08-24 16:34:06,912 - ERROR - Product_management - Unable to Find Lining field : 'str' object is not callable
+2023-08-24 16:34:06,969 - ERROR - Product_management - Unable to Find Polyfill field : 'str' object is not callable
+2023-08-24 16:34:07,015 - ERROR - Product_management - Unable to Find rib field : 'str' object is not callable
+2023-08-24 16:36:05,274 - ERROR - Product_management - Unable to Find edit button for the Product : Message: stale element reference: stale element not found
+  (Session info: MicrosoftEdge=116.0.1938.54)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A865B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85EC902+737698]
+	(No symbol) [0x00007FF7A83CB86E]
+	(No symbol) [0x00007FF7A83D0300]
+	(No symbol) [0x00007FF7A83D27E9]
+	(No symbol) [0x00007FF7A83D28D0]
+	(No symbol) [0x00007FF7A8415821]
+	(No symbol) [0x00007FF7A84145D8]
+	(No symbol) [0x00007FF7A8407542]
+	(No symbol) [0x00007FF7A843382A]
+	(No symbol) [0x00007FF7A8406F61]
+	(No symbol) [0x00007FF7A8406E0D]
+	(No symbol) [0x00007FF7A8433B60]
+	(No symbol) [0x00007FF7A8406F61]
+	(No symbol) [0x00007FF7A844CD41]
+	(No symbol) [0x00007FF7A8433603]
+	(No symbol) [0x00007FF7A8405DEA]
+	(No symbol) [0x00007FF7A84050CB]
+	(No symbol) [0x00007FF7A8406574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8828739+1225433]
+	(No symbol) [0x00007FF7A8484804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8540151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8538D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8827314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85E5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 16:36:18,364 - ERROR - Product_management - Unable to Find Name field : Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A865B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85EC902+737698]
+	(No symbol) [0x00007FF7A83CB86E]
+	(No symbol) [0x00007FF7A8413216]
+	(No symbol) [0x00007FF7A8413327]
+	(No symbol) [0x00007FF7A844FBF7]
+	(No symbol) [0x00007FF7A843386F]
+	(No symbol) [0x00007FF7A8406F61]
+	(No symbol) [0x00007FF7A844CD41]
+	(No symbol) [0x00007FF7A8433603]
+	(No symbol) [0x00007FF7A8405DEA]
+	(No symbol) [0x00007FF7A84050CB]
+	(No symbol) [0x00007FF7A8406574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8828739+1225433]
+	(No symbol) [0x00007FF7A8484804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8540151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8538D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8827314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85E5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 16:36:21,103 - ERROR - Product_management - Unable to Find category field : 'str' object is not callable
+2023-08-24 16:36:21,147 - ERROR - Product_management - Unable to Find Tag field : 'str' object is not callable
+2023-08-24 16:36:21,204 - ERROR - Product_management - Unable to Find Hardware field : 'str' object is not callable
+2023-08-24 16:36:21,262 - ERROR - Product_management - Unable to Find Lining field : 'str' object is not callable
+2023-08-24 16:36:21,317 - ERROR - Product_management - Unable to Find Polyfill field : 'str' object is not callable
+2023-08-24 16:36:21,374 - ERROR - Product_management - Unable to Find rib field : 'str' object is not callable
+2023-08-24 16:38:28,925 - ERROR - Product_management - Unable to Find Name field : 'str' object is not callable
+2023-08-24 16:38:28,983 - ERROR - Product_management - Unable to Find category field : 'str' object is not callable
+2023-08-24 16:38:29,045 - ERROR - Product_management - Unable to Find Tag field : 'str' object is not callable
+2023-08-24 16:38:29,107 - ERROR - Product_management - Unable to Find Hardware field : 'str' object is not callable
+2023-08-24 16:38:29,164 - ERROR - Product_management - Unable to Find Lining field : 'str' object is not callable
+2023-08-24 16:38:29,218 - ERROR - Product_management - Unable to Find Polyfill field : 'str' object is not callable
+2023-08-24 16:38:29,264 - ERROR - Product_management - Unable to Find rib field : 'str' object is not callable
+2023-08-24 16:40:44,205 - ERROR - Product_management - Unable to Find Name field : Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7A865B292+61986]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85EC902+737698]
+	(No symbol) [0x00007FF7A83CB86E]
+	(No symbol) [0x00007FF7A8413216]
+	(No symbol) [0x00007FF7A8413327]
+	(No symbol) [0x00007FF7A844FBF7]
+	(No symbol) [0x00007FF7A843386F]
+	(No symbol) [0x00007FF7A8406F61]
+	(No symbol) [0x00007FF7A844CD41]
+	(No symbol) [0x00007FF7A8433603]
+	(No symbol) [0x00007FF7A8405DEA]
+	(No symbol) [0x00007FF7A84050CB]
+	(No symbol) [0x00007FF7A8406574]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8828739+1225433]
+	(No symbol) [0x00007FF7A8484804]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8540151+31217]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A8538D29+1481]
+	Microsoft::Applications::Events::ILogManager::DispatchEventBroadcast [0x00007FF7A8827314+1220276]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F58C8+21048]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F1894+4612]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7A85F19C6+4918]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7A85E5D41+710113]
+	BaseThreadInitThunk [0x00007FFA380C257D+29]
+	RtlUserThreadStart [0x00007FFA396CAA68+40]
+
+2023-08-24 16:40:44,852 - ERROR - Product_management - Unable to Find category field : 'str' object is not callable
+2023-08-24 16:40:44,914 - ERROR - Product_management - Unable to Find Tag field : 'str' object is not callable
+2023-08-24 16:40:44,970 - ERROR - Product_management - Unable to Find Hardware field : 'str' object is not callable
+2023-08-24 16:40:45,026 - ERROR - Product_management - Unable to Find Lining field : 'str' object is not callable
+2023-08-24 16:40:45,088 - ERROR - Product_management - Unable to Find Polyfill field : 'str' object is not callable
+2023-08-24 16:40:45,145 - ERROR - Product_management - Unable to Find rib field : 'str' object is not callable
+2023-08-24 19:29:14,578 - ERROR - Product_management - Unable to find the Size selector Message: (628, 750) is out of bounds of viewport width (1536) and height (731)
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+MoveTargetOutOfBoundsError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:473:5
+assertInViewPort@chrome://remote/content/shared/webdriver/Actions.sys.mjs:2119:11
+dispatch@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1016:21
+dispatch/pendingEvents<@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1833:14
+dispatch@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1832:39
+dispatch/chainEvents<@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1758:27
+dispatch@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1760:7
+performActions@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:503:23
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:145:31
+
+2023-08-24 19:29:14,735 - ERROR - Product_management - Unable to find Update Button : Message: Element <button class="ant-btn ant-btn-round ant-btn-primary" type="submit"> is not clickable at point (575,710) because another element <div class="ant-select-item-option-content"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:331:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:162:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-24 19:29:28,063 - ERROR - Product_management - Unable to find confirmation message : Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-24 19:29:41,942 - ERROR - Product_management - Unable to Locate duplicate button : Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-24 19:29:41,963 - ERROR - Product_management - Unable to find Duplicate Creation Button : Message: Element <button class="ant-btn ant-btn-primary" type="button"> is not clickable at point (584,269) because another element <div class="ant-select-item ant-select-item-option"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:331:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:162:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-24 19:29:46,989 - ERROR - Product_management - Unable to Locate duplicate button : Message: Element <button class="ant-btn ant-btn-round ant-btn-text" type="button"> is not clickable at point (1168,710) because another element <div class="ant-modal-wrap"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:331:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:162:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-24 19:29:47,003 - ERROR - Product_management - Unable to find Duplicate Creation Button : Message: Element <button class="ant-btn ant-btn-primary" type="button"> is not clickable at point (584,269) because another element <div class="ant-select-item ant-select-item-option"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:331:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:162:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-24 19:31:09,634 - ERROR - Product_management - Unable to find the Size selector Message: (628, 750) is out of bounds of viewport width (1536) and height (731)
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+MoveTargetOutOfBoundsError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:473:5
+assertInViewPort@chrome://remote/content/shared/webdriver/Actions.sys.mjs:2119:11
+dispatch@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1016:21
+dispatch/pendingEvents<@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1833:14
+dispatch@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1832:39
+dispatch/chainEvents<@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1758:27
+dispatch@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1760:7
+performActions@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:503:23
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:145:31
+
+2023-08-24 19:31:09,659 - ERROR - Product_management - Unable to find Update Button : Message: Element <button class="ant-btn ant-btn-round ant-btn-primary" type="submit"> is not clickable at point (575,710) because another element <div class="ant-select-item-option-content"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:331:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:162:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-24 19:31:22,949 - ERROR - Product_management - Unable to find confirmation message : Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-24 19:31:36,829 - ERROR - Product_management - Unable to Locate duplicate button : Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-24 19:31:36,847 - ERROR - Product_management - Unable to find Duplicate Creation Button : Message: Element <button class="ant-btn ant-btn-primary" type="button"> is not clickable at point (584,269) because another element <div class="ant-select-item ant-select-item-option ant-select-item-option-active"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:331:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:162:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-24 19:31:41,866 - ERROR - Product_management - Unable to Locate duplicate button : Message: Element <button class="ant-btn ant-btn-round ant-btn-text" type="button"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-24 19:31:41,887 - ERROR - Product_management - Unable to find Duplicate Creation Button : Message: Element <button class="ant-btn ant-btn-primary" type="button"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-24 19:32:55,301 - ERROR - Product_management - Unable to find the Size selector Message: (628, 750) is out of bounds of viewport width (1536) and height (731)
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+MoveTargetOutOfBoundsError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:473:5
+assertInViewPort@chrome://remote/content/shared/webdriver/Actions.sys.mjs:2119:11
+dispatch@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1016:21
+dispatch/pendingEvents<@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1833:14
+dispatch@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1832:39
+dispatch/chainEvents<@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1758:27
+dispatch@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1760:7
+performActions@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:503:23
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:145:31
+
+2023-08-24 19:32:55,332 - ERROR - Product_management - Unable to find Update Button : Message: Element <button class="ant-btn ant-btn-round ant-btn-primary" type="submit"> is not clickable at point (575,710) because another element <div class="ant-select-item-option-content"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:331:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:162:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-24 19:33:04,695 - ERROR - Product_management - Unable to find confirmation message : Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:613:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:485:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.findElement@chrome://remote/content/marionette/driver.sys.mjs:1489:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:320:40
+execute@chrome://remote/content/marionette/server.sys.mjs:291:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:264:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:265:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:496:20
+
+2023-08-24 19:33:04,700 - ERROR - Product_management - Unable to Locate duplicate button : Message: WebDriver session does not exist, or is not active
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+InvalidSessionIDError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:442:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:485:13
+assert.session@chrome://remote/content/shared/webdriver/Assert.sys.mjs:37:4
+despatch@chrome://remote/content/marionette/server.sys.mjs:317:19
+execute@chrome://remote/content/marionette/server.sys.mjs:291:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:264:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:265:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:496:20
+
+2023-08-24 19:33:04,714 - ERROR - Product_management - Unable to find Duplicate Creation Button : Message: WebDriver session does not exist, or is not active
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+InvalidSessionIDError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:442:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:485:13
+assert.session@chrome://remote/content/shared/webdriver/Assert.sys.mjs:37:4
+despatch@chrome://remote/content/marionette/server.sys.mjs:317:19
+execute@chrome://remote/content/marionette/server.sys.mjs:291:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:264:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:265:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:496:20
+
+2023-08-24 19:35:14,524 - ERROR - Product_management - Unable to find the Size selector Message: (628, 750) is out of bounds of viewport width (1536) and height (731)
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+MoveTargetOutOfBoundsError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:473:5
+assertInViewPort@chrome://remote/content/shared/webdriver/Actions.sys.mjs:2119:11
+dispatch@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1016:21
+dispatch/pendingEvents<@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1833:14
+dispatch@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1832:39
+dispatch/chainEvents<@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1758:27
+dispatch@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1760:7
+performActions@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:503:23
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:145:31
+
+2023-08-24 19:35:14,903 - ERROR - Product_management - Unable to find Update Button : Message: Element <button class="ant-btn ant-btn-round ant-btn-primary" type="submit"> is not clickable at point (575,710) because another element <div class="ant-select-item-option-content"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:331:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:162:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-24 19:35:28,243 - ERROR - Product_management - Unable to find confirmation message : Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-24 19:35:31,587 - ERROR - Product_management - Unable to Locate duplicate button : Message: Element <div class="ant-select-selector"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-24 19:35:31,598 - ERROR - Product_management - Unable to find Duplicate Creation Button : Message: Element <button class="ant-btn ant-btn-primary" type="button"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-24 19:36:13,901 - ERROR - Product_management - Unable to Locate duplicate button : Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:613:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:485:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.execute_@chrome://remote/content/marionette/driver.sys.mjs:763:15
+GeckoDriver.prototype.executeScript@chrome://remote/content/marionette/driver.sys.mjs:675:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:320:40
+execute@chrome://remote/content/marionette/server.sys.mjs:291:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:264:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:265:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:496:20
+
+2023-08-24 19:36:13,918 - ERROR - Product_management - Unable to find Duplicate Creation Button : Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:613:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:485:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.findElement@chrome://remote/content/marionette/driver.sys.mjs:1489:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:320:40
+execute@chrome://remote/content/marionette/server.sys.mjs:291:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:264:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:265:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:496:20
+
+2023-08-24 20:10:11,417 - ERROR - Product_management - Unable to find the Size selector Message: (628, 750) is out of bounds of viewport width (1536) and height (731)
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+MoveTargetOutOfBoundsError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:473:5
+assertInViewPort@chrome://remote/content/shared/webdriver/Actions.sys.mjs:2119:11
+dispatch@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1016:21
+dispatch/pendingEvents<@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1833:14
+dispatch@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1832:39
+dispatch/chainEvents<@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1758:27
+dispatch@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1760:7
+performActions@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:503:23
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:145:31
+
+2023-08-24 20:10:11,555 - ERROR - Product_management - Unable to find Update Button : Message: Element <button class="ant-btn ant-btn-round ant-btn-primary" type="submit"> is not clickable at point (575,710) because another element <div class="ant-select-item-option-content"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:331:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:162:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-24 20:10:24,927 - ERROR - Product_management - Unable to find confirmation message : Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-24 20:10:28,250 - ERROR - Product_management - Unable to Locate duplicate button : Message: Element <div class="ant-select-selector"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-24 20:10:28,260 - ERROR - Product_management - Unable to find Duplicate Creation Button : Message: Element <button class="ant-btn ant-btn-primary" type="button"> could not be scrolled into view
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementNotInteractableError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:347:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:152:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-24 20:10:33,294 - ERROR - Product_management - Unable to Locate duplicate button : Message: Element <button class="ant-btn ant-btn-round ant-btn-text" type="button"> is not clickable at point (1168,472) because another element <div class="ant-modal-wrap"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:331:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:162:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-24 20:11:48,858 - ERROR - Product_management - Unable to find the Size selector Message: (628, 750) is out of bounds of viewport width (1536) and height (731)
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+MoveTargetOutOfBoundsError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:473:5
+assertInViewPort@chrome://remote/content/shared/webdriver/Actions.sys.mjs:2119:11
+dispatch@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1016:21
+dispatch/pendingEvents<@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1833:14
+dispatch@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1832:39
+dispatch/chainEvents<@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1758:27
+dispatch@chrome://remote/content/shared/webdriver/Actions.sys.mjs:1760:7
+performActions@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:503:23
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:145:31
+
+2023-08-24 20:11:48,893 - ERROR - Product_management - Unable to find Update Button : Message: Element <button class="ant-btn ant-btn-round ant-btn-primary" type="submit"> is not clickable at point (575,710) because another element <div class="ant-select-item-option-content"> obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:331:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:162:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:121:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:204:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+
+2023-08-24 20:12:02,197 - ERROR - Product_management - Unable to find confirmation message : Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16
+
+2023-08-24 20:12:02,617 - ERROR - Product_management - Unable to Locate duplicate button : Message: Browsing context has been discarded
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchWindowError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:613:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:485:13
+assert.open@chrome://remote/content/shared/webdriver/Assert.sys.mjs:147:4
+GeckoDriver.prototype.findElement@chrome://remote/content/marionette/driver.sys.mjs:1489:15
+despatch@chrome://remote/content/marionette/server.sys.mjs:320:40
+execute@chrome://remote/content/marionette/server.sys.mjs:291:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:264:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:265:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:496:20
+
+2023-08-24 20:12:02,631 - ERROR - Product_management - Unable to find Duplicate Creation Button : Message: WebDriver session does not exist, or is not active
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+InvalidSessionIDError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:442:5
+assert.that/<@chrome://remote/content/shared/webdriver/Assert.sys.mjs:485:13
+assert.session@chrome://remote/content/shared/webdriver/Assert.sys.mjs:37:4
+despatch@chrome://remote/content/marionette/server.sys.mjs:317:19
+execute@chrome://remote/content/marionette/server.sys.mjs:291:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:264:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:265:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:496:20
+
+2023-08-25 12:40:03,522 - ERROR - Product_management - Unable to Locate duplicate button : Message: element click intercepted: Element <button type="button" class="ant-btn ant-btn-round ant-btn-text">...</button> is not clickable at point (1154, 673). Other element would receive the click: <div tabindex="-1" class="ant-modal-wrap">...</div>
+  (Session info: chrome=116.0.5845.111)
+Stacktrace:
+	GetHandleVerifier [0x011737C3+48947]
+	(No symbol) [0x01108551]
+	(No symbol) [0x0100C92D]
+	(No symbol) [0x0103E276]
+	(No symbol) [0x0103CF4D]
+	(No symbol) [0x0103B74B]
+	(No symbol) [0x0103ABA5]
+	(No symbol) [0x01033420]
+	(No symbol) [0x0105508C]
+	(No symbol) [0x01032EB6]
+	(No symbol) [0x010553E4]
+	(No symbol) [0x010675DA]
+	(No symbol) [0x01054E86]
+	(No symbol) [0x010316C7]
+	(No symbol) [0x0103284D]
+	GetHandleVerifier [0x013BFDF9+2458985]
+	GetHandleVerifier [0x0140744F+2751423]
+	GetHandleVerifier [0x01401361+2726609]
+	GetHandleVerifier [0x011F0680+560624]
+	(No symbol) [0x0111238C]
+	(No symbol) [0x0110E268]
+	(No symbol) [0x0110E392]
+	(No symbol) [0x011010B7]
+	BaseThreadInitThunk [0x76767BA9+25]
+	RtlInitializeExceptionChain [0x779BB79B+107]
+	RtlClearBits [0x779BB71F+191]
+
+2023-08-25 12:48:59,681 - ERROR - Product_management - Unable to Locate duplicate button : Message: element click intercepted: Element <button type="button" class="ant-btn ant-btn-round ant-btn-text">...</button> is not clickable at point (1154, 673). Other element would receive the click: <div tabindex="-1" class="ant-modal-wrap">...</div>
+  (Session info: chrome=116.0.5845.111)
+Stacktrace:
+	GetHandleVerifier [0x00CE37C3+48947]
+	(No symbol) [0x00C78551]
+	(No symbol) [0x00B7C92D]
+	(No symbol) [0x00BAE276]
+	(No symbol) [0x00BACF4D]
+	(No symbol) [0x00BAB74B]
+	(No symbol) [0x00BAABA5]
+	(No symbol) [0x00BA3420]
+	(No symbol) [0x00BC508C]
+	(No symbol) [0x00BA2EB6]
+	(No symbol) [0x00BC53E4]
+	(No symbol) [0x00BD75DA]
+	(No symbol) [0x00BC4E86]
+	(No symbol) [0x00BA16C7]
+	(No symbol) [0x00BA284D]
+	GetHandleVerifier [0x00F2FDF9+2458985]
+	GetHandleVerifier [0x00F7744F+2751423]
+	GetHandleVerifier [0x00F71361+2726609]
+	GetHandleVerifier [0x00D60680+560624]
+	(No symbol) [0x00C8238C]
+	(No symbol) [0x00C7E268]
+	(No symbol) [0x00C7E392]
+	(No symbol) [0x00C710B7]
+	BaseThreadInitThunk [0x76767BA9+25]
+	RtlInitializeExceptionChain [0x779BB79B+107]
+	RtlClearBits [0x779BB71F+191]
+
+2023-08-25 12:49:42,214 - ERROR - Product_management - Unable to find Secondary Image Input box : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='ant-upload ant-upload-drag common-s3-upload--container  ']/span/input[@type='file']"}
+  (Session info: chrome=116.0.5845.111)
+Stacktrace:
+	GetHandleVerifier [0x002E37C3+48947]
+	(No symbol) [0x00278551]
+	(No symbol) [0x0017C92D]
+	(No symbol) [0x001A9E38]
+	(No symbol) [0x001A9EFB]
+	(No symbol) [0x001D8EF2]
+	(No symbol) [0x001C50D4]
+	(No symbol) [0x001D75DA]
+	(No symbol) [0x001C4E86]
+	(No symbol) [0x001A16C7]
+	(No symbol) [0x001A284D]
+	GetHandleVerifier [0x0052FDF9+2458985]
+	GetHandleVerifier [0x0057744F+2751423]
+	GetHandleVerifier [0x00571361+2726609]
+	GetHandleVerifier [0x00360680+560624]
+	(No symbol) [0x0028238C]
+	(No symbol) [0x0027E268]
+	(No symbol) [0x0027E392]
+	(No symbol) [0x002710B7]
+	BaseThreadInitThunk [0x76767BA9+25]
+	RtlInitializeExceptionChain [0x779BB79B+107]
+	RtlClearBits [0x779BB71F+191]
+	(No symbol) [0x00000000]
+
+2023-08-25 12:50:19,307 - ERROR - Product_management - Unable to find Secondary Image Input box : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='ant-upload ant-upload-drag common-s3-upload--container  ']/span/input[@type='file']"}
+  (Session info: chrome=116.0.5845.111)
+Stacktrace:
+	GetHandleVerifier [0x004837C3+48947]
+	(No symbol) [0x00418551]
+	(No symbol) [0x0031C92D]
+	(No symbol) [0x00349E38]
+	(No symbol) [0x00349EFB]
+	(No symbol) [0x00378EF2]
+	(No symbol) [0x003650D4]
+	(No symbol) [0x003775DA]
+	(No symbol) [0x00364E86]
+	(No symbol) [0x003416C7]
+	(No symbol) [0x0034284D]
+	GetHandleVerifier [0x006CFDF9+2458985]
+	GetHandleVerifier [0x0071744F+2751423]
+	GetHandleVerifier [0x00711361+2726609]
+	GetHandleVerifier [0x00500680+560624]
+	(No symbol) [0x0042238C]
+	(No symbol) [0x0041E268]
+	(No symbol) [0x0041E392]
+	(No symbol) [0x004110B7]
+	BaseThreadInitThunk [0x76767BA9+25]
+	RtlInitializeExceptionChain [0x779BB79B+107]
+	RtlClearBits [0x779BB71F+191]
+
+2023-08-25 12:50:58,231 - ERROR - Product_management - Unable to find Secondary Image Input box : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='ant-upload ant-upload-drag common-s3-upload--container  ']/span/input[@type='file']"}
+  (Session info: chrome=116.0.5845.111)
+Stacktrace:
+	GetHandleVerifier [0x003837C3+48947]
+	(No symbol) [0x00318551]
+	(No symbol) [0x0021C92D]
+	(No symbol) [0x00249E38]
+	(No symbol) [0x00249EFB]
+	(No symbol) [0x00278EF2]
+	(No symbol) [0x002650D4]
+	(No symbol) [0x002775DA]
+	(No symbol) [0x00264E86]
+	(No symbol) [0x002416C7]
+	(No symbol) [0x0024284D]
+	GetHandleVerifier [0x005CFDF9+2458985]
+	GetHandleVerifier [0x0061744F+2751423]
+	GetHandleVerifier [0x00611361+2726609]
+	GetHandleVerifier [0x00400680+560624]
+	(No symbol) [0x0032238C]
+	(No symbol) [0x0031E268]
+	(No symbol) [0x0031E392]
+	(No symbol) [0x003110B7]
+	BaseThreadInitThunk [0x76767BA9+25]
+	RtlInitializeExceptionChain [0x779BB79B+107]
+	RtlClearBits [0x779BB71F+191]
+
+2023-08-25 12:51:38,021 - ERROR - Product_management - Unable to find Secondary Image Input box : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='ant-upload ant-upload-drag common-s3-upload--container  ']/span/input[@type='file']"}
+  (Session info: chrome=116.0.5845.111)
+Stacktrace:
+	GetHandleVerifier [0x005737C3+48947]
+	(No symbol) [0x00508551]
+	(No symbol) [0x0040C92D]
+	(No symbol) [0x00439E38]
+	(No symbol) [0x00439EFB]
+	(No symbol) [0x00468EF2]
+	(No symbol) [0x004550D4]
+	(No symbol) [0x004675DA]
+	(No symbol) [0x00454E86]
+	(No symbol) [0x004316C7]
+	(No symbol) [0x0043284D]
+	GetHandleVerifier [0x007BFDF9+2458985]
+	GetHandleVerifier [0x0080744F+2751423]
+	GetHandleVerifier [0x00801361+2726609]
+	GetHandleVerifier [0x005F0680+560624]
+	(No symbol) [0x0051238C]
+	(No symbol) [0x0050E268]
+	(No symbol) [0x0050E392]
+	(No symbol) [0x005010B7]
+	BaseThreadInitThunk [0x76767BA9+25]
+	RtlInitializeExceptionChain [0x779BB79B+107]
+	RtlClearBits [0x779BB71F+191]
+
+2023-08-25 12:52:20,016 - ERROR - Product_management - Unable to find Secondary Image Input box : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='ant-upload ant-upload-drag common-s3-upload--container  ']/span/input[@type='file']"}
+  (Session info: chrome=116.0.5845.111)
+Stacktrace:
+	GetHandleVerifier [0x011D37C3+48947]
+	(No symbol) [0x01168551]
+	(No symbol) [0x0106C92D]
+	(No symbol) [0x01099E38]
+	(No symbol) [0x01099EFB]
+	(No symbol) [0x010C8EF2]
+	(No symbol) [0x010B50D4]
+	(No symbol) [0x010C75DA]
+	(No symbol) [0x010B4E86]
+	(No symbol) [0x010916C7]
+	(No symbol) [0x0109284D]
+	GetHandleVerifier [0x0141FDF9+2458985]
+	GetHandleVerifier [0x0146744F+2751423]
+	GetHandleVerifier [0x01461361+2726609]
+	GetHandleVerifier [0x01250680+560624]
+	(No symbol) [0x0117238C]
+	(No symbol) [0x0116E268]
+	(No symbol) [0x0116E392]
+	(No symbol) [0x011610B7]
+	BaseThreadInitThunk [0x76767BA9+25]
+	RtlInitializeExceptionChain [0x779BB79B+107]
+	RtlClearBits [0x779BB71F+191]
+
+2023-08-25 12:53:04,420 - ERROR - Product_management - Unable to find Secondary Image Input box : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='ant-upload ant-upload-drag common-s3-upload--container  ']/span/input[@type='file']"}
+  (Session info: chrome=116.0.5845.111)
+Stacktrace:
+	GetHandleVerifier [0x003B37C3+48947]
+	(No symbol) [0x00348551]
+	(No symbol) [0x0024C92D]
+	(No symbol) [0x00279E38]
+	(No symbol) [0x00279EFB]
+	(No symbol) [0x002A8EF2]
+	(No symbol) [0x002950D4]
+	(No symbol) [0x002A75DA]
+	(No symbol) [0x00294E86]
+	(No symbol) [0x002716C7]
+	(No symbol) [0x0027284D]
+	GetHandleVerifier [0x005FFDF9+2458985]
+	GetHandleVerifier [0x0064744F+2751423]
+	GetHandleVerifier [0x00641361+2726609]
+	GetHandleVerifier [0x00430680+560624]
+	(No symbol) [0x0035238C]
+	(No symbol) [0x0034E268]
+	(No symbol) [0x0034E392]
+	(No symbol) [0x003410B7]
+	BaseThreadInitThunk [0x76767BA9+25]
+	RtlInitializeExceptionChain [0x779BB79B+107]
+	RtlClearBits [0x779BB71F+191]
+
+2023-08-25 12:55:02,857 - ERROR - Product_management - Unable to Find Name field : 'str' object is not callable
+2023-08-25 12:55:02,911 - ERROR - Product_management - Unable to Find category field : 'str' object is not callable
+2023-08-25 12:55:02,970 - ERROR - Product_management - Unable to Find Tag field : 'str' object is not callable
+2023-08-25 12:55:03,033 - ERROR - Product_management - Unable to Find Hardware field : 'str' object is not callable
+2023-08-25 12:55:03,088 - ERROR - Product_management - Unable to Find Lining field : 'str' object is not callable
+2023-08-25 12:55:03,144 - ERROR - Product_management - Unable to Find Polyfill field : 'str' object is not callable
+2023-08-25 12:55:03,206 - ERROR - Product_management - Unable to Find rib field : 'str' object is not callable
+2023-08-25 12:57:17,249 - ERROR - Product_management - Unable to Locate duplicate button : Message: element click intercepted: Element <button type="button" class="ant-btn ant-btn-round ant-btn-text">...</button> is not clickable at point (1154, 673). Other element would receive the click: <div tabindex="-1" class="ant-modal-wrap">...</div>
+  (Session info: chrome=116.0.5845.111)
+Stacktrace:
+	GetHandleVerifier [0x009437C3+48947]
+	(No symbol) [0x008D8551]
+	(No symbol) [0x007DC92D]
+	(No symbol) [0x0080E276]
+	(No symbol) [0x0080CF4D]
+	(No symbol) [0x0080B74B]
+	(No symbol) [0x0080ABA5]
+	(No symbol) [0x00803420]
+	(No symbol) [0x0082508C]
+	(No symbol) [0x00802EB6]
+	(No symbol) [0x008253E4]
+	(No symbol) [0x008375DA]
+	(No symbol) [0x00824E86]
+	(No symbol) [0x008016C7]
+	(No symbol) [0x0080284D]
+	GetHandleVerifier [0x00B8FDF9+2458985]
+	GetHandleVerifier [0x00BD744F+2751423]
+	GetHandleVerifier [0x00BD1361+2726609]
+	GetHandleVerifier [0x009C0680+560624]
+	(No symbol) [0x008E238C]
+	(No symbol) [0x008DE268]
+	(No symbol) [0x008DE392]
+	(No symbol) [0x008D10B7]
+	BaseThreadInitThunk [0x76767BA9+25]
+	RtlInitializeExceptionChain [0x779BB79B+107]
+	RtlClearBits [0x779BB71F+191]
+
+2023-08-25 12:57:17,280 - ERROR - Product_management - Unable to find Duplicate Creation Button : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='ant-btn ant-btn-primary']"}
+  (Session info: chrome=116.0.5845.111)
+Stacktrace:
+	GetHandleVerifier [0x009437C3+48947]
+	(No symbol) [0x008D8551]
+	(No symbol) [0x007DC92D]
+	(No symbol) [0x00809E38]
+	(No symbol) [0x00809EFB]
+	(No symbol) [0x00838EF2]
+	(No symbol) [0x008250D4]
+	(No symbol) [0x008375DA]
+	(No symbol) [0x00824E86]
+	(No symbol) [0x008016C7]
+	(No symbol) [0x0080284D]
+	GetHandleVerifier [0x00B8FDF9+2458985]
+	GetHandleVerifier [0x00BD744F+2751423]
+	GetHandleVerifier [0x00BD1361+2726609]
+	GetHandleVerifier [0x009C0680+560624]
+	(No symbol) [0x008E238C]
+	(No symbol) [0x008DE268]
+	(No symbol) [0x008DE392]
+	(No symbol) [0x008D10B7]
+	BaseThreadInitThunk [0x76767BA9+25]
+	RtlInitializeExceptionChain [0x779BB79B+107]
+	RtlClearBits [0x779BB71F+191]
+
+2023-08-25 12:57:37,011 - ERROR - Product_management - Unable to Find Name field : Message: 
+Stacktrace:
+	GetHandleVerifier [0x009437C3+48947]
+	(No symbol) [0x008D8551]
+	(No symbol) [0x007DC92D]
+	(No symbol) [0x00809E38]
+	(No symbol) [0x00809EFB]
+	(No symbol) [0x00838EF2]
+	(No symbol) [0x008250D4]
+	(No symbol) [0x008375DA]
+	(No symbol) [0x00824E86]
+	(No symbol) [0x008016C7]
+	(No symbol) [0x0080284D]
+	GetHandleVerifier [0x00B8FDF9+2458985]
+	GetHandleVerifier [0x00BD744F+2751423]
+	GetHandleVerifier [0x00BD1361+2726609]
+	GetHandleVerifier [0x009C0680+560624]
+	(No symbol) [0x008E238C]
+	(No symbol) [0x008DE268]
+	(No symbol) [0x008DE392]
+	(No symbol) [0x008D10B7]
+	BaseThreadInitThunk [0x76767BA9+25]
+	RtlInitializeExceptionChain [0x779BB79B+107]
+	RtlClearBits [0x779BB71F+191]
+
+2023-08-25 12:57:47,153 - ERROR - Product_management - Unable to Find category field : Message: 
+Stacktrace:
+	GetHandleVerifier [0x009437C3+48947]
+	(No symbol) [0x008D8551]
+	(No symbol) [0x007DC92D]
+	(No symbol) [0x00809E38]
+	(No symbol) [0x00809EFB]
+	(No symbol) [0x00838EF2]
+	(No symbol) [0x008250D4]
+	(No symbol) [0x008375DA]
+	(No symbol) [0x00824E86]
+	(No symbol) [0x008016C7]
+	(No symbol) [0x0080284D]
+	GetHandleVerifier [0x00B8FDF9+2458985]
+	GetHandleVerifier [0x00BD744F+2751423]
+	GetHandleVerifier [0x00BD1361+2726609]
+	GetHandleVerifier [0x009C0680+560624]
+	(No symbol) [0x008E238C]
+	(No symbol) [0x008DE268]
+	(No symbol) [0x008DE392]
+	(No symbol) [0x008D10B7]
+	BaseThreadInitThunk [0x76767BA9+25]
+	RtlInitializeExceptionChain [0x779BB79B+107]
+	RtlClearBits [0x779BB71F+191]
+
+2023-08-25 12:57:54,710 - ERROR - Product_management - Unable to Find Tag field : 'str' object is not callable
+2023-08-25 12:57:54,782 - ERROR - Product_management - Unable to Find Hardware field : 'str' object is not callable
+2023-08-25 12:57:54,854 - ERROR - Product_management - Unable to Find Lining field : 'str' object is not callable
+2023-08-25 12:57:54,928 - ERROR - Product_management - Unable to Find Polyfill field : 'str' object is not callable
+2023-08-25 12:57:55,003 - ERROR - Product_management - Unable to Find rib field : 'str' object is not callable
+2023-08-25 13:00:02,006 - ERROR - Product_management - Unable to Find Name field : 'str' object is not callable
+2023-08-25 13:00:02,063 - ERROR - Product_management - Unable to Find category field : 'str' object is not callable
+2023-08-25 13:00:02,123 - ERROR - Product_management - Unable to Find Tag field : 'str' object is not callable
+2023-08-25 13:00:02,180 - ERROR - Product_management - Unable to Find Hardware field : 'str' object is not callable
+2023-08-25 13:00:02,236 - ERROR - Product_management - Unable to Find Lining field : 'str' object is not callable
+2023-08-25 13:00:02,305 - ERROR - Product_management - Unable to Find Polyfill field : 'str' object is not callable
+2023-08-25 13:00:02,390 - ERROR - Product_management - Unable to Find rib field : 'str' object is not callable
+2023-08-25 13:02:26,360 - ERROR - Product_management - Unable to Find edit button for the Product : Message: stale element reference: stale element not found
+  (Session info: chrome=116.0.5845.111)
+Stacktrace:
+	GetHandleVerifier [0x00DB37C3+48947]
+	(No symbol) [0x00D48551]
+	(No symbol) [0x00C4C92D]
+	(No symbol) [0x00C4FD62]
+	(No symbol) [0x00C5106A]
+	(No symbol) [0x00C51110]
+	(No symbol) [0x00C7E147]
+	(No symbol) [0x00C7CCCB]
+	(No symbol) [0x00C7B74B]
+	(No symbol) [0x00C7ABA5]
+	(No symbol) [0x00C73420]
+	(No symbol) [0x00C9508C]
+	(No symbol) [0x00C72EB6]
+	(No symbol) [0x00C953E4]
+	(No symbol) [0x00CA75DA]
+	(No symbol) [0x00C94E86]
+	(No symbol) [0x00C716C7]
+	(No symbol) [0x00C7284D]
+	GetHandleVerifier [0x00FFFDF9+2458985]
+	GetHandleVerifier [0x0104744F+2751423]
+	GetHandleVerifier [0x01041361+2726609]
+	GetHandleVerifier [0x00E30680+560624]
+	(No symbol) [0x00D5238C]
+	(No symbol) [0x00D4E268]
+	(No symbol) [0x00D4E392]
+	(No symbol) [0x00D410B7]
+	BaseThreadInitThunk [0x76767BA9+25]
+	RtlInitializeExceptionChain [0x779BB79B+107]
+	RtlClearBits [0x779BB71F+191]
+
+2023-08-25 13:02:39,544 - ERROR - Product_management - Unable to Find Name field : Message: 
+Stacktrace:
+	GetHandleVerifier [0x00DB37C3+48947]
+	(No symbol) [0x00D48551]
+	(No symbol) [0x00C4C92D]
+	(No symbol) [0x00C79E38]
+	(No symbol) [0x00C79EFB]
+	(No symbol) [0x00CA8EF2]
+	(No symbol) [0x00C950D4]
+	(No symbol) [0x00CA75DA]
+	(No symbol) [0x00C94E86]
+	(No symbol) [0x00C716C7]
+	(No symbol) [0x00C7284D]
+	GetHandleVerifier [0x00FFFDF9+2458985]
+	GetHandleVerifier [0x0104744F+2751423]
+	GetHandleVerifier [0x01041361+2726609]
+	GetHandleVerifier [0x00E30680+560624]
+	(No symbol) [0x00D5238C]
+	(No symbol) [0x00D4E268]
+	(No symbol) [0x00D4E392]
+	(No symbol) [0x00D410B7]
+	BaseThreadInitThunk [0x76767BA9+25]
+	RtlInitializeExceptionChain [0x779BB79B+107]
+	RtlClearBits [0x779BB71F+191]
+
+2023-08-25 13:02:49,660 - ERROR - Product_management - Unable to Find category field : Message: 
+Stacktrace:
+	GetHandleVerifier [0x00DB37C3+48947]
+	(No symbol) [0x00D48551]
+	(No symbol) [0x00C4C92D]
+	(No symbol) [0x00C79E38]
+	(No symbol) [0x00C79EFB]
+	(No symbol) [0x00CA8EF2]
+	(No symbol) [0x00C950D4]
+	(No symbol) [0x00CA75DA]
+	(No symbol) [0x00C94E86]
+	(No symbol) [0x00C716C7]
+	(No symbol) [0x00C7284D]
+	GetHandleVerifier [0x00FFFDF9+2458985]
+	GetHandleVerifier [0x0104744F+2751423]
+	GetHandleVerifier [0x01041361+2726609]
+	GetHandleVerifier [0x00E30680+560624]
+	(No symbol) [0x00D5238C]
+	(No symbol) [0x00D4E268]
+	(No symbol) [0x00D4E392]
+	(No symbol) [0x00D410B7]
+	BaseThreadInitThunk [0x76767BA9+25]
+	RtlInitializeExceptionChain [0x779BB79B+107]
+	RtlClearBits [0x779BB71F+191]
+
+2023-08-25 13:02:59,758 - ERROR - Product_management - Unable to Find Tag field : Message: 
+Stacktrace:
+	GetHandleVerifier [0x00DB37C3+48947]
+	(No symbol) [0x00D48551]
+	(No symbol) [0x00C4C92D]
+	(No symbol) [0x00C79E38]
+	(No symbol) [0x00C79EFB]
+	(No symbol) [0x00CA8EF2]
+	(No symbol) [0x00C950D4]
+	(No symbol) [0x00CA75DA]
+	(No symbol) [0x00C94E86]
+	(No symbol) [0x00C716C7]
+	(No symbol) [0x00C7284D]
+	GetHandleVerifier [0x00FFFDF9+2458985]
+	GetHandleVerifier [0x0104744F+2751423]
+	GetHandleVerifier [0x01041361+2726609]
+	GetHandleVerifier [0x00E30680+560624]
+	(No symbol) [0x00D5238C]
+	(No symbol) [0x00D4E268]
+	(No symbol) [0x00D4E392]
+	(No symbol) [0x00D410B7]
+	BaseThreadInitThunk [0x76767BA9+25]
+	RtlInitializeExceptionChain [0x779BB79B+107]
+	RtlClearBits [0x779BB71F+191]
+
+2023-08-25 13:03:03,062 - ERROR - Product_management - Unable to Find Hardware field : 'str' object is not callable
+2023-08-25 13:03:03,136 - ERROR - Product_management - Unable to Find Lining field : 'str' object is not callable
+2023-08-25 13:03:03,195 - ERROR - Product_management - Unable to Find Polyfill field : 'str' object is not callable
+2023-08-25 13:03:03,252 - ERROR - Product_management - Unable to Find rib field : 'str' object is not callable
+2023-08-25 13:05:04,468 - ERROR - Product_management - Unable to Find edit button for the Product : Message: stale element reference: stale element not found
+  (Session info: chrome=116.0.5845.111)
+Stacktrace:
+	GetHandleVerifier [0x005937C3+48947]
+	(No symbol) [0x00528551]
+	(No symbol) [0x0042C92D]
+	(No symbol) [0x0042FD62]
+	(No symbol) [0x0043106A]
+	(No symbol) [0x00431110]
+	(No symbol) [0x0045CA22]
+	(No symbol) [0x0045B74B]
+	(No symbol) [0x0045ABA5]
+	(No symbol) [0x00453420]
+	(No symbol) [0x0047508C]
+	(No symbol) [0x00452EB6]
+	(No symbol) [0x004753E4]
+	(No symbol) [0x004875DA]
+	(No symbol) [0x00474E86]
+	(No symbol) [0x004516C7]
+	(No symbol) [0x0045284D]
+	GetHandleVerifier [0x007DFDF9+2458985]
+	GetHandleVerifier [0x0082744F+2751423]
+	GetHandleVerifier [0x00821361+2726609]
+	GetHandleVerifier [0x00610680+560624]
+	(No symbol) [0x0053238C]
+	(No symbol) [0x0052E268]
+	(No symbol) [0x0052E392]
+	(No symbol) [0x005210B7]
+	BaseThreadInitThunk [0x76767BA9+25]
+	RtlInitializeExceptionChain [0x779BB79B+107]
+	RtlClearBits [0x779BB71F+191]
+
+2023-08-25 13:05:17,614 - ERROR - Product_management - Unable to Find Name field : Message: 
+Stacktrace:
+	GetHandleVerifier [0x005937C3+48947]
+	(No symbol) [0x00528551]
+	(No symbol) [0x0042C92D]
+	(No symbol) [0x00459E38]
+	(No symbol) [0x00459EFB]
+	(No symbol) [0x00488EF2]
+	(No symbol) [0x004750D4]
+	(No symbol) [0x004875DA]
+	(No symbol) [0x00474E86]
+	(No symbol) [0x004516C7]
+	(No symbol) [0x0045284D]
+	GetHandleVerifier [0x007DFDF9+2458985]
+	GetHandleVerifier [0x0082744F+2751423]
+	GetHandleVerifier [0x00821361+2726609]
+	GetHandleVerifier [0x00610680+560624]
+	(No symbol) [0x0053238C]
+	(No symbol) [0x0052E268]
+	(No symbol) [0x0052E392]
+	(No symbol) [0x005210B7]
+	BaseThreadInitThunk [0x76767BA9+25]
+	RtlInitializeExceptionChain [0x779BB79B+107]
+	RtlClearBits [0x779BB71F+191]
+
+2023-08-25 13:05:24,122 - ERROR - Product_management - Unable to Find category field : 'str' object is not callable
+2023-08-25 13:05:24,184 - ERROR - Product_management - Unable to Find Tag field : 'str' object is not callable
+2023-08-25 13:05:24,241 - ERROR - Product_management - Unable to Find Hardware field : 'str' object is not callable
+2023-08-25 13:05:24,297 - ERROR - Product_management - Unable to Find Lining field : 'str' object is not callable
+2023-08-25 13:05:24,353 - ERROR - Product_management - Unable to Find Polyfill field : 'str' object is not callable
+2023-08-25 13:05:24,411 - ERROR - Product_management - Unable to Find rib field : 'str' object is not callable
+2023-08-25 13:07:47,223 - ERROR - Product_management - Unable to Find Name field : 'str' object is not callable
+2023-08-25 13:07:47,316 - ERROR - Product_management - Unable to Find category field : 'str' object is not callable
+2023-08-25 13:07:47,399 - ERROR - Product_management - Unable to Find Tag field : 'str' object is not callable
+2023-08-25 13:07:47,487 - ERROR - Product_management - Unable to Find Hardware field : 'str' object is not callable
+2023-08-25 13:07:47,560 - ERROR - Product_management - Unable to Find Lining field : 'str' object is not callable
+2023-08-25 13:07:47,633 - ERROR - Product_management - Unable to Find Polyfill field : 'str' object is not callable
+2023-08-25 13:07:47,708 - ERROR - Product_management - Unable to Find rib field : 'str' object is not callable
